@@ -1,0 +1,96 @@
+import { NextRequest, NextResponse } from "next/server";
+
+interface CheckoutItem {
+  productId: string;
+  quantity: number;
+  product: {
+    id: string;
+    title_zhCN: string;
+    price: number;
+  };
+}
+
+interface CheckoutBody {
+  items: CheckoutItem[];
+  address: {
+    name: string;
+    phone: string;
+    street: string;
+    city: string;
+    state: string;
+    zip: string;
+    country: string;
+  };
+  shippingMethod: string;
+  paymentMethod: string;
+  subtotal: number;
+  shipping: number;
+  tax: number;
+  total: number;
+}
+
+const orders = new Map<string, any>();
+
+export async function POST(request: NextRequest) {
+  try {
+    const body: CheckoutBody = await request.json();
+
+    if (!body.items || body.items.length === 0) {
+      return NextResponse.json(
+        { error: "购物车为空" },
+        { status: 400 }
+      );
+    }
+
+    if (!body.address?.name || !body.address?.street || !body.address?.city || !body.address?.zip) {
+      return NextResponse.json(
+        { error: "请填写完整的收货地址" },
+        { status: 400 }
+      );
+    }
+
+    const orderId = `ORD-${Date.now()}-${Math.random().toString(36).substring(2, 8).toUpperCase()}`;
+
+    const order = {
+      id: orderId,
+      items: body.items,
+      address: body.address,
+      shippingMethod: body.shippingMethod,
+      paymentMethod: body.paymentMethod,
+      subtotal: body.subtotal,
+      shipping: body.shipping,
+      tax: body.tax,
+      total: body.total,
+      status: "pending" as const,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+    };
+
+    orders.set(orderId, order);
+    return NextResponse.json(order, { status: 201 });
+  } catch (error) {
+    console.error("Checkout error:", error);
+    return NextResponse.json(
+      { error: "创建订单失败" },
+      { status: 500 }
+    );
+  }
+}
+
+export async function GET(request: NextRequest) {
+  const { searchParams } = new URL(request.url);
+  const id = searchParams.get("id");
+
+  if (id) {
+    const order = orders.get(id);
+    if (!order) {
+      return NextResponse.json(
+        { error: "订单不存在" },
+        { status: 404 }
+      );
+    }
+    return NextResponse.json(order);
+  }
+
+  return NextResponse.json(Array.from(orders.values()));
+}
