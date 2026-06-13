@@ -1,0 +1,20 @@
+[0613/082427.495:INFO:third_party\blink\renderer\modules\peerconnection\peer_connection_dependency_factory.cc:941] Running WebRTC with a combined Network and Worker thread.
+[0613/082427.517:WARNING:third_party\webrtc\p2p\base\stun_port.cc:501] Port[3474a80:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: STUN server address is incompatible.
+[0613/082427.518:WARNING:third_party\webrtc\p2p\base\stun_port.cc:501] Port[3475180:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: STUN server address is incompatible.
+[0613/082427.933:WARNING:third_party\webrtc\p2p\base\transport_description.cc:39] '-', '=', '#' and '_' are not valid ice-char and thus not permitted in ufrag or pwd. This is a protocol violation that is permitted to allow upgrading but will be rejected in the future. See https://crbug.com/1053756
+[0613/082427.933:WARNING:third_party\webrtc\rtc_base\openssl_stream_adapter.cc:164] WebRTC-ForceDtls13 Enabled
+[0613/082432.215:INFO:third_party\blink\renderer\modules\peerconnection\peer_connection_dependency_factory.cc:941] Running WebRTC with a combined Network and Worker thread.
+[0613/082432.263:WARNING:third_party\webrtc\p2p\base\stun_port.cc:501] Port[4348e00:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: STUN server address is incompatible.
+[0613/082432.263:WARNING:third_party\webrtc\p2p\base\stun_port.cc:501] Port[434a300:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: STUN server address is incompatible.
+[0613/082432.275:WARNING:third_party\webrtc\p2p\base\transport_description.cc:39] '-', '=', '#' and '_' are not valid ice-char and thus not permitted in ufrag or pwd. This is a protocol violation that is permitted to allow upgrading but will be rejected in the future. See https://crbug.com/1053756
+[0613/082432.305:WARNING:third_party\webrtc\rtc_base\openssl_stream_adapter.cc:164] WebRTC-ForceDtls13 Enabled
+[0613/083518.808:INFO:third_party\blink\renderer\modules\peerconnection\peer_connection_dependency_factory.cc:941] Running WebRTC with a combined Network and Worker thread.
+[0613/083518.907:WARNING:third_party\webrtc\p2p\base\stun_port.cc:501] Port[48ee300:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: STUN server address is incompatible.
+[0613/083518.908:WARNING:third_party\webrtc\p2p\base\stun_port.cc:501] Port[48eea00:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: STUN server address is incompatible.
+[0613/083519.658:WARNING:third_party\webrtc\p2p\base\transport_description.cc:39] '-', '=', '#' and '_' are not valid ice-char and thus not permitted in ufrag or pwd. This is a protocol violation that is permitted to allow upgrading but will be rejected in the future. See https://crbug.com/1053756
+[0613/083519.658:WARNING:third_party\webrtc\rtc_base\openssl_stream_adapter.cc:164] WebRTC-ForceDtls13 Enabled
+[0613/083548.819:INFO:third_party\blink\renderer\modules\peerconnection\peer_connection_dependency_factory.cc:941] Running WebRTC with a combined Network and Worker thread.
+[0613/083548.895:WARNING:third_party\webrtc\p2p\base\stun_port.cc:501] Port[453a300:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: STUN server address is incompatible.
+[0613/083548.896:WARNING:third_party\webrtc\p2p\base\stun_port.cc:501] Port[453aa00:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: STUN server address is incompatible.
+[0613/083549.046:WARNING:third_party\webrtc\p2p\base\transport_description.cc:39] '-', '=', '#' and '_' are not valid ice-char and thus not permitted in ufrag or pwd. This is a protocol violation that is permitted to allow upgrading but will be rejected in the future. See https://crbug.com/1053756
+[0613/083549.047:WARNING:third_party\webrtc\rtc_base\openssl_stream_adapter.cc:164] WebRTC-ForceDtls13 Enabled

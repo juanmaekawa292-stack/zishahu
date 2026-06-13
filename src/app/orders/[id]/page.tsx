@@ -21,6 +21,7 @@ interface OrderData {
   total: number;
   status: string;
   createdAt: string;
+  sourceMap?: Record<string, { sourceUrl: string; sourceSku?: string }>;
 }
 
 const STORE: Record<string, OrderData> = {
@@ -84,7 +85,19 @@ export default async function OrderConfirmationPage({ params }: Props) {
                   <p className="text-xs text-muted-foreground">x{item.quantity}</p>
                 </div>
               </div>
-              <span className="text-sm font-medium">{formatPrice(item.product.price * item.quantity)}</span>
+              <div className="flex items-center gap-4">
+                {order.sourceMap?.[item.productId] && (
+                  <a
+                    href={order.sourceMap[item.productId].sourceUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-[10px] text-blue-500 hover:underline"
+                  >
+                    {"天猫下单"} {(order.sourceMap[item.productId].sourceSku ? "#" + order.sourceMap[item.productId].sourceSku : "")}
+                  </a>
+                )}
+                <span className="text-sm font-medium">{formatPrice(item.product.price * item.quantity)}</span>
+              </div>
             </div>
           ))}
         </div>

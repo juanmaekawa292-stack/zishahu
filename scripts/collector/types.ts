@@ -36,11 +36,17 @@ export interface TmallRawProduct {
   originalPrice?: number;
   mainImages: string[];
   detailImages: DetailImage[];
+  /** 商品视频链接列表 */
+  videos?: string[];
   skus: SkuItem[];
   reviewCount: number;
   salesCount?: number;
   shopName?: string;
   productUrl: string;
+  /** 天猫货号 */
+  sourceSku?: string;
+  /** 店铺名称（采集用） */
+  shopUrl?: string;
   category?: string;
 }
 

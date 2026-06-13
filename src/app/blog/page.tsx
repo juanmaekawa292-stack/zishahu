@@ -17,15 +17,15 @@
    culture: "茶文化",
  };
  
- export const metadata: Metadata = {
-   title: "紫砂雅集博客",
-   description:
-     "紫砂壶知识、茶道文化、功夫茶教程。从开壶养护到泥料鉴别，为海外华人提供专业紫砂内容。",
-   openGraph: {
-     title: "紫砂雅集博客 - 紫砂壶知识 | 茶文化 | 冲泡教程",
-     description:
-       "紫砂壶知识、茶道文化、功夫茶教程。从开壶养护到泥料鉴别，为海外华人提供专业紫砂内容。",
-   },
+export const metadata: Metadata = {
+  title: "博客",
+  description:
+    "紫砂壶知识、茶道文化、功夫茶教程。从开壶养护到泥料鉴别，为海外华人提供专业紫砂内容。",
+  openGraph: {
+    title: "博客 - 紫砂壶知识 | 茶文化 | 冲泡教程 | 紫砂雅集",
+    description:
+      "紫砂壶知识、茶道文化、功夫茶教程。从开壶养护到泥料鉴别，为海外华人提供专业紫砂内容。",
+  },
  };
  
  export default async function BlogPage() {

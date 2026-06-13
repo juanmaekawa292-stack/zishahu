@@ -19,9 +19,9 @@
  import { cn } from "@/lib/utils";
 
  const faqCategories = [
-   { key: "shipping", icon: Package, labelKey: "shippingInfo" },
-   { key: "tariffs", icon: DollarSign, labelKey: "paymentInfo" },
-   { key: "returns", icon: RefreshCw, labelKey: "returnsExchanges" },
+  { key: "shipping", icon: Package, labelKey: "shippingInfo" },
+  { key: "tariffs", icon: DollarSign, labelKey: "tariffInfo" },
+  { key: "returns", icon: RefreshCw, labelKey: "returnsExchanges" },
    { key: "care", icon: Flower2, labelKey: "careGuide" },
    { key: "payment", icon: CreditCard, labelKey: "paymentInfo" },
  ];
@@ -128,10 +128,10 @@
 
        {/* FAQ Items */}
        <div className="space-y-2">
-         {currentFaqs.length === 0 ? (
-           <div className="py-12 text-center">
-             <HelpCircle className="mx-auto h-12 w-12 text-muted-foreground/50" />
-             <p className="mt-3 text-sm text-muted-foreground">未找到相关问题</p>
+        {currentFaqs.length === 0 ? (
+          <div className="py-12 text-center">
+            <HelpCircle className="mx-auto h-12 w-12 text-muted-foreground/50" />
+            <p className="mt-3 text-sm text-muted-foreground">{t("faqNoResults")}</p>
              <Link
                href="/help"
                className="mt-3 inline-flex items-center gap-1 text-sm text-primary hover:underline"
@@ -172,11 +172,11 @@
 
        {/* Still need help */}
        <div className="mt-12 rounded-lg border border-border bg-card p-6 text-center">
-         <HelpCircle className="mx-auto h-8 w-8 text-muted-foreground" />
-         <h3 className="mt-3 text-sm font-medium text-foreground">还有问题？</h3>
-         <p className="mt-1 text-xs text-muted-foreground">
-           我们的客服团队随时为您提供帮助
-         </p>
+        <HelpCircle className="mx-auto h-8 w-8 text-muted-foreground" />
+        <h3 className="mt-3 text-sm font-medium text-foreground">{t("faqStillNeedHelp")}</h3>
+        <p className="mt-1 text-xs text-muted-foreground">
+          {t("faqStillNeedHelpDesc")}
+        </p>
          <div className="mt-4 flex items-center justify-center gap-4">
            <Link
              href="/help"
@@ -185,10 +185,10 @@
              <Mail className="h-3.5 w-3.5" />
              {t("contactUs")}
            </Link>
-           <span className="flex items-center gap-1 text-xs text-muted-foreground">
-             <Clock className="h-3.5 w-3.5" />
-             24 小时内回复
-           </span>
+          <span className="flex items-center gap-1 text-xs text-muted-foreground">
+            <Clock className="h-3.5 w-3.5" />
+            {t("faqResponseTime")}
+          </span>
          </div>
        </div>
      </div>

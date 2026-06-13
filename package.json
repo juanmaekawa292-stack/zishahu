@@ -14,7 +14,9 @@
     "collect:export": "npx tsx scripts/collector/index.ts --export-csv",
     "taobao:login": "npx tsx scripts/collector/login-helper.ts",
     "taobao:scrape": "npx tsx scripts/collector/cookie-scraper.ts",
-    "taobao:scrape:detail": "npx tsx scripts/collector/cookie-scraper.ts --detail-item-id"
+    "taobao:scrape:detail": "npx tsx scripts/collector/cookie-scraper.ts --detail-item-id",
+    "shop:collect": "npx tsx scripts/collector/shop-scraper.ts",
+    "shop:login": "npx tsx scripts/collector/shop-scraper.ts --login"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.16",

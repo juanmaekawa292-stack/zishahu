@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./",
+    "noEmit": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": false,
+    "sourceMap": false
+  },
+  "include": ["scripts/collector/**/*.ts"],
+  "exclude": []
+}

@@ -16,30 +16,42 @@
  } from "lucide-react";
  import { cn } from "@/lib/utils";
 
- const quickHelpItems = [
-   { icon: Package, href: "/faq?cat=shipping", label: "发货与物流" },
-   { icon: RefreshCw, href: "/faq?cat=returns", label: "退换货政策" },
-   { icon: Truck, href: "/orders", label: "订单追踪" },
-   { icon: HelpCircle, href: "/faq", label: "常见问题" },
- ];
 
  export default function HelpPage() {
-   const t = useTranslations("service");
-   const [formData, setFormData] = useState({
-     name: "",
-     email: "",
-     orderId: "",
-     subject: "",
-     message: "",
-   });
-   const [submitted, setSubmitted] = useState(false);
+  const t = useTranslations("service");
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    orderId: "",
+    subject: "",
+    message: "",
+  });
+  const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState("");
 
-   const handleSubmit = (e: React.FormEvent) => {
-     e.preventDefault();
-     // TODO: wire up to real API
-     console.log("Contact form:", formData);
-     setSubmitted(true);
-   };
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setSubmitting(true);
+    setError("");
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      if (!res.ok) {
+        const err = await res.json();
+        throw new Error(err.error || "提交失败");
+      }
+      setSubmitted(true);
+    } catch (e: unknown) {
+      const msg = e instanceof Error ? e.message : "提交失败，请稍后重试";
+      setError(msg);
+    } finally {
+      setSubmitting(false);
+    }
+  };
 
    return (
      <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
@@ -55,8 +67,13 @@
            <div className="rounded-lg border border-border bg-card p-5">
              <h2 className="mb-4 text-sm font-medium text-foreground">{t("quickHelp")}</h2>
              <p className="mb-4 text-xs text-muted-foreground">{t("quickHelpDesc")}</p>
-             <div className="space-y-2">
-               {quickHelpItems.map((item) => {
+            <div className="space-y-2">
+               {([
+                 { icon: Package, href: "/faq?cat=shipping", label: t("quickHelpShipping") },
+                 { icon: RefreshCw, href: "/faq?cat=returns", label: t("quickHelpReturns") },
+                 { icon: Truck, href: "/orders", label: t("quickHelpOrderTracking") },
+                 { icon: HelpCircle, href: "/faq", label: t("quickHelpFAQ") },
+               ]).map((item) => {
                  const Icon = item.icon;
                  return (
                    <Link
@@ -86,9 +103,9 @@
                </div>
                <div className="flex items-start gap-3">
                  <Clock className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                 <div>
-                   <p className="text-xs font-medium text-foreground">工作时间</p>
-                   <p className="text-xs text-muted-foreground">{t("contactInfoHours")}</p>
+                <div>
+                   <p className="text-xs font-medium text-foreground">{t("helpWorkingHours")}</p>
+                  <p className="text-xs text-muted-foreground">{t("contactInfoHours")}</p>
                    <p className="text-xs text-muted-foreground">{t("contactInfoResponse")}</p>
                  </div>
                </div>
@@ -100,15 +117,15 @@
          <div className="lg:col-span-2">
            {submitted ? (
              <div className="rounded-lg border border-border bg-card p-8 text-center">
-               <CheckCircle2 className="mx-auto h-12 w-12 text-emerald-500" />
-               <h3 className="mt-4 text-base font-medium text-foreground">消息已发送！</h3>
-               <p className="mt-2 text-sm text-muted-foreground">{t("contactFormSuccess")}</p>
-               <Link
-                 href="/"
-                 className="mt-6 inline-flex items-center gap-1 text-sm text-primary hover:underline"
-               >
-                 返回首页 →
-               </Link>
+              <CheckCircle2 className="mx-auto h-12 w-12 text-emerald-500" />
+               <h3 className="mt-4 text-base font-medium text-foreground">{t("helpSuccessTitle")}</h3>
+              <p className="mt-2 text-sm text-muted-foreground">{t("contactFormSuccess")}</p>
+              <Link
+                href="/"
+                className="mt-6 inline-flex items-center gap-1 text-sm text-primary hover:underline"
+              >
+                 {t("helpBackToHome")} →
+              </Link>
              </div>
            ) : (
              <form onSubmit={handleSubmit} className="rounded-lg border border-border bg-card p-6">
@@ -173,14 +190,20 @@
                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                      className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:border-ring focus:outline-none focus:ring-1 focus:ring-ring resize-y"
                    />
-                 </div>
-                 <button
-                   type="submit"
-                   className="w-full rounded-lg bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
-                 >
-                   <MessageSquare className="mr-1.5 inline h-4 w-4" />
-                   {t("contactFormSubmit")}
-                 </button>
+                </div>
+                {error && (
+                  <div className="rounded-md bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 p-3">
+                    <p className="text-xs text-red-600 dark:text-red-400">{error}</p>
+                  </div>
+                )}
+                <button
+                  type="submit"
+                  disabled={submitting}
+                  className="w-full rounded-lg bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                >
+                  <MessageSquare className="mr-1.5 inline h-4 w-4" />
+                  {submitting ? "发送中..." : t("contactFormSubmit")}
+                </button>
                </div>
              </form>
            )}

@@ -1,6 +1,4 @@
  import { NextRequest, NextResponse } from "next/server";
- import * as fs from "fs";
- import * as path from "path";
 
  // In-memory FAQ data matching data/faq.md content
  const faqData = {
@@ -58,22 +56,5 @@
      categories: Object.keys(results),
      items: results,
      total: Object.values(results).reduce((sum, arr) => sum + arr.length, 0),
-   });
- }
-
- // Also try to read from file if available
- function readFaqFromFile(): Record<string, { q: string; a: string }[]> | null {
-   try {
-     const faqPath = path.join(process.cwd(), "data", "faq.md");
-     if (fs.existsSync(faqPath)) {
-       const content = fs.readFileSync(faqPath, "utf-8");
-       // Simple parser for markdown FAQ sections
-       const sections: Record<string, { q: string; a: string }[]> = {};
-       // Return null to use in-memory data by default
-       return null;
-     }
-     return null;
-   } catch {
-     return null;
-   }
- }
+  });
+}

@@ -24,7 +24,13 @@ export interface Product {
   specs: ProductSpecs;
   createdAt: string;
   rating: number;
-  reviewCount: number;
+ reviewCount: number;
+  /** 天猫原始商品链接，用于下单时溯源 */
+  sourceUrl?: string;
+  /** 天猫货号/SKU编码 */
+  sourceSku?: string;
+  /** 商品视频链接 */
+  videos?: string[];
 }
 
 export interface CartItem {
@@ -58,7 +64,9 @@ export interface Order {
   paymentMethod: "stripe" | "paypal";
   trackingNumber?: string;
   createdAt: string;
-  updatedAt: string;
+ updatedAt: string;
+  /** 订单商品溯源映射：商品ID → 天猫链接和货号 */
+  sourceMap?: Record<string, { sourceUrl: string; sourceSku?: string }>;
 }
 
 export interface User {

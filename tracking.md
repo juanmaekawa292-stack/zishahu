@@ -1,4 +1,4 @@
-﻿# Zisha Product Collection System - Work Log
+# Zisha Product Collection System - Work Log
 
 ## 2026-06-12
 ### Completed
@@ -282,3 +282,76 @@ npm run collect:single      # Single product via original scraper
 ---
 
 *记录人：Codex 营销部门*
+## 2026-06-13 — Admin 中文乱码修复
+### 已完成
+- 修复 src/app/admin/product-ops/page.tsx 中所有中文字符乱码（替代?）
+- 共修复29处：页面标题、管线状态描述、表格表头、徽章标签、按钮文字、定价显示
+- TypeScript 解析验证通过，0语法错误
+- 清理临时脚本文件 tmp_fix3.js / tmp_fix4.js / tmp_check.js
+
+### 当前管线状态
+- 处理管线 process-product.js ✓（10倍定价，¥150过滤，sourceSku保留）
+- 图片管线 process-images.js ✓（Sharp, 1200×1200 WebP）
+- Shopify CSV导出 ✓（简中+繁中）
+- Admin 后台 ✓（中文正常显示）
+- 等待 Thread 2 采集数据到达 data/raw_products/
+
+### 数据到达后的操作流程
+1. 运行 
+ode scripts/process-product.js 处理商品
+2. 运行 
+ode scripts/process-images.js 处理图片
+3. 同步商品到 src/data/products.ts
+4. 导出 Shopify CSV 到 data/exports/
+
+---
+
+*记录人：Codex 商品运营部门 (Thread 3)*
+
+## 2026-06-13 — 端到端管线测试：sample-batch-001
+
+### 测试目标
+使用 sample-batch-001.json（4条测试商品）跑通完整上架管线
+
+### 执行记录
+
+#### 步骤1：process-product.js
+- **命令**: `node scripts/process-product.js`
+- **结果**: 成功处理6件商品（含同时存在的 guyuetang 文件）
+- **sample-batch 产出**:
+  - zp-004: 大红袍西施壶 ¥398 → $169 USD (10x系数) ✔️
+  - zp-005: 段泥石瓢壶 ¥168 → $79 USD (10x系数) ✔️
+  - zp-006: 段泥仿古如意壶 ¥598 → $169 USD (10x系数) ✔️
+- **跳过**: 朱泥小圆杯 ¥128 < ¥150 过滤 ❌
+- **溯源字段**: sourceSku/sourceUrl 均已保留 ✔️
+- **Shopify CSV**: 已生成（简中 + 繁中各一份）
+
+#### 步骤2：process-images.js
+- **命令**: `node scripts/process-images.js`
+- **结果**: 成功处理 1/1 图片（test-product-image.jpg → 1200×1200 WebP, 9.2KB）
+- **注意**: sample-batch 引用图片路径为 placeholder，本地 input 目录无对应源图
+
+#### 步骤3：输出验证
+- data/processed_products/: 6个 JSON 文件 ✓
+- data/exports/: Shopify CSV ✓
+
+#### 步骤4：同步到 products.ts
+- 已替换 src/data/products.ts 中 zp-004/zp-005/zp-006 为管线产出 ✔️
+- TypeScript 编译检查: 0 errors ✔️
+- Next.js 完整构建: 0 errors, 0 warnings ✔️
+
+### 遇见的坑
+1. **PowerShell → Node.js 管道编码**: @""...""@ | node 产生 BOM 导致 SyntaxError
+2. **Node REPL const 持久化**: MCP node_repl 跨调用保留声明，第二次 import 同变量名报错
+3. **sample-batch 无真实图片**: 图片路径为占位符，process-images 找不到对应源文件
+
+### 当前管线状态
+| 环节 | 状态 |
+|------|------|
+| 原始数据采集 | ⏳ Thread 2 进行中 |
+| process-product.js | ✅ 通过（10x系数, ¥150过滤, 溯源保留） |
+| process-images.js | ⚠️ 通过但无真实产品图 |
+| Shopify CSV 导出 | ✅ 通过 |
+| 同步到 products.ts | ✅ 通过 |
+| Next.js 构建 | ✅ 通过 |
+

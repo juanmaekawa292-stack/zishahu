@@ -7,6 +7,8 @@ interface CheckoutItem {
     id: string;
     title_zhCN: string;
     price: number;
+    sourceUrl?: string;
+    sourceSku?: string;
   };
 }
 
@@ -51,7 +53,18 @@ export async function POST(request: NextRequest) {
 
     const orderId = `ORD-${Date.now()}-${Math.random().toString(36).substring(2, 8).toUpperCase()}`;
 
-    const order = {
+      // 构建商品溯源映射
+  const sourceMap: Record<string, { sourceUrl: string; sourceSku?: string }> = {};
+  for (const item of body.items) {
+    if (item.product?.sourceUrl) {
+      sourceMap[item.productId] = {
+        sourceUrl: item.product.sourceUrl,
+        sourceSku: item.product.sourceSku,
+      };
+    }
+  }
+
+const order = {
       id: orderId,
       items: body.items,
       address: body.address,
@@ -62,6 +75,7 @@ export async function POST(request: NextRequest) {
       tax: body.tax,
       total: body.total,
       status: "pending" as const,
+      sourceMap,
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
     };

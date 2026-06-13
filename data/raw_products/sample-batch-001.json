@@ -4,6 +4,9 @@
     "source_price": 398,
     "source_description": "精选原矿大红袍泥料，由资深匠人全手工拍打成型。西施壶经典器型，壶身圆润饱满，短嘴倒把，出水爽利。容量260ml，适合2-3人品饮。每把壶都经过高温氧化烧制，色泽温润可人。",
     "source_images": ["/images/products/xishi-red-1.jpg", "/images/products/xishi-red-2.jpg"],
+    "source_sku": "TMALL-GHT-XS001",
+    "source_url": "https://detail.tmall.com/item.htm?id=1001",
+    "source_videos": [],
     "specs": { "capacity": "260ml", "clay": "原矿大红袍", "craft": "全手工制作", "dimensions": "13×9×8cm" },
     "category": "teapot",
     "featured": true,
@@ -14,6 +17,9 @@
     "source_price": 168,
     "source_description": "经典石瓢壶型，精选优质段泥制作，壶身呈梯形，直流嘴出水顺畅。半手工精制，性价比之选。容量180ml。",
     "source_images": ["/images/products/shipiao-duanni-1.jpg"],
+    "source_sku": "TMALL-GHT-SP001",
+    "source_url": "https://detail.tmall.com/item.htm?id=1002",
+    "source_videos": [],
     "specs": { "capacity": "180ml", "clay": "段泥", "craft": "半手工制作", "dimensions": "11×7×6cm" },
     "category": "teapot",
     "stock": 25
@@ -23,6 +29,9 @@
     "source_price": 598,
     "source_description": "以传统仿古壶为原型，壶身手工雕刻如意纹饰，寓意吉祥。精选优质段泥，色泽温润如古玉。容量220ml。",
     "source_images": ["/images/products/ruyi-duanni-1.jpg", "/images/products/ruyi-duanni-2.jpg"],
+    "source_sku": "TMALL-GHT-RY001",
+    "source_url": "https://detail.tmall.com/item.htm?id=1003",
+    "source_videos": [],
     "specs": { "capacity": "220ml", "clay": "段泥", "craft": "全手工雕刻", "dimensions": "13×9×8cm" },
     "category": "teapot",
     "featured": true,
@@ -33,8 +42,12 @@
     "source_price": 128,
     "source_description": "四只朱泥小圆杯，适合品饮功夫茶。手工制作，每只纹理略有不同，独一无二。容量80ml/只。",
     "source_images": ["/images/products/zhuni-cups-1.jpg"],
+    "source_sku": "TMALL-GHT-ZN001",
+    "source_url": "https://detail.tmall.com/item.htm?id=1004",
+    "source_videos": [],
     "specs": { "capacity": "80ml×4", "clay": "朱泥", "craft": "手工制作" },
     "category": "cup",
+    "featured": false,
     "stock": 30
   }
 ]

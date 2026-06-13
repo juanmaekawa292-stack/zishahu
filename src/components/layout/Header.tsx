@@ -9,6 +9,7 @@
 
 export function Header() {
   const t = useTranslations("common");
+  const ts = useTranslations("service");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
   const pathname = usePathname();
@@ -19,7 +20,7 @@ const navLinks = [
   { href: "/products", label: t("products") },
   { href: "/products?category=teapot", label: t("categories") },
   { href: "/blog", label: t("blog") },
-  { href: "/faq", label: "FAQ" },
+  { href: "/faq", label: ts("faq") },
 ];
 
   return (

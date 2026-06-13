@@ -8,8 +8,9 @@
  *   node scripts/process-product.js --file xxx.json    # 处理指定文件
  *   node scripts/process-product.js --preview          # 仅预览，不生成输出
  *
- * 定价系数默认 3x，可通过环境变量 PRICE_COEFFICIENT 覆盖
+ * 定价系数默认 10x（老板确认），可通过环境变量 PRICE_COEFFICIENT 覆盖
  * 汇率默认 7.25（RMB→USD），可通过环境变量 EXCHANGE_RATE 覆盖
+ * 最低采集价 ¥150（低于该值的商品自动跳过），可通过环境变量 PRICE_MIN_RMB 覆盖
  */
 
 const fs = require("fs");
@@ -20,7 +21,8 @@ const RAW_DIR = path.join(__dirname, "..", "data", "raw_products");
 const OUT_DIR = path.join(__dirname, "..", "data", "processed_products");
 const EXPORT_DIR = path.join(__dirname, "..", "data", "exports");
 
-const PRICE_COEFFICIENT = parseFloat(process.env.PRICE_COEFFICIENT || "3");
+const PRICE_COEFFICIENT = parseFloat(process.env.PRICE_COEFFICIENT || "10");
+const PRICE_MIN_RMB = parseFloat(process.env.PRICE_MIN_RMB || "150");
 const EXCHANGE_RATE = parseFloat(process.env.EXCHANGE_RATE || "7.25");
 
 // ─── 品类映射 ──────────────────────────────────────────
@@ -208,8 +210,12 @@ function calculatePrice(rmbPrice, coefficient) {
   };
 }
 
+// ─── 批处理计数器（预览模式用）───────────────────────────
+let _batchIdCounter = 0;
+
 // ─── ID 生成 ───────────────────────────────────────────
 function generateProductId(prefix) {
+  _batchIdCounter++;
   if (prefix === undefined) prefix = "zp";
   var maxNum = 0;
   try {
@@ -223,12 +229,12 @@ function generateProductId(prefix) {
       });
     }
   } catch (e) {}
-  return prefix + "-" + String(maxNum + 1).padStart(3, "0");
+  return prefix + "-" + String(maxNum + _batchIdCounter).padStart(3, "0");
 }
 
 function generateSlug(titleCN) {
   return titleCN.toLowerCase()
-    .replace(/[^a-z0-9\\u4e00-\\u9fff]+/g, "-")
+    .replace(/[^a-z0-9\u4e00-\u9fff]+/g, "-")
     .replace(/^-|-\$/g, "")
     .replace(/-+/g, "-");
 }
@@ -249,6 +255,10 @@ function processRawProduct(raw) {
   var titles = buildOptimizedTitle(cleaned, specs);
   var pricing = calculatePrice(raw.source_price || 0);
 
+  if (raw.source_price < PRICE_MIN_RMB) {
+    console.log("  ⏭ 跳过（采集价¥" + raw.source_price + " < ¥" + PRICE_MIN_RMB + "）");
+    return null;
+  }
   var productBase = {
     id: generateProductId(),
     slug: generateSlug(titles.zhCN),
@@ -267,6 +277,9 @@ function processRawProduct(raw) {
     createdAt: new Date().toISOString().split("T")[0],
     rating: 0,
     reviewCount: 0,
+    sourceSku: raw.source_sku || "",
+    sourceUrl: raw.source_url || "",
+    videos: raw.source_videos || [],
     _pricing: pricing,
   };
 
@@ -281,7 +294,7 @@ function processRawProduct(raw) {
 function esc(v) {
   if (v == null) return "";
   var s = String(v);
-  if (s.indexOf(",") >= 0 || s.indexOf('"') >= 0 || s.indexOf("\\n") >= 0) {
+  if (s.indexOf(",") >= 0 || s.indexOf('"') >= 0 || s.indexOf("\n") >= 0) {
     return '"' + s.replace(/"/g, '""') + '"';
   }
   return s;
@@ -301,7 +314,7 @@ function generateShopifyCSV(products, lang) {
   var rows = products.map(function(p) {
     var handle = isTW ? (p.slug + "-tw") : p.slug;
     var title = isTW ? p.title_zhTW : p.title_zhCN;
-    var body = (isTW ? p.description_zhTW : p.description_zhCN).replace(/\\n/g, "<br>");
+    var body = (isTW ? p.description_zhTW : p.description_zhCN).replace(/\n/g, "<br>");
     var tags = ["紫砂" + (isTW ? "壺" : "壶"), "teapot", p.category, p.specs.clay || "", p.specs.craft || ""].filter(Boolean).join(", ");
     var sku = isTW ? (p.id + "-TW") : p.id;
     var alt = isTW ? p.title_zhTW : p.title_zhCN;
@@ -313,13 +326,14 @@ function generateShopifyCSV(products, lang) {
       p.images[0] || "", alt,
     ].map(esc).join(",");
   });
-  return [CSV_HEADERS.join(",")].concat(rows).join("\\n");
+  return [CSV_HEADERS.join(",")].concat(rows).join("\n");
 }
 
 // ─── 主函数 ────────────────────────────────────────────
 function main() {
   var args = process.argv.slice(2);
   var preview = args.indexOf("--preview") >= 0;
+  _batchIdCounter = 0;
   var specificFile = null;
   for (var i = 0; i < args.length; i++) {
     if (args[i].startsWith("--file=")) { specificFile = args[i].split("=")[1]; break; }
@@ -331,7 +345,7 @@ function main() {
 
   var rawFiles = [];
   if (specificFile) { rawFiles = [specificFile]; }
-  else { rawFiles = fs.readdirSync(RAW_DIR).filter(function(f) { return f.endsWith(".json"); }); }
+  else { rawFiles = fs.readdirSync(RAW_DIR).filter(function(f) { return f.endsWith(".json") && !f.startsWith("."); }); }
 
   if (rawFiles.length === 0) {
     console.log("📂 没有待处理的原始数据文件。");
@@ -343,7 +357,9 @@ function main() {
       source_description: "原版商品描述...",
       source_images: ["/images/products/example-1.jpg"],
       specs: { capacity: "260ml", clay: "原矿紫泥", craft: "全手工制作", dimensions: "13×9×8cm" },
-      category: "teapot", stock: 15,
+      source_sku: "TMALL-GHT001",
+      source_url: "https://detail.tmall.com/item.htm?id=xxxxx",
+      source_videos: ["https://example.com/video.mp4"],
     }, null, 2));
     return;
   }
@@ -356,8 +372,9 @@ function main() {
     var items = Array.isArray(rawData) ? rawData : [rawData];
 
     items.forEach(function(item) {
-      console.log("\\n── 处理: " + (item.source_title || rf) + " ──");
+      console.log("\\n── " + (item.source_title || rf) + " ──");
       var product = processRawProduct(item);
+      if (!product) { return; }
 
       if (preview) {
         console.log("  ID: " + product.id);

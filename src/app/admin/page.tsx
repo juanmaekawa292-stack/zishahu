@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Package, ShoppingCart, TrendingUp, Users, Plus, List } from "lucide-react";
+import { Package, ShoppingCart, TrendingUp, Users, Plus, List, ClipboardList } from "lucide-react";
 import { Link } from "@/i18n";
 import { cn } from "@/lib/utils";
 
@@ -54,7 +54,7 @@ export default function AdminDashboard() {
       </div>
 
       {/* Quick Actions */}
-      <div className="mb-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+      <div className="mb-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
         <Link href="/admin/products" className="flex items-center gap-4 rounded-lg border border-border bg-card p-4 hover:border-primary/30 transition-colors">
           <div className="rounded-lg bg-primary/10 p-3"><Package className="h-6 w-6 text-primary" /></div>
           <div><h3 className="text-sm font-medium text-foreground">{t("products")}</h3><p className="text-xs text-muted-foreground">管理商品信息、库存和图片</p></div>
@@ -63,7 +63,11 @@ export default function AdminDashboard() {
           <div className="rounded-lg bg-secondary/10 p-3"><ShoppingCart className="h-6 w-6 text-secondary" /></div>
           <div><h3 className="text-sm font-medium text-foreground">{t("orders")}</h3><p className="text-xs text-muted-foreground">查看和处理客户订单</p></div>
         </Link>
-      </div>
+        <Link href="/admin/product-ops" className="flex items-center gap-4 rounded-lg border border-border bg-card p-4 hover:border-primary/30 transition-colors">
+          <div className="rounded-lg bg-amber-100 p-3"><ClipboardList className="h-6 w-6 text-amber-600" /></div>
+          <div><h3 className="text-sm font-medium text-foreground">商品运营</h3><p className="text-xs text-muted-foreground">采集→加工→上架管线管理</p></div>
+        </Link>
+</div>
 
       {/* Recent Orders */}
       <div className="rounded-lg border border-border bg-card">
@@ -91,3 +95,4 @@ export default function AdminDashboard() {
     </div>
   );
 }
+        

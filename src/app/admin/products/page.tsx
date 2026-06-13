@@ -28,6 +28,8 @@ export default function AdminProductsPage() {
               <th className="px-4 py-3 text-left text-xs font-medium text-muted-foreground">商品</th>
               <th className="px-4 py-3 text-left text-xs font-medium text-muted-foreground">分类</th>
               <th className="px-4 py-3 text-left text-xs font-medium text-muted-foreground">价格</th>
+              <th className="px-4 py-3 text-left text-xs font-medium text-muted-foreground">货号</th>
+              <th className="px-4 py-3 text-left text-xs font-medium text-muted-foreground">来源</th>
               <th className="px-4 py-3 text-left text-xs font-medium text-muted-foreground">库存</th>
               <th className="px-4 py-3 text-left text-xs font-medium text-muted-foreground">状态</th>
               <th className="px-4 py-3 text-right text-xs font-medium text-muted-foreground">操作</th>
@@ -47,6 +49,14 @@ export default function AdminProductsPage() {
                 </td>
                 <td className="px-4 py-3 text-xs text-muted-foreground">{p.category}</td>
                 <td className="px-4 py-3 text-sm font-medium">{formatPrice(p.price)}</td>
+                <td className="px-4 py-3 text-xs font-mono text-muted-foreground">{p.sourceSku || "-"}</td>
+                <td className="px-4 py-3 text-xs max-w-[160px] truncate">
+                  {p.sourceUrl ? (
+                    <a href={p.sourceUrl} target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">天猫</a>
+                  ) : (
+                    <span className="text-muted-foreground">本地</span>
+                  )}
+                </td>
                 <td className="px-4 py-3 text-xs">{p.stock}</td>
                 <td className="px-4 py-3">
                   <Badge variant={p.inStock ? "success" : "secondary"} className="text-[10px]">
