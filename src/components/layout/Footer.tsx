@@ -14,24 +14,22 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2">
-              <span className="text-2xl">??</span>
+              <span className="text-2xl">🫖</span>
               <span className="text-lg font-bold tracking-wider text-primary">
                 {t("siteName")}
               </span>
             </Link>
             <p className="mt-3 text-xs text-muted-foreground leading-relaxed">
               专注宜兴紫砂，连接茶与生活。
-?
               <br />
               匠心手作，全球送达。
-?
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
             <h3 className="mb-3 text-sm font-medium tracking-wide text-foreground">
-              快速链接?
+              快速链接
             </h3>
             <ul className="space-y-2 text-xs text-muted-foreground">
               <li><Link href="/products" className="hover:text-primary transition-colors">{t("products")}</Link></li>
@@ -63,7 +61,6 @@ export function Footer() {
             </h3>
             <p className="mb-3 text-xs text-muted-foreground">
               获取最新紫砂作品和茶文化资讯。
-?
             </p>
             <div className="flex gap-2">
               <input

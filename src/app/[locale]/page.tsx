@@ -7,7 +7,7 @@ import { ArrowRight, Shield, Truck, RefreshCw } from "lucide-react";
 export default function HomePage() {
   const t = useTranslations("common");
   const featuredProducts = products.filter((p) => p.featured);
-  const newProducts = products.slice().sort((a, b) => b.createdAt.localeCompare(a.createdAt)).slice(0, 4);
+  const newProducts = products.slice().sort((a, b) => b.createdAt.localeCompare(a.createdAt)).slice(0, 8);
 
   return (
     <div>
@@ -47,7 +47,7 @@ export default function HomePage() {
             <div className="relative hidden lg:block">
               <div className="aspect-square rounded-2xl bg-gradient-to-br from-amber-100 to-orange-200 dark:from-amber-900/30 dark:to-orange-800/20 flex items-center justify-center">
                 <div className="text-center">
-                  <span className="text-9xl">??</span>
+                  <span className="text-9xl">🫖</span>
                   <p className="mt-4 text-lg text-muted-foreground">匠心手作 · 全球送达</p>
                 </div>
               </div>

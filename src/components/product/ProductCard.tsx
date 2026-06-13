@@ -26,7 +26,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
           <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-100 dark:from-amber-950/30 dark:to-orange-900/20">
             <div className="text-center">
               <span className="text-5xl">
-                {product.category === "teapot" ? "??" : product.category === "cup" ? "??" : product.category === "teaPet" ? "??" : product.category === "teaTool" ? "??" : "??"}
+                {product.category === "teapot" ? "🫖" : product.category === "cup" ? "🍵" : product.category === "teaPet" ? "🐉" : product.category === "teaTool" ? "🛠️" : "🫖"}
               </span>
               <p className="mt-2 text-[10px] text-muted-foreground">{product.title_zhCN}</p>
             </div>
