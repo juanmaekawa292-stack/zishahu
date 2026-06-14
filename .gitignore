@@ -41,3 +41,12 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+dev-*.log
+doubao_*.*
+temp_*.*
+tmp_*.*
+source_main_*.*
+data/images/input/
+data/images/processed/
+data/images/backup/

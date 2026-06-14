@@ -41,12 +41,15 @@ async function processImage(filePath) {
       fs.copyFileSync(filePath, backupPath);
     }
 
-    // 2. Watermark removal (experimental: overlay bottom-right area)
+    // 2. Watermark removal: cover bottom-left (古悦堂 brand) + bottom-right (天猫 logo)
     if (enableWatermarkRemoval) {
       const w = metadata.width || TARGET_WIDTH;
       const h = metadata.height || TARGET_HEIGHT;
-      // Create a white overlay covering the watermark area
-      const overlaySvg = '<svg><rect x="' + (w - 200) + '" y="' + (h - 60) + '" width="200" height="60" fill="white" opacity="0.95"/></svg>';
+      // Create white overlays covering both watermark areas (fully opaque, generous coverage)
+      const overlaySvg = '<svg width="' + w + '" height="' + h + '">' +
+        '<rect x="0" y="' + (h - 70) + '" width="300" height="70" fill="white" opacity="1"/>' +  // bottom-left: 古悦堂 brand
+        '<rect x="' + (w - 300) + '" y="' + (h - 70) + '" width="300" height="70" fill="white" opacity="1"/>' +  // bottom-right: 天猫 logo
+        '</svg>';
       image = image.composite([{ input: Buffer.from(overlaySvg), top: 0, left: 0 }]);
     }
 

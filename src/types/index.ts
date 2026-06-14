@@ -1,10 +1,21 @@
 export type ProductCategory = "teapot" | "cup" | "teaPet" | "teaTool" | "gift";
 
+export interface ProductVariant {
+  id: string;
+  name_zhCN: string;
+  name_zhTW: string;
+  price: number;
+  originalPrice?: number;
+  stock: number;
+  image?: string;
+  sku?: string;
+}
+
 export interface ProductSpecs {
-  capacity?: string; // e.g. "200ml"
-  clay?: string; // e.g. "紫泥"
-  craft?: string; // e.g. "手工制作"
-  dimensions?: string; // e.g. "12×8×6cm"
+  capacity?: string;
+  clay?: string;
+  craft?: string;
+  dimensions?: string;
 }
 
 export interface Product {
@@ -18,19 +29,20 @@ export interface Product {
   originalPrice?: number;
   images: string[];
   category: ProductCategory;
+  /** 壶型，如 "石瓢壶"、"归兽壶"、"西施壶" 等 */
+  shape?: string;
   inStock: boolean;
   stock: number;
   featured?: boolean;
   specs: ProductSpecs;
   createdAt: string;
   rating: number;
- reviewCount: number;
-  /** 天猫原始商品链接，用于下单时溯源 */
+  reviewCount: number;
+  detailImages: string[];
+  variants?: ProductVariant[];
   sourceUrl?: string;
-  /** 天猫货号/SKU编码 */
   sourceSku?: string;
-  /** 商品视频链接 */
-  videos?: string[];
+  videos: string[];
 }
 
 export interface CartItem {
@@ -64,8 +76,7 @@ export interface Order {
   paymentMethod: "stripe" | "paypal";
   trackingNumber?: string;
   createdAt: string;
- updatedAt: string;
-  /** 订单商品溯源映射：商品ID → 天猫链接和货号 */
+  updatedAt: string;
   sourceMap?: Record<string, { sourceUrl: string; sourceSku?: string }>;
 }
 
@@ -76,4 +87,4 @@ export interface User {
   wishlist: string[];
   orders: string[];
   createdAt: string;
-}
+}

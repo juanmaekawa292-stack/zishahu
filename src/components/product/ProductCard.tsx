@@ -21,7 +21,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
 
   return (
     <div className="group animate-fadeIn">
-      <Link href={`/products/${product.id}`} className="block">
+      <Link href={`/products/${product.slug}`} className="block">
         <div className="relative overflow-hidden rounded-lg bg-muted aspect-[4/3]">
           {product.images.length > 0 ? (
             <Image
@@ -47,6 +47,11 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
               -{Math.round((1 - product.price / product.originalPrice) * 100)}%
             </Badge>
           )}
+          {product.shape && (
+            <Badge variant="secondary" className="absolute right-2 top-2">
+              {product.shape}
+            </Badge>
+          )}
           {!product.inStock && (
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
               <span className="text-white text-sm font-medium">{t("outOfStock")}</span>
@@ -56,7 +61,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
       </Link>
 
       <div className="mt-3 space-y-1.5">
-        <Link href={`/products/${product.id}`}>
+        <Link href={`/products/${product.slug}`}>
           <h3 className="text-sm font-medium leading-tight text-foreground group-hover:text-primary transition-colors line-clamp-1">
             {product.title_zhCN}
           </h3>
@@ -80,11 +85,12 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             variant="ghost"
             className="h-8 w-8 p-0"
             onClick={(e) => {
-              e.preventDefault();
-              addItem(product);
-            }}
-          >
-            <Heart className="h-4 w-4" />
+             e.preventDefault();
+             e.stopPropagation();
+              // TODO: Add to wishlist when implemented
+           }}
+         >
+           <Heart className="h-4 w-4" />
           </Button>
         </div>
 
@@ -93,6 +99,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
           size="sm"
           onClick={(e) => {
             e.preventDefault();
+            e.stopPropagation();
             addItem(product);
           }}
           disabled={!product.inStock}

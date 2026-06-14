@@ -60,7 +60,7 @@ export default function CartPage() {
 
               <div className="flex flex-1 flex-col justify-between">
                 <div>
-                  <Link href={`/products/${item.product.id}`} className="text-sm font-medium text-foreground hover:text-primary transition-colors line-clamp-1">
+                  <Link href={`/products/${item.product.slug}`} className="text-sm font-medium text-foreground hover:text-primary transition-colors line-clamp-1">
                     {item.product.title_zhCN}
                   </Link>
                   <p className="mt-0.5 text-xs text-muted-foreground">{formatPrice(item.product.price)} / 件</p>

@@ -1,11 +1,11 @@
-"use client";
+﻿"use client";
 
 import { Suspense, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { Search, SlidersHorizontal, ChevronDown, Grid3X3, LayoutList } from "lucide-react";
 import { ProductCard } from "@/components/product/ProductCard";
-import { products, categories } from "@/data/products";
+import { products, categories, shapes } from "@/data/products";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 
@@ -41,13 +41,19 @@ function ProductsContent() {
   const currentCategory = searchParams.get("category") || "all";
   const currentSort = searchParams.get("sort") || "default";
   const currentPage = parseInt(searchParams.get("page") || "1", 10);
+  const currentShape = searchParams.get("shape") || "all";
 
   const filteredProducts = useMemo(() => {
     let result = [...products];
 
-    if (currentCategory !== "all") {
-      result = result.filter((p) => p.category === currentCategory);
+   if (currentCategory !== "all") {
+     result = result.filter((p) => p.category === currentCategory);
+   }
+
+    if (currentShape !== "all") {
+      result = result.filter((p) => p.shape === currentShape);
     }
+
 
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase();
@@ -76,7 +82,7 @@ function ProductsContent() {
     }
 
     return result;
-  }, [currentCategory, currentSort, searchQuery]);
+ }, [currentCategory, currentSort, searchQuery, currentShape]);
 
   const totalPages = Math.ceil(filteredProducts.length / ITEMS_PER_PAGE);
   const paginatedProducts = filteredProducts.slice(
@@ -177,7 +183,7 @@ function ProductsContent() {
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 pb-3 border-b border-border/50">
           {categories.map((cat) => (
             <button
               key={cat.key}
@@ -190,6 +196,23 @@ function ProductsContent() {
               )}
             >
               {cat.label_zhCN}
+            </button>
+          ))}
+        </div>
+
+        <div className="flex flex-wrap gap-2">
+          {shapes.map((shape) => (
+            <button
+              key={shape.key}
+              onClick={() => updateSearchParam("shape", shape.key)}
+              className={cn(
+                "rounded-full px-4 py-1.5 text-xs font-medium transition-colors border",
+                currentShape === shape.key
+                  ? "bg-amber-600 text-white border-amber-600"
+                  : "border-border text-muted-foreground hover:text-foreground hover:border-foreground/30"
+              )}
+            >
+              {shape.label_zhCN}
             </button>
           ))}
         </div>
