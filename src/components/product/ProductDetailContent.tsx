@@ -34,7 +34,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
   const currentPrice = selectedVariant ? selectedVariant.price : product.price;
   const currentOriginalPrice = selectedVariant?.originalPrice || product.originalPrice;
   const currentImages = selectedVariant?.image
-    ? [selectedVariant.image, ...product.images.filter((img) => img !== selectedVariant!.image)]
+    ? [selectedVariant.image]
     : product.images;
 
   const hasVariants = product.variants && product.variants.length > 0;
@@ -232,14 +232,14 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
                             onClick={() => { if (!isOutOfStock) setSelectedVariant(isSelected ? null : v); }}
                             disabled={isOutOfStock}
                             className={cn(
-                              "flex items-center gap-2 rounded-md border px-3 py-2 text-xs transition-all",
+                              "flex flex-col items-center gap-1 rounded-md border px-3 py-3 text-xs transition-all",
                               isSelected ? "border-primary bg-primary/5 text-primary font-medium" :
                               isOutOfStock ? "border-border/50 text-muted-foreground/40 cursor-not-allowed line-through" :
                               "border-border hover:border-primary/50 text-foreground"
                             )}>
                             {v.image && (
-                              <div className="h-6 w-6 flex-shrink-0 overflow-hidden rounded">
-                                <Image src={v.image} alt={v.name_zhCN} width={24} height={24} className="object-cover" />
+                              <div className="h-14 w-14 flex-shrink-0 overflow-hidden rounded-md">
+                                <Image src={v.image} alt={v.name_zhCN} width={56} height={56} className="object-cover rounded-md" />
                               </div>
                             )}
                             <span>{v.name_zhCN}</span>
@@ -332,9 +332,9 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
 
       {/* Detail Images Section */}
       {product.detailImages && product.detailImages.length > 0 && (
-        <section className="mt-12 border-t border-border/50 pt-10">
+        <section>
           <h2 className="mb-6 text-lg font-bold text-foreground text-center">商品详情</h2>
-          <div className="mx-auto max-w-3xl space-y-2">
+          <div className="mx-auto max-w-3xl">
             {product.detailImages.map((img, idx) => (
               <div key={idx} className="relative w-full bg-white dark:bg-neutral-900">
                 <Image src={img} alt={`${product.title_zhCN} 详情图 ${idx + 1}`} width={1200} height={2064} className="h-auto w-full" loading="lazy" />

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Minus, Plus, Trash2, ShoppingBag, ArrowLeft } from "lucide-react";
 import { Link } from "@/i18n";
@@ -52,10 +53,14 @@ export default function CartPage() {
         <div className="lg:col-span-2 space-y-4">
           {items.map((item) => (
             <div key={item.productId} className="flex gap-4 rounded-lg border border-border bg-card p-4 animate-fadeIn">
-              <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md bg-gradient-to-br from-amber-50 to-orange-100 dark:from-amber-950/30 dark:to-orange-900/20 flex items-center justify-center">
-                <span className="text-3xl">
-                  {item.product.category === "teapot" ? "🫖" : item.product.category === "cup" ? "🥃" : item.product.category === "teaPet" ? "🐸" : "🎁"}
-                </span>
+              <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md bg-muted relative">
+                {item.product.images && item.product.images[0] ? (
+                  <Image src={item.product.images[0]} alt={item.product.title_zhCN} fill className="object-cover" sizes="96px" />
+                ) : (
+                  <div className="h-full w-full flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-100 dark:from-amber-950/30 dark:to-orange-900/20">
+                    <span className="text-2xl">🎁</span>
+                  </div>
+                )}
               </div>
 
               <div className="flex flex-1 flex-col justify-between">

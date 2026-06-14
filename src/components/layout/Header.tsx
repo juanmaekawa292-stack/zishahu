@@ -1,8 +1,9 @@
 "use client";
 
  import { useTranslations } from "next-intl";
- import { useState } from "react";
- import { ShoppingCart, Menu, X, Heart, ChevronDown, HelpCircle } from "lucide-react";
+ import { useState, useEffect } from "react";
+ import { ShoppingCart, Menu, X, Heart, ChevronDown, HelpCircle, User, LogOut, Package } from "lucide-react";
+ import type { User as UserType } from "@/types";
  import { Link, usePathname } from "@/i18n";
  import { useCartStore } from "@/store/cart";
  import { cn } from "@/lib/utils";
@@ -12,9 +13,17 @@ export function Header() {
   const ts = useTranslations("service");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
+  const [userMenuOpen, setUserMenuOpen] = useState(false);
+  const [currentUser, setCurrentUser] = useState<UserType | null>(null);
   const pathname = usePathname();
   const items = useCartStore((s) => s.items);
   const itemCount = items.reduce((sum, item) => sum + item.quantity, 0);
+
+  useEffect(() => {
+    import("@/services/auth").then((m) => {
+      setCurrentUser(m.getCurrentUser());
+    });
+  }, []);
 
 const navLinks = [
   { href: "/", label: t("home") },
@@ -91,6 +100,49 @@ const navLinks = [
                   </Link>
                 </div>
               </>
+            )}
+          </div>
+
+          {/* User Menu */}
+          <div className="relative hidden sm:block">
+            {currentUser ? (
+              <>
+                <button
+                  onClick={() => setUserMenuOpen(!userMenuOpen)}
+                  className="flex items-center gap-1.5 rounded-md px-2 py-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors border border-border"
+                >
+                  <User className="h-4 w-4" />
+                  <span className="max-w-[80px] truncate">{currentUser.name}</span>
+                  <ChevronDown className="h-3 w-3" />
+                </button>
+                {userMenuOpen && (
+                  <>
+                    <div className="fixed inset-0 z-10" onClick={() => setUserMenuOpen(false)} />
+                    <div className="absolute right-0 z-20 mt-1 w-44 rounded-md border border-border bg-card shadow-lg">
+                      <Link
+                        href="/orders"
+                        className="flex items-center gap-2 px-3 py-2 text-xs hover:bg-muted transition-colors"
+                        onClick={() => setUserMenuOpen(false)}
+                      >
+                        <Package className="h-4 w-4" /> 我的订单
+                      </Link>
+                      <button
+                        onClick={() => {
+                          import("@/services/auth").then((m) => { m.logout(); setCurrentUser(null); setUserMenuOpen(false); window.location.href = "/"; });
+                        }}
+                        className="flex w-full items-center gap-2 px-3 py-2 text-xs hover:bg-muted transition-colors text-left"
+                      >
+                        <LogOut className="h-4 w-4" /> 退出登录
+                      </button>
+                    </div>
+                  </>
+                )}
+              </>
+            ) : (
+              <Link href="/login" className="flex items-center gap-1 rounded-md px-2 py-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors border border-border">
+                <User className="h-4 w-4" />
+                <span>{t("login")}</span>
+              </Link>
             )}
           </div>
 

@@ -1,6 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { login, getCurrentUser } from "@/services/auth";
 import { useTranslations } from "next-intl";
 import { Mail, Lock, Eye, EyeOff } from "lucide-react";
 import { Link } from "@/i18n";
@@ -9,13 +11,29 @@ import { Button } from "@/components/ui/Button";
 export default function LoginPage() {
   const t = useTranslations("common");
   const tUser = useTranslations("user");
+  const router = useRouter();
   const [showPassword, setShowPassword] = useState(false);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  useEffect(() => {
+    if (getCurrentUser()) router.push("/");
+  }, [router]);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Login:", { email, password });
+    setError("");
+    setLoading(true);
+    const result = login(email, password);
+    if (result.success) {
+      router.push("/");
+      router.refresh();
+    } else {
+      setError(result.error || "登录失败");
+    }
+    setLoading(false);
   };
 
   return (
@@ -27,6 +45,11 @@ export default function LoginPage() {
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-4">
+        {error && (
+          <div className="rounded-md bg-red-50 dark:bg-red-950/30 p-3 text-xs text-red-600 dark:text-red-400 text-center">
+            {error}
+          </div>
+        )}
         <div>
           <label className="block text-xs font-medium text-muted-foreground mb-1">{tUser("email")}</label>
           <div className="relative">
@@ -71,7 +94,7 @@ export default function LoginPage() {
           <button type="button" className="text-xs text-primary hover:underline">{tUser("forgotPassword")}</button>
         </div>
 
-        <Button type="submit" className="w-full">{t("login")}</Button>
+        <Button type="submit" className="w-full" disabled={loading}>{loading ? "登录中..." : t("login")}</Button>
       </form>
 
       <p className="mt-6 text-center text-xs text-muted-foreground">
