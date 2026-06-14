@@ -13,7 +13,8 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
   const pathname = usePathname();
-  const itemCount = useCartStore((s) => s.getItemCount());
+  const items = useCartStore((s) => s.items);
+  const itemCount = items.reduce((sum, item) => sum + item.quantity, 0);
 
 const navLinks = [
   { href: "/", label: t("home") },

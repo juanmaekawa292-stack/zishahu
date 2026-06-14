@@ -1,5 +1,6 @@
-"use client";
+﻿"use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Heart, Star } from "lucide-react";
 import { Link } from "@/i18n";
@@ -20,17 +21,27 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
 
   return (
     <div className="group animate-fadeIn">
-      <Link href={`/products/${product.slug}`} className="block">
+      <Link href={`/products/${product.id}`} className="block">
         <div className="relative overflow-hidden rounded-lg bg-muted aspect-[4/3]">
-          {/* Placeholder image */}
-          <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-100 dark:from-amber-950/30 dark:to-orange-900/20">
-            <div className="text-center">
-              <span className="text-5xl">
-                {product.category === "teapot" ? "🫖" : product.category === "cup" ? "🍵" : product.category === "teaPet" ? "🐉" : product.category === "teaTool" ? "🛠️" : "🫖"}
-              </span>
-              <p className="mt-2 text-[10px] text-muted-foreground">{product.title_zhCN}</p>
+          {product.images.length > 0 ? (
+            <Image
+              src={product.images[0]}
+              alt={product.title_zhCN}
+              fill
+              className="object-cover group-hover:scale-105 transition-transform duration-500"
+              sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+              priority={priority}
+            />
+          ) : (
+            <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-100 dark:from-amber-950/30 dark:to-orange-900/20">
+              <div className="text-center">
+                <span className="text-5xl">
+                  {product.category === "teapot" ? "🫖" : product.category === "cup" ? "🍵" : product.category === "teaPet" ? "🐉" : product.category === "teaTool" ? "🛠️" : "🫖"}
+                </span>
+                <p className="mt-2 text-[10px] text-muted-foreground">{product.title_zhCN}</p>
+              </div>
             </div>
-          </div>
+          )}
           {product.originalPrice && (
             <Badge variant="destructive" className="absolute left-2 top-2">
               -{Math.round((1 - product.price / product.originalPrice) * 100)}%
@@ -45,7 +56,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
       </Link>
 
       <div className="mt-3 space-y-1.5">
-        <Link href={`/products/${product.slug}`}>
+        <Link href={`/products/${product.id}`}>
           <h3 className="text-sm font-medium leading-tight text-foreground group-hover:text-primary transition-colors line-clamp-1">
             {product.title_zhCN}
           </h3>
@@ -91,4 +102,4 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
       </div>
     </div>
   );
-}
+}

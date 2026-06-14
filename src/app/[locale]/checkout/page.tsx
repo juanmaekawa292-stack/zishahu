@@ -39,7 +39,8 @@ export default function CheckoutPage() {
   const t = useTranslations("common");
   const tCheckout = useTranslations("checkout");
   const router = useRouter();
-  const { items, getSubtotal, clearCart } = useCartStore();
+  const items = useCartStore((s) => s.items);
+  const clearCart = useCartStore((s) => s.clearCart);
 
   const [step, setStep] = useState("shipping");
   const [shippingMethod, setShippingMethod] = useState("standard");
@@ -56,7 +57,7 @@ export default function CheckoutPage() {
     country: "US",
   });
 
-  const subtotal = getSubtotal();
+  const subtotal = items.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
   const shipping = SHIPPING_METHODS.find((s) => s.id === shippingMethod)?.price || 15;
   const tax = subtotal * 0.08;
   const total = subtotal + shipping + tax;

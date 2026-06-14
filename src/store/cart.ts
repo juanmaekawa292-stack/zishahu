@@ -8,8 +8,6 @@ interface CartState {
   removeItem: (productId: string) => void;
   updateQuantity: (productId: string, quantity: number) => void;
   clearCart: () => void;
-  getItemCount: () => number;
-  getSubtotal: () => number;
 }
 
 export const useCartStore = create<CartState>()(
@@ -50,10 +48,10 @@ export const useCartStore = create<CartState>()(
         }));
       },
       clearCart: () => set({ items: [] }),
-      getItemCount: () => get().items.reduce((sum, item) => sum + item.quantity, 0),
-      getSubtotal: () =>
-        get().items.reduce((sum, item) => sum + item.product.price * item.quantity, 0),
     }),
-    { name: "zisha-cart" }
+    {
+      name: "zisha-cart",
+      partialize: (state) => ({ items: state.items }),
+    }
   )
-);
+);

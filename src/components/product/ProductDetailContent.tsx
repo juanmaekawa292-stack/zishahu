@@ -56,12 +56,23 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
         {/* Image Gallery */}
         <div className="space-y-4">
           <div className="relative aspect-square overflow-hidden rounded-xl bg-muted">
-            <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-100 dark:from-amber-950/30 dark:to-orange-900/20">
-              <div className="text-center">
-                <span className="text-8xl">{CATEGORY_EMOJI_MAP[product.category] || "🫖"}</span>
-                <p className="mt-2 text-sm text-muted-foreground">{product.title_zhCN}</p>
+            {placeholderImages[selectedImage] && placeholderImages[selectedImage] !== "/placeholder" ? (
+              <Image
+                src={placeholderImages[selectedImage]}
+                alt={product.title_zhCN}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                priority
+              />
+            ) : (
+              <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-100 dark:from-amber-950/30 dark:to-orange-900/20">
+                <div className="text-center">
+                  <span className="text-8xl">{CATEGORY_EMOJI_MAP[product.category] || "🫖"}</span>
+                  <p className="mt-2 text-sm text-muted-foreground">{product.title_zhCN}</p>
+                </div>
               </div>
-            </div>
+            )}
             {product.originalPrice && (
               <Badge variant="destructive" className="absolute left-3 top-3">
                 -{Math.round((1 - product.price / product.originalPrice) * 100)}%
@@ -98,9 +109,19 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
                     selectedImage === idx ? "border-primary" : "border-border hover:border-muted-foreground/30"
                   )}
                 >
-                  <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-100 dark:from-amber-950/30 dark:to-orange-900/20 text-xs text-muted-foreground">
-                    {CATEGORY_EMOJI_MAP[product.category] || "🫖"}
-                  </div>
+                  {placeholderImages[idx] && placeholderImages[idx] !== "/placeholder" ? (
+                    <Image
+                      src={placeholderImages[idx]}
+                      alt={product.title_zhCN}
+                      fill
+                      className="object-cover"
+                      sizes="64px"
+                    />
+                  ) : (
+                    <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-100 dark:from-amber-950/30 dark:to-orange-900/20 text-xs text-muted-foreground">
+                      {CATEGORY_EMOJI_MAP[product.category] || "🫖"}
+                    </div>
+                  )}
                 </button>
               ))}
             </div>

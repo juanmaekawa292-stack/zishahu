@@ -10,9 +10,12 @@ import { formatPrice, cn } from "@/lib/utils";
 export default function CartPage() {
   const t = useTranslations("common");
   const tCart = useTranslations("cart");
-  const { items, updateQuantity, removeItem, clearCart, getSubtotal } = useCartStore();
+  const items = useCartStore((s) => s.items);
+  const updateQuantity = useCartStore((s) => s.updateQuantity);
+  const removeItem = useCartStore((s) => s.removeItem);
+  const clearCart = useCartStore((s) => s.clearCart);
 
-  const subtotal = getSubtotal();
+  const subtotal = items.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
   const shipping = subtotal >= 200 ? 0 : 15;
   const total = subtotal + shipping;
 
@@ -57,7 +60,7 @@ export default function CartPage() {
 
               <div className="flex flex-1 flex-col justify-between">
                 <div>
-                  <Link href={`/products/${item.product.slug}`} className="text-sm font-medium text-foreground hover:text-primary transition-colors line-clamp-1">
+                  <Link href={`/products/${item.product.id}`} className="text-sm font-medium text-foreground hover:text-primary transition-colors line-clamp-1">
                     {item.product.title_zhCN}
                   </Link>
                   <p className="mt-0.5 text-xs text-muted-foreground">{formatPrice(item.product.price)} / 件</p>

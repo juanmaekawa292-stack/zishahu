@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { getLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { getProductBySlug } from "@/data/products";
+import { getProductById } from "@/data/products";
 import { ProductDetailContent } from "@/components/product/ProductDetailContent";
 import { ProductCard } from "@/components/product/ProductCard";
 import { products } from "@/data/products";
 
 export function generateStaticParams() {
-  return products.map((p) => ({ slug: p.slug }));
+  return products.map((p) => ({ slug: p.id }));
 }
 
 export async function generateMetadata({
@@ -16,7 +16,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const product = getProductBySlug(slug);
+  const product = getProductById(slug);
   const locale = await getLocale();
 
   if (!product) {
@@ -54,7 +54,7 @@ export default async function ProductDetailPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const product = getProductBySlug(slug);
+  const product = getProductById(slug);
 
   if (!product) notFound();
 
