@@ -18,6 +18,15 @@ export interface ProductSpecs {
   dimensions?: string;
 }
 
+export interface ShippingInfo {
+  weight: number;
+  dimensions: {
+    length: number;
+    width: number;
+    height: number;
+  };
+}
+
 export interface Product {
   id: string;
   slug: string;
@@ -43,6 +52,7 @@ export interface Product {
   sourceUrl?: string;
   sourceSku?: string;
   videos: string[];
+  shipping?: ShippingInfo;
 }
 
 export interface CartItem {
