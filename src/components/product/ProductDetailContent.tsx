@@ -332,7 +332,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
 
       {/* Detail Images Section */}
       {product.detailImages && product.detailImages.length > 0 && (
-        <section>
+        <section className="mt-8">
           <h2 className="mb-6 text-lg font-bold text-foreground text-center">商品详情</h2>
           <div className="mx-auto max-w-3xl">
             {product.detailImages.map((img, idx) => (
