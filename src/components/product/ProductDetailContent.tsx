@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useRef, useEffect, useCallback } from "react";
 import Image from "next/image";
@@ -336,8 +336,8 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
           <h2 className="mb-6 text-lg font-bold text-foreground text-center">商品详情</h2>
           <div className="mx-auto max-w-3xl space-y-2">
             {product.detailImages.map((img, idx) => (
-              <div key={idx} className="relative w-full overflow-hidden bg-white dark:bg-neutral-900 rounded-lg">
-                <Image src={img} alt={`${product.title_zhCN} 详情图 ${idx + 1}`} width={800} height={800} className="h-auto w-full object-contain" loading="lazy" unoptimized={img.endsWith('.png')} />
+              <div key={idx} className="relative w-full bg-white dark:bg-neutral-900">
+                <Image src={img} alt={`${product.title_zhCN} 详情图 ${idx + 1}`} width={1200} height={2064} className="h-auto w-full" loading="lazy" />
               </div>
             ))}
           </div>

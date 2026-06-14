@@ -1,0 +1,99 @@
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:4001
+- Network:       http://198.18.0.1:4001
+✓ Ready in 344ms
+
+⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>) {
+  page: '/zh-CN/products/shipiao-zisha-pot'
+}
+⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>) {
+  page: '/zh-CN/admin'
+}
+⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>) {
+  page: '/zh-CN/products/shipiao-zisha-pot'
+}
+SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>) {
+  page: '/zh-CN/admin'
+}
+⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+ GET /zh-CN/products/shipiao-zisha-pot 500 in 2.2s (next.js: 2.0s, proxy.ts: 148ms, generate-params: 732ms, application-code: 14ms)
+ GET /zh-CN/products/shipiao-zisha-pot 500 in 2.2s (next.js: 2.0s, proxy.ts: 148ms, generate-params: 732ms, application-code: 14ms)
+SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+ GET /zh-CN/admin 500 in 2.2s (next.js: 2.1s, proxy.ts: 148ms, generate-params: 988ms, application-code: 18ms)
+ GET /zh-CN/admin 500 in 2.2s (next.js: 2.1s, proxy.ts: 148ms, generate-params: 988ms, application-code: 18ms)
+⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>) {
+  page: '/zh-CN/products/shipiao-zisha-pot'
+}
+⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>) {
+  page: '/zh-CN/products/shipiao-zisha-pot'
+}
+⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+⨯ Failed to generate static paths for /[locale]/products/[slug]:
+SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+ GET /zh-CN/products/shipiao-zisha-pot 500 in 587ms (next.js: 566ms, proxy.ts: 8ms, generate-params: 3ms, application-code: 13ms)
+ GET /zh-CN/products/shipiao-zisha-pot 500 in 587ms (next.js: 566ms, proxy.ts: 8ms, generate-params: 3ms, application-code: 14ms)
+ GET /zh-CN 200 in 2.8s (next.js: 585ms, proxy.ts: 149ms, generate-params: 417ms, application-code: 2.1s)
+⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>) {
+  page: '/zh-CN'
+}
+⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>) {
+  page: '/zh-CN'
+}
+⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+⨯ Failed to generate static paths for /[locale]:
+SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+ GET /zh-CN 500 in 620ms (next.js: 604ms, proxy.ts: 4ms, generate-params: 3ms, application-code: 12ms)
+ GET /zh-CN 500 in 620ms (next.js: 604ms, proxy.ts: 4ms, generate-params: 3ms, application-code: 13ms)
+⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>) {
+  page: '/zh-CN'
+}
+⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>) {
+  page: '/zh-CN'
+}
+⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+SyntaxError: Unexpected non-whitespace character after JSON at position 758 (line 1 column 759)
+    at JSON.parse (<anonymous>)
+ GET /zh-CN 500 in 507ms (next.js: 485ms, proxy.ts: 5ms, application-code: 17ms)
+ GET /zh-CN 500 in 507ms (next.js: 485ms, proxy.ts: 5ms, application-code: 17ms)
+Persisting failed: Unable to open static sorted file referenced from 00001675.meta
+
+Caused by:
+    0: Unable to open static sorted file 00001674.sst
+    1: Failed to open SST file F:\codex-yunxing\zishahu\.next\dev\cache/turbopack\f37fad94\00001674.sst
+    2: 系统找不到指定的文件。 (os error 2)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)

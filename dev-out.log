@@ -1,0 +1,19 @@
+
+> zisha-store@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://198.18.0.1:3001
+✓ Ready in 356ms
+
+ GET /zh-CN 200 in 871ms (next.js: 430ms, proxy.ts: 139ms, generate-params: 344ms, application-code: 302ms)
+ GET /zh-CN/products 200 in 459ms (next.js: 386ms, proxy.ts: 6ms, generate-params: 363ms, application-code: 67ms)
+ GET /zh-CN/products/guishou-zisha-pot 200 in 443ms (next.js: 367ms, proxy.ts: 3ms, generate-params: 349ms, application-code: 73ms)
+ GET /zh-CN/cart 200 in 397ms (next.js: 350ms, proxy.ts: 3ms, generate-params: 334ms, application-code: 45ms)
+ GET /zh-CN/checkout 200 in 769ms (next.js: 714ms, proxy.ts: 4ms, generate-params: 353ms, application-code: 51ms)
+✓ Compiled in 96ms
+✓ Compiled in 70ms
+[?25h
+
+F:\codex-yunxing\zishahu>
