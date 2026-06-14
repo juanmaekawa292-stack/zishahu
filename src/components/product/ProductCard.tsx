@@ -1,5 +1,6 @@
-﻿"use client";
+"use client";
 
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Heart, Star } from "lucide-react";
@@ -9,6 +10,8 @@ import { formatPrice, cn } from "@/lib/utils";
 import { useCartStore } from "@/store/cart";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
+import { getCurrentUser } from "@/services/auth";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/Dialog";
 
 interface ProductCardProps {
   product: Product;
@@ -18,6 +21,23 @@ interface ProductCardProps {
 export function ProductCard({ product, priority = false }: ProductCardProps) {
   const t = useTranslations("common");
   const addItem = useCartStore((s) => s.addItem);
+  const [showLoginPrompt, setShowLoginPrompt] = useState(false);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  const handleAddToCart = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    if (isClient && !getCurrentUser()) {
+      setShowLoginPrompt(true);
+      return;
+    }
+    addItem(product);
+  };
 
   return (
     <div className="group animate-fadeIn">
@@ -85,28 +105,48 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             variant="ghost"
             className="h-8 w-8 p-0"
             onClick={(e) => {
-             e.preventDefault();
-             e.stopPropagation();
-              // TODO: Add to wishlist when implemented
-           }}
-         >
-           <Heart className="h-4 w-4" />
+              e.preventDefault();
+              e.stopPropagation();
+              if (isClient && !getCurrentUser()) {
+                setShowLoginPrompt(true);
+                return;
+              }
+            }}
+          >
+            <Heart className="h-4 w-4" />
           </Button>
         </div>
 
         <Button
           className="w-full"
           size="sm"
-          onClick={(e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            addItem(product);
-          }}
+          onClick={handleAddToCart}
           disabled={!product.inStock}
         >
           {product.inStock ? t("addToCart") : t("outOfStock")}
         </Button>
       </div>
+
+      {/* Login Prompt Dialog */}
+      <Dialog open={showLoginPrompt} onOpenChange={setShowLoginPrompt}>
+        <DialogContent className="sm:max-w-md">
+          <DialogHeader>
+            <DialogTitle className="text-center">请先登录</DialogTitle>
+          </DialogHeader>
+          <div className="text-center space-y-4 py-4">
+            <span className="text-5xl block">🫖</span>
+            <p className="text-sm text-muted-foreground">登录后即可添加商品到购物车、收藏商品</p>
+            <div className="flex gap-3 justify-center">
+              <Button onClick={() => window.location.href = "/login"}>
+                去登录
+              </Button>
+              <Button variant="outline" onClick={() => window.location.href = "/register"}>
+                注册账户
+              </Button>
+            </div>
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }

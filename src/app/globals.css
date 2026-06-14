@@ -110,4 +110,101 @@ body {
 
 .animate-slideUp {
   animation: slideUp 0.6s ease-out;
-}
+}
+
+
+/* Mobile responsive improvements */
+@media (max-width: 640px) {
+  .container-mobile-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem !important;
+  }
+  h2 {
+    font-size: 1.25rem !important;
+  }
+  /* Remove side margins/padding on mobile */
+  main > div {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+  /* Hero section: reduce padding */
+  section > div > .grid > div:first-child {
+    padding-top: 2rem;
+  }
+  /* Product grid: tighter gap on mobile */
+  .grid.grid-cols-1.gap-6 {
+    gap: 0.75rem !important;
+  }
+  /* Cart items: smaller image on mobile */
+  .cart-item-image {
+    width: 80px !important;
+    height: 80px !important;
+  }
+  /* Product card: smaller buttons on mobile */
+  .product-card-button {
+    font-size: 0.75rem !important;
+    padding: 0.375rem 0.5rem !important;
+  }
+}
+
+/* Touch-friendly button sizing */
+@media (hover: none) and (pointer: coarse) {
+  button, a {
+    min-height: 44px;
+  }
+  button.text-xs, a.text-xs {
+    min-height: 36px;
+  }
+}
+
+/* Custom scrollbar for thumbnail rows */
+.scrollbar-thin::-webkit-scrollbar {
+  height: 3px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+  border-radius: 2px;
+}
+
+/* Smoother transitions */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Product card improvements */
+.product-card-image {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* Cart badge animation */
+@keyframes badgePulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+.badge-pulse {
+  animation: badgePulse 0.3s ease-out;
+}
+
+/* Selection highlight for SKU buttons */
+.sku-selected {
+  box-shadow: 0 0 0 2px var(--primary), 0 0 0 4px rgba(139, 94, 60, 0.15);
+}
+
+/* Image shimmer loading */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.image-shimmer {
+  background: linear-gradient(90deg, var(--muted) 25%, var(--border) 50%, var(--muted) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}

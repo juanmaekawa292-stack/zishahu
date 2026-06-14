@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import { CreditCard, ChevronRight, MapPin, ShoppingBag } from "lucide-react";
@@ -56,6 +56,20 @@ export default function CheckoutPage() {
     zip: "",
     country: "US",
   });
+
+  useEffect(() => {
+    // Auto-detect country via IP geolocation
+    fetch("https://ipapi.co/json/")
+      .then((res) => res.json())
+      .then((data) => {
+        if (data && data.country_code && data.country_code !== "undefined") {
+          setAddress(prev => ({ ...prev, country: data.country_code }));
+        }
+      })
+      .catch(() => {
+        // Silently fail, keep default US
+      });
+  }, []);
 
   const subtotal = items.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
   const shipping = SHIPPING_METHODS.find((s) => s.id === shippingMethod)?.price || 15;

@@ -24,7 +24,7 @@ export default function middleware(request: NextRequest) {
   );
 
   if (!hasLocalePrefix) {
-    const country = request.headers.get("x-vercel-ip-country") || "";
+    const country = (request as any).geo?.country || request.headers.get("x-vercel-ip-country") || "";
     const acceptLanguage = request.headers.get("accept-language") || "";
     let detectedLocale = routing.defaultLocale;
 
@@ -48,6 +48,6 @@ export default function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    "/((?!api|_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt|images|videos).*)",
+    "/((?!api|_next/static|_next/image|_vercel|favicon.ico|sitemap.xml|robots.txt|images|videos).*)",
   ],
 };

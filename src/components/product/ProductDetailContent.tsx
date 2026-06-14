@@ -1,14 +1,17 @@
-﻿"use client";
+"use client";
 
-import { useState, useRef, useEffect, useCallback } from "react";
+import { useState, useRef, useEffect, useCallback, useMemo } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { Heart, Minus, Plus, ShoppingCart, Star, Truck, Shield, RefreshCw, ChevronLeft, ChevronRight, Share2, Check } from "lucide-react";
+import { Heart, Minus, Plus, ShoppingCart, Star, Truck, Shield, RefreshCw, ChevronLeft, ChevronRight, Share2, Check, X, ZoomIn } from "lucide-react";
 import { Product, ProductVariant } from "@/types";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import { formatPrice, cn } from "@/lib/utils";
 import { useCartStore } from "@/store/cart";
+import { getCurrentUser } from "@/services/auth";
+import { Link } from "@/i18n";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/Dialog";
 
 interface ProductDetailContentProps {
   product: Product;
@@ -19,15 +22,21 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
   const tProduct = useTranslations("product");
   const addItem = useCartStore((s) => s.addItem);
 
+  const [isClient, setIsClient] = useState(false);
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [addedToCart, setAddedToCart] = useState(false);
   const [selectedVariant, setSelectedVariant] = useState<ProductVariant | null>(null);
   const [isHovering, setIsHovering] = useState(false);
+  const [showLoginPrompt, setShowLoginPrompt] = useState(false);
+  const [showSkuPreview, setShowSkuPreview] = useState(false);
+  const [previewVariant, setPreviewVariant] = useState<ProductVariant | null>(null);
   const thumbnailRef = useRef<HTMLDivElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
+
+  useEffect(() => { setIsClient(true); }, []);
 
   const hasVideo = product.videos && product.videos.length > 0;
 
@@ -39,14 +48,19 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
 
   const hasVariants = product.variants && product.variants.length > 0;
 
-  const displayCarousel = [
-    ...(hasVideo ? product.videos.map((v) => ({ type: "video" as const, src: v })) : []),
-    ...currentImages.map((img) => ({ type: "image" as const, src: img })),
-  ];
+  const displayCarousel = useMemo(() => [
+    ...(hasVideo ? (product.videos || []).map((v: string) => ({ type: "video" as const, src: v })) : []),
+    ...currentImages.map((img: string) => ({ type: "image" as const, src: img })),
+  ], [hasVideo, currentImages, product.videos]);
 
   useEffect(() => { setSelectedImage(0); }, [selectedVariant]);
 
   const handleAddToCart = () => {
+    const user = getCurrentUser();
+    if (!user && isClient) {
+      setShowLoginPrompt(true);
+      return;
+    }
     let cartProduct: Product;
     if (selectedVariant) {
       cartProduct = {
@@ -63,6 +77,20 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
     addItem(cartProduct, quantity);
     setAddedToCart(true);
     setTimeout(() => setAddedToCart(false), 2000);
+  };
+
+  const handleSkuClick = (v: ProductVariant) => {
+    if (v.stock <= 0) return;
+    if (selectedVariant?.id === v.id) {
+      setSelectedVariant(null);
+      return;
+    }
+    setSelectedVariant(v);
+  };
+
+  const handleSkuPreview = (v: ProductVariant) => {
+    setPreviewVariant(v);
+    setShowSkuPreview(true);
   };
 
   const goToSlide = useCallback((index: number) => {
@@ -87,15 +115,6 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
 
   const discountPercent = currentOriginalPrice && currentOriginalPrice > currentPrice
     ? Math.round((1 - currentPrice / currentOriginalPrice) * 100) : 0;
-
-  const variantGroups = hasVariants
-    ? product.variants!.reduce((groups: Record<string, ProductVariant[]>, v) => {
-        const baseName = v.name_zhCN.replace(/单壶|大套装|套装|一壶四杯|一壶六杯/g, "").trim() || v.name_zhCN;
-        if (!groups[baseName]) groups[baseName] = [];
-        groups[baseName].push(v);
-        return groups;
-      }, {})
-    : {};
 
   const categoryLabel = product.category === "teapot" ? "紫砂壶" :
     product.category === "cup" ? "茶杯" :
@@ -218,40 +237,60 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
 
           {hasVariants && (
             <div className="rounded-lg border border-border bg-card p-4 space-y-3">
-              <h3 className="text-sm font-medium text-foreground">规格选择</h3>
-              <div className="space-y-2">
-                {Object.entries(variantGroups).map(([groupName, variants]) => (
-                  <div key={groupName} className="space-y-1.5">
-                    <p className="text-xs text-muted-foreground">{groupName}</p>
-                    <div className="flex flex-wrap gap-2">
-                      {variants.map((v) => {
-                        const isSelected = selectedVariant?.id === v.id;
-                        const isOutOfStock = v.stock <= 0;
-                        return (
-                          <button key={v.id}
-                            onClick={() => { if (!isOutOfStock) setSelectedVariant(isSelected ? null : v); }}
-                            disabled={isOutOfStock}
-                            className={cn(
-                              "flex flex-col items-center gap-1 rounded-md border px-3 py-3 text-xs transition-all",
-                              isSelected ? "border-primary bg-primary/5 text-primary font-medium" :
-                              isOutOfStock ? "border-border/50 text-muted-foreground/40 cursor-not-allowed line-through" :
-                              "border-border hover:border-primary/50 text-foreground"
-                            )}>
-                            {v.image && (
-                              <div className="h-14 w-14 flex-shrink-0 overflow-hidden rounded-md">
-                                <Image src={v.image} alt={v.name_zhCN} width={56} height={56} className="object-cover rounded-md" />
-                              </div>
-                            )}
-                            <span>{v.name_zhCN}</span>
-                            <span className={cn("ml-0.5", isSelected ? "text-primary" : "text-muted-foreground")}>{formatPrice(v.price)}</span>
-                            {isSelected && <Check className="h-3 w-3" />}
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-                ))}
+              <div className="flex items-center justify-between">
+                <h3 className="text-sm font-medium text-foreground">规格选择</h3>
+                {selectedVariant && (
+                  <button onClick={() => setSelectedVariant(null)} className="text-xs text-muted-foreground hover:text-foreground transition-colors">清除</button>
+                )}
               </div>
+              <div className="flex flex-wrap gap-1.5">
+                {(product.variants || []).map((v: ProductVariant) => {
+                  const isSelected = selectedVariant?.id === v.id;
+                  const isOutOfStock = v.stock <= 0;
+                  return (
+                    <div key={v.id} className="relative" onContextMenu={(e: React.MouseEvent) => { e.preventDefault(); handleSkuPreview(v); }}>
+                      <button
+                        onClick={() => handleSkuClick(v)}
+                        disabled={isOutOfStock}
+                        className={cn(
+                          "relative flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs transition-all",
+                          isSelected ? "border-primary bg-primary/10 text-primary font-medium ring-1 ring-primary/30" :
+                          isOutOfStock ? "border-border/40 text-muted-foreground/30 cursor-not-allowed line-through" :
+                          "border-border hover:border-primary/40 text-foreground hover:bg-muted/50"
+                        )}
+                      >
+                        <span>{v.name_zhCN}</span>
+                        <span className={cn("font-medium", isSelected ? "text-primary" : "text-muted-foreground")}>{formatPrice(v.price)}</span>
+                        {isSelected && <Check className="h-3 w-3 shrink-0" />}
+                        {v.image && (
+                          <button
+                            onClick={(e: React.MouseEvent) => { e.stopPropagation(); handleSkuPreview(v); }}
+                            className="ml-0.5 text-muted-foreground/50 hover:text-muted-foreground transition-colors"
+                          >
+                            <ZoomIn className="h-3 w-3" />
+                          </button>
+                        )}
+                      </button>
+                      {isSelected && (
+                        <div className="absolute -top-1 -right-1 h-3 w-3 rounded-full bg-primary flex items-center justify-center">
+                          <Check className="h-2 w-2 text-white" />
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+              {selectedVariant?.image && (
+                <div className="mt-2 flex items-center gap-3 rounded-md bg-muted/30 p-2">
+                  <div className="h-12 w-12 flex-shrink-0 overflow-hidden rounded-md bg-white">
+                    <Image src={selectedVariant.image} alt={selectedVariant.name_zhCN} width={48} height={48} className="object-cover w-full h-full" />
+                  </div>
+                  <div className="text-xs">
+                    <p className="font-medium text-foreground">{selectedVariant.name_zhCN}</p>
+                    <p className="text-primary font-medium">{formatPrice(selectedVariant.price)}</p>
+                  </div>
+                </div>
+              )}
             </div>
           )}
 
@@ -332,17 +371,87 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
 
       {/* Detail Images Section */}
       {product.detailImages && product.detailImages.length > 0 && (
-        <section className="mt-8">
+        <div className="mt-8">
           <h2 className="mb-6 text-lg font-bold text-foreground text-center">商品详情</h2>
-          <div className="mx-auto max-w-3xl">
-            {product.detailImages.map((img, idx) => (
-              <div key={idx} className="relative w-full bg-white dark:bg-neutral-900">
-                <Image src={img} alt={`${product.title_zhCN} 详情图 ${idx + 1}`} width={1200} height={2064} className="h-auto w-full" loading="lazy" />
-              </div>
+          <div className="mx-auto max-w-3xl" style={{ lineHeight: 0 }}>
+            {product.detailImages.map((img: string, idx: number) => (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                key={idx}
+                src={img}
+                alt={`${product.title_zhCN} 详情图 ${idx + 1}`}
+                style={{ display: 'block', width: '100%', height: 'auto' }}
+                loading="lazy"
+              />
             ))}
           </div>
-        </section>
+        </div>
       )}
+
+      {/* SKU Preview Dialog */}
+      <Dialog open={showSkuPreview} onOpenChange={setShowSkuPreview}>
+        <DialogContent className="sm:max-w-md">
+          <DialogHeader>
+            <DialogTitle>SKU 预览</DialogTitle>
+          </DialogHeader>
+          {previewVariant && (
+            <div className="space-y-4">
+              <div className="relative aspect-square overflow-hidden rounded-lg bg-white">
+                {previewVariant.image ? (
+                  <Image src={previewVariant.image} alt={previewVariant.name_zhCN} fill className="object-contain" sizes="(max-width: 640px) 100vw, 400px" />
+                ) : (
+                  <div className="h-full w-full flex items-center justify-center bg-muted text-4xl">{String.fromCodePoint(0x1FAE6)}</div>
+                )}
+              </div>
+              <div className="space-y-2">
+                <h4 className="font-medium text-foreground">{previewVariant.name_zhCN}</h4>
+                <p className="text-lg font-bold text-primary">{formatPrice(previewVariant.price)}</p>
+                {previewVariant.stock > 0 ? (
+                  <p className="text-xs text-emerald-600">有货 ({previewVariant.stock} 件)</p>
+                ) : (
+                  <p className="text-xs text-red-500">暂时缺货</p>
+                )}
+              </div>
+              <Button
+                className="w-full"
+                onClick={() => {
+                  setSelectedVariant(previewVariant);
+                  setShowSkuPreview(false);
+                }}
+                disabled={previewVariant.stock <= 0}
+              >
+                选择此规格
+              </Button>
+            </div>
+          )}
+        </DialogContent>
+      </Dialog>
+
+      {/* Login Prompt Dialog */}
+      <Dialog open={showLoginPrompt} onOpenChange={setShowLoginPrompt}>
+        <DialogContent className="sm:max-w-sm">
+          <DialogHeader>
+            <DialogTitle>登录 / 注册</DialogTitle>
+          </DialogHeader>
+          <div className="space-y-4 text-center">
+            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
+              <ShoppingCart className="h-8 w-8 text-primary" />
+            </div>
+            <p className="text-sm text-muted-foreground">请先登录或注册账户，即可加入购物车</p>
+            <div className="flex gap-3">
+              <Link href="/login" className="flex-1" onClick={() => setShowLoginPrompt(false)}>
+                <Button variant="outline" className="w-full">登录</Button>
+              </Link>
+              <Link href="/register" className="flex-1" onClick={() => setShowLoginPrompt(false)}>
+                <Button className="w-full">注册</Button>
+              </Link>
+            </div>
+            <button onClick={() => setShowLoginPrompt(false)} className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+              继续浏览
+            </button>
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }
