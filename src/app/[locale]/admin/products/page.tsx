@@ -139,7 +139,7 @@ export default function AdminProductsPage() {
                 <td className="px-4 py-3 text-right">
                   <div className="flex justify-end gap-1">
                     <Button variant="ghost" size="sm" className="h-8 w-8 p-0"><Edit className="h-4 w-4" /></Button>
-                    <Button variant="ghost" size="sm" className="h-8 w-8 p-0" onClick={() => setEditProduct(p)} title="编辑"><Pencil className="h-4 w-4" /></Button>
+                    <Button size="sm" variant="outline" className="h-8" onClick={() => setEditProduct(p)} title="编辑"><Pencil className="h-3.5 w-3.5 mr-1" />编辑</Button>
                     <Button variant="ghost" size="sm" className="h-8 w-8 p-0 text-red-500"><Trash2 className="h-4 w-4" /></Button>
                   </div>
                 </td>

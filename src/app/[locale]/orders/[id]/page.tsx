@@ -14,7 +14,6 @@ interface OrderData {
   id: string;
   items: Array<{ productId: string; quantity: number; product: { title_zhCN: string; price: number } }>;
   address: { name: string; phone: string; street: string; city: string; state: string; zip: string; country: string };
-};
   shippingMethod: string;
   paymentMethod: string;
   subtotal: number;
