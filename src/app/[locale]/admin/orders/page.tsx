@@ -1,5 +1,9 @@
 "use client";
 
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { getCurrentUser } from "@/services/auth";
+
 import { useTranslations } from "next-intl";
 import { Eye, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/Button";
@@ -25,6 +29,16 @@ const statusMap: Record<string, { label: string; variant: "default" | "secondary
 };
 
 export default function AdminOrdersPage() {
+  const router = useRouter();
+  const [authorized, setAuthorized] = useState(false);
+
+  useEffect(() => {
+    const user = getCurrentUser();
+    if (!user || user.role !== "admin") { router.push("/login"); }
+    else { setAuthorized(true); }
+  }, [router]);
+
+  if (!authorized) return <div className="flex items-center justify-center min-h-[80vh]"><div className="animate-spin w-8 h-8 border-4 border-primary border-t-transparent rounded-full"></div></div>;
   const t = useTranslations("admin");
 
   return (

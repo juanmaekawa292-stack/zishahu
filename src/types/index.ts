@@ -94,6 +94,7 @@ export interface User {
   id: string;
   email: string;
   name: string;
+  role?: "user" | "admin";
   wishlist: string[];
   orders: string[];
   createdAt: string;

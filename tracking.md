@@ -1,38 +1,27 @@
-# Progress Tracking - 2026-06-15 & echo. & echo ## 09:00 - DNS Check & echo - zishapro.com resolves to 198.18.1.56 (local network issue) & echo - Vercel deployment aliased to https://zishapro.com & echo - Site returns HTTP 200 & echo. & echo ## 09:15 - Products Data Fix & echo - Removed 25 zp-xxx demo products with no images & echo - Added 2 real products: tk-001 (归兽壶) + tk-002 (石瓢壶) & echo - tk-002: 5 main images, 21 detail images (detail_2~detail_22), 1 video & echo - tk-001: 3 main images, 3 variant images & echo - Added ShippingInfo type to Product interface & echo - Build: 0 errors, 64 static pages & echo. & echo ## 09:20 - Vercel Deploy & echo - Deployed to https://zishapro.com & echo - Git commit 86b13f1 pushed to master & echo. & echo ## 09:25 - Site Verification & echo - https://zishapro.com - HTTP 200 & echo - /zh-CN/products - HTTP 200 & echo - /zh-CN/products/guishou-zisha-pot - HTTP 200 & echo - /zh-CN/products/shipiao-zisha-pot - HTTP 200, video + images loaded & echo. & echo ## Notes & echo - User saw old cached site; browser hard refresh needed & echo - DNS local resolution to 198.18.1.56 may affect user machine 
+﻿# Tracking Log
 
+## 2026-06-15 商品水印检测完成
 
-## 2026-06-15 - Fix: Detail images, SKU layout, Mobile styling
+### 检测概要
+| 项目 | 数值 |
+|------|------|
+| 检测时间 | 2026-06-15 |
+| 源目录 | D:\图快下载器\淘宝采集\0615\ |
+| 商品总数 | 6 款 |
+| 总图片数 | 408 张 |
+| 有水印 | 88 张 |
+| 干净 | 317 张 |
+| 检测失败 | 3 张 |
 
-### Changes made
-1. **Detail images**: Changed from `<Image>` to `<img>` tag to prevent Next.js cropping/resizing of detail images.
-2. **SKU layout**: Compacted to Taobao-style small chips (rounded-md px-2.5 py-1.5 text-[11px]).
-3. **Mobile CSS**: Tighter spacing, smaller cart images, compact cards on mobile.
-4. **Cart login prompt**: Product cards and detail page require login before add to cart.
-5. **Checkout IP geolocation**: Auto-detects country via ipapi.co API.
-6. **Country list**: Expanded to 44 countries.
+### 各商品水印分布
+1. **仿古壶套装** (97张) — 有水印24张, 干净73张
+2. **古悦堂如意西施壶** (55张) — 有水印10张, 干净45张
+3. **大容量西施壶礼盒** (72张) — 有水印21张, 干净48张, 失败3张
+4. **戴晨光西施壶220ml** (104张) — 有水印14张, 干净90张
+5. **百年利永仿古壶** (33张) — 有水印9张, 干净24张
+6. **颐壶春汉瓦壶** (47张) — 有水印10张, 干净37张
 
-### Build status
-- npm run build - 0 errors, 64 static pages, 2 CSS warnings only
-- Dev server on port 4000 - all pages returning 200
-
-## 2026-06-15 - Fix: SKU layout, Login prompt, Detail images, Mobile styling, IP language detection
-
-### Issues fixed
-1. **ProductDetailContent.tsx** — Major rewrite: compact Taobao-style SKU chips (no thumbnails), added login/register prompt on add-to-cart, added SKU preview dialog (large image + price), detail images now use <img> with display:block/lineHeight:0 for no gaps
-2. **globals.css** — Fixed missing closing brace on .animate-slideUp, removed stray trailing brace
-3. **proxy.ts** — Added request.geo?.country as additional IP detection source (Vercel edge)
-4. **Build**: 0 errors, 64 static pages, Proxy (Middleware) active
-5. **Deployed**: Vercel production ✅ — https://zishapro.com all pages 200
-
-### What was addressed
-- 登录提示: 未登录点击加购弹出登录/注册对话框
-- SKU排版: 紧凑型chips样式（参考淘宝）
-- SKU预览: 点击放大镜图标弹出大图+价格展示
-- 详情图: 使用<img>替代<Image>，display:block + lineHeight:0消除间隙和横线
-- IP语言检测: TW/HK/MO地区自动切换繁体
-- 结算页: IP自动填充国家
-- 购物车: 显示商品图片
-
-### Build status
-- npm run build — 0 errors, 64 pages
-- Vercel deploy — production aliased to https://zishapro.com
+### 状态
+- ✅ 水印检测完成
+- ⏳ 等待P图（已告知老板P图清单和流程）
+- ⏳ P图完成后处理：格式转换→商品数据→上架同步

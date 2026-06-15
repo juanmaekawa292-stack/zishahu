@@ -1,0 +1,444 @@
+[
+  {
+    "file": "guishou-1hu4bei.jpg",
+    "hasWatermark": false,
+    "confidence": 0,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      }
+    ],
+    "dimensions": "800x800"
+  },
+  {
+    "file": "guishou-1hu6bei.jpg",
+    "hasWatermark": false,
+    "confidence": 0,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      }
+    ],
+    "dimensions": "800x800"
+  },
+  {
+    "file": "guishou-danhu.jpg",
+    "hasWatermark": false,
+    "confidence": 0,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      }
+    ],
+    "dimensions": "800x800"
+  },
+  {
+    "file": "guishou-main-1.jpg",
+    "hasWatermark": false,
+    "confidence": 0,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 1,
+        "edgeRatio": 0
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 1,
+        "edgeRatio": 0
+      }
+    ],
+    "dimensions": "750x1000"
+  },
+  {
+    "file": "guishou-main-2.jpg",
+    "hasWatermark": false,
+    "confidence": 0,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0,
+        "edgeRatio": 0
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0,
+        "edgeRatio": 0
+      }
+    ],
+    "dimensions": "750x1000"
+  },
+  {
+    "file": "guishou-main-3.jpg",
+    "hasWatermark": false,
+    "confidence": 0,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 1,
+        "edgeRatio": 0
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 1,
+        "edgeRatio": 0
+      }
+    ],
+    "dimensions": "750x1000"
+  },
+  {
+    "file": "shipiao-caihui-danhu.jpg",
+    "hasWatermark": false,
+    "confidence": 0,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      }
+    ],
+    "dimensions": "800x800"
+  },
+  {
+    "file": "shipiao-caihui-set.jpg",
+    "hasWatermark": false,
+    "confidence": 0,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      }
+    ],
+    "dimensions": "800x800"
+  },
+  {
+    "file": "shipiao-kehui-danhu.jpg",
+    "hasWatermark": false,
+    "confidence": 0,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      }
+    ],
+    "dimensions": "800x800"
+  },
+  {
+    "file": "shipiao-kehui-set.jpg",
+    "hasWatermark": false,
+    "confidence": 0,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      }
+    ],
+    "dimensions": "800x800"
+  },
+  {
+    "file": "shipiao-main-1.jpg",
+    "hasWatermark": false,
+    "confidence": 0,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 1,
+        "edgeRatio": 0
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.85,
+        "edgeRatio": 0
+      }
+    ],
+    "dimensions": "750x1000"
+  },
+  {
+    "file": "shipiao-main-2.jpg",
+    "hasWatermark": true,
+    "confidence": 1,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": true,
+        "confidence": 1,
+        "nonWhiteRatio": 0.86,
+        "edgeRatio": 0.08
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": true,
+        "confidence": 1,
+        "nonWhiteRatio": 0.86,
+        "edgeRatio": 0.09
+      }
+    ],
+    "dimensions": "750x1000"
+  },
+  {
+    "file": "shipiao-main-3.jpg",
+    "hasWatermark": false,
+    "confidence": 0,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 1,
+        "edgeRatio": 0
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 1,
+        "edgeRatio": 0
+      }
+    ],
+    "dimensions": "750x1000"
+  },
+  {
+    "file": "shipiao-main-4.jpg",
+    "hasWatermark": true,
+    "confidence": 0.5,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.96,
+        "edgeRatio": 0.02
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": true,
+        "confidence": 1,
+        "nonWhiteRatio": 0.96,
+        "edgeRatio": 0.05
+      }
+    ],
+    "dimensions": "750x1000"
+  },
+  {
+    "file": "shipiao-main-5.jpg",
+    "hasWatermark": true,
+    "confidence": 1,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": true,
+        "confidence": 1,
+        "nonWhiteRatio": 0.97,
+        "edgeRatio": 0.04
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": true,
+        "confidence": 1,
+        "nonWhiteRatio": 0.98,
+        "edgeRatio": 0.04
+      }
+    ],
+    "dimensions": "750x1000"
+  },
+  {
+    "file": "shipiao-suyan-danhu.jpg",
+    "hasWatermark": false,
+    "confidence": 0,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      }
+    ],
+    "dimensions": "800x800"
+  },
+  {
+    "file": "shipiao-suyan-set.jpg",
+    "hasWatermark": false,
+    "confidence": 0,
+    "zones": [
+      {
+        "name": "bottom-left",
+        "available": true,
+        "desc": "左下角店铺品牌名",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      },
+      {
+        "name": "bottom-right",
+        "available": true,
+        "desc": "右下角平台Logo",
+        "hasWatermark": false,
+        "confidence": 0,
+        "nonWhiteRatio": 0.04,
+        "edgeRatio": 0.03
+      }
+    ],
+    "dimensions": "800x800"
+  }
+]

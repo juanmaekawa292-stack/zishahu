@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>紫砂壶 - 商品上架工具</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#1a1a2e;color:#e0e0e0;min-height:100vh}
+.header{background:#16213e;border-bottom:1px solid #2a3a5a;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.header h1{font-size:20px}.header h1 span{color:#b8860b}
+.header-right{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.status-badge{padding:4px 12px;border-radius:12px;font-size:12px;font-weight:500}
+.status-badge.ok{background:#2d8a4e;color:#fff}.status-badge.warn{background:#b8860b;color:#fff}
+.container{max-width:1400px;margin:0 auto;padding:24px}
+.source-panel{background:#16213e;border:1px solid #2a3a5a;border-radius:8px;padding:16px 20px;margin-bottom:20px}
+.source-panel h2{font-size:14px;color:#8899b0;margin-bottom:12px;font-weight:500}
+.source-panel .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.source-panel input{flex:1;min-width:300px;background:#1e2a4a;border:1px solid #2a3a5a;border-radius:6px;padding:10px 14px;color:#e0e0e0;font-size:14px}
+.source-panel input::placeholder{color:#556}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:20px}
+.stat-card{background:#16213e;border:1px solid #2a3a5a;border-radius:8px;padding:14px;text-align:center}
+.stat-card .num{font-size:24px;font-weight:700;color:#b8860b}.stat-card .label{font-size:11px;color:#8899b0;margin-top:4px}
+.btn{padding:8px 18px;border:1px solid #2a3a5a;border-radius:6px;font-size:14px;cursor:pointer;background:#1e2a4a;color:#e0e0e0;transition:all .2s;white-space:nowrap}
+.btn:hover{background:#2a3a5a}.btn-primary{background:#b8860b;border-color:#b8860b;color:#fff;font-weight:600}
+.btn-primary:hover{background:#d4a017}.btn-primary:disabled{opacity:.5;cursor:not-allowed}
+.btn-success{background:#2d8a4e;border-color:#2d8a4e;color:#fff}.btn-danger{background:#c0392b;border-color:#c0392b;color:#fff}
+.progress-wrap{display:none;margin:12px 0;background:#1e2a4a;border-radius:8px;padding:12px 16px;border:1px solid #2a3a5a}
+.progress-wrap.show{display:block}
+.progress-wrap .prog-text{font-size:13px;margin-bottom:8px;color:#8899b0}
+.progress-bar{width:100%;height:6px;background:#2a3a5a;border-radius:3px;overflow:hidden}
+.progress-bar .fill{height:100%;background:#b8860b;transition:width .3s;border-radius:3px}
+.log-list{max-height:200px;overflow-y:auto;margin-top:8px;font-size:12px;color:#8899b0}
+.log-list .ok{color:#7dcea0}.log-list .skip{color:#8899b0}.log-list .err{color:#e74c3c}
+.toolbar{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;align-items:center}
+.toolbar select{background:#16213e;border:1px solid #2a3a5a;border-radius:6px;padding:8px 12px;color:#e0e0e0;font-size:13px}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:12px}
+.product-card{background:#16213e;border:1px solid #2a3a5a;border-radius:8px;overflow:hidden}
+.product-card:hover{border-color:#b8860b}.product-card.uploaded{opacity:.5;border-color:#2d8a4e}
+.product-header{padding:10px 14px;display:flex;justify-content:space-between;align-items:flex-start;cursor:pointer;gap:6px}
+.product-header h3{font-size:13px;font-weight:600;line-height:1.3;flex:1}
+.badge{display:inline-block;padding:1px 6px;border-radius:8px;font-size:10px;font-weight:500;margin:0 2px}
+.badge-shape{background:#4a3728;color:#b8860b}.badge-cat{background:#2a4a3a;color:#7dcea0}.badge-price{background:#3a2a4a;color:#bb8fce}
+.toast{position:fixed;top:20px;right:20px;background:#16213e;border:1px solid #2a3a5a;border-radius:8px;padding:12px 18px;z-index:2000;display:none;max-width:380px;box-shadow:0 4px 20px rgba(0,0,0,.4);font-size:13px}
+.toast.show{display:block}.toast.success{border-color:#2d8a4e}.toast.error{border-color:#c0392b}
+.loading{text-align:center;padding:40px;color:#8899b0}
+.spinner{display:inline-block;width:18px;height:18px;border:2px solid #2a3a5a;border-top-color:#b8860b;border-radius:50%;animation:spin .8s linear infinite;vertical-align:middle;margin-right:6px}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:768px){.product-grid{grid-template-columns:1fr}.source-panel .row{flex-direction:column}.source-panel input{width:100%}}
+</style>
+</head>
+<body>
+<div class="header">
+<h1><span>紫砂壶</span> 商品上架工具</h1>
+<div class="header-right">
+<span id="serverStatus" class="status-badge">检查中...</span>
+<button class="btn btn-sm" onclick="checkStatus()">刷新</button>
+</div>
+</div>
+<div class="container">
+<div class="source-panel">
+<h2>设置扫描目录</h2>
+<div class="row">
+<input type="text" id="sourceDir" placeholder="粘贴文件夹路径，例如 D:\图快下载器\淘宝采集\0615" value="">
+<button class="btn btn-primary" id="scanBtn" onclick="scanCustom()">扫描此目录</button>
+<button class="btn btn-success" id="autoBtn" onclick="autoUpload()" disabled>一键全部上架</button>
+<button class="btn" onclick="scanDefault()">默认目录</button>
+</div>
+<div class="progress-wrap" id="progressWrap">
+<div class="prog-text" id="progText">准备中...</div>
+<div class="progress-bar"><div class="fill" id="progFill" style="width:0%"></div></div>
+<div class="log-list" id="progLog"></div>
+</div>
+</div>
+<div class="stats">
+<div class="stat-card"><div class="num" id="statTotal">-</div><div class="label">扫描到商品</div></div>
+<div class="stat-card"><div class="num" id="statNew">-</div><div class="label">待上架</div></div>
+<div class="stat-card"><div class="num" id="statUploaded">-</div><div class="label">已上架</div></div>
+<div class="stat-card"><div class="num" id="statDirs">-</div><div class="label">源目录</div></div>
+</div>
+<div class="toolbar">
+<select id="filterShape" onchange="render()"><option value="">全部壶型</option><option value="石瓢壶">石瓢壶</option><option value="西施壶">西施壶</option><option value="仿古壶">仿古壶</option><option value="汉瓦壶">汉瓦壶</option><option value="归兽壶">归兽壶</option></select>
+<select id="filterStatus" onchange="render()"><option value="">全部</option><option value="new">未上架</option><option value="up">已上架</option></select>
+</div>
+<div id="productList" class="product-grid"></div>
+</div>
+<div class="toast" id="toast"></div>
+<script>
+var all=[]; var up=false; checkStatus();
+
+async function checkStatus(){
+try{var r=await fetch("/api/status");var d=await r.json();
+if(d.success){el("serverStatus").textContent="运行中";el("serverStatus").className="status-badge ok";
+el("statUploaded").textContent=d.productsUploaded;el("statDirs").textContent=d.sourceDirs}}
+catch(e){el("serverStatus").textContent="断开";el("serverStatus").className="status-badge warn"}}
+
+async function scanCustom(){
+var dir=el("sourceDir").value.trim();if(!dir){toast("请先粘贴文件夹路径","error");return}
+var btn=el("scanBtn");btn.disabled=true;btn.textContent="扫描中...";
+try{var r=await fetch("/api/scan-custom",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({dirs:[dir]})});
+var d=await r.json();if(d.success){all=d.products;render();toast("找到 "+d.total+" 个商品","success");
+el("autoBtn").disabled=d.products.filter(p=>!p.alreadyUploaded).length===0}
+else toast("失败: "+d.error,"error")}
+catch(e){toast("失败: "+e.message,"error")};btn.disabled=false;btn.textContent="扫描此目录";
+checkStatus()}
+
+async function scanDefault(){
+var btn=el("scanBtn");btn.disabled=true;btn.textContent="扫描中...";
+try{var r=await fetch("/api/scan");var d=await r.json();
+if(d.success){all=d.products;render();toast("找到 "+d.total+" 个商品","success");
+el("autoBtn").disabled=d.products.filter(p=>!p.alreadyUploaded).length===0}
+else toast("失败: "+d.error,"error")}
+catch(e){toast("失败: "+e.message,"error")};btn.disabled=false;btn.textContent="扫描此目录";
+checkStatus()}
+
+function render(){
+var sf=el("filterShape").value;var stf=el("filterStatus").value;
+var f=all.filter(function(p){
+if(sf&&p.shape!==sf)return false;
+if(stf==="new"&&p.alreadyUploaded)return false;
+if(stf==="up"&&!p.alreadyUploaded)return false;return true});
+el("statTotal").textContent=f.length;
+el("statNew").textContent=f.filter(p=>!p.alreadyUploaded).length;
+if(f.length===0){el("productList").innerHTML='<div class="loading">暂无商品，请先扫描</div>';return}
+el("productList").innerHTML=f.map(card).join("")}
+
+function card(p){
+var up=p.alreadyUploaded;var hv=p.variants&&p.variants.length>0;
+var mp=hv?Math.min.apply(null,p.variants.map(v=>v.price)):p.price;
+return'<div class="product-card'+(up?' uploaded':'')+'"><div class="product-header"><div><h3>'+p.title+'</h3><div style="margin-top:4px"><span class="badge badge-shape">'+(p.shape||'?')+'</span><span class="badge badge-cat">'+p.category+'</span><span class="badge badge-price">'+mp+'</span></div></div><div style="font-size:11px;color:#8899b0">图'+p.images.mainImages.length+' | SKU '+((p.variants&&p.variants.length)||1)+'</div></div>'+(up?'<span style="color:#2d8a4e;font-size:12px;padding:4px 12px">已上架</span>':'')+'</div>'}
+
+async function autoUpload(){
+if(up)return;
+var pending=all.filter(p=>!p.alreadyUploaded);
+if(pending.length===0){toast("没有待上架商品","error");return}
+var msg="确定一键上架 "+pending.length+" 个商品？\n\n" + pending.map(p=>p.title).join("\n");
+if(!confirm(msg))return;
+up=true;el("autoBtn").disabled=true;el("autoBtn").textContent="上架中...";
+el("progressWrap").classList.add("show");el("progLog").innerHTML="";
+var dir=el("sourceDir").value.trim();
+try{var r=await fetch("/api/auto-upload",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({dirs:dir?[dir]:null})});
+var d=await r.json();if(d.success){
+for(var j=0;j<d.results.length;j++){var item=d.results[j];var cls=item.status==="ok"?"ok":(item.status==="skipped"?"skip":"err");
+el("progLog").innerHTML+='<div class="'+cls+'">'+(j+1)+'. '+item.title+' ['+(item.status==="ok"?"上架":item.status==="skipped"?"跳过":"失败")+']</div>'}
+el("progText").textContent="完成: "+d.uploaded+" 上架, "+d.skipped+" 跳过, "+d.errors+" 错误";
+el("progFill").style.width="100%";toast("上架完成! "+d.uploaded+"/"+d.total,"success")
+}else{el("progText").textContent="失败: "+d.error;toast("失败: "+d.error,"error")}
+}catch(e){el("progText").textContent="错误: "+e.message;toast("错误: "+e.message,"error")}
+up=false;el("autoBtn").disabled=false;el("autoBtn").textContent="一键全部上架";
+await scanDefault();checkStatus()}
+
+function el(id){return document.getElementById(id)}
+function toast(m,t){var x=el("toast");x.className="toast show";if(t)x.classList.add(t);x.textContent=m;setTimeout(function(){x.classList.remove("show")},4000)}
+</script>
+</body>
+</html>

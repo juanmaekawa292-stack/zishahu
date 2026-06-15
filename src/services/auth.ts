@@ -47,19 +47,36 @@ export function register(name: string, email: string, password: string): AuthRes
 }
 
 export function login(email: string, password: string): AuthResult {
+  // Admin login (hardcoded for now)
+  if (email === "admin" && password === "Lg123123123") {
+    const adminUser: User & { password: string } = {
+      id: "admin",
+      email: "admin@zishahu.com",
+      name: "管理员",
+      password: "Lg123123123",
+      role: "admin",
+      wishlist: [],
+      orders: [],
+      createdAt: new Date().toISOString(),
+    };
+    saveUsers([...(getUsers().filter(u => u.email !== "admin@zishahu.com")), adminUser]);
+    const { password: _, ...user } = adminUser;
+    setCurrentUser(user);
+    return { success: true, user };
+  }
+
   const users = getUsers();
-  const found = users.find((u) => u.email === email);
+  const found = users.find((u) => u.email === email || u.id === "admin");
   if (!found) {
-    return { success: false, error: "邮箱未注册 / 電子郵件未註冊" };
+    return { success: false, error: "邮箱未注册 / 电子邮箱未注册" };
   }
   if (found.password !== password) {
-    return { success: false, error: "密码错误 / 密碼錯誤" };
+    return { success: false, error: "密码错误 / 密码错误" };
   }
   const { password: _, ...user } = found;
   setCurrentUser(user);
   return { success: true, user };
 }
-
 export function logout(): void {
   if (typeof window === "undefined") return;
   localStorage.removeItem(CURRENT_USER_KEY);
