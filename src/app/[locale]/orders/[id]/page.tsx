@@ -107,7 +107,7 @@ export default async function OrderConfirmationPage({ params }: Props) {
                     {"天猫下单"} {(order.sourceMap[item.productId].sourceSku ? "#" + order.sourceMap[item.productId].sourceSku : "")}
                   </a>
                 )}
-                <span className="text-sm font-medium">{<PriceDisplay amount={item.product.price * item.quantity} />}</span>
+                <span className="text-sm font-medium">{"$" + Number(item.product.price * item.quantity).toFixed(2)}</span>
               </div>
             </div>
           ))}
@@ -134,12 +134,12 @@ export default async function OrderConfirmationPage({ params }: Props) {
           <h2 className="text-sm font-medium text-foreground">支付信息</h2>
         </div>
         <div className="space-y-2 text-sm">
-          <div className="flex justify-between"><span className="text-muted-foreground">小计</span><span className="font-medium">{<PriceDisplay amount={order.subtotal} />}</span></div>
+          <div className="flex justify-between"><span className="text-muted-foreground">小计</span><span className="font-medium">{"$" + Number(order.subtotal).toFixed(2)}</span></div>
           <div className="flex justify-between"><span className="text-muted-foreground">运费</span><span className="font-medium">{order.shipping === 0 ? "免费" : formatPrice(order.shipping)}</span></div>
-          <div className="flex justify-between"><span className="text-muted-foreground">税费</span><span className="font-medium">{<PriceDisplay amount={order.tax} />}</span></div>
+          <div className="flex justify-between"><span className="text-muted-foreground">税费</span><span className="font-medium">{"$" + Number(order.tax).toFixed(2)}</span></div>
           <div className="border-t border-border pt-2 flex justify-between text-base">
             <span className="font-medium text-foreground">合计</span>
-            <span className="font-bold text-primary">{<PriceDisplay amount={order.total} />}</span>
+            <span className="font-bold text-primary">{"$" + Number(order.total).toFixed(2)}</span>
           </div>
         </div>
       </div>
