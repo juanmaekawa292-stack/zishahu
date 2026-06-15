@@ -105,11 +105,11 @@ export default function OrdersPage() {
       <div className="grid grid-cols-3 gap-4 mb-6">
         <div className="rounded-lg border border-border bg-card p-4 text-center">
           <p className="text-xs text-muted-foreground">营收</p>
-          <p className="text-xl font-bold text-foreground mt-1">{<PriceDisplay amount={totalRevenue} />}</p>
+          <p className="text-xl font-bold text-foreground mt-1">{"¥" + totalRevenue.toFixed(2)}</p>
         </div>
         <div className="rounded-lg border border-border bg-card p-4 text-center">
           <p className="text-xs text-muted-foreground">成本 (采购价)</p>
-          <p className="text-xl font-bold text-foreground mt-1">{<PriceDisplay amount={totalCost} />}</p>
+          <p className="text-xl font-bold text-foreground mt-1">{"¥" + totalCost.toFixed(2)}</p>
         </div>
         <div className="rounded-lg border border-border bg-card p-4 text-center">
           <p className="text-xs text-muted-foreground">利润</p>
@@ -138,7 +138,7 @@ export default function OrdersPage() {
                   return <div key={item.sku} className="py-2 text-sm">
                     <div className="flex justify-between">
                       <span className="text-foreground">{item.name} x{item.qty}</span>
-                      <span className="font-medium">{<PriceDisplay amount={item.price} />}</span>
+                      <span className="font-medium">{"¥" + Number(item.price).toFixed(2)}</span>
                     </div>
                     <div className="flex justify-between text-xs text-muted-foreground mt-1">
                       <span>采购价: ¥{item.cost} | 利润: ¥{item.price - item.cost}</span>
@@ -151,7 +151,7 @@ export default function OrdersPage() {
                 <span className="text-muted-foreground">客户: {o.customer} | {o.email} | {o.phone}</span>
                 <div className="text-right">
                   <p className="text-muted-foreground">成本: ¥{o.cost}</p>
-                  <p className="text-foreground font-medium">售价: {<PriceDisplay amount={o.total} />}</p>
+                  <p className="text-foreground font-medium">售价: {"¥" + Number(o.total).toFixed(2)}</p>
                   <p className="text-green-600 font-bold">利润: ¥{o.profit}</p>
                 </div>
               </div>
