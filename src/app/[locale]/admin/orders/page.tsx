@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl";
 import { Eye, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
-import { formatPrice } from "@/lib/utils";
+import { PriceDisplay } from "@/components/ui/PriceDisplay";
 import { Link } from "@/i18n";
 import { ArrowUpRight } from "lucide-react";
 
@@ -72,7 +72,7 @@ export default function AdminOrdersPage() {
                     <p className="text-xs text-muted-foreground">{order.email}</p>
                   </td>
                   <td className="px-4 py-3 text-xs">{order.items}</td>
-                  <td className="px-4 py-3 text-sm font-medium">{formatPrice(order.total)}</td>
+                  <td className="px-4 py-3 text-sm font-medium">{<PriceDisplay amount={order.total} />}</td>
                   <td className="px-4 py-3 text-xs text-muted-foreground">
                     {order.sourceMap && Object.keys(order.sourceMap).length > 0 ? (
                       <span className="text-blue-500 text-[10px]">已溯源 {Object.keys(order.sourceMap).length} 项</span>

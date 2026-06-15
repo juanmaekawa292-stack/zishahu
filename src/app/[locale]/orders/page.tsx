@@ -69,7 +69,7 @@ export default function OrdersPage() {
   var router = useRouter();
   var [user, setUser] = useState<any>(null);
   var [loading, setLoading] = useState(true);
-  var [period, setPeriod] = useState("month");
+  var [period, setPeriod] = useState("today");
 
   useEffect(function() {
     var u = getCurrentUser();
