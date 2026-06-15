@@ -14,6 +14,7 @@ interface OrderData {
   id: string;
   items: Array<{ productId: string; quantity: number; product: { title_zhCN: string; price: number } }>;
   address: { name: string; phone: string; street: string; city: string; state: string; zip: string; country: string };
+};
   shippingMethod: string;
   paymentMethod: string;
   subtotal: number;
@@ -23,6 +24,7 @@ interface OrderData {
   status: string;
   createdAt: string;
   sourceMap?: Record<string, { sourceUrl: string; sourceSku?: string }>;
+  trackingNumber?: string;
 }
 
 const STORE: Record<string, OrderData> = {
@@ -73,6 +75,15 @@ export default async function OrderConfirmationPage({ params }: Props) {
         </div>
         <Badge variant={statusInfo.variant}>{statusInfo.label}</Badge>
       </div>
+
+      {order.trackingNumber && (
+        <div className="mb-6 rounded-lg border border-border bg-card p-4">
+          <p className="text-sm text-muted-foreground mb-1">物流信息</p>
+          <a href={"https://www.kuaidi100.com/all/" + order.trackingNumber} target="_blank" className="text-sm text-primary hover:underline font-medium">
+            物流单号: {order.trackingNumber} → 查看物流
+          </a>
+        </div>
+      )}
 
       <div className="mb-6 rounded-lg border border-border bg-card p-6">
         <h2 className="mb-4 text-sm font-medium text-foreground">商品清单</h2>
