@@ -357,7 +357,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
                 {addedToCart ? <><Check className="h-4 w-4 mr-2" /> 已添加</> : <><ShoppingCart className="h-4 w-4 mr-2" /> {t("addToCart")}</>}
               </Button>
               <Button variant="outline" size="lg" className="px-3"><Heart className="h-5 w-5" /></Button>
-            {getCurrentUser()?.role === "admin" && (
+            {isClient && getCurrentUser()?.role === "admin" && (
               <Button size="lg" variant="outline" className="flex-1" onClick={() => window.open("/admin/products", "_blank")}>
                 <Pencil className="h-4 w-4 mr-2" />
                 编辑商品
