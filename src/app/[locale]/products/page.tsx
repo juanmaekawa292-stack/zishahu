@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { Suspense, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
@@ -222,7 +222,7 @@ function ProductsContent() {
         <div
           className={cn(
             viewMode === "grid"
-              ? "grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+              ? "grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
               : "space-y-4"
           )}
         >

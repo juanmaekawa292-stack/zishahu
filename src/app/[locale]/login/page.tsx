@@ -51,14 +51,14 @@ export default function LoginPage() {
           </div>
         )}
         <div>
-          <label className="block text-xs font-medium text-muted-foreground mb-1">{tUser("email")}</label>
+          <label className="block text-xs font-medium text-muted-foreground mb-1">账号/邮箱</label>
           <div className="relative">
             <Mail className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
             <input
-              type="email"
+              type="text"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="your@email.com"
+              placeholder="admin / your@email.com"
               className="w-full rounded-md border border-input bg-background pl-9 pr-4 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-ring"
               required
             />

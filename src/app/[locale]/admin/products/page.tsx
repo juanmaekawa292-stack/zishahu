@@ -5,15 +5,73 @@ import { useRouter } from "next/navigation";
 import { getCurrentUser } from "@/services/auth";
 
 import { useTranslations } from "next-intl";
-import { Plus, Edit, Trash2 } from "lucide-react";
+import { Plus, Edit, Trash2, Pencil } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import { formatPrice } from "@/lib/utils";
 import { products } from "@/data/products";
 import { Link } from "@/i18n";
 
+
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/Dialog";
+
+function EditModal({ product, open, onClose }: { product: any; open: boolean; onClose: () => void }) {
+  const [price, setPrice] = useState(product?.price || 0);
+  const [stock, setStock] = useState(product?.stock || 0);
+  const [inStock, setInStock] = useState(product?.inStock !== false);
+  const [saving, setSaving] = useState(false);
+
+  useEffect(() => {
+    if (product) { setPrice(product.price); setStock(product.stock); setInStock(product.inStock !== false); }
+  }, [product]);
+
+  const save = async () => {
+    setSaving(true);
+    try {
+      const res = await fetch("/api/admin/products", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id: product.id, updates: { price, stock, inStock } }),
+      });
+      const d = await res.json();
+      if (d.success) { alert("保存成功"); onClose(); window.location.reload(); }
+      else alert("保存失败: " + d.error);
+    } catch(e: any) { alert("保存失败: " + e.message); }
+    setSaving(false);
+  };
+
+  return (
+    <Dialog open={open} onOpenChange={(v) => !v && onClose()}>
+      <DialogContent>
+        <DialogHeader><DialogTitle>编辑商品</DialogTitle></DialogHeader>
+        <div className="space-y-4">
+          <p className="text-sm font-medium">{product?.title_zhCN}</p>
+          <div>
+            <label className="text-xs">价格</label>
+            <input type="number" value={price} onChange={e => setPrice(parseFloat(e.target.value)||0)}
+              className="w-full rounded border p-2 text-sm bg-background" step="0.01" />
+          </div>
+          <div>
+            <label className="text-xs">库存</label>
+            <input type="number" value={stock} onChange={e => setStock(parseInt(e.target.value)||0)}
+              className="w-full rounded border p-2 text-sm bg-background" />
+          </div>
+          <label className="flex items-center gap-2 text-sm">
+            <input type="checkbox" checked={inStock} onChange={e => setInStock(e.target.checked)} className="accent-primary" />
+            上架
+          </label>
+          <button onClick={save} disabled={saving}
+            className="w-full rounded bg-primary text-primary-foreground py-2 text-sm font-medium disabled:opacity-50">
+            {saving ? "保存中..." : "保存"}
+          </button>
+        </div>
+      </DialogContent>
+    </Dialog>
+  );
+}
 export default function AdminProductsPage() {
   const router = useRouter();
+  const [editProduct, setEditProduct] = useState<any>(null);
   const [authorized, setAuthorized] = useState(false);
 
   useEffect(() => {
@@ -36,6 +94,7 @@ export default function AdminProductsPage() {
       </div>
 
       <div className="rounded-lg border border-border bg-card overflow-hidden">
+      {editProduct && <EditModal product={editProduct} open={!!editProduct} onClose={() => setEditProduct(null)} />}
         <table className="w-full text-sm">
           <thead className="bg-muted/50">
             <tr className="border-b border-border">

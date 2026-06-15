@@ -48,7 +48,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
               src={product.images[0]}
               alt={product.title_zhCN}
               fill
-              className="object-cover group-hover:scale-105 transition-transform duration-500"
+              className="object-contain bg-muted/30 p-2 group-hover:scale-105 transition-transform duration-500"
               sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
               priority={priority}
             />
@@ -66,6 +66,10 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             <Badge variant="destructive" className="absolute left-2 top-2">
               -{Math.round((1 - product.price / product.originalPrice) * 100)}%
             </Badge>
+          )}
+          
+          {product.sourceSku && (
+            <span className="text-[10px] text-muted-foreground ml-2">#{product.sourceSku}</span>
           )}
           {product.shape && (
             <Badge variant="secondary" className="absolute right-2 top-2">
