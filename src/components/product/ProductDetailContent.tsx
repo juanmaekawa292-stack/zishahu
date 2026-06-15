@@ -295,7 +295,13 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
           )}
 
           <div className="rounded-lg border border-border bg-card p-4 space-y-3">
-            <h3 className="text-sm font-medium text-foreground">{tProduct("specifications")}</h3>
+                      {(product as any).sourceSku && (
+            <p className="text-sm text-muted-foreground mb-3">
+              <span className="text-muted-foreground">货号: </span>
+              <span className="font-medium text-foreground">{(product as any).sourceSku}</span>
+            </p>
+          )}
+<h3 className="text-sm font-medium text-foreground">{tProduct("specifications")}</h3>
             <div className="grid grid-cols-2 gap-2 text-xs">
               {product.specs.capacity && (
                 <div className="flex justify-between border-b border-border/50 pb-1.5">

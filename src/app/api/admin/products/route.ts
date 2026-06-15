@@ -5,39 +5,31 @@ import path from "path";
 export async function PUT(req: NextRequest) {
   try {
     const { id, updates } = await req.json();
-    if (!id || !updates) {
-      return NextResponse.json({ success: false, error: "Missing id or updates" }, { status: 400 });
-    }
+    if (!id || !updates) return NextResponse.json({ success: false, error: "Missing id or updates" }, { status: 400 });
+
     const tsPath = path.join(process.cwd(), "src/data/products.ts");
     let content = fs.readFileSync(tsPath, "utf-8");
-    
-    // Find product entry by ID
+
     const idIdx = content.indexOf('id: "' + id + '"');
-    if (idIdx < 0) {
-      return NextResponse.json({ success: false, error: "Product not found" }, { status: 404 });
-    }
-    
-    // Find entry boundaries: from "  {" before id to "  }," after
+    if (idIdx < 0) return NextResponse.json({ success: false, error: "Product not found" }, { status: 404 });
+
     const entryStart = content.lastIndexOf("  {", idIdx);
     const entryEnd = content.indexOf("  },", idIdx);
-    if (entryStart < 0 || entryEnd < 0) {
-      return NextResponse.json({ success: false, error: "Cannot parse product entry" }, { status: 500 });
-    }
-    
+    if (entryStart < 0 || entryEnd < 0) return NextResponse.json({ success: false, error: "Cannot parse entry" }, { status: 500 });
+
     let entry = content.slice(entryStart, entryEnd + 4);
-    
-    // Apply each update field
+
     for (const [key, value] of Object.entries(updates)) {
       const valStr = typeof value === "string" ? '"' + value + '"' : String(value);
-      const fieldRegex = new RegExp('(' + key + ':\\s*)[^,]+(,)');
-      entry = entry.replace(fieldRegex, '$1' + valStr + '$2');
+      const fieldRegex = new RegExp("(" + key + ':)[^,]+');
+      entry = entry.replace(fieldRegex, "$1 " + valStr);
     }
-    
+
     content = content.slice(0, entryStart) + entry + content.slice(entryEnd + 4);
     fs.writeFileSync(tsPath, content, "utf-8");
-    
+
     return NextResponse.json({ success: true });
-  } catch (e: any) {
-    return NextResponse.json({ success: false, error: e.message }, { status: 500 });
+  } catch (e) {
+    return NextResponse.json({ success: false, error: String(e) }, { status: 500 });
   }
 }

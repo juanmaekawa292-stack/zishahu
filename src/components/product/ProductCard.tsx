@@ -6,7 +6,8 @@ import { useTranslations } from "next-intl";
 import { Heart, Star } from "lucide-react";
 import { Link } from "@/i18n";
 import { Product } from "@/types";
-import { formatPrice, cn } from "@/lib/utils";
+import { cn } from "@/lib/utils";
+import { PriceDisplay } from "@/components/ui/PriceDisplay";
 import { useCartStore } from "@/store/cart";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
@@ -68,9 +69,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             </Badge>
           )}
           
-          {product.sourceSku && (
-            <span className="text-[10px] text-muted-foreground ml-2">#{product.sourceSku}</span>
-          )}
+          
           {product.shape && (
             <Badge variant="secondary" className="absolute right-2 top-2">
               {product.shape}
@@ -99,9 +98,9 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
 
         <div className="flex items-center justify-between">
           <div className="flex items-baseline gap-1.5">
-            <span className="text-base font-bold text-primary">{formatPrice(product.price)}</span>
+            <span className="text-base font-bold text-primary">{<PriceDisplay amount={product.price} />}</span>
             {product.originalPrice && (
-              <span className="text-xs text-muted-foreground line-through">{formatPrice(product.originalPrice)}</span>
+              <span className="text-xs text-muted-foreground line-through">{<PriceDisplay amount={product.originalPrice} />}</span>
             )}
           </div>
           <Button
