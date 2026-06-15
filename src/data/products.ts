@@ -294,7 +294,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5468999596941.webp",
         sku: "5468999596941",
-      }
+      },
       {
         id: "tk-004-v2",
         name_zhCN: "【礼盒】祥龙-仿古壶430ml约430ml",
@@ -304,7 +304,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5852617647184.webp",
         sku: "5852617647184",
-      }
+      },
       {
         id: "tk-004-v3",
         name_zhCN: "祥龙-仿古壶430ml+壶承约430ml",
@@ -314,7 +314,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5468999596942.webp",
         sku: "5468999596942",
-      }
+      },
       {
         id: "tk-004-v4",
         name_zhCN: "祥龙仿古壶+壶承/兰竹2茶杯约430ml",
@@ -324,7 +324,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5769107090333.webp",
         sku: "5769107090333",
-      }
+      },
       {
         id: "tk-004-v5",
         name_zhCN: "[礼盒]-祥龙仿古壶+壶承/兰竹2茶杯约430ml",
@@ -334,7 +334,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5468999596943.webp",
         sku: "5468999596943",
-      }
+      },
       {
         id: "tk-004-v6",
         name_zhCN: "祥龙仿古壶+4君子茶杯约430ml",
@@ -344,7 +344,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5769107090334.webp",
         sku: "5769107090334",
-      }
+      },
       {
         id: "tk-004-v7",
         name_zhCN: "【礼盒】祥龙仿古壶+4君子茶杯约430ml",
@@ -354,7 +354,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5852617647185.webp",
         sku: "5852617647185",
-      }
+      },
       {
         id: "tk-004-v8",
         name_zhCN: "【礼盒】祥龙仿古壶+兰竹2茶杯约430ml",
@@ -364,7 +364,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5852617647186.webp",
         sku: "5852617647186",
-      }
+      },
       {
         id: "tk-004-v9",
         name_zhCN: "祥龙仿古壶+4君子茶杯/壶承约430ml",
@@ -374,7 +374,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5891590635425.webp",
         sku: "5891590635425",
-      }
+      },
       {
         id: "tk-004-v10",
         name_zhCN: "[礼盒]祥龙仿古壶+4君子茶杯/壶承约430ml",
@@ -384,7 +384,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5468999596944.webp",
         sku: "5468999596944",
-      }
+      },
       {
         id: "tk-004-v11",
         name_zhCN: "祥龙仿古壶+6茶杯+壶承约430ml",
@@ -394,7 +394,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5931999082961.webp",
         sku: "5931999082961",
-      }
+      },
       {
         id: "tk-004-v12",
         name_zhCN: "【礼盒装】祥龙仿古壶+6茶杯+壶承约430ml",
@@ -404,7 +404,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5931999082962.webp",
         sku: "5931999082962",
-      }
+      },
       {
         id: "tk-004-v13",
         name_zhCN: "【简装】祥龙仿古壶+木把公道+4君子茶杯约430ml",
@@ -414,7 +414,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5968890067346.webp",
         sku: "5968890067346",
-      }
+      },
       {
         id: "tk-004-v14",
         name_zhCN: "【礼盒】祥龙仿古壶+木把公道+4君子茶杯约430ml",
@@ -424,7 +424,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5968890067347.webp",
         sku: "5968890067347",
-      }
+      },
       {
         id: "tk-004-v15",
         name_zhCN: "【礼盒】祥龙仿古壶+玻璃公道+4君子茶杯约430ml",
@@ -434,7 +434,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5968890067348.webp",
         sku: "5968890067348",
-      }
+      },
       {
         id: "tk-004-v16",
         name_zhCN: "金-喜上眉梢-西施壶430ml约430ml",
@@ -444,7 +444,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5468999596933.webp",
         sku: "5468999596933",
-      }
+      },
       {
         id: "tk-004-v17",
         name_zhCN: "金-喜上眉梢-西施壶+壶承约430ml",
@@ -454,7 +454,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5468999596934.webp",
         sku: "5468999596934",
-      }
+      },
       {
         id: "tk-004-v18",
         name_zhCN: "金-喜上眉梢西施壶+兰竹2茶杯/壶承约430ml",
@@ -464,7 +464,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5468999596935.webp",
         sku: "5468999596935",
-      }
+      },
       {
         id: "tk-004-v19",
         name_zhCN: "金-喜上眉梢西施壶+4君子茶杯约430ml",
@@ -474,7 +474,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5468999596936.webp",
         sku: "5468999596936",
-      }
+      },
       {
         id: "tk-004-v20",
         name_zhCN: "【礼盒】金-喜上眉梢-西施壶430ml约430ml",
@@ -484,7 +484,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5468999596937.webp",
         sku: "5468999596937",
-      }
+      },
       {
         id: "tk-004-v21",
         name_zhCN: "[礼盒]-喜上眉梢西施壶+壶承/兰竹2茶杯约430ml",
@@ -494,7 +494,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5468999596938.webp",
         sku: "5468999596938",
-      }
+      },
       {
         id: "tk-004-v22",
         name_zhCN: "金-喜上眉梢西施壶+4君子茶杯/壶承约430ml",
@@ -504,7 +504,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5468999596939.webp",
         sku: "5468999596939",
-      }
+      },
       {
         id: "tk-004-v23",
         name_zhCN: "[礼盒]喜上眉梢西施壶+4君子茶杯/壶承约430ml",
@@ -514,7 +514,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-004/variant_5468999596940.webp",
         sku: "5468999596940",
-      }
+      },
       {
         id: "tk-004-v24",
         name_zhCN: "【礼盒】大西施壶+玻璃公道+4君子茶杯约430ml",
@@ -586,7 +586,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-005/variant_6218664239077.webp",
         sku: "6218664239077",
-      }
+      },
       {
         id: "tk-005-v2",
         name_zhCN: "300cc单壶礼盒装301mL(含)-400mL(含)",
@@ -596,7 +596,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-005/variant_6218664239078.webp",
         sku: "6218664239078",
-      }
+      },
       {
         id: "tk-005-v3",
         name_zhCN: "350cc单壶礼盒装301mL(含)-400mL(含)",
@@ -606,7 +606,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-005/variant_6218664239079.webp",
         sku: "6218664239079",
-      }
+      },
       {
         id: "tk-005-v4",
         name_zhCN: "200cc四杯礼盒装301mL(含)-400mL(含)",
@@ -616,7 +616,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-005/variant_6218664239080.webp",
         sku: "6218664239080",
-      }
+      },
       {
         id: "tk-005-v5",
         name_zhCN: "300cc四杯礼盒装301mL(含)-400mL(含)",
@@ -626,7 +626,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-005/variant_6218664239081.webp",
         sku: "6218664239081",
-      }
+      },
       {
         id: "tk-005-v6",
         name_zhCN: "350cc四杯礼盒装301mL(含)-400mL(含)",
@@ -636,7 +636,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-005/variant_6218664239082.webp",
         sku: "6218664239082",
-      }
+      },
       {
         id: "tk-005-v7",
         name_zhCN: "200cc两杯+公道杯礼盒装301mL(含)-400mL(含)",
@@ -646,7 +646,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-005/variant_6218664239083.webp",
         sku: "6218664239083",
-      }
+      },
       {
         id: "tk-005-v8",
         name_zhCN: "300cc两杯+公道杯礼盒装301mL(含)-400mL(含)",
@@ -656,7 +656,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-005/variant_6218664239084.webp",
         sku: "6218664239084",
-      }
+      },
       {
         id: "tk-005-v9",
         name_zhCN: "350cc两杯+公道杯礼盒装301mL(含)-400mL(含)",
@@ -729,7 +729,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-006/variant_6218713099208.webp",
         sku: "6218713099208",
-      }
+      },
       {
         id: "tk-006-v2",
         name_zhCN: "景舟范曾仿古-紫泥-285cc",
@@ -811,7 +811,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-007/variant_4922128389856.webp",
         sku: "4922128389856",
-      }
+      },
       {
         id: "tk-007-v2",
         name_zhCN: "套餐二：一壶四杯约220ml",
@@ -821,7 +821,7 @@ export const products: Product[] = [
         stock: 50,
         image: "/images/products/tk-007/variant_4922128389855.webp",
         sku: "4922128389855",
-      }
+      },
       {
         id: "tk-007-v3",
         name_zhCN: "套餐三：一壶六杯+公道杯+茶漏约220ml",
@@ -992,4 +992,4 @@ export const countries = [
   { code: "AR", name_zhCN: "阿根廷", name_zhTW: "阿根廷" },
   { code: "RU", name_zhCN: "俄罗斯", name_zhTW: "俄羅斯" },
 ];
-];
+
