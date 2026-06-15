@@ -7,6 +7,7 @@ import { CreditCard, ChevronRight, MapPin, ShoppingBag } from "lucide-react";
 import { Link } from "@/i18n";
 import { useCartStore } from "@/store/cart";
 import { Button } from "@/components/ui/Button";
+import { PriceDisplay } from "@/components/ui/PriceDisplay";
 import { formatPrice, cn } from "@/lib/utils";
 import { countries } from "@/data/products";
 
@@ -295,7 +296,7 @@ export default function CheckoutPage() {
                   <span className="text-muted-foreground truncate max-w-[160px]">
                     {item.product.title_zhCN} x {item.quantity}
                   </span>
-                  <span className="font-medium">{formatPrice(item.product.price * item.quantity)}</span>
+                  <span className="font-medium">{<PriceDisplay amount={item.product.price * item.quantity} />}</span>
                 </div>
               ))}
             </div>
@@ -303,7 +304,7 @@ export default function CheckoutPage() {
             <div className="border-t border-border pt-3 space-y-2 text-sm">
               <div className="flex justify-between">
                 <span className="text-muted-foreground">{t("subtotal")}</span>
-                <span className="font-medium">{formatPrice(subtotal)}</span>
+                <span className="font-medium">{<PriceDisplay amount={subtotal} />}</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-muted-foreground">{t("shipping")}</span>
@@ -311,12 +312,12 @@ export default function CheckoutPage() {
               </div>
               <div className="flex justify-between">
                 <span className="text-muted-foreground">{t("tax")}</span>
-                <span className="font-medium">{formatPrice(tax)}</span>
+                <span className="font-medium">{<PriceDisplay amount={tax} />}</span>
               </div>
               <div className="border-t border-border pt-2">
                 <div className="flex justify-between text-base">
                   <span className="font-medium text-foreground">{t("total")}</span>
-                  <span className="font-bold text-primary">{formatPrice(total)}</span>
+                  <span className="font-bold text-primary">{<PriceDisplay amount={total} />}</span>
                 </div>
               </div>
             </div>

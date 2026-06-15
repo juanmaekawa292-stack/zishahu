@@ -7,9 +7,10 @@ import { Heart, Minus, Plus, ShoppingCart, Star, Truck, Shield, RefreshCw, Chevr
 import { Product, ProductVariant } from "@/types";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
+import { getCurrentUser } from "@/services/auth";
+import { PriceDisplay } from "@/components/ui/PriceDisplay";
 import { formatPrice, cn } from "@/lib/utils";
 import { useCartStore } from "@/store/cart";
-import { getCurrentUser } from "@/services/auth";
 import { Link } from "@/i18n";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/Dialog";
 
@@ -228,9 +229,9 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
           )}
 
           <div className="flex items-baseline gap-3">
-            <span className="text-3xl font-bold text-primary">{formatPrice(currentPrice)}</span>
+            <span className="text-3xl font-bold text-primary">{<PriceDisplay amount={currentPrice} />}</span>
             {currentOriginalPrice && currentOriginalPrice > currentPrice && (
-              <span className="text-lg text-muted-foreground line-through">{formatPrice(currentOriginalPrice)}</span>
+              <span className="text-lg text-muted-foreground line-through">{<PriceDisplay amount={currentOriginalPrice} />}</span>
             )}
             {selectedVariant && <span className="text-xs text-muted-foreground ml-2">(选: {selectedVariant.name_zhCN})</span>}
           </div>
@@ -260,7 +261,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
                         )}
                       >
                         <span>{v.name_zhCN}</span>
-                        <span className={cn("font-medium", isSelected ? "text-primary" : "text-muted-foreground")}>{formatPrice(v.price)}</span>
+                        <span className={cn("font-medium", isSelected ? "text-primary" : "text-muted-foreground")}>{<PriceDisplay amount={v.price} />}</span>
                         {isSelected && <Check className="h-3 w-3 shrink-0" />}
                         {v.image && (
                           <button
@@ -287,7 +288,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
                   </div>
                   <div className="text-xs">
                     <p className="font-medium text-foreground">{selectedVariant.name_zhCN}</p>
-                    <p className="text-primary font-medium">{formatPrice(selectedVariant.price)}</p>
+                    <p className="text-primary font-medium">{<PriceDisplay amount={selectedVariant.price} />}</p>
                   </div>
                 </div>
               )}
@@ -411,7 +412,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
               </div>
               <div className="space-y-2">
                 <h4 className="font-medium text-foreground">{previewVariant.name_zhCN}</h4>
-                <p className="text-lg font-bold text-primary">{formatPrice(previewVariant.price)}</p>
+                <p className="text-lg font-bold text-primary">{<PriceDisplay amount={previewVariant.price} />}</p>
                 {previewVariant.stock > 0 ? (
                   <p className="text-xs text-emerald-600">有货 ({previewVariant.stock} 件)</p>
                 ) : (
