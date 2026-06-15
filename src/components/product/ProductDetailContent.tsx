@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect, useCallback, useMemo } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { Heart, Minus, Plus, ShoppingCart, Star, Truck, Shield, RefreshCw, ChevronLeft, ChevronRight, Share2, Check, X, ZoomIn } from "lucide-react";
+import { Heart, Minus, Plus, ShoppingCart, Star, Truck, Shield, RefreshCw, ChevronLeft, ChevronRight, Share2, Check, X, ZoomIn, Pencil } from "lucide-react";
 import { Product, ProductVariant } from "@/types";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
@@ -357,6 +357,12 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
                 {addedToCart ? <><Check className="h-4 w-4 mr-2" /> 已添加</> : <><ShoppingCart className="h-4 w-4 mr-2" /> {t("addToCart")}</>}
               </Button>
               <Button variant="outline" size="lg" className="px-3"><Heart className="h-5 w-5" /></Button>
+            {getCurrentUser()?.role === "admin" && (
+              <Button size="lg" variant="outline" className="flex-1" onClick={() => window.open("/admin/products", "_blank")}>
+                <Pencil className="h-4 w-4 mr-2" />
+                编辑商品
+              </Button>
+            )}
               <Button variant="outline" size="lg" className="px-3"><Share2 className="h-5 w-5" /></Button>
             </div>
           </div>
