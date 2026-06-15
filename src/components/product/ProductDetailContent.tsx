@@ -8,7 +8,6 @@ import { Product, ProductVariant } from "@/types";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import { getCurrentUser } from "@/services/auth";
-import { PriceDisplay } from "@/components/ui/PriceDisplay";
 import { formatPrice, cn } from "@/lib/utils";
 import { useCartStore } from "@/store/cart";
 import { Link } from "@/i18n";

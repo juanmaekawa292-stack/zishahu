@@ -3,7 +3,6 @@ import Link from "next/link";
 import { CheckCircle, Package, MapPin, CreditCard } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
-import { PriceDisplay } from "@/components/ui/PriceDisplay";
 import { formatPrice } from "@/lib/utils";
 
 interface Props {

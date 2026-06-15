@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { getCurrentUser } from "@/services/auth";
-import { PriceDisplay } from "@/components/ui/PriceDisplay";
 import { Link } from "@/i18n";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";

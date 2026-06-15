@@ -7,7 +7,6 @@ import { Heart, Star } from "lucide-react";
 import { Link } from "@/i18n";
 import { Product } from "@/types";
 import { cn } from "@/lib/utils";
-import { PriceDisplay } from "@/components/ui/PriceDisplay";
 import { useCartStore } from "@/store/cart";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
@@ -98,9 +97,9 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
 
         <div className="flex items-center justify-between">
           <div className="flex items-baseline gap-1.5">
-            <span className="text-base font-bold text-primary">{<PriceDisplay amount={product.price} />}</span>
+            <span className="text-base font-bold text-primary">{"$" + Number(product.price).toFixed(2)}</span>
             {product.originalPrice && (
-              <span className="text-xs text-muted-foreground line-through">{<PriceDisplay amount={product.originalPrice} />}</span>
+              <span className="text-xs text-muted-foreground line-through">{"$" + Number(product.originalPrice).toFixed(2)}</span>
             )}
           </div>
           <Button
