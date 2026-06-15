@@ -7,8 +7,9 @@ import { Heart, Minus, Plus, ShoppingCart, Star, Truck, Shield, RefreshCw, Chevr
 import { Product, ProductVariant } from "@/types";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
+import { useCurrency } from "@/hooks/useCurrency";
 import { getCurrentUser } from "@/services/auth";
-import { formatPrice, cn } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 import { useCartStore } from "@/store/cart";
 import { Link } from "@/i18n";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/Dialog";

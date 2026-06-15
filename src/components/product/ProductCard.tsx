@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Heart, Star } from "lucide-react";
+import { useCurrency } from "@/hooks/useCurrency";
 import { Link } from "@/i18n";
 import { Product } from "@/types";
 import { cn } from "@/lib/utils";
@@ -19,6 +20,8 @@ interface ProductCardProps {
 }
 
 export function ProductCard({ product, priority = false }: ProductCardProps) {
+  var _c = useCurrency();
+  var _format = _c.format;
   const t = useTranslations("common");
   const addItem = useCartStore((s) => s.addItem);
   const [showLoginPrompt, setShowLoginPrompt] = useState(false);
