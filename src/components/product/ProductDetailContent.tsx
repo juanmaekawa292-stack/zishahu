@@ -357,7 +357,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
               </Button>
               <Button variant="outline" size="lg" className="px-3"><Heart className="h-5 w-5" /></Button>
             {isClient && getCurrentUser()?.role === "admin" && (
-              <Button size="lg" variant="outline" className="flex-1" onClick={() => window.open("/admin/products", "_blank")}>
+              <Button size="lg" variant="outline" className="flex-1" onClick={function() { window.localStorage.setItem("zisha-edit-product-id", product.id); window.open("/admin/products", "_blank"); }}>
                 <Pencil className="h-4 w-4 mr-2" />
                 编辑商品
               </Button>

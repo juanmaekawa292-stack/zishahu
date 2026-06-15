@@ -51,7 +51,16 @@ export default function AdminProductsPage() {
     var user = getCurrentUser();
     if (!user || user.role !== "admin") { router.push("/login"); }
     else { setAuthorized(true); }
-  }, [router]);
+  }, [router])
+
+  useEffect(function() {
+    var pid = window.localStorage.getItem("zisha-edit-product-id");
+    if (pid) {
+      window.localStorage.removeItem("zisha-edit-product-id");
+      var prod = products.find(function(p) { return p.id === pid; });
+      if (prod) setEditProduct(prod);
+    }
+  }, []);;
 
   if (!authorized) return React.createElement("div", { className: "flex items-center justify-center min-h-\[60vh\]" }, React.createElement("div", { className: "animate-spin w-8 h-8 border-4 border-primary border-t-transparent rounded-full" }));
 
