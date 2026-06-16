@@ -1,0 +1,112 @@
+
+========================================
+  紫砂壶上架工具 v2.0 (Python)
+  Running on http://localhost:4567
+========================================
+
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[HTTP] "GET / HTTP/1.1" 200 -
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[HTTP] "POST /api/scan-custom HTTP/1.1" 200 -
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\0615\00_大容量430ml西施壶描金紫砂壶茶杯一壶二四杯礼盒装企业礼品定制\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\0615\00_2026新款泡茶壶紫砂壶正宗宜兴原矿紫泥仿古壶单壶功夫茶具套装\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\0615\00_百年利永 宜兴原矿紫砂壶纯手工泡茶壶功夫茶具套装底槽青仿古壶\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\0615\00_古悦堂宜兴名家紫砂壶 纯手工功夫茶壶茶具套装泡茶壶如意西施壶\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\0615\00_戴晨光宜兴纯手工紫砂壶原矿老紫泥紫砂茶具家用泡茶西施壶220ml\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[HTTP] "POST /api/auto-upload HTTP/1.1" 200 -
+[HTTP] "GET /api/scan HTTP/1.1" 200 -
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[HTTP] "GET / HTTP/1.1" 200 -
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[HTTP] "GET / HTTP/1.1" 200 -
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[HTTP] "GET / HTTP/1.1" 200 -
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[HTTP] "GET /favicon.ico HTTP/1.1" 404 -
+[HTTP] "GET / HTTP/1.1" 200 -
+[HTTP] "GET / HTTP/1.1" 200 -
+[HTTP] "GET / HTTP/1.1" 200 -
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[HTTP] "GET / HTTP/1.1" 200 -
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[HTTP] "POST /api/scan-custom HTTP/1.1" 200 -
+[HTTP] "GET /api/status HTTP/1.1" 200 -
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\14_宜兴正品茶具纯手工茶壶泡茶家用新款紫砂壶送长辈领导新年生日礼\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\02_古悦堂纯手工紫砂茶杯高档个人专用主人杯礼盒装送礼功夫茶具套装\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\71_古悦堂 宜兴原矿紫砂红茶普洱储茶罐收纳密封醒茶罐 山河茶叶罐\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\27_古悦堂 宜兴原矿紫砂壶煮茶功夫小茶壶单壶西施壶茶具 呈祥献瑞\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\61_古悦堂 宜兴紫砂红茶普洱储茶罐收纳密封醒茶罐 吉祥如意茶叶罐\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\06_宜兴纯手工泡茶壶2026新款家用紫砂壶正品茶具送老外客户商务礼物\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\02_宜兴紫砂壶纯手工正品泡茶壶个人专用功夫茶具送客户朋友新年礼物\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\10_宜兴紫砂纯手工泡茶专用茶壶2026新款紫砂壶功夫茶具单壶平盖石瓢\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\36_宜兴紫砂纯手工茶壶新款礼盒装一壶四杯送礼功夫茶具套装紫泥德钟\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\06_宜兴纯手工紫砂壶家用泡茶单壶正品茶具紫砂壶2026新款送朋友老师\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\09_古悦堂 宜兴紫砂壶旗舰店纯手工正品家用泡茶壶鲍英底槽清 满石瓢\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\09_古悦堂宜兴紫砂壶套装纯手工正宗送礼茶壶功夫茶具泡茶大曲壶礼盒\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\12_耀州窑陶瓷壶承家用干泡台养壶储水式茶盘高档茶具配件茶托盘壶垫\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\46_古悦堂 宜兴紫砂壶纯全手工家用泡茶壶茶具套装 大号紫茄泥秦权壶\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\00_古悦堂宜兴紫砂壶套装纯手工正宗送礼茶壶功夫茶具泡茶大曲壶礼盒\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\39_古悦堂 宜兴紫砂壶 纯全手工家用功夫茶壶茶具套装 段泥鸟趣石瓢\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\35_古悦堂 宜兴原矿紫砂壶纯手工家用泡茶壶功夫茶具套装 大红袍掇球\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\25_古悦堂 宜兴紫砂壶纯全手工家用泡茶壶茶具套装 大号紫茄泥仿古壶\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\08_宜兴紫砂壶纯手工茶壶泡茶一人饮茶具2026新款送客户领导商务礼物\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\14_古悦堂宜兴名家紫砂壶 纯全手工正品原矿老紫泥汉棠石瓢壶大品\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\08_古悦堂 宜兴紫砂壶 纯手工大容量茶壶茶具套装 家用紫泥祥龙云肩\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\54_古悦堂 宜兴原矿紫砂壶纯全手工家用泡茶壶功夫茶具茶器 吉庆龙蛋\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\10_古悦堂纯手工紫砂壶正品茶壶泡茶家用茶具套装送朋友长辈节日礼物\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\00_古悦堂 宜兴紫砂壶名家全手工正品茶壶茶具套装四方壶 绿泥真龙壶\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\11_宜兴紫砂壶纯手工茶壶泡茶一人饮茶具2026新款送客户领导商务礼物\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\07_古悦堂宜兴名家紫砂壶纯全手工茶壶家用茶具原矿老紫泥扁腹壶\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\00_耀州窑陶瓷高足碗客厅茶几家用茶点果盘精致高颜值零食盘茶具配件\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\07_宜兴纯手工泡茶壶家用正品茶具2026新款紫砂壶送长辈老师退休礼物\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\69_古悦堂 宜兴原矿紫砂三才盖碗全手工高档功夫茶具敬茶杯寿桃盖碗\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\07_古悦堂纯手工泡茶单壶2026新款紫砂壶家用茶具送父亲长辈寿宴礼物\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\07_古悦堂 宜兴原矿紫砂壶名家纯手工泡茶壶茶具套装家用 一品竹段壶\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\11_宜兴紫砂壶纯手工茶壶泡茶大容量茶具2026新款送客户领导商务礼物\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\29_古悦堂宜兴紫砂壶纯手工泡茶壶一人用功夫茶具小壶大红袍朝阳掇只\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\09_古悦堂马到成功平盖景舟石瓢纯手工茶壶宜兴紫砂壶德钟套装送客户\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\40_古悦堂 宜兴紫砂壶纯手工泡茶壶迷你一人用功夫茶具 大红袍高潘壶\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\38_古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶迷你正品茶具套装 春华思亭\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\49_古悦堂 宜兴原矿紫砂壶 纯手工泡茶壶茶具套装 大红袍掇球壶\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\03_古悦堂紫砂普洱茶叶罐茶叶专用储存罐高档茶具便携手工泥绘醒茶罐\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\15_古悦堂 宜兴紫砂茶宠摆件精品 可养手工茶玩茶具茶桌配件福猪茶宠\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\64_宜兴紫砂壶纯手工家用泡茶壶新款个人专用小容量功夫单壶柴烧德钟\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\19_古悦堂 宜兴紫砂壶纯全手工家用泡茶壶茶具套装 大号紫茄泥石瓢壶\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\68_古悦堂 宜兴紫砂杯全手工紫砂家用茶杯办公泡茶杯大红袍 福寿盖杯\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\73_古悦堂手工茶具个人专用喝茶茶杯高档紫砂带把主人杯办公室咖啡杯\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\16_宜兴紫砂壶纯手工泡茶壶家用大容量茶具2026新款送领导长辈生日礼\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\00_古悦堂马到成功平盖石瓢纯手工茶壶宜兴紫砂壶泡茶家用套装送客户\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\59_古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶正品家用茶具套装 承香汉瓦\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\04_古悦堂纯手工紫砂盖杯大容量泡茶杯办公室喝茶杯个人专用山水盖杯\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\15_古悦堂 宜兴原矿紫砂杯泡茶杯过滤内胆紫砂盖杯知足常乐隔舱杯\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\37_古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶迷你正品茶具套装 素华容天\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\48_宜兴紫砂壶纯手工一人用茶具2026新款泡茶壶家用功夫小壶柴烧汉瓦\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\01_宜兴纯手工茶具个人专用茶壶泡茶家用正品单壶送朋友领导生日礼物\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\00_宜兴紫砂茶具纯手工泡茶壶正品紫砂壶一人用小壶送领导朋友商务礼\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\17_古悦堂 宜兴紫砂壶名家纯手工功夫茶壶茶具家用套装 底槽清高石瓢\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\18_宜兴紫砂旅行茶具快客杯一人饮便携式套装办公室户外露营泡茶茶杯\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\02_宜兴纯手工紫砂壶泡茶家用正品茶壶2026新款送父亲长辈身体礼物\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\06_古悦堂 宜兴原矿紫砂壶 纯手工茶壶茶具套装家用 紫泥景舟石瓢壶\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\07_宜兴紫砂壶纯手工家用泡茶壶正品茶具2026新款送长辈老师退休礼物\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\06_古悦堂 宜兴紫砂壶纯全手工茶具掌柜亲制底槽清如意西施描金款\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\20_古悦堂 宜兴紫砂杯纯手工办公泡茶杯家用大容量个人杯 无为盖杯\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\34_宜兴紫砂纯手工泡茶专用壶2026新款送礼茶具套装一壶四杯梅花汉瓦\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\14_古悦堂 宜兴原矿紫泥紫砂壶纯全手工泡茶壶中式功夫茶具 莲花西施\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\08_古悦堂 宜兴紫砂壶纯手工家藏原矿泡茶壶套装功夫茶具 大红袍德钟\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\09_宜兴原矿紫砂壶纯手工泡茶壶新款茶具一人用小壶送客户商务伴手礼\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\58_古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶朱泥正品茶具套装 芳影仿古\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\17_古悦堂 宜兴紫砂壶 日式茶具侧把茶壶全手工正品 紫泥横把唐羽壶\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\22_古悦堂 宜兴名家紫砂壶 纯手工家用泡茶壶功夫茶具套装 行云四方\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\06_宜兴紫砂壶纯手工正品泡茶壶家用高档茶具送长辈领导老师退休礼物\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\09_古悦堂宜兴紫砂壶纯全手工泡茶壶家用功夫茶具茶壶送礼茶具西施壶\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\09_古悦堂 宜兴原矿紫砂壶纯手工泡茶壶家用功夫茶具 紫茄泥清风石瓢\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\60_古悦堂宜兴紫砂杯全手工紫砂茶杯家用盖杯办公泡茶杯紫泥春竹盖杯\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\67_古悦堂 宜兴紫砂壶纯手工泡茶壶迷你一人独饮茶具单壶 大红袍仿古\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels
+[ERROR] 转换图片失败 D:\图快下载器\淘宝采集\616\18_古悦堂 宜兴名家正品紫砂壶纯全手工小品茶壶小容量 大红袍龙蛋壶\detailLong.jpg: encoding error 5: Image size exceeds WebP limit of 16383 pixels

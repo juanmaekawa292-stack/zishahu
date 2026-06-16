@@ -12,10 +12,23 @@ export interface ProductVariant {
 }
 
 export interface ProductSpecs {
+  [key: string]: string | undefined;
   capacity?: string;
   clay?: string;
   craft?: string;
   dimensions?: string;
+  material?: string;
+  origin?: string;
+  handmade?: string;
+  firingType?: string;
+  scenario?: string;
+  cleaning?: string;
+  packaging?: string;
+  kiln?: string;
+  year?: string;
+  color?: string;
+  suitableTea?: string;
+  shapeType?: string;
 }
 
 export interface ShippingInfo {
