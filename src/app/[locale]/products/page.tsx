@@ -3,7 +3,7 @@
 import { Suspense, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
-import { Search, SlidersHorizontal, ChevronDown, Grid3X3, LayoutList } from "lucide-react";
+import { Search, SlidersHorizontal, ChevronDown, Grid3X3, LayoutList, ChevronLeft, ChevronRight } from "lucide-react";
 import { ProductCard } from "@/components/product/ProductCard";
 import { products, categories } from "@/data/products";
 import { Button } from "@/components/ui/Button";
@@ -262,7 +262,8 @@ function ProductsContent() {
             disabled={currentPage <= 1}
             onClick={() => updateSearchParam("page", String(currentPage - 1))}
           >
-            ←
+            <ChevronLeft className="h-4 w-4" />
+            <span className="ml-1 hidden sm:inline">上一页</span>
           </Button>
           {Array.from({ length: totalPages }, (_, i) => i + 1)
             .filter((page) => {
@@ -295,7 +296,8 @@ function ProductsContent() {
             disabled={currentPage >= totalPages}
             onClick={() => updateSearchParam("page", String(currentPage + 1))}
           >
-            →
+            <span className="mr-1 hidden sm:inline">下一页</span>
+            <ChevronRight className="h-4 w-4" />
           </Button>
         </div>
       )}
