@@ -224,6 +224,54 @@ function ProductsContent() {
         </div>
       </div>
 
+                  {totalPages > 1 && (
+        <div className="mt-6 flex items-center justify-center gap-2">
+          <Button
+            variant="outline"
+            size="sm"
+            disabled={currentPage <= 1}
+            onClick={() => updateSearchParam("page", String(currentPage - 1))}
+          >
+            <ChevronLeft className="h-4 w-4" />
+            <span className="ml-1 hidden sm:inline">上一页</span>
+          </Button>
+          {Array.from({ length: totalPages }, (_, i) => i + 1)
+            .filter((page) => {
+              if (totalPages <= 7) return true;
+              if (page === 1 || page === totalPages) return true;
+              if (Math.abs(page - currentPage) <= 1) return true;
+              return false;
+            })
+            .map((page, idx, arr) => (
+              <span key={page} className="contents">
+                {idx > 0 && arr[idx - 1] !== page - 1 && (
+                  <span className="px-1 text-muted-foreground">...</span>
+                )}
+                <button
+                  onClick={() => updateSearchParam("page", String(page))}
+                  className={cn(
+                    "h-8 w-8 rounded-md text-xs font-medium transition-colors",
+                    currentPage === page
+                      ? "bg-primary text-primary-foreground"
+                      : "text-muted-foreground hover:text-foreground hover:bg-muted"
+                  )}
+                >
+                  {page}
+                </button>
+              </span>
+            ))}
+          <Button
+            variant="outline"
+            size="sm"
+            disabled={currentPage >= totalPages}
+            onClick={() => updateSearchParam("page", String(currentPage + 1))}
+          >
+            <span className="mr-1 hidden sm:inline">下一页</span>
+            <ChevronRight className="h-4 w-4" />
+          </Button>
+        </div>
+      )}
+
       {paginatedProducts.length > 0 ? (
         <div
           className={cn(
