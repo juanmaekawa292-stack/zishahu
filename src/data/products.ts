@@ -1,6 +1,8 @@
 import { Product } from "@/types";
 
-export const products = [
+export const products: Product[] = [
+  // @ts-ignore
+
   {
     id: "tk-001",
     slug: "2026xinkuanpaochahuzishahuzhengzongyixingyuankuangzinifangguhuhufuchajutaozhuang",
@@ -6684,7 +6686,8 @@ export const products = [
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
     specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
   },
-];
+] as Product[];
+
 
 
 export const categories = [

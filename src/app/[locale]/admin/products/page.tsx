@@ -57,7 +57,7 @@ export default function AdminProductsPage() {
     var pid = window.localStorage.getItem("zisha-edit-product-id");
     if (pid) {
       window.localStorage.removeItem("zisha-edit-product-id");
-      var prod = products.find(function(p) { return p.id === pid; });
+      var prod = products.find(function(p) { return p && p.id === pid; });
       if (prod) setEditProduct(prod);
     }
   }, []);;

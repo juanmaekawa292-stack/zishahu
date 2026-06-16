@@ -16,7 +16,7 @@ const BASE_URL = "https://zisha.hu";
  ];
  
  export default function sitemap(): MetadataRoute.Sitemap {
-   const productPages = products.map((product) => ({
+   const productPages = products.filter(Boolean).map((product) => ({
      url: `${BASE_URL}/${product.slug}`,
      lastModified: product.createdAt,
      changeFrequency: "weekly" as const,
@@ -46,7 +46,7 @@ const BASE_URL = "https://zisha.hu";
         },
   }));
 
-  const blogPages = blogPosts.map((post) => ({
+  const blogPages = blogPosts.filter(Boolean).map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}`,
     lastModified: post.createdAt,
     changeFrequency: "weekly" as const,
