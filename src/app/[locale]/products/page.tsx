@@ -17,7 +17,7 @@ const SORT_OPTIONS = [
   { key: "rating", labelKey: "rating" },
 ] as const;
 
-const ITEMS_PER_PAGE = 12;
+const ITEMS_PER_PAGE = 9;
 
 export default function ProductsPage() {
   return (
@@ -43,7 +43,10 @@ function ProductsContent() {
   const currentPage = parseInt(searchParams.get("page") || "1", 10);
   const currentShape = searchParams.get("shape") || "all";
 
-  const filteredProducts = useMemo(() => {
+    // Direct reference to prevent tree-shaking
+  const _productCount = products.length;
+
+const filteredProducts = useMemo(() => {
     let result = [...products];
 
    if (currentCategory !== "all") {
