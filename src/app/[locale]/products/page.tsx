@@ -227,7 +227,7 @@ function ProductsContent() {
               : "space-y-4"
           )}
         >
-          {paginatedProducts.map((product) => (
+          {paginatedProducts.filter(Boolean).map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
