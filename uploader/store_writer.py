@@ -56,7 +56,7 @@ def generate_product_entry(p):
             lines.append(f'        image: "{v.get("image","")}",')
             if v.get("sku"):
                 lines.append(f'        sku: "{v["sku"]}",')
-            lines.append("      }")
+            lines.append("      },")
         vars_ts = "    variants: [\n" + "\n".join(lines) + "\n    ],"
 
     # Specs
