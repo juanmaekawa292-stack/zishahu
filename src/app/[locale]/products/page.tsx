@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { Search, SlidersHorizontal, ChevronDown, Grid3X3, LayoutList } from "lucide-react";
 import { ProductCard } from "@/components/product/ProductCard";
-import { products, categories, shapes } from "@/data/products";
+import { products, categories } from "@/data/products";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 
@@ -83,6 +83,12 @@ function ProductsContent() {
 
     return result;
  }, [currentCategory, currentSort, searchQuery, currentShape]);
+
+  const dynamicShapes = useMemo(() => {
+    const seen = new Set<string>();
+    products.forEach(p => { if (p.shape) seen.add(p.shape); });
+    return Array.from(seen).map(s => ({ key: s }));
+  }, [products]);
 
   const totalPages = Math.ceil(filteredProducts.length / ITEMS_PER_PAGE);
   const paginatedProducts = filteredProducts.slice(
@@ -201,7 +207,7 @@ function ProductsContent() {
         </div>
 
         <div className="flex flex-wrap gap-2">
-          {shapes.map((shape) => (
+          {dynamicShapes.map((shape) => (
             <button
               key={shape.key}
               onClick={() => updateSearchParam("shape", shape.key)}
