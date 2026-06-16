@@ -25,3 +25,49 @@
 - ✅ 水印检测完成
 - ⏳ 等待P图（已告知老板P图清单和流程）
 - ⏳ P图完成后处理：格式转换→商品数据→上架同步
+## 2026-06-17 开发环境就绪 + 数据修复
+
+### 完成事项
+- ✅ 确认开发服务器运行在 localhost:4001
+- ✅ 修复 products.ts 中 tk-446 不完整条目（语法错误导致首页500）
+- ✅ 验证所有关键路由正常返回200
+- ✅ 确认商品数据结构与 Product API 兼容
+- ✅ 确认 product-ops API 可用
+- ✅ 读取 AGENTS.md + Next.js 16 文档了解breaking changes
+
+### 服务器状态
+| 路由 | 状态 | 说明 |
+|------|------|------|
+| / (home) | 200 | 重定向到 /zh-CN |
+| /zh-CN | 200 | 首页正常 |
+| /zh-CN/products | 200 | 商品列表页 |
+| /api/product-ops | 200 | 商品运营API |
+
+### 商品数据概览
+| 项目 | 数值 |
+|------|------|
+| 商品总数 | 199 款（含2个已上架） |
+| 已上架(featured) | tk-001 归兽壶, tk-002 石瓢壶 |
+| 定价低于阈值(<150元) | 93 款 |
+| 缺少 specs 字段 | 大量（自动采集产物） |
+| 不完整条目 | tk-446（已修复） |
+| 数据目录 | data/raw_products/, data/processed_products/ |
+
+### API状态
+- **GET /api/product-ops** — 返回统计: 33 条原始数据, 25 条已处理, 7 个CSV导出, 25 条待审核
+- **POST /api/product-ops/process** — 运行处理脚本生成CSV
+- **PUT /api/admin/products** — 支持更新特定商品字段（字符串替换方式）
+
+### Vercel
+- 项目已关联 (projectId: prj_7JpRklPvVCpo4e5lgKIow5sdgy9f, orgId: team_XaD44c9QZI9Q6J2pM32uyIM8)
+- next.config.ts 无 output/standalone 配置
+- 域名 zishapro.com DNS已解析到Vercel
+- 尚未部署
+
+### AGENTS.md 提示
+- Next.js 16.2.9 有 breaking changes:
+  - params 现在是 Promise，使用时需要 await
+  - dynamic/revalidate/fetchCache 路由段配置已移除（使用 Cache Components 时）
+  - experimental_ppr 已移除
+- 修改代码前要读 Next.js 16 docs
+- 下次修改需记录到本文件

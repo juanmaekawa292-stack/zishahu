@@ -15219,8 +15219,6 @@ export const products = [
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
     specs: {},
   },
-  {
-    id: "tk-446",
 ];
 
 
