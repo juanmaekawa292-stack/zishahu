@@ -32,7 +32,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "301mL(含)-400mL(含)", clay: "紫泥", craft: "手工" },
   },,
   {
     id: "tk-002",
@@ -67,7 +67,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约220ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-003",
@@ -102,7 +102,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约430ml", clay: "紫泥", craft: "原矿 沉雕 刻绘" },
   },,
   {
     id: "tk-004",
@@ -137,7 +137,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "201mL(含)-300mL(含)", clay: "家藏老紫泥", craft: "手工 传统工艺" },
   },,
   {
     id: "tk-005",
@@ -172,7 +172,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "紫砂", craft: "手工" },
   },,
   {
     id: "tk-006",
@@ -207,7 +207,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "260ml", clay: "紫泥", craft: "纯手工" },
   },,
   {
     id: "tk-007",
@@ -242,7 +242,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "201mL(含)-300mL(含)", clay: "紫砂", craft: "手工" },
   },,
   {
     id: "tk-008",
@@ -277,7 +277,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约220ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-009",
@@ -312,7 +312,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约300ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-010",
@@ -347,7 +347,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫泥", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-011",
@@ -382,7 +382,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "110ml", clay: "瓷" },
   },,
   {
     id: "tk-012",
@@ -417,7 +417,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约400ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-013",
@@ -452,7 +452,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "朱泥款70ml/紫泥款100ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-014",
@@ -487,7 +487,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-015",
@@ -522,7 +522,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约130ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-016",
@@ -592,7 +592,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约375mL", clay: "紫砂" },
   },,
   {
     id: "tk-018",
@@ -627,7 +627,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约120ml", clay: "紫砂", craft: "泥绘" },
   },,
   {
     id: "tk-019",
@@ -662,7 +662,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "紫砂" },
   },,
   {
     id: "tk-020",
@@ -697,7 +697,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 刻绘 彩绘" },
   },,
   {
     id: "tk-021",
@@ -732,7 +732,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约320ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-022",
@@ -767,7 +767,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "101mL(含)-200mL(含)", clay: "天星泥", craft: "原矿 手工 柴烧" },
   },,
   {
     id: "tk-023",
@@ -802,7 +802,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约70~90ml", clay: "紫砂" },
   },,
   {
     id: "tk-024",
@@ -837,7 +837,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约150ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-025",
@@ -872,7 +872,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "紫砂" },
   },,
   {
     id: "tk-026",
@@ -907,7 +907,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约210ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-027",
@@ -942,7 +942,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约220ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-028",
@@ -977,7 +977,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约80ml", clay: "紫砂" },
   },,
   {
     id: "tk-029",
@@ -1012,7 +1012,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约170ml", clay: "朱泥", craft: "光素" },
   },,
   {
     id: "tk-030",
@@ -1047,7 +1047,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约320ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-031",
@@ -1082,7 +1082,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约160ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-032",
@@ -1117,7 +1117,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "陶瓷" },
   },,
   {
     id: "tk-033",
@@ -1152,7 +1152,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约250ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-034",
@@ -1187,7 +1187,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-035",
@@ -1222,7 +1222,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-036",
@@ -1257,7 +1257,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 光素 刻绘 手工" },
   },,
   {
     id: "tk-037",
@@ -1292,7 +1292,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "小号约200ml/大号约300ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-038",
@@ -1327,7 +1327,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "300ml" },
   },,
   {
     id: "tk-039",
@@ -1362,7 +1362,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "手工" },
   },,
   {
     id: "tk-040",
@@ -1397,7 +1397,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约130ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-041",
@@ -1432,7 +1432,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约280ml", clay: "紫砂" },
   },,
   {
     id: "tk-042",
@@ -1467,7 +1467,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约240ml", clay: "紫砂" },
   },,
   {
     id: "tk-043",
@@ -1502,7 +1502,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-044",
@@ -1537,7 +1537,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约450ml", clay: "紫砂" },
   },,
   {
     id: "tk-045",
@@ -1572,7 +1572,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约180ml", clay: "紫砂", craft: "柴烧" },
   },,
   {
     id: "tk-046",
@@ -1607,7 +1607,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约160ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-047",
@@ -1642,7 +1642,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约170ml", clay: "朱泥", craft: "光素" },
   },,
   {
     id: "tk-048",
@@ -1677,7 +1677,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200mL", clay: "紫砂" },
   },,
   {
     id: "tk-049",
@@ -1712,7 +1712,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约190ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-050",
@@ -1747,7 +1747,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约210ml", clay: "紫砂", craft: "柴烧" },
   },,
   {
     id: "tk-051",
@@ -1782,7 +1782,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "柴烧" },
   },,
   {
     id: "tk-052",
@@ -1817,7 +1817,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-053",
@@ -1852,7 +1852,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-054",
@@ -1887,7 +1887,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "101mL(含)-200mL(含)", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-055",
@@ -1922,7 +1922,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约150ml", clay: "紫砂", craft: "柴烧" },
   },,
   {
     id: "tk-056",
@@ -1957,7 +1957,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约260ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-057",
@@ -1992,7 +1992,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约220ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-058",
@@ -2027,7 +2027,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "刻绘" },
   },,
   {
     id: "tk-059",
@@ -2062,7 +2062,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "黑泥", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-060",
@@ -2097,7 +2097,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "柴烧" },
   },,
   {
     id: "tk-061",
@@ -2132,7 +2132,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约280ml", clay: "紫砂", craft: "刻绘" },
   },,
   {
     id: "tk-062",
@@ -2167,7 +2167,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-063",
@@ -2202,7 +2202,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "120ml", clay: "陶瓷" },
   },,
   {
     id: "tk-064",
@@ -2237,7 +2237,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约260ml", clay: "紫砂", craft: "原矿 贴花 手工" },
   },,
   {
     id: "tk-065",
@@ -2272,7 +2272,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-066",
@@ -2307,7 +2307,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约230ml-250ml", clay: "紫泥", craft: "原矿 光素 刻绘 手工" },
   },,
   {
     id: "tk-067",
@@ -2342,7 +2342,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约270ml", clay: "紫砂", craft: "刻绘" },
   },,
   {
     id: "tk-068",
@@ -2377,7 +2377,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约225ml", clay: "紫泥", craft: "原矿 手工" },
   },,
   {
     id: "tk-069",
@@ -2412,7 +2412,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-070",
@@ -2447,7 +2447,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-071",
@@ -2482,7 +2482,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-072",
@@ -2517,7 +2517,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约320ml", clay: "紫泥", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-073",
@@ -2552,7 +2552,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-074",
@@ -2622,7 +2622,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-076",
@@ -2657,7 +2657,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约190ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-077",
@@ -2692,7 +2692,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约270ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-078",
@@ -2727,7 +2727,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约130ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-079",
@@ -2762,7 +2762,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约120ml", clay: "紫砂", craft: "刻绘" },
   },,
   {
     id: "tk-080",
@@ -2797,7 +2797,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "紫砂" },
   },,
   {
     id: "tk-081",
@@ -2832,7 +2832,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-082",
@@ -2867,7 +2867,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约280ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-083",
@@ -2902,7 +2902,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约400ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-084",
@@ -2937,7 +2937,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-085",
@@ -2972,7 +2972,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "201mL(含)-300mL(含)", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-086",
@@ -3007,7 +3007,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约140ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-087",
@@ -3042,7 +3042,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "陶瓷" },
   },,
   {
     id: "tk-088",
@@ -3077,7 +3077,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "201mL(含)-300mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-089",
@@ -3112,7 +3112,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-090",
@@ -3147,7 +3147,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约220ml", clay: "紫泥", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-091",
@@ -3182,7 +3182,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约180ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-092",
@@ -3217,7 +3217,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约130ml", clay: "紫砂", craft: "原矿 手工 柴烧" },
   },,
   {
     id: "tk-093",
@@ -3252,7 +3252,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "柴烧" },
   },,
   {
     id: "tk-094",
@@ -3287,7 +3287,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-095",
@@ -3322,7 +3322,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约75ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-096",
@@ -3357,7 +3357,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-097",
@@ -3392,7 +3392,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约300ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-098",
@@ -3427,7 +3427,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约160ml", clay: "紫砂", craft: "柴烧" },
   },,
   {
     id: "tk-099",
@@ -3462,7 +3462,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约270ml-350ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-100",
@@ -3497,7 +3497,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约220mL", clay: "紫砂" },
   },,
   {
     id: "tk-101",
@@ -3532,7 +3532,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约60~80ml", clay: "紫砂" },
   },,
   {
     id: "tk-102",
@@ -3567,7 +3567,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约270mL", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-103",
@@ -3602,7 +3602,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约450ml", clay: "紫砂" },
   },,
   {
     id: "tk-104",
@@ -3637,7 +3637,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "陶瓷" },
   },,
   {
     id: "tk-105",
@@ -3672,7 +3672,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂" },
   },,
   {
     id: "tk-106",
@@ -3707,7 +3707,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 刻绘 手工" },
   },,
   {
     id: "tk-107",
@@ -3812,7 +3812,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "陶瓷" },
   },,
   {
     id: "tk-110",
@@ -3847,7 +3847,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-111",
@@ -3882,7 +3882,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约230ml", clay: "紫砂", craft: "原矿 手工" },
   },,
   {
     id: "tk-112",
@@ -3917,7 +3917,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "小号约220ml/大号约330ml", clay: "紫泥", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-113",
@@ -3952,7 +3952,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约500ml", clay: "紫砂" },
   },,
   {
     id: "tk-114",
@@ -3987,7 +3987,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约375ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-115",
@@ -4022,7 +4022,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约230ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-116",
@@ -4057,7 +4057,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "光素" },
   },,
   {
     id: "tk-117",
@@ -4092,7 +4092,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约150mL", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-118",
@@ -4127,7 +4127,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "紫砂" },
   },,
   {
     id: "tk-119",
@@ -4162,7 +4162,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约380mL", clay: "紫砂" },
   },,
   {
     id: "tk-120",
@@ -4232,7 +4232,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "401mL(含)-500mL(含)", clay: "陶瓷", craft: "浮雕" },
   },,
   {
     id: "tk-122",
@@ -4267,7 +4267,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "其他" },
   },,
   {
     id: "tk-123",
@@ -4302,7 +4302,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "200g" },
   },,
   {
     id: "tk-124",
@@ -4337,7 +4337,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约210mL", clay: "紫砂", craft: "手工雕刻" },
   },,
   {
     id: "tk-125",
@@ -4372,7 +4372,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约260ml", clay: "紫砂", craft: "原矿 贴花 手工" },
   },,
   {
     id: "tk-126",
@@ -4407,7 +4407,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约330ml", clay: "紫砂", craft: "柴烧" },
   },,
   {
     id: "tk-127",
@@ -4442,7 +4442,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "红泥约350mL/紫泥约450mL", clay: "紫砂" },
   },,
   {
     id: "tk-128",
@@ -4477,7 +4477,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "紫泥约240ml/朱泥约180ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-129",
@@ -4512,7 +4512,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-130",
@@ -4547,7 +4547,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "紫砂" },
   },,
   {
     id: "tk-131",
@@ -4582,7 +4582,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-132",
@@ -4617,7 +4617,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-133",
@@ -4652,7 +4652,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "紫砂" },
   },,
   {
     id: "tk-134",
@@ -4687,7 +4687,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约290ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-135",
@@ -4722,7 +4722,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约380ml", clay: "紫泥", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-136",
@@ -4757,7 +4757,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约390ml", clay: "紫砂" },
   },,
   {
     id: "tk-137",
@@ -4792,7 +4792,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-138",
@@ -4827,7 +4827,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约350ml", clay: "紫砂", craft: "刻花" },
   },,
   {
     id: "tk-139",
@@ -4862,7 +4862,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "紫砂" },
   },,
   {
     id: "tk-140",
@@ -4932,7 +4932,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约300ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-142",
@@ -4967,7 +4967,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约270ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-143",
@@ -5002,7 +5002,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约170mL", clay: "紫砂" },
   },,
   {
     id: "tk-144",
@@ -5037,7 +5037,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "玻璃" },
   },,
   {
     id: "tk-145",
@@ -5072,7 +5072,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约115ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-146",
@@ -5107,7 +5107,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约160mL", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-147",
@@ -5142,7 +5142,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约220ml", clay: "紫砂" },
   },,
   {
     id: "tk-148",
@@ -5177,7 +5177,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约180ml", clay: "紫砂" },
   },,
   {
     id: "tk-149",
@@ -5212,7 +5212,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂" },
   },,
   {
     id: "tk-150",
@@ -5247,7 +5247,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约210ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-151",
@@ -5282,7 +5282,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约320ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-152",
@@ -5317,7 +5317,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约210ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-153",
@@ -5352,7 +5352,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约125ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-154",
@@ -5387,7 +5387,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约120ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-155",
@@ -5422,7 +5422,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "手绘" },
   },,
   {
     id: "tk-156",
@@ -5457,7 +5457,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-157",
@@ -5492,7 +5492,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-158",
@@ -5527,7 +5527,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "紫砂" },
   },,
   {
     id: "tk-159",
@@ -5562,7 +5562,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "紫砂" },
   },,
   {
     id: "tk-160",
@@ -5597,7 +5597,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约40ml", clay: "紫砂" },
   },,
   {
     id: "tk-161",
@@ -5632,7 +5632,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约40ml", clay: "紫砂" },
   },,
   {
     id: "tk-162",
@@ -5667,7 +5667,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约350ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-163",
@@ -5702,7 +5702,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约120ml", clay: "紫砂", craft: "原矿 手工 柴烧" },
   },,
   {
     id: "tk-164",
@@ -5737,7 +5737,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约150ml", clay: "紫砂", craft: "原矿 手工 柴烧" },
   },,
   {
     id: "tk-165",
@@ -5772,7 +5772,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约240ml", clay: "紫砂" },
   },,
   {
     id: "tk-166",
@@ -5807,7 +5807,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-167",
@@ -5842,7 +5842,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-168",
@@ -5877,7 +5877,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-169",
@@ -5947,7 +5947,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-171",
@@ -5982,7 +5982,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "101mL(含)-200mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-172",
@@ -6017,7 +6017,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约190ml", clay: "紫砂" },
   },,
   {
     id: "tk-173",
@@ -6052,7 +6052,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "原矿 手工 柴烧" },
   },,
   {
     id: "tk-174",
@@ -6087,7 +6087,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约275ml", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-175",
@@ -6122,7 +6122,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约280ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-176",
@@ -6157,7 +6157,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约370ml", clay: "紫砂" },
   },,
   {
     id: "tk-177",
@@ -6227,7 +6227,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约460ml", clay: "紫砂" },
   },,
   {
     id: "tk-179",
@@ -6262,7 +6262,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约230ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-180",
@@ -6297,7 +6297,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 手工 柴烧" },
   },,
   {
     id: "tk-181",
@@ -6332,7 +6332,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约340ml", clay: "紫泥", craft: "原矿 刻绘 手工" },
   },,
   {
     id: "tk-182",
@@ -6367,7 +6367,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "玻璃" },
   },,
   {
     id: "tk-183",
@@ -6402,7 +6402,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-184",
@@ -6437,7 +6437,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约210ml", clay: "紫砂" },
   },,
   {
     id: "tk-185",
@@ -6472,7 +6472,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "220ml", clay: "紫砂" },
   },,
   {
     id: "tk-186",
@@ -6507,7 +6507,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
   },,
   {
     id: "tk-187",
@@ -6577,7 +6577,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "陶瓷" },
   },,
   {
     id: "tk-189",
@@ -6612,7 +6612,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "约90ml", clay: "紫砂" },
   },,
   {
     id: "tk-190",
@@ -6647,7 +6647,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { clay: "陶" },
   },,
   {
     id: "tk-191",
@@ -6682,7 +6682,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
   },
 ];
 
