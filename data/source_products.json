@@ -1,1 +1,407 @@
-{"products": []}
+{
+  "products": [
+    {
+      "id": "tk-256",
+      "source_sku": "1036658549424",
+      "source_url": "https://detail.tmall.com/item.htm?id=1036658549424&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
+      "slug": "yixingchunshougongchahupaochajiayonghuzhengchaju2026xinkuanzishahuli",
+      "category": "teapot",
+      "title_zhCN": "宜兴纯手工茶壶泡茶家用单壶正品茶具2026新款紫砂壶送朋友长辈礼",
+      "title_zhTW": "宜興純手工茶壺泡茶家用單壺正品茶具2026新款紫砂壺送朋友长辈禮",
+      "variants": [
+        {
+          "name": "小满窑柴烧 | 墨韵水平【精美礼盒】约170ml",
+          "price": 823.0,
+          "original_price": 969.0,
+          "sku_id": "6052151108480"
+        }
+      ],
+      "images": [
+        "/images/products/tk-256/main_1.webp",
+        "/images/products/tk-256/main_2.webp",
+        "/images/products/tk-256/main_3.webp",
+        "/images/products/tk-256/main_4.webp",
+        "/images/products/tk-256/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {},
+      "date_uploaded": "2026-06-16T23:28:37.784471"
+    },
+    {
+      "id": "tk-257",
+      "source_sku": "694467360415",
+      "source_url": "https://detail.tmall.com/item.htm?id=694467360415&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
+      "slug": "guyixingyuankuangshougongzishahupaochahuhufuchajuguhanwa",
+      "category": "teapot",
+      "title_zhCN": "古悦堂 宜兴原矿全手工紫砂壶小品泡茶壶单壶功夫茶具 古韵汉瓦",
+      "title_zhTW": "古悦堂 宜興原礦全手工紫砂壺小品泡茶壺單壺功夫茶具 古韵漢瓦",
+      "variants": [
+        {
+          "name": "单壶约150mL",
+          "price": 297.35,
+          "original_price": 350.35,
+          "sku_id": "5149431263756"
+        }
+      ],
+      "images": [
+        "/images/products/tk-257/main_1.webp",
+        "/images/products/tk-257/main_2.webp",
+        "/images/products/tk-257/main_3.webp",
+        "/images/products/tk-257/main_4.webp",
+        "/images/products/tk-257/main_5.webp"
+      ],
+      "videos": [
+        "/videos/products/tk-257/product.mp4"
+      ],
+      "specs": {},
+      "date_uploaded": "2026-06-16T23:28:40.388541"
+    },
+    {
+      "id": "tk-258",
+      "source_sku": "521120789971",
+      "source_url": "https://detail.tmall.com/item.htm?id=521120789971&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+      "slug": "guyixingzishabeishougongyuankuangzinichabeimingjiabeibei",
+      "category": "cup",
+      "title_zhCN": "古悦堂 宜兴紫砂杯 全手工原矿紫泥茶杯 名家办公盖杯 宁静致远杯",
+      "title_zhTW": "古悦堂 宜興紫砂杯 全手工原礦紫泥茶杯 名家办公盖杯 宁静致远杯",
+      "variants": [
+        {
+          "name": "紫泥宁静致远盖杯约500ml",
+          "price": 151.0,
+          "original_price": 178.0,
+          "sku_id": "5089795206037"
+        }
+      ],
+      "images": [
+        "/images/products/tk-258/main_1.webp",
+        "/images/products/tk-258/main_2.webp",
+        "/images/products/tk-258/main_3.webp",
+        "/images/products/tk-258/main_4.webp",
+        "/images/products/tk-258/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {},
+      "date_uploaded": "2026-06-16T23:28:42.519269"
+    },
+    {
+      "id": "tk-259",
+      "source_sku": "1035583359442",
+      "source_url": "https://detail.tmall.com/item.htm?id=1035583359442&rn=74b8595a12adf656cb929f2a9ff5ed7e&abbucket=14",
+      "slug": "guchunshougongzishahuyongchahupaochajiayong2026xinkuanchaju",
+      "category": "teapot",
+      "title_zhCN": "古悦堂纯手工紫砂壶个人专用茶壶泡茶家用2026新款茶具送长辈领导",
+      "title_zhTW": "古悦堂純手工紫砂壺个人专用茶壺泡茶家用2026新款茶具送长辈领导",
+      "variants": [
+        {
+          "name": "约170ml",
+          "price": 1258.0,
+          "original_price": 1480.0,
+          "sku_id": "6052983488494"
+        }
+      ],
+      "images": [
+        "/images/products/tk-259/main_1.webp",
+        "/images/products/tk-259/main_2.webp",
+        "/images/products/tk-259/main_3.webp",
+        "/images/products/tk-259/main_4.webp",
+        "/images/products/tk-259/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {},
+      "date_uploaded": "2026-06-16T23:28:44.263932"
+    },
+    {
+      "id": "tk-260",
+      "source_sku": "754337119023",
+      "source_url": "https://detail.tmall.com/item.htm?id=754337119023&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
+      "slug": "guyixingzishahuchunshougongpaochahuyonghufuchajuda",
+      "category": "teapot",
+      "title_zhCN": "古悦堂 宜兴紫砂壶纯手工泡茶壶个人专用小壶功夫茶具 大红袍思亭",
+      "title_zhTW": "古悦堂 宜興紫砂壺純手工泡茶壺个人专用小壺功夫茶具 大红袍思亭",
+      "variants": [
+        {
+          "name": "思亭51mL(含)-100mL(含)",
+          "price": 289.35,
+          "original_price": 350.35,
+          "sku_id": "5398919074522"
+        },
+        {
+          "name": "龙蛋51mL(含)-100mL(含)",
+          "price": 289.35,
+          "original_price": 350.35,
+          "sku_id": "5398919074524"
+        },
+        {
+          "name": "仿古51mL(含)-100mL(含)",
+          "price": 289.35,
+          "original_price": 350.35,
+          "sku_id": "5398919074528"
+        },
+        {
+          "name": "水平51mL(含)-100mL(含)",
+          "price": 289.35,
+          "original_price": 350.35,
+          "sku_id": "5398919074527"
+        },
+        {
+          "name": "君德51mL(含)-100mL(含)",
+          "price": 289.35,
+          "original_price": 350.35,
+          "sku_id": "5398919074521"
+        },
+        {
+          "name": "石瓢51mL(含)-100mL(含)",
+          "price": 289.35,
+          "original_price": 350.35,
+          "sku_id": "5398919074523"
+        },
+        {
+          "name": "潘壶51mL(含)-100mL(含)",
+          "price": 289.35,
+          "original_price": 350.35,
+          "sku_id": "5398919074529"
+        },
+        {
+          "name": "掇只51mL(含)-100mL(含)",
+          "price": 289.35,
+          "original_price": 350.35,
+          "sku_id": "5398919074530"
+        },
+        {
+          "name": "美人肩51mL(含)-100mL(含)",
+          "price": 289.35,
+          "original_price": 350.35,
+          "sku_id": "5398919074531"
+        },
+        {
+          "name": "西施51mL(含)-100mL(含)",
+          "price": 331.15,
+          "original_price": 399.15,
+          "sku_id": "5844526712679"
+        }
+      ],
+      "images": [
+        "/images/products/tk-260/main_1.webp",
+        "/images/products/tk-260/main_2.webp",
+        "/images/products/tk-260/main_3.webp",
+        "/images/products/tk-260/main_4.webp",
+        "/images/products/tk-260/main_5.webp"
+      ],
+      "videos": [
+        "/videos/products/tk-260/product.mp4"
+      ],
+      "specs": {},
+      "date_uploaded": "2026-06-16T23:28:49.620363"
+    },
+    {
+      "id": "tk-261",
+      "source_sku": "1038017256960",
+      "source_url": "https://detail.tmall.com/item.htm?id=1038017256960&rn=74b8595a12adf656cb929f2a9ff5ed7e&abbucket=14",
+      "slug": "yixingzishahuchunshougongchahupaochajiayongzhengchaju2026xinkuanli",
+      "category": "teapot",
+      "title_zhCN": "宜兴紫砂壶纯手工茶壶泡茶家用正品茶具2026新款送朋友长辈生日礼",
+      "title_zhTW": "宜興紫砂壺純手工茶壺泡茶家用正品茶具2026新款送朋友长辈生日禮",
+      "variants": [
+        {
+          "name": "约170ml",
+          "price": 1258.0,
+          "original_price": 1480.0,
+          "sku_id": "6218619351467"
+        }
+      ],
+      "images": [
+        "/images/products/tk-261/main_1.webp",
+        "/images/products/tk-261/main_2.webp",
+        "/images/products/tk-261/main_3.webp",
+        "/images/products/tk-261/main_4.webp",
+        "/images/products/tk-261/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {},
+      "date_uploaded": "2026-06-16T23:28:52.555203"
+    },
+    {
+      "id": "tk-262",
+      "source_sku": "706871107435",
+      "source_url": "https://detail.tmall.com/item.htm?id=706871107435&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc",
+      "slug": "guyixingyuankuangzishahumingchunshougongpaochahufuchajuhuruyi",
+      "category": "teapot",
+      "title_zhCN": "古悦堂 宜兴原矿紫砂壶名师纯全手工泡茶壶高端功夫茶具单壶 如意",
+      "title_zhTW": "古悦堂 宜興原礦紫砂壺名师純全手工泡茶壺高端功夫茶具單壺 如意",
+      "variants": [
+        {
+          "name": "约375mL",
+          "price": 3144.1,
+          "original_price": 3699.0,
+          "sku_id": "4964510544737"
+        }
+      ],
+      "images": [
+        "/images/products/tk-262/main_1.webp",
+        "/images/products/tk-262/main_2.webp",
+        "/images/products/tk-262/main_3.webp",
+        "/images/products/tk-262/main_4.webp",
+        "/images/products/tk-262/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {},
+      "date_uploaded": "2026-06-16T23:28:56.815508"
+    },
+    {
+      "id": "tk-263",
+      "source_sku": "1017757608340",
+      "source_url": "https://detail.tmall.com/item.htm?id=1017757608340&rn=74b8595a12adf656cb929f2a9ff5ed7e&abbucket=14",
+      "slug": "chapaojiayongchachaju",
+      "category": "teapot",
+      "title_zhCN": "耀州窑陶瓷茶盘干泡台家用储水式托盘茶点果盘小摆件高档茶具配件",
+      "title_zhTW": "耀州窑陶瓷茶盘干泡台家用储水式托盘茶点果盘小摆件高档茶具配件",
+      "variants": [
+        {
+          "name": "耀州窑非遗技艺 | 龙腾四海壶承",
+          "price": 118.0,
+          "original_price": 139.0,
+          "sku_id": "6189354206564"
+        }
+      ],
+      "images": [
+        "/images/products/tk-263/main_1.webp",
+        "/images/products/tk-263/main_2.webp",
+        "/images/products/tk-263/main_3.webp",
+        "/images/products/tk-263/main_4.webp",
+        "/images/products/tk-263/main_5.webp"
+      ],
+      "videos": [
+        "/videos/products/tk-263/product.mp4"
+      ],
+      "specs": {},
+      "date_uploaded": "2026-06-16T23:29:05.883231"
+    },
+    {
+      "id": "tk-264",
+      "source_sku": "530429853535",
+      "source_url": "https://detail.tmall.com/item.htm?abbucket=11&id=530429853535&mi_id=0000jHnq5BFqTe0rLrs5Z94YXvAxs2MBodHeWyljQkLFOH8&ns=1&priceTId=214783d817815271541657549e0f1f&skuId=6097597999539&spm=a21n57.1.hoverItem.5&utparam=%7B%22aplus_abtest%22%3A%22d1f272ad9993ece09a55b2a9ef16778a%22%7D&xxc=taobaoSearch",
+      "slug": "yixingshougongzishahuchahujiayongchajushipiaotaozhuang200cc",
+      "category": "teapot",
+      "title_zhCN": "【畅陶】 宜兴手工紫砂壶茶壶家用茶具李晓璐竹叶石瓢套装200cc",
+      "title_zhTW": "【畅陶】 宜興手工紫砂壺茶壺家用茶具李晓璐竹叶石瓢套裝200cc",
+      "variants": [
+        {
+          "name": "单壶.201mL(含)-300mL(含)",
+          "price": 220.0,
+          "original_price": 259.0,
+          "sku_id": "6097597999539"
+        },
+        {
+          "name": "一壶四杯套装.201mL(含)-300mL(含)",
+          "price": 224.0,
+          "original_price": 299.0,
+          "sku_id": "6097597999540"
+        },
+        {
+          "name": "十件套.201mL(含)-300mL(含)",
+          "price": 309.0,
+          "original_price": 399.0,
+          "sku_id": "6097597999538"
+        }
+      ],
+      "images": [
+        "/images/products/tk-264/main_1.webp",
+        "/images/products/tk-264/main_2.webp",
+        "/images/products/tk-264/main_3.webp",
+        "/images/products/tk-264/main_4.webp",
+        "/images/products/tk-264/main_5.webp"
+      ],
+      "videos": [
+        "/videos/products/tk-264/product.mp4",
+        "/videos/products/tk-264/product_2.mp4"
+      ],
+      "specs": {},
+      "date_uploaded": "2026-06-16T23:29:10.888748"
+    },
+    {
+      "id": "tk-265",
+      "source_sku": "1036321430326",
+      "source_url": "https://detail.tmall.com/item.htm?id=1036321430326&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
+      "slug": "guchunshougongpaochahu2026xinkuanzishahujiayongchajulaoli",
+      "category": "teapot",
+      "title_zhCN": "古悦堂纯手工泡茶壶2026新款紫砂壶家用茶具送长辈老人寿宴退休礼",
+      "title_zhTW": "古悦堂純手工泡茶壺2026新款紫砂壺家用茶具送长辈老人寿宴退休禮",
+      "variants": [
+        {
+          "name": "约320ml",
+          "price": 1088.0,
+          "original_price": 1280.0,
+          "sku_id": "6218733435345"
+        }
+      ],
+      "images": [
+        "/images/products/tk-265/main_1.webp",
+        "/images/products/tk-265/main_2.webp",
+        "/images/products/tk-265/main_3.webp",
+        "/images/products/tk-265/main_4.webp",
+        "/images/products/tk-265/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {},
+      "date_uploaded": "2026-06-16T23:29:13.786898"
+    },
+    {
+      "id": "tk-266",
+      "source_sku": "992201065543",
+      "source_url": "https://detail.tmall.com/item.htm?id=992201065543&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
+      "slug": "yixingzishahuchunshougongzhengchajujiayongpaochahulaoli",
+      "category": "teapot",
+      "title_zhCN": "宜兴紫砂壶纯手工正品茶具高档家用泡茶壶送长辈领导老师生日礼物",
+      "title_zhTW": "宜興紫砂壺純手工正品茶具高档家用泡茶壺送长辈领导老师生日禮物",
+      "variants": [
+        {
+          "name": "高档礼盒装 | 翡翠金砂柱础壶约200ml",
+          "price": 764.0,
+          "original_price": 899.0,
+          "sku_id": "6129789167575"
+        }
+      ],
+      "images": [
+        "/images/products/tk-266/main_1.webp",
+        "/images/products/tk-266/main_2.webp",
+        "/images/products/tk-266/main_3.webp",
+        "/images/products/tk-266/main_4.webp",
+        "/images/products/tk-266/main_5.webp"
+      ],
+      "videos": [
+        "/videos/products/tk-266/product.mp4"
+      ],
+      "specs": {},
+      "date_uploaded": "2026-06-16T23:29:21.180934"
+    },
+    {
+      "id": "tk-267",
+      "source_sku": "652586518950",
+      "source_url": "https://detail.tmall.com/item.htm?id=652586518950&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+      "slug": "guyixingchunshougongzishahupaochachahufuchaju20shada",
+      "category": "teapot",
+      "title_zhCN": "古悦堂宜兴纯全手工紫砂壶泡茶小茶壶功夫茶具20目粗砂大红袍德钟",
+      "title_zhTW": "古悦堂宜興純全手工紫砂壺泡茶小茶壺功夫茶具20目粗砂大红袍德钟",
+      "variants": [
+        {
+          "name": "原矿紫砂 | 大红袍德钟【精美礼盒】约170ml",
+          "price": 279.0,
+          "original_price": 509.0,
+          "sku_id": "6063784292356"
+        }
+      ],
+      "images": [
+        "/images/products/tk-267/main_1.webp",
+        "/images/products/tk-267/main_2.webp",
+        "/images/products/tk-267/main_3.webp",
+        "/images/products/tk-267/main_4.webp",
+        "/images/products/tk-267/main_5.webp"
+      ],
+      "videos": [
+        "/videos/products/tk-267/product.mp4"
+      ],
+      "specs": {},
+      "date_uploaded": "2026-06-16T23:29:23.394274"
+    }
+  ]
+}

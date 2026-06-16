@@ -29,8 +29,14 @@ ZH_TW_MAP = {
 }
 
 SHAPE_KEYWORDS = {
-    "石瓢": "石瓢壶", "西施": "西施壶", "仿古": "仿古壶", "汉瓦": "汉瓦壶",
-    "归兽": "归兽壶", "如意": "西施壶", "祥龙": "仿古壶",
+    "石瓢": "石瓢壶", "西施": "西施壶", "仿古": "仿古壶",
+    "汉瓦": "汉瓦壶", "归兽": "归兽壶", "如意": "西施壶",
+    "祥龙": "仿古壶", "德钟": "德钟壶",
+    "井栏": "井栏壶", "秦权": "秦权壶", "掇球": "掇球壶",
+    "供春": "供春壶",
+    "提梁": "提梁壶", "汉铎": "汉铎壶", "龙蛋": "龙蛋壶",
+    "水平": "水平壶", "葫芦": "葫芦壶", "方器": "方器",
+    "花器": "花器",
 }
 
 CATEGORY_KEYWORDS = {
@@ -68,10 +74,17 @@ def pinyinify(text: str) -> str:
     return slug or "teapot"
 
 def detect_shape(title: str) -> str:
-    """从标题识别壶型"""
+    """从标题识别壶型，未知壶型自动提取"""
+    import re
     for kw, shape in SHAPE_KEYWORDS.items():
         if kw in title:
             return shape
+    m = re.search(r'([一-鿿]{2})壶', title)
+    if m:
+        s = m.group(0)
+        skip = {"紫砂壶", "茶壶", "泡茶壶"}
+        if s not in skip:
+            return s
     return ""
 
 def detect_category(title: str) -> str:
@@ -123,6 +136,30 @@ def parse_page_data(folder_path: str) -> dict:
             break
     if not result["title"]:
         result["title"] = os.path.basename(folder_path).lstrip("0123456789_").lstrip("0_")
+
+    # Parse spec fields (format: "容量: 200ml", "泥料: 原矿紫泥", etc.)
+    for line in lines:
+        for kw in ["容量", "泥料", "工艺", "壶型", "烧制窑型",
+                    "适用场景", "清洗方式", "产地", "材质",
+                    "是否手工", "包装形式", "窑系", "年代",
+                    "颜色分类", "尺寸", "规格", "适合茶叶",
+                    "形状", "注水量", "品牌", "风格"]:
+            if line.startswith(kw + ":") or line.startswith(kw + "："):
+                val = line.split(":", 1)[1].strip() if ":" in line else line.split("：", 1)[1].strip()
+                if val:
+                    result["specs"][kw.replace("容量", "capacity").replace("泥料", "clay")
+                        .replace("工艺", "craft").replace("尺寸", "dimensions")
+                        .replace("材质", "material").replace("产地", "origin")
+                        .replace("是否手工", "handmade")
+                        .replace("烧制窑型", "firingType")
+                        .replace("适用场景", "scenario")
+                        .replace("清洗方式", "cleaning")
+                        .replace("包装形式", "packaging")
+                        .replace("窑系", "kiln").replace("年代", "year")
+                        .replace("颜色分类", "color")
+                        .replace("规格", "dimensions").replace("适合茶叶", "suitableTea")
+                        .replace("注水量", "capacity").replace("形状", "shapeType")
+                        .replace("品牌", "brand").replace("风格", "style")] = val
 
     cv = None  # current variant
     for line in lines:

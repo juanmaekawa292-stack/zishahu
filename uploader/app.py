@@ -177,10 +177,10 @@ class UploaderHandler(BaseHTTPRequestHandler):
         for v in variants:
             vkey = v.get("sku_id") or v.get("name", "")
             vimg = processed["variantImages"].get(vkey, "")
-                        v["price"] = round(v["price"] * multiplier, 2)
+            v["price"] = round(v["price"] * multiplier, 2)
             if v.get("original_price"):
                 v["original_price"] = round(v["original_price"] * multiplier, 2)
-                    product_variants.append({
+            product_variants.append({
                 "name_zhCN": v.get("name", ""),
                 "name_zhTW": scanner.to_zh_tw(v.get("name", "")),
                 "price": v.get("price", 0),

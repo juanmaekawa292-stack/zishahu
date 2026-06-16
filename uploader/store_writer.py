@@ -56,7 +56,7 @@ def generate_product_entry(p):
             lines.append(f'        image: "{v.get("image","")}",')
             if v.get("sku"):
                 lines.append(f'        sku: "{v["sku"]}",')
-            lines.append("      },")
+            lines.append("      }")
         vars_ts = "    variants: [\n" + "\n".join(lines) + "\n    ],"
 
     # Specs
@@ -162,3 +162,41 @@ def get_current_product_ids():
         content = f.read()
     return __import__("re").findall(r'id:\s*"(tk-\d+)"', content)
 
+
+
+import subprocess, os
+
+def git_stage(product_id):
+    """Stage changed files after upload (no commit/push)"""
+    import subprocess, os
+    base = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(PRODUCTS_TS_PATH))))
+    try:
+        subprocess.run(["git", "add", "src/data/products.ts", "data/source_products.json"],
+                      cwd=base, capture_output=True, timeout=15)
+        img_dir = os.path.join(base, "public/images/products", product_id)
+        if os.path.isdir(img_dir):
+            subprocess.run(["git", "add", "public/images/products/" + product_id],
+                          cwd=base, capture_output=True, timeout=15)
+        return True
+    except Exception as e:
+        print("[WARN] Git stage failed: " + str(e))
+        return False
+
+def git_commit_and_push(message="auto upload"):
+    """Commit staged changes and push to trigger Vercel deployment"""
+    import subprocess
+    base = os.path.dirname(PRODUCTS_TS_PATH.rstrip("src/data/products.ts"))
+    try:
+        r = subprocess.run(["git", "commit", "-m", message], cwd=base, capture_output=True, timeout=15, text=True)
+        if r.returncode == 0 or "nothing to commit" in r.stdout:
+            r2 = subprocess.run(["git", "push"], cwd=base, capture_output=True, timeout=30, text=True)
+            if r2.returncode == 0:
+                print("[AUTO-DEPLOY] Pushed to GitHub, Vercel deploying...")
+                return True
+            else:
+                print("[WARN] Push failed: " + str(r2.stderr))
+                return False
+        return True
+    except Exception as e:
+        print("[WARN] Git commit/push failed: " + str(e))
+        return False
