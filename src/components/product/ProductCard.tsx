@@ -100,9 +100,9 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
 
         <div className="flex items-center justify-between">
           <div className="flex items-baseline gap-1.5">
-            <span className="text-base font-bold text-primary">{"$" + Number(product.price).toFixed(2)}</span>
+            <span className="text-base font-bold text-primary">{_format(product.price)}</span>
             {product.originalPrice && (
-              <span className="text-xs text-muted-foreground line-through">{"$" + Number(product.originalPrice).toFixed(2)}</span>
+              <span className="text-xs text-muted-foreground line-through">{_format(product.originalPrice)}</span>
             )}
           </div>
           <Button

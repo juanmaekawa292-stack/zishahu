@@ -2,15 +2,17 @@
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { useCurrency } from "@/hooks/useCurrency";
 import { Minus, Plus, Trash2, ShoppingBag, ArrowLeft } from "lucide-react";
 import { Link } from "@/i18n";
 import { useCartStore } from "@/store/cart";
 import { Button } from "@/components/ui/Button";
-import { formatPrice, cn } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 
 export default function CartPage() {
   const t = useTranslations("common");
   const tCart = useTranslations("cart");
+  const { format: _format } = useCurrency();
   const items = useCartStore((s) => s.items);
   const updateQuantity = useCartStore((s) => s.updateQuantity);
   const removeItem = useCartStore((s) => s.removeItem);
@@ -68,7 +70,7 @@ export default function CartPage() {
                   <Link href={`/products/${item.product.slug}`} className="text-sm font-medium text-foreground hover:text-primary transition-colors line-clamp-1">
                     {item.product.title_zhCN}
                   </Link>
-                  <p className="mt-0.5 text-xs text-muted-foreground">{"$" + Number(item.product.price).toFixed(2)} / 件</p>
+                  <p className="mt-0.5 text-xs text-muted-foreground">{_format(item.product.price)} / 件</p>
                 </div>
 
                 <div className="flex items-center justify-between">
@@ -83,7 +85,7 @@ export default function CartPage() {
                   </div>
 
                   <div className="flex items-center gap-3">
-                    <span className="text-sm font-bold text-primary">{"$" + Number(item.product.price * item.quantity).toFixed(2)}</span>
+                    <span className="text-sm font-bold text-primary">{_format(item.product.price * item.quantity)}</span>
                     <button onClick={() => removeItem(item.productId)} className="p-1 text-muted-foreground hover:text-red-500 transition-colors">
                       <Trash2 className="h-4 w-4" />
                     </button>
@@ -100,21 +102,21 @@ export default function CartPage() {
             <div className="space-y-2 text-sm">
               <div className="flex justify-between">
                 <span className="text-muted-foreground">{t("subtotal")}</span>
-                <span className="font-medium">{"$" + Number(subtotal).toFixed(2)}</span>
+                <span className="font-medium">{_format(subtotal)}</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-muted-foreground">{t("shipping")}</span>
                 <span className={cn("font-medium", shipping === 0 ? "text-emerald-600" : "")}>
-                  {shipping === 0 ? "免费" : formatPrice(shipping)}
+                  {shipping === 0 ? "免费" : _format(shipping)}
                 </span>
               </div>
               {shipping > 0 && subtotal < 200 && (
-                <p className="text-[10px] text-muted-foreground">再购 {"$" + Number(200 - subtotal).toFixed(2)} 即可免运费</p>
+                <p className="text-[10px] text-muted-foreground">再购 {_format(200 - subtotal)} 即可免运费</p>
               )}
               <div className="border-t border-border pt-2">
                 <div className="flex justify-between text-base">
                   <span className="font-medium text-foreground">{t("total")}</span>
-                  <span className="font-bold text-primary">{"$" + Number(total).toFixed(2)}</span>
+                  <span className="font-bold text-primary">{_format(total)}</span>
                 </div>
               </div>
             </div>

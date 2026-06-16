@@ -1,9 +1,12 @@
+"use client";
+
+import { useCurrency } from "@/hooks/useCurrency";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { CheckCircle, Package, MapPin, CreditCard } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
-import { formatPrice } from "@/lib/utils";
+
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -51,6 +54,7 @@ const STATUS_MAP: Record<string, { label: string; variant: "default" | "secondar
 
 export default async function OrderConfirmationPage({ params }: Props) {
   const { id } = await params;
+  const { format: _format } = useCurrency();
   const order = STORE[id];
   if (!order) notFound();
   const statusInfo = STATUS_MAP[order.status] || STATUS_MAP.pending;
@@ -106,7 +110,7 @@ export default async function OrderConfirmationPage({ params }: Props) {
                     {"天猫下单"} {(order.sourceMap[item.productId].sourceSku ? "#" + order.sourceMap[item.productId].sourceSku : "")}
                   </a>
                 )}
-                <span className="text-sm font-medium">{"$" + Number(item.product.price * item.quantity).toFixed(2)}</span>
+                <span className="text-sm font-medium">{_format(item.product.price * item.quantity)}</span>
               </div>
             </div>
           ))}
@@ -133,12 +137,12 @@ export default async function OrderConfirmationPage({ params }: Props) {
           <h2 className="text-sm font-medium text-foreground">支付信息</h2>
         </div>
         <div className="space-y-2 text-sm">
-          <div className="flex justify-between"><span className="text-muted-foreground">小计</span><span className="font-medium">{"$" + Number(order.subtotal).toFixed(2)}</span></div>
-          <div className="flex justify-between"><span className="text-muted-foreground">运费</span><span className="font-medium">{order.shipping === 0 ? "免费" : formatPrice(order.shipping)}</span></div>
-          <div className="flex justify-between"><span className="text-muted-foreground">税费</span><span className="font-medium">{"$" + Number(order.tax).toFixed(2)}</span></div>
+          <div className="flex justify-between"><span className="text-muted-foreground">小计</span><span className="font-medium">{_format(order.subtotal)}</span></div>
+          <div className="flex justify-between"><span className="text-muted-foreground">运费</span><span className="font-medium">{order.shipping === 0 ? "免费" : _format(order.shipping)}</span></div>
+          <div className="flex justify-between"><span className="text-muted-foreground">税费</span><span className="font-medium">{_format(order.tax)}</span></div>
           <div className="border-t border-border pt-2 flex justify-between text-base">
             <span className="font-medium text-foreground">合计</span>
-            <span className="font-bold text-primary">{"$" + Number(order.total).toFixed(2)}</span>
+            <span className="font-bold text-primary">{_format(order.total)}</span>
           </div>
         </div>
       </div>
