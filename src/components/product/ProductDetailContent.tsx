@@ -24,6 +24,24 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
   const addItem = useCartStore((s) => s.addItem);
   const { format: _format } = useCurrency();
 
+  const specLabelMap: Record<string, string> = {
+    capacity: tProduct("capacity"),
+    clay: tProduct("clay"),
+    craft: tProduct("craft"),
+    dimensions: tProduct("dimensions"),
+    material: "材质",
+    origin: "产地",
+    handmade: "是否手工",
+    firingType: "烧制窑型",
+    scenario: "适用场景",
+    cleaning: "清洗方式",
+    packaging: "包装形式",
+    kiln: "窑系",
+    year: "年代/年份",
+    color: "颜色分类",
+    suitableTea: "适合茶类",
+    shapeType: "壶型",
+  };
   const [isClient, setIsClient] = useState(false);
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
@@ -305,39 +323,21 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
               <span className="font-medium text-foreground">{(product as any).sourceSku}</span>
             </p>
           )}
-<h3 className="text-sm font-medium text-foreground">{tProduct("specifications")}</h3>
-            <div className="grid grid-cols-2 gap-2 text-xs">
-              {product.specs.capacity && (
+              <h3 className="text-sm font-medium text-foreground">{tProduct("specifications")}</h3>
+              <div className="grid grid-cols-2 gap-2 text-xs">
+                {Object.entries(product.specs).filter(([_, v]) => v && v.length > 0).map(([key, value]) => (
+                  <div key={key} className="flex justify-between border-b border-border/50 pb-1.5">
+                    <span className="text-muted-foreground">{specLabelMap[key] || key}</span>
+                    <span className="font-medium text-foreground">{value}</span>
+                  </div>
+                ))}
                 <div className="flex justify-between border-b border-border/50 pb-1.5">
-                  <span className="text-muted-foreground">{tProduct("capacity")}</span>
-                  <span className="font-medium text-foreground">{product.specs.capacity}</span>
+                  <span className="text-muted-foreground">库存</span>
+                  <span className={cn("font-medium", product.inStock ? "text-emerald-600" : "text-red-500")}>
+                    {product.inStock ? `有货 (${selectedVariant ? selectedVariant.stock : product.stock})` : "暂时缺货"}
+                  </span>
                 </div>
-              )}
-              {product.specs.clay && (
-                <div className="flex justify-between border-b border-border/50 pb-1.5">
-                  <span className="text-muted-foreground">{tProduct("clay")}</span>
-                  <span className="font-medium text-foreground">{product.specs.clay}</span>
-                </div>
-              )}
-              {product.specs.craft && (
-                <div className="flex justify-between border-b border-border/50 pb-1.5">
-                  <span className="text-muted-foreground">{tProduct("craft")}</span>
-                  <span className="font-medium text-foreground">{product.specs.craft}</span>
-                </div>
-              )}
-              {product.specs.dimensions && (
-                <div className="flex justify-between border-b border-border/50 pb-1.5">
-                  <span className="text-muted-foreground">{tProduct("dimensions")}</span>
-                  <span className="font-medium text-foreground">{product.specs.dimensions}</span>
-                </div>
-              )}
-              <div className="flex justify-between border-b border-border/50 pb-1.5">
-                <span className="text-muted-foreground">库存</span>
-                <span className={cn("font-medium", product.inStock ? "text-emerald-600" : "text-red-500")}>
-                  {product.inStock ? `有货 (${selectedVariant ? selectedVariant.stock : product.stock})` : "暂时缺货"}
-                </span>
               </div>
-            </div>
           </div>
 
           <div className="space-y-4">
