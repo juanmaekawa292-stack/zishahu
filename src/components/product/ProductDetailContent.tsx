@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useRef, useEffect, useCallback, useMemo } from "react";
 import Image from "next/image";
@@ -239,20 +239,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
             {selectedVariant && <span className="text-xs text-muted-foreground ml-2">(选: {selectedVariant.name_zhCN})</span>}
           </div>
 
-          {specsItems.length > 0 && (
-        <div className="mb-6 border-t border-border/50 pt-4">
-          <h3 className="mb-3 text-sm font-medium tracking-wide text-foreground">{t("product.specifications")}</h3>
-          <div className="grid grid-cols-2 gap-3">
-            {specsItems.map((item, i) => (
-              <div key={i} className="flex flex-col gap-1 rounded-lg bg-muted/30 px-3 py-2">
-                <span className="text-[10px] text-muted-foreground uppercase tracking-wide">{item.label}</span>
-                <span className="text-sm font-medium">{item.value}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-      {const hasVariants
+      {hasVariants && (
             <div className="rounded-lg border border-border bg-card p-4 space-y-3">
               <div className="flex items-center justify-between">
                 <h3 className="text-sm font-medium text-foreground">规格选择</h3>
