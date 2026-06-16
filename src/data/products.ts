@@ -70,6 +70,41 @@ export const products = [
     specs: {},
   },,
   {
+    id: "tk-003",
+    slug: "darongliang430mlxishihumiaojinzishahuchabei1hu24beilihezhuangqiyeliding",
+    title_zhCN: "大容量430ml西施壶描金紫砂壶茶杯一壶二/四杯礼盒装企业礼品定制",
+    title_zhTW: "大容量430ml西施壺描金紫砂壺茶杯一壺二/四杯禮盒裝企業禮品定制",
+    description_zhCN: "大容量430ml西施壶描金紫砂壶茶杯一壶二/四杯礼盒装企业礼品定制，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "大容量430ml西施壶描金紫砂壶茶杯一壶二/四杯礼盒装企业礼品定制，精选优质原矿紫泥，全手工精制而成。",
+    price: 119,
+    originalPrice: 154,
+    images: [
+    "/images/products/tk-003/main_1.webp",
+    "/images/products/tk-003/main_2.webp",
+    "/images/products/tk-003/main_3.webp",
+    "/images/products/tk-003/main_4.webp",
+    "/images/products/tk-003/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?abbucket=11&id=803658741072&mi_id=0000GMy9pG15Uo6FIFQNsONfwbvb9u4vRhte-imBhywguiU&ns=1&priceTId=2147802217814708183802531e10c3&skuId=5468999596941&spm=a21n57.1.hoverItem.13&utparam=%7B%22aplus_abtest%22%3A%22cdda3c554f93086a0c76af6c91fd73e3%22%7D&xxc=taobaoSearch",
+    sourceSku: "803658741072",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
     id: "tk-004",
     slug: "daichenguangyixingchunshougongzishahuyuankuanglaozinizishachajujiayongpaochaxishihu220ml",
     title_zhCN: "戴晨光宜兴纯手工紫砂壶原矿老紫泥紫砂茶具家用泡茶西施壶220ml",
@@ -595,6 +630,41 @@ export const products = [
     specs: {},
   },,
   {
+    id: "tk-019",
+    slug: "guyixingchunshougongzishahuchachachadaruyibei",
+    title_zhCN: "古悦堂 宜兴纯手工紫砂壶分茶器茶海茶漏 大红袍如意公道杯",
+    title_zhTW: "古悦堂 宜興純手工紫砂壺分茶器茶海茶漏 大红袍如意公道杯",
+    description_zhCN: "古悦堂 宜兴纯手工紫砂壶分茶器茶海茶漏 大红袍如意公道杯，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴纯手工紫砂壶分茶器茶海茶漏 大红袍如意公道杯，精选优质原矿紫泥，全手工精制而成。",
+    price: 119,
+    originalPrice: 154,
+    images: [
+    "/images/products/tk-019/main_1.webp",
+    "/images/products/tk-019/main_2.webp",
+    "/images/products/tk-019/main_3.webp",
+    "/images/products/tk-019/main_4.webp",
+    "/images/products/tk-019/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=535560982204&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "535560982204",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
     id: "tk-020",
     slug: "guyixingzishahuchunshougongchahufuchajutaozhuangjiayongpaochahushipiaohu",
     title_zhCN: "古悦堂宜兴紫砂壶纯全手工茶壶功夫茶具套装家用泡茶壶经典石瓢壶",
@@ -763,6 +833,41 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1037212969115&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1037212969115",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-025",
+    slug: "guyixingyuankuangzishachajiayongpaohuhu",
+    title_zhCN: "古悦堂 宜兴原矿紫砂小茶盘家用储水式干泡台中式养壶垫 叶脉壶承",
+    title_zhTW: "古悦堂 宜興原礦紫砂小茶盘家用储水式干泡台中式养壺垫 叶脉壺承",
+    description_zhCN: "古悦堂 宜兴原矿紫砂小茶盘家用储水式干泡台中式养壶垫 叶脉壶承，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴原矿紫砂小茶盘家用储水式干泡台中式养壶垫 叶脉壶承，精选优质原矿紫泥，全手工精制而成。",
+    price: 59,
+    originalPrice: 76,
+    images: [
+    "/images/products/tk-025/main_1.webp",
+    "/images/products/tk-025/main_2.webp",
+    "/images/products/tk-025/main_3.webp",
+    "/images/products/tk-025/main_4.webp",
+    "/images/products/tk-025/main_5.webp"
+    ],
+    category: "teaTool",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=722224374419&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc",
+    sourceSku: "722224374419",
     videos: [
 
     ],
@@ -1295,6 +1400,41 @@ export const products = [
     specs: {},
   },,
   {
+    id: "tk-041",
+    slug: "guyixingyuankuangzisha3shougongfuchajuchabeizini",
+    title_zhCN: "古悦堂 宜兴原矿紫砂三才盖碗全手工高档功夫茶具敬茶杯 紫泥盖碗",
+    title_zhTW: "古悦堂 宜興原礦紫砂三才盖碗全手工高档功夫茶具敬茶杯 紫泥盖碗",
+    description_zhCN: "古悦堂 宜兴原矿紫砂三才盖碗全手工高档功夫茶具敬茶杯 紫泥盖碗，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴原矿紫砂三才盖碗全手工高档功夫茶具敬茶杯 紫泥盖碗，精选优质原矿紫泥，全手工精制而成。",
+    price: 109,
+    originalPrice: 141,
+    images: [
+    "/images/products/tk-041/main_1.webp",
+    "/images/products/tk-041/main_2.webp",
+    "/images/products/tk-041/main_3.webp",
+    "/images/products/tk-041/main_4.webp",
+    "/images/products/tk-041/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=637006114201&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "637006114201",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
     id: "tk-042",
     slug: "guyixingzishahuchunshougongjiayongpaochahufuchaju",
     title_zhCN: "古悦堂 宜兴紫砂壶 纯全手工家用泡茶壶高端中式功夫茶具周良荣制",
@@ -1358,6 +1498,41 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1052576634884&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1052576634884",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-044",
+    slug: "guchunshougongzishabeidarongliangpaochabeichabeiyongbei",
+    title_zhCN: "古悦堂纯手工紫砂盖杯大容量泡茶杯办公室喝茶杯个人专用山水盖杯",
+    title_zhTW: "古悦堂純手工紫砂盖杯大容量泡茶杯办公室喝茶杯个人专用山水盖杯",
+    description_zhCN: "古悦堂纯手工紫砂盖杯大容量泡茶杯办公室喝茶杯个人专用山水盖杯，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂纯手工紫砂盖杯大容量泡茶杯办公室喝茶杯个人专用山水盖杯，精选优质原矿紫泥，全手工精制而成。",
+    price: 139,
+    originalPrice: 180,
+    images: [
+    "/images/products/tk-044/main_1.webp",
+    "/images/products/tk-044/main_2.webp",
+    "/images/products/tk-044/main_3.webp",
+    "/images/products/tk-044/main_4.webp",
+    "/images/products/tk-044/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=1054173448088&rn=74b8595a12adf656cb929f2a9ff5ed7e&abbucket=14",
+    sourceSku: "1054173448088",
     videos: [
 
     ],
@@ -1463,6 +1638,41 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1011258625949&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1011258625949",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-048",
+    slug: "guyixingyuankuangdazishabeidarongliangbeichabeibei",
+    title_zhCN: "古悦堂 宜兴原矿大红袍紫砂杯带把大容量品茗杯喝茶杯 静月主人杯",
+    title_zhTW: "古悦堂 宜興原礦大红袍紫砂杯带把大容量品茗杯喝茶杯 静月主人杯",
+    description_zhCN: "古悦堂 宜兴原矿大红袍紫砂杯带把大容量品茗杯喝茶杯 静月主人杯，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴原矿大红袍紫砂杯带把大容量品茗杯喝茶杯 静月主人杯，精选优质原矿紫泥，全手工精制而成。",
+    price: 109,
+    originalPrice: 141,
+    images: [
+    "/images/products/tk-048/main_1.webp",
+    "/images/products/tk-048/main_2.webp",
+    "/images/products/tk-048/main_3.webp",
+    "/images/products/tk-048/main_4.webp",
+    "/images/products/tk-048/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=718989046682&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "718989046682",
     videos: [
 
     ],
@@ -2345,6 +2555,41 @@ export const products = [
     specs: {},
   },,
   {
+    id: "tk-074",
+    slug: "guyixingchajiayongfuchajuchadadali",
+    title_zhCN: "古悦堂 宜兴趣味变色水果茶宠家用功夫茶具摆件可养茶玩 大桔大利",
+    title_zhTW: "古悦堂 宜興趣味变色水果茶宠家用功夫茶具摆件可养茶玩 大桔大利",
+    description_zhCN: "古悦堂 宜兴趣味变色水果茶宠家用功夫茶具摆件可养茶玩 大桔大利，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴趣味变色水果茶宠家用功夫茶具摆件可养茶玩 大桔大利，精选优质原矿紫泥，全手工精制而成。",
+    price: 39,
+    originalPrice: 50,
+    images: [
+    "/images/products/tk-074/main_1.webp",
+    "/images/products/tk-074/main_2.webp",
+    "/images/products/tk-074/main_3.webp",
+    "/images/products/tk-074/main_4.webp",
+    "/images/products/tk-074/main_5.webp"
+    ],
+    category: "teaPet",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=673781378907&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
+    sourceSku: "673781378907",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
     id: "tk-075",
     slug: "gushipiaochunshougongchahuyixingzishahupaochachajutaozhuang",
     title_zhCN: "古悦堂马到成功景舟石瓢纯手工茶壶宜兴紫砂壶泡茶茶具套装送客户",
@@ -2520,6 +2765,41 @@ export const products = [
     specs: {},
   },,
   {
+    id: "tk-080",
+    slug: "guyixingyuankuangzishabeifuchajuchacha1",
+    title_zhCN: "古悦堂 宜兴原矿紫砂公道杯功夫茶具摆件中式茶道分茶器 一鹿相随",
+    title_zhTW: "古悦堂 宜興原礦紫砂公道杯功夫茶具摆件中式茶道分茶器 一鹿相随",
+    description_zhCN: "古悦堂 宜兴原矿紫砂公道杯功夫茶具摆件中式茶道分茶器 一鹿相随，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴原矿紫砂公道杯功夫茶具摆件中式茶道分茶器 一鹿相随，精选优质原矿紫泥，全手工精制而成。",
+    price: 99,
+    originalPrice: 128,
+    images: [
+    "/images/products/tk-080/main_1.webp",
+    "/images/products/tk-080/main_2.webp",
+    "/images/products/tk-080/main_3.webp",
+    "/images/products/tk-080/main_4.webp",
+    "/images/products/tk-080/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=667352493832&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "667352493832",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
     id: "tk-081",
     slug: "guyixingyuankuangzishahuchunshougongpaochahujiayongfuchajuzinishipiao",
     title_zhCN: "古悦堂 宜兴原矿紫砂壶纯手工泡茶壶家用功夫茶具 紫茄泥清风石瓢",
@@ -2625,6 +2905,41 @@ export const products = [
     specs: {},
   },,
   {
+    id: "tk-084",
+    slug: "guyixingzishahuchunshougongpaochahujiayongfuchajuchahulichajuxishihu",
+    title_zhCN: "古悦堂宜兴紫砂壶纯全手工泡茶壶家用功夫茶具茶壶送礼茶具西施壶",
+    title_zhTW: "古悦堂宜興紫砂壺純全手工泡茶壺家用功夫茶具茶壺送禮茶具西施壺",
+    description_zhCN: "古悦堂宜兴紫砂壶纯全手工泡茶壶家用功夫茶具茶壶送礼茶具西施壶，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂宜兴紫砂壶纯全手工泡茶壶家用功夫茶具茶壶送礼茶具西施壶，精选优质原矿紫泥，全手工精制而成。",
+    price: 199,
+    originalPrice: 258,
+    images: [
+    "/images/products/tk-084/main_1.webp",
+    "/images/products/tk-084/main_2.webp",
+    "/images/products/tk-084/main_3.webp",
+    "/images/products/tk-084/main_4.webp",
+    "/images/products/tk-084/main_5.webp"
+    ],
+    category: "teapot",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=36197790443&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
+    sourceSku: "36197790443",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
     id: "tk-085",
     slug: "gushipiaochunshougongchahuyixingzishahutaozhuang",
     title_zhCN: "古悦堂马到成功平盖景舟石瓢纯手工茶壶宜兴紫砂壶德钟套装送客户",
@@ -2688,6 +3003,41 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1012027052002&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1012027052002",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-087",
+    slug: "chapaojiayongchachaju",
+    title_zhCN: "耀州窑陶瓷茶盘干泡台家用储水式托盘茶点果盘小摆件高档茶具配件",
+    title_zhTW: "耀州窑陶瓷茶盘干泡台家用储水式托盘茶点果盘小摆件高档茶具配件",
+    description_zhCN: "耀州窑陶瓷茶盘干泡台家用储水式托盘茶点果盘小摆件高档茶具配件，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "耀州窑陶瓷茶盘干泡台家用储水式托盘茶点果盘小摆件高档茶具配件，精选优质原矿紫泥，全手工精制而成。",
+    price: 169,
+    originalPrice: 219,
+    images: [
+    "/images/products/tk-087/main_1.webp",
+    "/images/products/tk-087/main_2.webp",
+    "/images/products/tk-087/main_3.webp",
+    "/images/products/tk-087/main_4.webp",
+    "/images/products/tk-087/main_5.webp"
+    ],
+    category: "teaTool",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=1017757608340&rn=74b8595a12adf656cb929f2a9ff5ed7e&abbucket=14",
+    sourceSku: "1017757608340",
     videos: [
 
     ],
@@ -3150,6 +3500,41 @@ export const products = [
     specs: {},
   },,
   {
+    id: "tk-101",
+    slug: "guyixingzishahutaozishabeibeichabeishougongbeibei",
+    title_zhCN: "古悦堂 宜兴紫砂壶配套紫砂杯小口杯/茶杯/手工杯/品茗小杯",
+    title_zhTW: "古悦堂 宜興紫砂壺配套紫砂杯小口杯/茶杯/手工杯/品茗小杯",
+    description_zhCN: "古悦堂 宜兴紫砂壶配套紫砂杯小口杯/茶杯/手工杯/品茗小杯，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴紫砂壶配套紫砂杯小口杯/茶杯/手工杯/品茗小杯，精选优质原矿紫泥，全手工精制而成。",
+    price: 19,
+    originalPrice: 24,
+    images: [
+    "/images/products/tk-101/main_1.webp",
+    "/images/products/tk-101/main_2.webp",
+    "/images/products/tk-101/main_3.webp",
+    "/images/products/tk-101/main_4.webp",
+    "/images/products/tk-101/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=39758779002&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
+    sourceSku: "39758779002",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
     id: "tk-102",
     slug: "guyixingyuankuangzishahuchunshougongpaochahufuchajuxishihutaozhuangzi",
     title_zhCN: "古悦堂宜兴原矿紫砂壶纯手工泡茶壶功夫茶具西施壶套装 紫气东来",
@@ -3220,6 +3605,41 @@ export const products = [
     specs: {},
   },,
   {
+    id: "tk-104",
+    slug: "hujiayongpaohuchachajuchahu",
+    title_zhCN: "耀州窑陶瓷壶承家用干泡台养壶储水式茶盘高档茶具配件茶托盘壶垫",
+    title_zhTW: "耀州窑陶瓷壺承家用干泡台养壺储水式茶盘高档茶具配件茶托盘壺垫",
+    description_zhCN: "耀州窑陶瓷壶承家用干泡台养壶储水式茶盘高档茶具配件茶托盘壶垫，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "耀州窑陶瓷壶承家用干泡台养壶储水式茶盘高档茶具配件茶托盘壶垫，精选优质原矿紫泥，全手工精制而成。",
+    price: 169,
+    originalPrice: 219,
+    images: [
+    "/images/products/tk-104/main_1.webp",
+    "/images/products/tk-104/main_2.webp",
+    "/images/products/tk-104/main_3.webp",
+    "/images/products/tk-104/main_4.webp",
+    "/images/products/tk-104/main_5.webp"
+    ],
+    category: "teaTool",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=1016116055887&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
+    sourceSku: "1016116055887",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
     id: "tk-105",
     slug: "guyixingyuankuangzishahuchunshougongpaochahujiayongfuchajuhushipiao",
     title_zhCN: "古悦堂 宜兴原矿紫砂壶纯手工泡茶壶家用功夫茶具单壶 幽兰石瓢",
@@ -3283,6 +3703,111 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=557790909272&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "557790909272",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-107",
+    slug: "guyixingzishachachajuchahucha3jin",
+    title_zhCN: "古悦堂 宜兴紫砂茶宠茶具摆件精品 可养蟾蜍茶壶茶道配件三足金蟾",
+    title_zhTW: "古悦堂 宜興紫砂茶宠茶具摆件精品 可养蟾蜍茶壺茶道配件三足金蟾",
+    description_zhCN: "古悦堂 宜兴紫砂茶宠茶具摆件精品 可养蟾蜍茶壶茶道配件三足金蟾，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴紫砂茶宠茶具摆件精品 可养蟾蜍茶壶茶道配件三足金蟾，精选优质原矿紫泥，全手工精制而成。",
+    price: 139,
+    originalPrice: 180,
+    images: [
+    "/images/products/tk-107/main_1.webp",
+    "/images/products/tk-107/main_2.webp",
+    "/images/products/tk-107/main_3.webp",
+    "/images/products/tk-107/main_4.webp",
+    "/images/products/tk-107/main_5.webp"
+    ],
+    category: "teaPet",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=561185530120&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "561185530120",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-108",
+    slug: "guhuchachachafuchahu",
+    title_zhCN: "古悦堂 黑檀不易掉毛养壶笔茶刷茶笔茶洗功夫茶道配件 獾毛养壶笔",
+    title_zhTW: "古悦堂 黑檀不易掉毛养壺笔茶刷茶笔茶洗功夫茶道配件 獾毛养壺笔",
+    description_zhCN: "古悦堂 黑檀不易掉毛养壶笔茶刷茶笔茶洗功夫茶道配件 獾毛养壶笔，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 黑檀不易掉毛养壶笔茶刷茶笔茶洗功夫茶道配件 獾毛养壶笔，精选优质原矿紫泥，全手工精制而成。",
+    price: 119,
+    originalPrice: 154,
+    images: [
+    "/images/products/tk-108/main_1.webp",
+    "/images/products/tk-108/main_2.webp",
+    "/images/products/tk-108/main_3.webp",
+    "/images/products/tk-108/main_4.webp",
+    "/images/products/tk-108/main_5.webp"
+    ],
+    category: "teapot",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=543892253802&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "543892253802",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-109",
+    slug: "gupaochachabeijiayongchahuhubei4taochajutaozhuang",
+    title_zhCN: "古悦堂陶瓷泡茶盖碗高档喝茶杯家用茶壶托壶承杯垫四件套茶具套装",
+    title_zhTW: "古悦堂陶瓷泡茶盖碗高档喝茶杯家用茶壺托壺承杯垫四件套茶具套裝",
+    description_zhCN: "古悦堂陶瓷泡茶盖碗高档喝茶杯家用茶壶托壶承杯垫四件套茶具套装，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂陶瓷泡茶盖碗高档喝茶杯家用茶壶托壶承杯垫四件套茶具套装，精选优质原矿紫泥，全手工精制而成。",
+    price: 79,
+    originalPrice: 102,
+    images: [
+    "/images/products/tk-109/main_1.webp",
+    "/images/products/tk-109/main_2.webp",
+    "/images/products/tk-109/main_3.webp",
+    "/images/products/tk-109/main_4.webp",
+    "/images/products/tk-109/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=1053353733923&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
+    sourceSku: "1053353733923",
     videos: [
 
     ],
@@ -3570,6 +4095,146 @@ export const products = [
     specs: {},
   },,
   {
+    id: "tk-118",
+    slug: "guyixingyuankuangdabeifuchajujiayongchachajucha",
+    title_zhCN: "古悦堂 宜兴原矿大红袍公道杯功夫茶具配件家用茶道茶具分茶器",
+    title_zhTW: "古悦堂 宜興原礦大红袍公道杯功夫茶具配件家用茶道茶具分茶器",
+    description_zhCN: "古悦堂 宜兴原矿大红袍公道杯功夫茶具配件家用茶道茶具分茶器，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴原矿大红袍公道杯功夫茶具配件家用茶道茶具分茶器，精选优质原矿紫泥，全手工精制而成。",
+    price: 139,
+    originalPrice: 180,
+    images: [
+    "/images/products/tk-118/main_1.webp",
+    "/images/products/tk-118/main_2.webp",
+    "/images/products/tk-118/main_3.webp",
+    "/images/products/tk-118/main_4.webp",
+    "/images/products/tk-118/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=669156382187&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "669156382187",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-119",
+    slug: "guyixingyuankuangzishabeipaochabeizishabeibei",
+    title_zhCN: "古悦堂 宜兴原矿紫砂杯泡茶杯过滤内胆紫砂盖杯知足常乐隔舱杯",
+    title_zhTW: "古悦堂 宜興原礦紫砂杯泡茶杯过滤内胆紫砂盖杯知足常乐隔舱杯",
+    description_zhCN: "古悦堂 宜兴原矿紫砂杯泡茶杯过滤内胆紫砂盖杯知足常乐隔舱杯，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴原矿紫砂杯泡茶杯过滤内胆紫砂盖杯知足常乐隔舱杯，精选优质原矿紫泥，全手工精制而成。",
+    price: 189,
+    originalPrice: 245,
+    images: [
+    "/images/products/tk-119/main_1.webp",
+    "/images/products/tk-119/main_2.webp",
+    "/images/products/tk-119/main_3.webp",
+    "/images/products/tk-119/main_4.webp",
+    "/images/products/tk-119/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=561086502337&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "561086502337",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-120",
+    slug: "guyixingzishachashougongchachajuchacha",
+    title_zhCN: "古悦堂 宜兴紫砂茶宠摆件精品 可养手工茶玩茶具茶桌配件福猪茶宠",
+    title_zhTW: "古悦堂 宜興紫砂茶宠摆件精品 可养手工茶玩茶具茶桌配件福猪茶宠",
+    description_zhCN: "古悦堂 宜兴紫砂茶宠摆件精品 可养手工茶玩茶具茶桌配件福猪茶宠，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴紫砂茶宠摆件精品 可养手工茶玩茶具茶桌配件福猪茶宠，精选优质原矿紫泥，全手工精制而成。",
+    price: 59,
+    originalPrice: 76,
+    images: [
+    "/images/products/tk-120/main_1.webp",
+    "/images/products/tk-120/main_2.webp",
+    "/images/products/tk-120/main_3.webp",
+    "/images/products/tk-120/main_4.webp",
+    "/images/products/tk-120/main_5.webp"
+    ],
+    category: "teaPet",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=581856602858&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
+    sourceSku: "581856602858",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-121",
+    slug: "chahupaochajiayonghuzhengfuchajulaoli",
+    title_zhCN: "耀州窑陶瓷茶壶泡茶家用凤鸣单壶正品功夫茶具送长辈老人生日礼物",
+    title_zhTW: "耀州窑陶瓷茶壺泡茶家用凤鸣單壺正品功夫茶具送长辈老人生日禮物",
+    description_zhCN: "耀州窑陶瓷茶壶泡茶家用凤鸣单壶正品功夫茶具送长辈老人生日礼物，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "耀州窑陶瓷茶壶泡茶家用凤鸣单壶正品功夫茶具送长辈老人生日礼物，精选优质原矿紫泥，全手工精制而成。",
+    price: 199,
+    originalPrice: 258,
+    images: [
+    "/images/products/tk-121/main_1.webp",
+    "/images/products/tk-121/main_2.webp",
+    "/images/products/tk-121/main_3.webp",
+    "/images/products/tk-121/main_4.webp",
+    "/images/products/tk-121/main_5.webp"
+    ],
+    category: "teapot",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=1016119327430&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
+    sourceSku: "1016119327430",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
     id: "tk-122",
     slug: "gufuchachachayuancha",
     title_zhCN: "古悦堂 台湾式功夫电胶木茶盘 电木茶盘 胶木茶海 环保原板茶盘",
@@ -3598,6 +4263,41 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=528271607833&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "528271607833",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-123",
+    slug: "guyixingzishachachachacha",
+    title_zhCN: "古悦堂 宜兴紫砂红茶普洱储茶罐密封醒茶罐 拉环梅兰竹菊茶叶罐",
+    title_zhTW: "古悦堂 宜興紫砂红茶普洱储茶罐密封醒茶罐 拉环梅兰竹菊茶叶罐",
+    description_zhCN: "古悦堂 宜兴紫砂红茶普洱储茶罐密封醒茶罐 拉环梅兰竹菊茶叶罐，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴紫砂红茶普洱储茶罐密封醒茶罐 拉环梅兰竹菊茶叶罐，精选优质原矿紫泥，全手工精制而成。",
+    price: 79,
+    originalPrice: 102,
+    images: [
+    "/images/products/tk-123/main_1.webp",
+    "/images/products/tk-123/main_2.webp",
+    "/images/products/tk-123/main_3.webp",
+    "/images/products/tk-123/main_4.webp",
+    "/images/products/tk-123/main_5.webp"
+    ],
+    category: "teapot",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=550684089916&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
+    sourceSku: "550684089916",
     videos: [
 
     ],
@@ -3703,6 +4403,41 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1037995337928&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1037995337928",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-127",
+    slug: "guyixingyuankuangzishabeizhengshougongzishabeichabeidarongliangbeibei",
+    title_zhCN: "古悦堂 宜兴原矿紫砂杯正品全手工紫砂盖杯茶杯大容量杯子舍得杯",
+    title_zhTW: "古悦堂 宜興原礦紫砂杯正品全手工紫砂盖杯茶杯大容量杯子舍得杯",
+    description_zhCN: "古悦堂 宜兴原矿紫砂杯正品全手工紫砂盖杯茶杯大容量杯子舍得杯，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴原矿紫砂杯正品全手工紫砂盖杯茶杯大容量杯子舍得杯，精选优质原矿紫泥，全手工精制而成。",
+    price: 199,
+    originalPrice: 258,
+    images: [
+    "/images/products/tk-127/main_1.webp",
+    "/images/products/tk-127/main_2.webp",
+    "/images/products/tk-127/main_3.webp",
+    "/images/products/tk-127/main_4.webp",
+    "/images/products/tk-127/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=563407722315&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "563407722315",
     videos: [
 
     ],
@@ -4088,6 +4823,76 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=642722221511&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "642722221511",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-139",
+    slug: "guyixingyuankuangzishachajufuchachachazinicha",
+    title_zhCN: "古悦堂 宜兴原矿紫砂茶具功夫茶道配件茶海过滤茶网紫泥 德馨茶漏",
+    title_zhTW: "古悦堂 宜興原礦紫砂茶具功夫茶道配件茶海过滤茶网紫泥 德馨茶漏",
+    description_zhCN: "古悦堂 宜兴原矿紫砂茶具功夫茶道配件茶海过滤茶网紫泥 德馨茶漏，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴原矿紫砂茶具功夫茶道配件茶海过滤茶网紫泥 德馨茶漏，精选优质原矿紫泥，全手工精制而成。",
+    price: 99,
+    originalPrice: 128,
+    images: [
+    "/images/products/tk-139/main_1.webp",
+    "/images/products/tk-139/main_2.webp",
+    "/images/products/tk-139/main_3.webp",
+    "/images/products/tk-139/main_4.webp",
+    "/images/products/tk-139/main_5.webp"
+    ],
+    category: "teapot",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=732064821638&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "732064821638",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-140",
+    slug: "guyixingzishachafuzishahu",
+    title_zhCN: "古悦堂 宜兴紫砂茶道功夫配件 紫砂壶盖拖 盖碗盖托 可养胶木盖托",
+    title_zhTW: "古悦堂 宜興紫砂茶道功夫配件 紫砂壺盖拖 盖碗盖托 可养胶木盖托",
+    description_zhCN: "古悦堂 宜兴紫砂茶道功夫配件 紫砂壶盖拖 盖碗盖托 可养胶木盖托，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴紫砂茶道功夫配件 紫砂壶盖拖 盖碗盖托 可养胶木盖托，精选优质原矿紫泥，全手工精制而成。",
+    price: 119,
+    originalPrice: 154,
+    images: [
+    "/images/products/tk-140/main_1.webp",
+    "/images/products/tk-140/main_2.webp",
+    "/images/products/tk-140/main_3.webp",
+    "/images/products/tk-140/main_4.webp",
+    "/images/products/tk-140/main_5.webp"
+    ],
+    category: "teapot",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=611459182400&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "611459182400",
     videos: [
 
     ],
@@ -4690,6 +5495,146 @@ export const products = [
     specs: {},
   },,
   {
+    id: "tk-158",
+    slug: "guyixingzishabeidachafuchajuchabei",
+    title_zhCN: "古悦堂 宜兴紫砂公道杯大红袍分茶器中式功夫茶具配件 茶香公道杯",
+    title_zhTW: "古悦堂 宜興紫砂公道杯大红袍分茶器中式功夫茶具配件 茶香公道杯",
+    description_zhCN: "古悦堂 宜兴紫砂公道杯大红袍分茶器中式功夫茶具配件 茶香公道杯，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴紫砂公道杯大红袍分茶器中式功夫茶具配件 茶香公道杯，精选优质原矿紫泥，全手工精制而成。",
+    price: 109,
+    originalPrice: 141,
+    images: [
+    "/images/products/tk-158/main_1.webp",
+    "/images/products/tk-158/main_2.webp",
+    "/images/products/tk-158/main_3.webp",
+    "/images/products/tk-158/main_4.webp",
+    "/images/products/tk-158/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=779856557151&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "779856557151",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-159",
+    slug: "guyixingzishachajujiayongpaochabeichabei",
+    title_zhCN: "古悦堂 宜兴紫砂茶具配件家用泡茶公道杯待客分茶器 逸竹公道杯",
+    title_zhTW: "古悦堂 宜興紫砂茶具配件家用泡茶公道杯待客分茶器 逸竹公道杯",
+    description_zhCN: "古悦堂 宜兴紫砂茶具配件家用泡茶公道杯待客分茶器 逸竹公道杯，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴紫砂茶具配件家用泡茶公道杯待客分茶器 逸竹公道杯，精选优质原矿紫泥，全手工精制而成。",
+    price: 149,
+    originalPrice: 193,
+    images: [
+    "/images/products/tk-159/main_1.webp",
+    "/images/products/tk-159/main_2.webp",
+    "/images/products/tk-159/main_3.webp",
+    "/images/products/tk-159/main_4.webp",
+    "/images/products/tk-159/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=911556234909&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "911556234909",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-160",
+    slug: "guyixingyuankuangzishabeishougongfuchajubeinibei",
+    title_zhCN: "古悦堂 宜兴原矿紫砂杯全手工功夫茶具中式品茗杯子降坡泥 桃花杯",
+    title_zhTW: "古悦堂 宜興原礦紫砂杯全手工功夫茶具中式品茗杯子降坡泥 桃花杯",
+    description_zhCN: "古悦堂 宜兴原矿紫砂杯全手工功夫茶具中式品茗杯子降坡泥 桃花杯，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴原矿紫砂杯全手工功夫茶具中式品茗杯子降坡泥 桃花杯，精选优质原矿紫泥，全手工精制而成。",
+    price: 119,
+    originalPrice: 154,
+    images: [
+    "/images/products/tk-160/main_1.webp",
+    "/images/products/tk-160/main_2.webp",
+    "/images/products/tk-160/main_3.webp",
+    "/images/products/tk-160/main_4.webp",
+    "/images/products/tk-160/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=785048131042&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "785048131042",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-161",
+    slug: "guyixingyuankuangzishabeishougongfuchajubeizinichunbei",
+    title_zhCN: "古悦堂 宜兴原矿紫砂杯全手工功夫茶具中式品茗杯子紫泥 望春杯",
+    title_zhTW: "古悦堂 宜興原礦紫砂杯全手工功夫茶具中式品茗杯子紫泥 望春杯",
+    description_zhCN: "古悦堂 宜兴原矿紫砂杯全手工功夫茶具中式品茗杯子紫泥 望春杯，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴原矿紫砂杯全手工功夫茶具中式品茗杯子紫泥 望春杯，精选优质原矿紫泥，全手工精制而成。",
+    price: 119,
+    originalPrice: 154,
+    images: [
+    "/images/products/tk-161/main_1.webp",
+    "/images/products/tk-161/main_2.webp",
+    "/images/products/tk-161/main_3.webp",
+    "/images/products/tk-161/main_4.webp",
+    "/images/products/tk-161/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=785051127100&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "785051127100",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
     id: "tk-162",
     slug: "guyixingzishahuchunshougongjiayongpaochahuchajutaozhuangdazinihu",
     title_zhCN: "古悦堂 宜兴紫砂壶纯全手工家用泡茶壶茶具套装 大号紫茄泥秦权壶",
@@ -4928,6 +5873,41 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=757645319538&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "757645319538",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-169",
+    slug: "guyixingzishachajiayongnichafucha",
+    title_zhCN: "古悦堂 宜兴紫砂萌茶宠家用段泥小狗茶玩摆件功夫茶配件 招财进宝",
+    title_zhTW: "古悦堂 宜興紫砂萌茶宠家用段泥小狗茶玩摆件功夫茶配件 招财进宝",
+    description_zhCN: "古悦堂 宜兴紫砂萌茶宠家用段泥小狗茶玩摆件功夫茶配件 招财进宝，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴紫砂萌茶宠家用段泥小狗茶玩摆件功夫茶配件 招财进宝，精选优质原矿紫泥，全手工精制而成。",
+    price: 189,
+    originalPrice: 245,
+    images: [
+    "/images/products/tk-169/main_1.webp",
+    "/images/products/tk-169/main_2.webp",
+    "/images/products/tk-169/main_3.webp",
+    "/images/products/tk-169/main_4.webp",
+    "/images/products/tk-169/main_5.webp"
+    ],
+    category: "teaPet",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=667562551604&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
+    sourceSku: "667562551604",
     videos: [
 
     ],
@@ -5530,6 +6510,76 @@ export const products = [
     specs: {},
   },,
   {
+    id: "tk-187",
+    slug: "guyixingyuankuangzishachachachacha",
+    title_zhCN: "古悦堂 宜兴原矿紫砂红茶普洱储茶罐收纳密封醒茶罐 山河茶叶罐",
+    title_zhTW: "古悦堂 宜興原礦紫砂红茶普洱储茶罐收纳密封醒茶罐 山河茶叶罐",
+    description_zhCN: "古悦堂 宜兴原矿紫砂红茶普洱储茶罐收纳密封醒茶罐 山河茶叶罐，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 宜兴原矿紫砂红茶普洱储茶罐收纳密封醒茶罐 山河茶叶罐，精选优质原矿紫泥，全手工精制而成。",
+    price: 169,
+    originalPrice: 219,
+    images: [
+    "/images/products/tk-187/main_1.webp",
+    "/images/products/tk-187/main_2.webp",
+    "/images/products/tk-187/main_3.webp",
+    "/images/products/tk-187/main_4.webp",
+    "/images/products/tk-187/main_5.webp"
+    ],
+    category: "teapot",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=789032217966&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
+    sourceSku: "789032217966",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-188",
+    slug: "guchabeifupaochashou3yong",
+    title_zhCN: "古悦堂 珐琅彩盖碗茶杯单个高档功夫泡茶不烫手三才盖碗个人专用",
+    title_zhTW: "古悦堂 珐琅彩盖碗茶杯單个高档功夫泡茶不烫手三才盖碗个人专用",
+    description_zhCN: "古悦堂 珐琅彩盖碗茶杯单个高档功夫泡茶不烫手三才盖碗个人专用，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "古悦堂 珐琅彩盖碗茶杯单个高档功夫泡茶不烫手三才盖碗个人专用，精选优质原矿紫泥，全手工精制而成。",
+    price: 149,
+    originalPrice: 193,
+    images: [
+    "/images/products/tk-188/main_1.webp",
+    "/images/products/tk-188/main_2.webp",
+    "/images/products/tk-188/main_3.webp",
+    "/images/products/tk-188/main_4.webp",
+    "/images/products/tk-188/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=880882779673&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
+    sourceSku: "880882779673",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
     id: "tk-189",
     slug: "gushougongchajuyongchachabeizishabeibei",
     title_zhCN: "古悦堂手工茶具个人专用喝茶茶杯高档紫砂带把主人杯办公室咖啡杯",
@@ -5558,6 +6608,41 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=972602473739&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
     sourceSku: "972602473739",
+    videos: [
+
+    ],
+    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
+    specs: {},
+  },,
+  {
+    id: "tk-190",
+    slug: "chabeibeiyongchajubeiyongbeilihezhuang",
+    title_zhCN: "敦煌茶杯陶瓷侘寂杯个人专用茶具主人杯高档个人专用闻香杯礼盒装",
+    title_zhTW: "敦煌茶杯陶瓷侘寂杯个人专用茶具主人杯高档个人专用闻香杯禮盒裝",
+    description_zhCN: "敦煌茶杯陶瓷侘寂杯个人专用茶具主人杯高档个人专用闻香杯礼盒装，精选优质原矿紫泥，全手工精制而成。",
+    description_zhTW: "敦煌茶杯陶瓷侘寂杯个人专用茶具主人杯高档个人专用闻香杯礼盒装，精选优质原矿紫泥，全手工精制而成。",
+    price: 119,
+    originalPrice: 154,
+    images: [
+    "/images/products/tk-190/main_1.webp",
+    "/images/products/tk-190/main_2.webp",
+    "/images/products/tk-190/main_3.webp",
+    "/images/products/tk-190/main_4.webp",
+    "/images/products/tk-190/main_5.webp"
+    ],
+    category: "cup",
+    inStock: true,
+    stock: 100,
+     
+    createdAt: "2026-06-17",
+    rating: 4.8,
+    reviewCount: 0,
+    detailImages: [
+
+    ],
+    variants: undefined,
+    sourceUrl: "https://detail.tmall.com/item.htm?id=881244870494&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
+    sourceSku: "881244870494",
     videos: [
 
     ],
@@ -5595,1033 +6680,6 @@ export const products = [
     sourceSku: "753829203840",
     videos: [
 
-    ],
-    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
-  },
-  {
-    id: "tk-213",
-    slug: "guyixingyuankuangzishahuchunshougongpaochahuzhengjiayongchajutaozhuangpiao",
-    title_zhCN: "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶正品家用茶具套装 纳瓢",
-    title_zhTW: "古悦堂 宜興原礦紫砂壺純全手工泡茶壺正品家用茶具套裝 纳瓢",
-    description_zhCN: "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶正品家用茶具套装 纳瓢，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    description_zhTW: "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶正品家用茶具套装 纳瓢，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    price: 509.0,
-    originalPrice: 599.0,
-    images: [
-    "/images/products/tk-213/main_1.webp",
-    "/images/products/tk-213/main_2.webp",
-    "/images/products/tk-213/main_3.webp",
-    "/images/products/tk-213/main_4.webp",
-    "/images/products/tk-213/main_5.webp"
-    ],
-    category: "teapot",
-    inStock: true,
-    stock: 100,
-     
-    createdAt: "2026-06-17",
-    rating: 4.8,
-    reviewCount: 0,
-    detailImages: [
-    "/images/products/tk-213/detail_2.webp",
-    "/images/products/tk-213/detail_3.webp",
-    "/images/products/tk-213/detail_4.webp",
-    "/images/products/tk-213/detail_5.webp",
-    "/images/products/tk-213/detail_6.webp",
-    "/images/products/tk-213/detail_7.webp",
-    "/images/products/tk-213/detail_8.webp",
-    "/images/products/tk-213/detail_9.webp",
-    "/images/products/tk-213/detail_10.webp",
-    "/images/products/tk-213/detail_11.webp",
-    "/images/products/tk-213/detail_12.webp",
-    "/images/products/tk-213/detail_13.webp",
-    "/images/products/tk-213/detail_14.webp",
-    "/images/products/tk-213/detail_15.webp",
-    "/images/products/tk-213/detail_16.webp",
-    "/images/products/tk-213/detail_17.webp",
-    "/images/products/tk-213/detail_18.webp",
-    "/images/products/tk-213/detail_19.webp",
-    "/images/products/tk-213/detail_20.webp"
-    ],
-    variants: [
-      {
-        id: "tk-213-v1",
-        name_zhCN: "约170ml",
-        name_zhTW: "約170ml",
-        price: 509.0,
-        originalPrice: 599.0,
-        stock: 50,
-        image: "",
-        sku: "5264974080935",
-      }
-    ],
-    sourceUrl: "https://detail.tmall.com/item.htm?id=766117834057&rn=74b8595a12adf656cb929f2a9ff5ed7e&abbucket=14",
-    sourceSku: "766117834057",
-    videos: [
-
-    ],
-    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
-  },
-  {
-    id: "tk-214",
-    slug: "yixingzishahuchunshougongzhengchajutaozhuangjiayongpaochahuli",
-    title_zhCN: "宜兴紫砂壶纯手工正品茶具套装家用泡茶壶送长辈朋友节节高升礼物",
-    title_zhTW: "宜興紫砂壺純手工正品茶具套裝家用泡茶壺送长辈朋友节节高升禮物",
-    description_zhCN: "宜兴紫砂壶纯手工正品茶具套装家用泡茶壶送长辈朋友节节高升礼物，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    description_zhTW: "宜兴紫砂壶纯手工正品茶具套装家用泡茶壶送长辈朋友节节高升礼物，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    price: 356.0,
-    originalPrice: 429.0,
-    images: [
-    "/images/products/tk-214/main_1.webp",
-    "/images/products/tk-214/main_2.webp",
-    "/images/products/tk-214/main_3.webp",
-    "/images/products/tk-214/main_4.webp",
-    "/images/products/tk-214/main_5.webp"
-    ],
-    category: "teapot",
-    inStock: true,
-    stock: 100,
-     
-    createdAt: "2026-06-17",
-    rating: 4.8,
-    reviewCount: 0,
-    detailImages: [
-    "/images/products/tk-214/detail_2.webp",
-    "/images/products/tk-214/detail_3.webp",
-    "/images/products/tk-214/detail_4.webp",
-    "/images/products/tk-214/detail_5.webp",
-    "/images/products/tk-214/detail_6.webp",
-    "/images/products/tk-214/detail_7.webp",
-    "/images/products/tk-214/detail_8.webp",
-    "/images/products/tk-214/detail_9.webp",
-    "/images/products/tk-214/detail_10.webp",
-    "/images/products/tk-214/detail_11.webp",
-    "/images/products/tk-214/detail_12.webp",
-    "/images/products/tk-214/detail_13.webp",
-    "/images/products/tk-214/detail_14.webp",
-    "/images/products/tk-214/detail_15.webp",
-    "/images/products/tk-214/detail_16.webp",
-    "/images/products/tk-214/detail_17.webp",
-    "/images/products/tk-214/detail_18.webp",
-    "/images/products/tk-214/detail_19.webp",
-    "/images/products/tk-214/detail_20.webp",
-    "/images/products/tk-214/detail_21.webp",
-    "/images/products/tk-214/detail_22.webp",
-    "/images/products/tk-214/detail_23.webp",
-    "/images/products/tk-214/detail_24.webp",
-    "/images/products/tk-214/detail_25.webp",
-    "/images/products/tk-214/detail_26.webp",
-    "/images/products/tk-214/detail_27.webp",
-    "/images/products/tk-214/detail_28.webp"
-    ],
-    variants: [
-      {
-        id: "tk-214-v1",
-        name_zhCN: "原矿底槽清 | 节节高升套装【精美礼盒】约260ml",
-        name_zhTW: "原礦底槽清 | 节节高升套裝【精美禮盒】約260ml",
-        price: 356.0,
-        originalPrice: 429.0,
-        stock: 50,
-        image: "/images/products/tk-214/variant_6032276336146.webp",
-        sku: "6032276336146",
-      }
-    ],
-    sourceUrl: "https://detail.tmall.com/item.htm?id=1020460167315&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-    sourceSku: "1020460167315",
-    videos: [
-    "/videos/products/tk-214/product.mp4"
-    ],
-    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
-  },
-  {
-    id: "tk-215",
-    slug: "guyixingzishahuchunshougongjiayongpaochahu2026xinkuanchajuhuzini",
-    title_zhCN: "古悦堂 宜兴紫砂壶纯全手工家用泡茶壶2026新款茶具单壶紫泥 思婷",
-    title_zhTW: "古悦堂 宜興紫砂壺純全手工家用泡茶壺2026新款茶具單壺紫泥 思婷",
-    description_zhCN: "古悦堂 宜兴紫砂壶纯全手工家用泡茶壶2026新款茶具单壶紫泥 思婷，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    description_zhTW: "古悦堂 宜兴紫砂壶纯全手工家用泡茶壶2026新款茶具单壶紫泥 思婷，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    price: 849.0,
-    originalPrice: 999.0,
-    images: [
-    "/images/products/tk-215/main_1.webp",
-    "/images/products/tk-215/main_2.webp",
-    "/images/products/tk-215/main_3.webp",
-    "/images/products/tk-215/main_4.webp",
-    "/images/products/tk-215/main_5.webp"
-    ],
-    category: "teapot",
-    inStock: true,
-    stock: 100,
-     
-    createdAt: "2026-06-17",
-    rating: 4.8,
-    reviewCount: 0,
-    detailImages: [
-    "/images/products/tk-215/detail_2.webp",
-    "/images/products/tk-215/detail_3.webp",
-    "/images/products/tk-215/detail_4.webp",
-    "/images/products/tk-215/detail_5.webp",
-    "/images/products/tk-215/detail_6.webp",
-    "/images/products/tk-215/detail_7.webp",
-    "/images/products/tk-215/detail_8.webp",
-    "/images/products/tk-215/detail_9.webp",
-    "/images/products/tk-215/detail_10.webp",
-    "/images/products/tk-215/detail_11.webp",
-    "/images/products/tk-215/detail_12.webp",
-    "/images/products/tk-215/detail_13.webp",
-    "/images/products/tk-215/detail_14.webp",
-    "/images/products/tk-215/detail_15.webp",
-    "/images/products/tk-215/detail_16.webp",
-    "/images/products/tk-215/detail_17.webp",
-    "/images/products/tk-215/detail_18.webp",
-    "/images/products/tk-215/detail_19.webp"
-    ],
-    variants: [
-      {
-        id: "tk-215-v1",
-        name_zhCN: "约120ml",
-        name_zhTW: "約120ml",
-        price: 849.0,
-        originalPrice: 999.0,
-        stock: 50,
-        image: "",
-        sku: "5720634644657",
-      }
-    ],
-    sourceUrl: "https://detail.tmall.com/item.htm?id=880879586342&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-    sourceSku: "880879586342",
-    videos: [
-
-    ],
-    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
-  },
-  {
-    id: "tk-216",
-    slug: "guyixingzishahuchunshougongpaochahuyonghufuchajuda",
-    title_zhCN: "古悦堂 宜兴紫砂壶纯手工泡茶壶个人专用小壶功夫茶具 大红袍思亭",
-    title_zhTW: "古悦堂 宜興紫砂壺純手工泡茶壺个人专用小壺功夫茶具 大红袍思亭",
-    description_zhCN: "古悦堂 宜兴紫砂壶纯手工泡茶壶个人专用小壶功夫茶具 大红袍思亭，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    description_zhTW: "古悦堂 宜兴紫砂壶纯手工泡茶壶个人专用小壶功夫茶具 大红袍思亭，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    price: 289.35,
-    originalPrice: 399.15,
-    images: [
-    "/images/products/tk-216/main_1.webp",
-    "/images/products/tk-216/main_2.webp",
-    "/images/products/tk-216/main_3.webp",
-    "/images/products/tk-216/main_4.webp",
-    "/images/products/tk-216/main_5.webp"
-    ],
-    category: "teapot",
-    inStock: true,
-    stock: 100,
-     
-    createdAt: "2026-06-17",
-    rating: 4.8,
-    reviewCount: 0,
-    detailImages: [
-    "/images/products/tk-216/detail_2.webp",
-    "/images/products/tk-216/detail_3.webp",
-    "/images/products/tk-216/detail_4.webp",
-    "/images/products/tk-216/detail_5.webp",
-    "/images/products/tk-216/detail_6.webp",
-    "/images/products/tk-216/detail_7.webp",
-    "/images/products/tk-216/detail_8.webp",
-    "/images/products/tk-216/detail_9.webp",
-    "/images/products/tk-216/detail_10.webp",
-    "/images/products/tk-216/detail_11.webp",
-    "/images/products/tk-216/detail_12.webp",
-    "/images/products/tk-216/detail_13.webp",
-    "/images/products/tk-216/detail_14.webp",
-    "/images/products/tk-216/detail_15.webp",
-    "/images/products/tk-216/detail_16.webp",
-    "/images/products/tk-216/detail_17.webp",
-    "/images/products/tk-216/detail_18.webp",
-    "/images/products/tk-216/detail_19.webp",
-    "/images/products/tk-216/detail_20.webp",
-    "/images/products/tk-216/detail_21.webp",
-    "/images/products/tk-216/detail_22.webp",
-    "/images/products/tk-216/detail_23.webp",
-    "/images/products/tk-216/detail_24.webp",
-    "/images/products/tk-216/detail_25.webp",
-    "/images/products/tk-216/detail_26.webp"
-    ],
-    variants: [
-      {
-        id: "tk-216-v1",
-        name_zhCN: "思亭51mL(含)-100mL(含)",
-        name_zhTW: "思亭51mL(含)-100mL(含)",
-        price: 289.35,
-        originalPrice: 350.35,
-        stock: 50,
-        image: "/images/products/tk-216/variant_5398919074522.webp",
-        sku: "5398919074522",
-      },
-      {
-        id: "tk-216-v2",
-        name_zhCN: "龙蛋51mL(含)-100mL(含)",
-        name_zhTW: "龍蛋51mL(含)-100mL(含)",
-        price: 289.35,
-        originalPrice: 350.35,
-        stock: 50,
-        image: "/images/products/tk-216/variant_5398919074524.webp",
-        sku: "5398919074524",
-      },
-      {
-        id: "tk-216-v3",
-        name_zhCN: "仿古51mL(含)-100mL(含)",
-        name_zhTW: "仿古51mL(含)-100mL(含)",
-        price: 289.35,
-        originalPrice: 350.35,
-        stock: 50,
-        image: "/images/products/tk-216/variant_5398919074528.webp",
-        sku: "5398919074528",
-      },
-      {
-        id: "tk-216-v4",
-        name_zhCN: "水平51mL(含)-100mL(含)",
-        name_zhTW: "水平51mL(含)-100mL(含)",
-        price: 289.35,
-        originalPrice: 350.35,
-        stock: 50,
-        image: "/images/products/tk-216/variant_5398919074527.webp",
-        sku: "5398919074527",
-      },
-      {
-        id: "tk-216-v5",
-        name_zhCN: "君德51mL(含)-100mL(含)",
-        name_zhTW: "君德51mL(含)-100mL(含)",
-        price: 289.35,
-        originalPrice: 350.35,
-        stock: 50,
-        image: "/images/products/tk-216/variant_5398919074521.webp",
-        sku: "5398919074521",
-      },
-      {
-        id: "tk-216-v6",
-        name_zhCN: "石瓢51mL(含)-100mL(含)",
-        name_zhTW: "石瓢51mL(含)-100mL(含)",
-        price: 289.35,
-        originalPrice: 350.35,
-        stock: 50,
-        image: "/images/products/tk-216/variant_5398919074523.webp",
-        sku: "5398919074523",
-      },
-      {
-        id: "tk-216-v7",
-        name_zhCN: "潘壶51mL(含)-100mL(含)",
-        name_zhTW: "潘壺51mL(含)-100mL(含)",
-        price: 289.35,
-        originalPrice: 350.35,
-        stock: 50,
-        image: "/images/products/tk-216/variant_5398919074529.webp",
-        sku: "5398919074529",
-      },
-      {
-        id: "tk-216-v8",
-        name_zhCN: "掇只51mL(含)-100mL(含)",
-        name_zhTW: "掇只51mL(含)-100mL(含)",
-        price: 289.35,
-        originalPrice: 350.35,
-        stock: 50,
-        image: "/images/products/tk-216/variant_5398919074530.webp",
-        sku: "5398919074530",
-      },
-      {
-        id: "tk-216-v9",
-        name_zhCN: "美人肩51mL(含)-100mL(含)",
-        name_zhTW: "美人肩51mL(含)-100mL(含)",
-        price: 289.35,
-        originalPrice: 350.35,
-        stock: 50,
-        image: "/images/products/tk-216/variant_5398919074531.webp",
-        sku: "5398919074531",
-      },
-      {
-        id: "tk-216-v10",
-        name_zhCN: "西施51mL(含)-100mL(含)",
-        name_zhTW: "西施51mL(含)-100mL(含)",
-        price: 331.15,
-        originalPrice: 399.15,
-        stock: 50,
-        image: "/images/products/tk-216/variant_5844526712679.webp",
-        sku: "5844526712679",
-      }
-    ],
-    sourceUrl: "https://detail.tmall.com/item.htm?id=754337119023&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-    sourceSku: "754337119023",
-    videos: [
-    "/videos/products/tk-216/product.mp4"
-    ],
-    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
-  },
-  {
-    id: "tk-217",
-    slug: "guyixingzishachachajuchahucha3jin",
-    title_zhCN: "古悦堂 宜兴紫砂茶宠茶具摆件精品 可养蟾蜍茶壶茶道配件三足金蟾",
-    title_zhTW: "古悦堂 宜興紫砂茶宠茶具摆件精品 可养蟾蜍茶壺茶道配件三足金蟾",
-    description_zhCN: "古悦堂 宜兴紫砂茶宠茶具摆件精品 可养蟾蜍茶壶茶道配件三足金蟾，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    description_zhTW: "古悦堂 宜兴紫砂茶宠茶具摆件精品 可养蟾蜍茶壶茶道配件三足金蟾，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    price: 100.0,
-    originalPrice: 118.0,
-    images: [
-    "/images/products/tk-217/main_1.webp",
-    "/images/products/tk-217/main_2.webp",
-    "/images/products/tk-217/main_3.webp",
-    "/images/products/tk-217/main_4.webp",
-    "/images/products/tk-217/main_5.webp"
-    ],
-    category: "teapot",
-    inStock: true,
-    stock: 100,
-     shape: "蜍茶壶",
-    createdAt: "2026-06-17",
-    rating: 4.8,
-    reviewCount: 0,
-    detailImages: [
-    "/images/products/tk-217/detail_2.webp",
-    "/images/products/tk-217/detail_3.webp",
-    "/images/products/tk-217/detail_4.webp",
-    "/images/products/tk-217/detail_5.webp",
-    "/images/products/tk-217/detail_6.webp",
-    "/images/products/tk-217/detail_7.webp",
-    "/images/products/tk-217/detail_8.webp",
-    "/images/products/tk-217/detail_9.webp",
-    "/images/products/tk-217/detail_10.webp",
-    "/images/products/tk-217/detail_11.webp",
-    "/images/products/tk-217/detail_12.webp",
-    "/images/products/tk-217/detail_13.webp",
-    "/images/products/tk-217/detail_14.webp",
-    "/images/products/tk-217/detail_15.webp",
-    "/images/products/tk-217/detail_16.webp",
-    "/images/products/tk-217/detail_17.webp",
-    "/images/products/tk-217/detail_18.webp",
-    "/images/products/tk-217/detail_19.webp",
-    "/images/products/tk-217/detail_20.webp"
-    ],
-    variants: [
-      {
-        id: "tk-217-v1",
-        name_zhCN: "紫泥款",
-        name_zhTW: "紫泥款",
-        price: 100.0,
-        originalPrice: 118.0,
-        stock: 50,
-        image: "/images/products/tk-217/variant_4165895865681.webp",
-        sku: "4165895865681",
-      },
-      {
-        id: "tk-217-v2",
-        name_zhCN: "仿旧款",
-        name_zhTW: "仿旧款",
-        price: 100.0,
-        originalPrice: 118.0,
-        stock: 50,
-        image: "/images/products/tk-217/variant_4037111099261.webp",
-        sku: "4037111099261",
-      },
-      {
-        id: "tk-217-v3",
-        name_zhCN: "清水泥款",
-        name_zhTW: "清水泥款",
-        price: 100.0,
-        originalPrice: 118.0,
-        stock: 50,
-        image: "/images/products/tk-217/variant_4037111099262.webp",
-        sku: "4037111099262",
-      }
-    ],
-    sourceUrl: "https://detail.tmall.com/item.htm?id=561185530120&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-    sourceSku: "561185530120",
-    videos: [
-
-    ],
-    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
-  },
-  {
-    id: "tk-218",
-    slug: "yixingchunshougongzishabeiyongbeichabeitaozhuanglihezhuanglifuchaju",
-    title_zhCN: "宜兴纯手工紫砂杯个人专用主人杯高档茶杯套装礼盒装送礼功夫茶具",
-    title_zhTW: "宜興純手工紫砂杯个人专用主人杯高档茶杯套裝禮盒裝送禮功夫茶具",
-    description_zhCN: "宜兴纯手工紫砂杯个人专用主人杯高档茶杯套装礼盒装送礼功夫茶具，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    description_zhTW: "宜兴纯手工紫砂杯个人专用主人杯高档茶杯套装礼盒装送礼功夫茶具，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    price: 168.0,
-    originalPrice: 198.0,
-    images: [
-    "/images/products/tk-218/main_1.webp",
-    "/images/products/tk-218/main_2.webp",
-    "/images/products/tk-218/main_3.webp",
-    "/images/products/tk-218/main_4.webp",
-    "/images/products/tk-218/main_5.webp"
-    ],
-    category: "cup",
-    inStock: true,
-    stock: 100,
-     
-    createdAt: "2026-06-17",
-    rating: 4.8,
-    reviewCount: 0,
-    detailImages: [
-    "/images/products/tk-218/detail_2.webp",
-    "/images/products/tk-218/detail_3.webp",
-    "/images/products/tk-218/detail_4.webp",
-    "/images/products/tk-218/detail_5.webp",
-    "/images/products/tk-218/detail_6.webp",
-    "/images/products/tk-218/detail_7.webp",
-    "/images/products/tk-218/detail_8.webp",
-    "/images/products/tk-218/detail_9.webp",
-    "/images/products/tk-218/detail_10.webp",
-    "/images/products/tk-218/detail_11.webp",
-    "/images/products/tk-218/detail_12.webp",
-    "/images/products/tk-218/detail_13.webp",
-    "/images/products/tk-218/detail_14.webp",
-    "/images/products/tk-218/detail_15.webp",
-    "/images/products/tk-218/detail_16.webp",
-    "/images/products/tk-218/detail_17.webp",
-    "/images/products/tk-218/detail_18.webp",
-    "/images/products/tk-218/detail_19.webp",
-    "/images/products/tk-218/detail_20.webp",
-    "/images/products/tk-218/detail_21.webp",
-    "/images/products/tk-218/detail_22.webp",
-    "/images/products/tk-218/detail_23.webp",
-    "/images/products/tk-218/detail_24.webp",
-    "/images/products/tk-218/detail_25.webp"
-    ],
-    variants: [
-      {
-        id: "tk-218-v1",
-        name_zhCN: "送礼茶具 | 五福杯套组【精美礼盒】约70~90ml",
-        name_zhTW: "送禮茶具 | 五福杯套组【精美禮盒】約70~90ml",
-        price: 168.0,
-        originalPrice: 198.0,
-        stock: 50,
-        image: "/images/products/tk-218/variant_6185897571599.webp",
-        sku: "6185897571599",
-      }
-    ],
-    sourceUrl: "https://detail.tmall.com/item.htm?id=1013622271782&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-    sourceSku: "1013622271782",
-    videos: [
-    "/videos/products/tk-218/product.mp4"
-    ],
-    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
-  },
-  {
-    id: "tk-219",
-    slug: "guyixingyuankuangdazishahuchunshougongchahu1yongpaochahuxishi",
-    title_zhCN: "古悦堂宜兴原矿大红袍紫砂壶纯手工小茶壶一人用泡茶壶梅花小西施",
-    title_zhTW: "古悦堂宜興原礦大红袍紫砂壺純手工小茶壺一人用泡茶壺梅花小西施",
-    description_zhCN: "古悦堂宜兴原矿大红袍紫砂壶纯手工小茶壶一人用泡茶壶梅花小西施，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    description_zhTW: "古悦堂宜兴原矿大红袍紫砂壶纯手工小茶壶一人用泡茶壶梅花小西施，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    price: 202.0,
-    originalPrice: 238.0,
-    images: [
-    "/images/products/tk-219/main_1.webp",
-    "/images/products/tk-219/main_2.webp",
-    "/images/products/tk-219/main_3.webp",
-    "/images/products/tk-219/main_4.webp",
-    "/images/products/tk-219/main_5.webp"
-    ],
-    category: "teapot",
-    inStock: true,
-    stock: 100,
-     shape: "西施壶",
-    createdAt: "2026-06-17",
-    rating: 4.8,
-    reviewCount: 0,
-    detailImages: [
-    "/images/products/tk-219/detail_2.webp",
-    "/images/products/tk-219/detail_3.webp",
-    "/images/products/tk-219/detail_4.webp",
-    "/images/products/tk-219/detail_5.webp",
-    "/images/products/tk-219/detail_6.webp",
-    "/images/products/tk-219/detail_7.webp",
-    "/images/products/tk-219/detail_8.webp",
-    "/images/products/tk-219/detail_9.webp",
-    "/images/products/tk-219/detail_10.webp",
-    "/images/products/tk-219/detail_11.webp",
-    "/images/products/tk-219/detail_12.webp",
-    "/images/products/tk-219/detail_13.webp",
-    "/images/products/tk-219/detail_14.webp",
-    "/images/products/tk-219/detail_15.webp",
-    "/images/products/tk-219/detail_16.webp",
-    "/images/products/tk-219/detail_17.webp",
-    "/images/products/tk-219/detail_18.webp"
-    ],
-    variants: [
-      {
-        id: "tk-219-v1",
-        name_zhCN: "原矿紫砂 | 梅花西施【精美礼盒】约75ml",
-        name_zhTW: "原礦紫砂 | 梅花西施【精美禮盒】約75ml",
-        price: 202.0,
-        originalPrice: 238.0,
-        stock: 50,
-        image: "/images/products/tk-219/variant_6058530920700.webp",
-        sku: "6058530920700",
-      }
-    ],
-    sourceUrl: "https://detail.tmall.com/item.htm?id=655936354418&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-    sourceSku: "655936354418",
-    videos: [
-    "/videos/products/tk-219/product.mp4"
-    ],
-    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
-  },
-  {
-    id: "tk-220",
-    slug: "yixingchunshougongpaochahujiayongzhengchaju2026xinkuanzishahulaoli",
-    title_zhCN: "宜兴纯手工泡茶壶家用正品茶具2026新款紫砂壶送长辈老师退休礼物",
-    title_zhTW: "宜興純手工泡茶壺家用正品茶具2026新款紫砂壺送长辈老师退休禮物",
-    description_zhCN: "宜兴纯手工泡茶壶家用正品茶具2026新款紫砂壶送长辈老师退休礼物，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    description_zhTW: "宜兴纯手工泡茶壶家用正品茶具2026新款紫砂壶送长辈老师退休礼物，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    price: 1088.0,
-    originalPrice: 1280.0,
-    images: [
-    "/images/products/tk-220/main_1.webp",
-    "/images/products/tk-220/main_2.webp",
-    "/images/products/tk-220/main_3.webp",
-    "/images/products/tk-220/main_4.webp",
-    "/images/products/tk-220/main_5.webp"
-    ],
-    category: "teapot",
-    inStock: true,
-    stock: 100,
-     
-    createdAt: "2026-06-17",
-    rating: 4.8,
-    reviewCount: 0,
-    detailImages: [
-    "/images/products/tk-220/detail_2.webp",
-    "/images/products/tk-220/detail_3.webp",
-    "/images/products/tk-220/detail_4.webp",
-    "/images/products/tk-220/detail_5.webp",
-    "/images/products/tk-220/detail_6.webp",
-    "/images/products/tk-220/detail_7.webp",
-    "/images/products/tk-220/detail_8.webp",
-    "/images/products/tk-220/detail_9.webp",
-    "/images/products/tk-220/detail_10.webp",
-    "/images/products/tk-220/detail_11.webp",
-    "/images/products/tk-220/detail_12.webp",
-    "/images/products/tk-220/detail_13.webp",
-    "/images/products/tk-220/detail_14.webp"
-    ],
-    variants: [
-      {
-        id: "tk-220-v1",
-        name_zhCN: "约240ml",
-        name_zhTW: "約240ml",
-        price: 1088.0,
-        originalPrice: 1280.0,
-        stock: 50,
-        image: "",
-        sku: "6218236374458",
-      }
-    ],
-    sourceUrl: "https://detail.tmall.com/item.htm?id=1038091764916&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-    sourceSku: "1038091764916",
-    videos: [
-
-    ],
-    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
-  },
-  {
-    id: "tk-221",
-    slug: "guchunshougongzishahuzhengchajutaozhuang2026xinkuanpaochayongchahuruyizi",
-    title_zhCN: "古悦堂纯手工紫砂壶正品茶具套装2026新款泡茶专用小茶壶如意紫菱",
-    title_zhTW: "古悦堂純手工紫砂壺正品茶具套裝2026新款泡茶专用小茶壺如意紫菱",
-    description_zhCN: "古悦堂纯手工紫砂壶正品茶具套装2026新款泡茶专用小茶壶如意紫菱，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    description_zhTW: "古悦堂纯手工紫砂壶正品茶具套装2026新款泡茶专用小茶壶如意紫菱，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    price: 849.0,
-    originalPrice: 999.0,
-    images: [
-    "/images/products/tk-221/main_1.webp",
-    "/images/products/tk-221/main_2.webp",
-    "/images/products/tk-221/main_3.webp",
-    "/images/products/tk-221/main_4.webp",
-    "/images/products/tk-221/main_5.webp"
-    ],
-    category: "teapot",
-    inStock: true,
-    stock: 100,
-     shape: "西施壶",
-    createdAt: "2026-06-17",
-    rating: 4.8,
-    reviewCount: 0,
-    detailImages: [
-    "/images/products/tk-221/detail_2.webp",
-    "/images/products/tk-221/detail_3.webp",
-    "/images/products/tk-221/detail_4.webp",
-    "/images/products/tk-221/detail_5.webp",
-    "/images/products/tk-221/detail_6.webp",
-    "/images/products/tk-221/detail_7.webp",
-    "/images/products/tk-221/detail_8.webp",
-    "/images/products/tk-221/detail_9.webp",
-    "/images/products/tk-221/detail_10.webp",
-    "/images/products/tk-221/detail_11.webp",
-    "/images/products/tk-221/detail_12.webp",
-    "/images/products/tk-221/detail_13.webp",
-    "/images/products/tk-221/detail_14.webp",
-    "/images/products/tk-221/detail_15.webp",
-    "/images/products/tk-221/detail_16.webp",
-    "/images/products/tk-221/detail_17.webp",
-    "/images/products/tk-221/detail_18.webp",
-    "/images/products/tk-221/detail_19.webp",
-    "/images/products/tk-221/detail_20.webp",
-    "/images/products/tk-221/detail_21.webp",
-    "/images/products/tk-221/detail_22.webp",
-    "/images/products/tk-221/detail_23.webp",
-    "/images/products/tk-221/detail_24.webp",
-    "/images/products/tk-221/detail_25.webp",
-    "/images/products/tk-221/detail_26.webp",
-    "/images/products/tk-221/detail_27.webp",
-    "/images/products/tk-221/detail_28.webp",
-    "/images/products/tk-221/detail_29.webp",
-    "/images/products/tk-221/detail_30.webp",
-    "/images/products/tk-221/detail_31.webp",
-    "/images/products/tk-221/detail_32.webp",
-    "/images/products/tk-221/detail_33.webp",
-    "/images/products/tk-221/detail_34.webp",
-    "/images/products/tk-221/detail_35.webp",
-    "/images/products/tk-221/detail_36.webp",
-    "/images/products/tk-221/detail_37.webp",
-    "/images/products/tk-221/detail_38.webp"
-    ],
-    variants: [
-      {
-        id: "tk-221-v1",
-        name_zhCN: "天星泥柴烧 | 如意紫菱【精美礼盒】101mL(含)-200mL(含)",
-        name_zhTW: "天星泥柴烧 | 如意紫菱【精美禮盒】101mL(含)-200mL(含)",
-        price: 849.0,
-        originalPrice: 999.0,
-        stock: 50,
-        image: "/images/products/tk-221/variant_6253615959395.webp",
-        sku: "6253615959395",
-      },
-      {
-        id: "tk-221-v2",
-        name_zhCN: "天星泥柴烧 | 波浪寒江【精美礼盒】101mL(含)-200mL(含)",
-        name_zhTW: "天星泥柴烧 | 波浪寒江【精美禮盒】101mL(含)-200mL(含)",
-        price: 849.0,
-        originalPrice: 999.0,
-        stock: 50,
-        image: "/images/products/tk-221/variant_6253615959397.webp",
-        sku: "6253615959397",
-      },
-      {
-        id: "tk-221-v3",
-        name_zhCN: "天星泥柴烧 | 德钟【精美礼盒】101mL(含)-200mL(含)",
-        name_zhTW: "天星泥柴烧 | 德钟【精美禮盒】101mL(含)-200mL(含)",
-        price: 849.0,
-        originalPrice: 999.0,
-        stock: 50,
-        image: "/images/products/tk-221/variant_6253615959396.webp",
-        sku: "6253615959396",
-      },
-      {
-        id: "tk-221-v4",
-        name_zhCN: "天星泥柴烧 | 西施【精美礼盒】101mL(含)-200mL(含)",
-        name_zhTW: "天星泥柴烧 | 西施【精美禮盒】101mL(含)-200mL(含)",
-        price: 999.0,
-        stock: 50,
-        image: "/images/products/tk-221/variant_6253615959398.webp",
-        sku: "6253615959398",
-      },
-      {
-        id: "tk-221-v5",
-        name_zhCN: "天星泥柴烧 | 容天【精美礼盒】101mL(含)-200mL(含)",
-        name_zhTW: "天星泥柴烧 | 容天【精美禮盒】101mL(含)-200mL(含)",
-        price: 849.0,
-        originalPrice: 999.0,
-        stock: 50,
-        image: "/images/products/tk-221/variant_6253615959399.webp",
-        sku: "6253615959399",
-      },
-      {
-        id: "tk-221-v6",
-        name_zhCN: "天星泥柴烧 | 汉瓦【精美礼盒】101mL(含)-200mL(含)",
-        name_zhTW: "天星泥柴烧 | 漢瓦【精美禮盒】101mL(含)-200mL(含)",
-        price: 849.0,
-        originalPrice: 999.0,
-        stock: 50,
-        image: "/images/products/tk-221/variant_6253615959400.webp",
-        sku: "6253615959400",
-      }
-    ],
-    sourceUrl: "https://detail.tmall.com/item.htm?id=1051014039866&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-    sourceSku: "1051014039866",
-    videos: [
-
-    ],
-    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
-  },
-  {
-    id: "tk-222",
-    slug: "guyixingzishahuchunshougongjiayuankuangshipaochahufuchajushipiao",
-    title_zhCN: "古悦堂宜兴紫砂壶纯手工家藏原矿石黄泡茶壶中式功夫茶具玄铁石瓢",
-    title_zhTW: "古悦堂宜興紫砂壺純手工家藏原礦石黄泡茶壺中式功夫茶具玄铁石瓢",
-    description_zhCN: "古悦堂宜兴紫砂壶纯手工家藏原矿石黄泡茶壶中式功夫茶具玄铁石瓢，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    description_zhTW: "古悦堂宜兴紫砂壶纯手工家藏原矿石黄泡茶壶中式功夫茶具玄铁石瓢，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    price: 249.0,
-    originalPrice: 469.0,
-    images: [
-    "/images/products/tk-222/main_1.webp",
-    "/images/products/tk-222/main_2.webp",
-    "/images/products/tk-222/main_3.webp",
-    "/images/products/tk-222/main_4.webp",
-    "/images/products/tk-222/main_5.webp"
-    ],
-    category: "teapot",
-    inStock: true,
-    stock: 100,
-     shape: "石瓢壶",
-    createdAt: "2026-06-17",
-    rating: 4.8,
-    reviewCount: 0,
-    detailImages: [
-    "/images/products/tk-222/detail_2.webp",
-    "/images/products/tk-222/detail_3.webp",
-    "/images/products/tk-222/detail_4.webp",
-    "/images/products/tk-222/detail_5.webp",
-    "/images/products/tk-222/detail_6.webp",
-    "/images/products/tk-222/detail_7.webp",
-    "/images/products/tk-222/detail_8.webp",
-    "/images/products/tk-222/detail_9.webp",
-    "/images/products/tk-222/detail_10.webp",
-    "/images/products/tk-222/detail_11.webp",
-    "/images/products/tk-222/detail_12.webp",
-    "/images/products/tk-222/detail_13.webp",
-    "/images/products/tk-222/detail_14.webp",
-    "/images/products/tk-222/detail_15.webp",
-    "/images/products/tk-222/detail_16.webp",
-    "/images/products/tk-222/detail_17.webp",
-    "/images/products/tk-222/detail_18.webp",
-    "/images/products/tk-222/detail_19.webp",
-    "/images/products/tk-222/detail_20.webp",
-    "/images/products/tk-222/detail_21.webp"
-    ],
-    variants: [
-      {
-        id: "tk-222-v1",
-        name_zhCN: "原矿紫砂 | 玄铁石瓢约200ml",
-        name_zhTW: "原礦紫砂 | 玄铁石瓢約200ml",
-        price: 249.0,
-        originalPrice: 469.0,
-        stock: 50,
-        image: "/images/products/tk-222/variant_6223357711282.webp",
-        sku: "6223357711282",
-      }
-    ],
-    sourceUrl: "https://detail.tmall.com/item.htm?id=658201500807&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-    sourceSku: "658201500807",
-    videos: [
-    "/videos/products/tk-222/product.mp4"
-    ],
-    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
-  },
-  {
-    id: "tk-223",
-    slug: "gubeichabeifuchajucha",
-    title_zhCN: "古悦堂 玻璃公道杯加厚耐热分茶器过滤公杯高档镶银功夫茶具茶漏",
-    title_zhTW: "古悦堂 玻璃公道杯加厚耐热分茶器过滤公杯高档镶银功夫茶具茶漏",
-    description_zhCN: "古悦堂 玻璃公道杯加厚耐热分茶器过滤公杯高档镶银功夫茶具茶漏，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    description_zhTW: "古悦堂 玻璃公道杯加厚耐热分茶器过滤公杯高档镶银功夫茶具茶漏，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    price: 160.0,
-    originalPrice: 189.0,
-    images: [
-    "/images/products/tk-223/main_1.webp",
-    "/images/products/tk-223/main_2.webp",
-    "/images/products/tk-223/main_3.webp",
-    "/images/products/tk-223/main_4.webp",
-    "/images/products/tk-223/main_5.webp"
-    ],
-    category: "cup",
-    inStock: true,
-    stock: 100,
-     
-    createdAt: "2026-06-17",
-    rating: 4.8,
-    reviewCount: 0,
-    detailImages: [
-    "/images/products/tk-223/detail_2.webp",
-    "/images/products/tk-223/detail_3.webp",
-    "/images/products/tk-223/detail_4.webp",
-    "/images/products/tk-223/detail_5.webp",
-    "/images/products/tk-223/detail_6.webp",
-    "/images/products/tk-223/detail_7.webp",
-    "/images/products/tk-223/detail_8.webp",
-    "/images/products/tk-223/detail_9.webp",
-    "/images/products/tk-223/detail_10.webp",
-    "/images/products/tk-223/detail_11.webp",
-    "/images/products/tk-223/detail_12.webp",
-    "/images/products/tk-223/detail_13.webp",
-    "/images/products/tk-223/detail_long.webp"
-    ],
-    variants: [
-      {
-        id: "tk-223-v1",
-        name_zhCN: "莲年有余",
-        name_zhTW: "莲年有余",
-        price: 160.0,
-        originalPrice: 189.0,
-        stock: 50,
-        image: "/images/products/tk-223/variant_4683584058853.webp",
-        sku: "4683584058853",
-      },
-      {
-        id: "tk-223-v2",
-        name_zhCN: "出水芙蓉 【已售罄 拍下不发】",
-        name_zhTW: "出水芙蓉 【已售罄 拍下不发】",
-        price: 160.0,
-        originalPrice: 189.0,
-        stock: 50,
-        image: "/images/products/tk-223/variant_4683584058852.webp",
-        sku: "4683584058852",
-      }
-    ],
-    sourceUrl: "https://detail.tmall.com/item.htm?id=632019800826&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-    sourceSku: "632019800826",
-    videos: [
-
-    ],
-    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
-  },
-  {
-    id: "tk-224",
-    slug: "guyixingzishahuchunshougongjiayongfuchahuchajutaozhuangzinishipiaohu",
-    title_zhCN: "古悦堂 宜兴紫砂壶 纯手工家用功夫茶壶茶具套装 紫泥子冶石瓢壶",
-    title_zhTW: "古悦堂 宜興紫砂壺 純手工家用功夫茶壺茶具套裝 紫泥子冶石瓢壺",
-    description_zhCN: "古悦堂 宜兴紫砂壶 纯手工家用功夫茶壶茶具套装 紫泥子冶石瓢壶，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    description_zhTW: "古悦堂 宜兴紫砂壶 纯手工家用功夫茶壶茶具套装 紫泥子冶石瓢壶，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    price: 416.0,
-    originalPrice: 499.0,
-    images: [
-    "/images/products/tk-224/main_1.webp",
-    "/images/products/tk-224/main_2.webp",
-    "/images/products/tk-224/main_3.webp",
-    "/images/products/tk-224/main_4.webp",
-    "/images/products/tk-224/main_5.webp"
-    ],
-    category: "teapot",
-    inStock: true,
-    stock: 100,
-     shape: "石瓢壶",
-    createdAt: "2026-06-17",
-    rating: 4.8,
-    reviewCount: 0,
-    detailImages: [
-    "/images/products/tk-224/detail_2.webp",
-    "/images/products/tk-224/detail_3.webp",
-    "/images/products/tk-224/detail_4.webp",
-    "/images/products/tk-224/detail_5.webp",
-    "/images/products/tk-224/detail_6.webp",
-    "/images/products/tk-224/detail_7.webp",
-    "/images/products/tk-224/detail_8.webp",
-    "/images/products/tk-224/detail_9.webp",
-    "/images/products/tk-224/detail_10.webp",
-    "/images/products/tk-224/detail_11.webp",
-    "/images/products/tk-224/detail_12.webp",
-    "/images/products/tk-224/detail_13.webp",
-    "/images/products/tk-224/detail_14.webp",
-    "/images/products/tk-224/detail_15.webp",
-    "/images/products/tk-224/detail_16.webp",
-    "/images/products/tk-224/detail_17.webp",
-    "/images/products/tk-224/detail_18.webp"
-    ],
-    variants: [
-      {
-        id: "tk-224-v1",
-        name_zhCN: "石瓢约240ml",
-        name_zhTW: "石瓢約240ml",
-        price: 416.0,
-        originalPrice: 499.0,
-        stock: 50,
-        image: "/images/products/tk-224/variant_5089736970651.webp",
-        sku: "5089736970651",
-      }
-    ],
-    sourceUrl: "https://detail.tmall.com/item.htm?id=620870778140&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-    sourceSku: "620870778140",
-    videos: [
-
-    ],
-    shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
-  },
-  {
-    id: "tk-225",
-    slug: "yixingzishachajubei1taozhuangpaochachabei",
-    title_zhCN: "宜兴紫砂旅行茶具快客杯一人饮便携式套装办公室户外露营泡茶茶杯",
-    title_zhTW: "宜興紫砂旅行茶具快客杯一人饮便携式套裝办公室戶外露营泡茶茶杯",
-    description_zhCN: "宜兴紫砂旅行茶具快客杯一人饮便携式套装办公室户外露营泡茶茶杯，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    description_zhTW: "宜兴紫砂旅行茶具快客杯一人饮便携式套装办公室户外露营泡茶茶杯，精选优质原矿紫泥，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
-    price: 357.0,
-    originalPrice: 430.0,
-    images: [
-    "/images/products/tk-225/main_1.webp",
-    "/images/products/tk-225/main_2.webp",
-    "/images/products/tk-225/main_3.webp",
-    "/images/products/tk-225/main_4.webp",
-    "/images/products/tk-225/main_5.webp"
-    ],
-    category: "cup",
-    inStock: true,
-    stock: 100,
-     
-    createdAt: "2026-06-17",
-    rating: 4.8,
-    reviewCount: 0,
-    detailImages: [
-    "/images/products/tk-225/detail_2.webp",
-    "/images/products/tk-225/detail_3.webp",
-    "/images/products/tk-225/detail_4.webp",
-    "/images/products/tk-225/detail_5.webp",
-    "/images/products/tk-225/detail_6.webp",
-    "/images/products/tk-225/detail_7.webp",
-    "/images/products/tk-225/detail_8.webp",
-    "/images/products/tk-225/detail_9.webp",
-    "/images/products/tk-225/detail_10.webp",
-    "/images/products/tk-225/detail_11.webp",
-    "/images/products/tk-225/detail_12.webp",
-    "/images/products/tk-225/detail_13.webp",
-    "/images/products/tk-225/detail_14.webp",
-    "/images/products/tk-225/detail_15.webp",
-    "/images/products/tk-225/detail_16.webp",
-    "/images/products/tk-225/detail_17.webp",
-    "/images/products/tk-225/detail_18.webp",
-    "/images/products/tk-225/detail_19.webp",
-    "/images/products/tk-225/detail_20.webp",
-    "/images/products/tk-225/detail_21.webp",
-    "/images/products/tk-225/detail_22.webp",
-    "/images/products/tk-225/detail_23.webp",
-    "/images/products/tk-225/detail_24.webp",
-    "/images/products/tk-225/detail_25.webp"
-    ],
-    variants: [
-      {
-        id: "tk-225-v1",
-        name_zhCN: "旅行茶具 | 一壶两杯套组【精美礼盒】",
-        name_zhTW: "旅行茶具 | 一壺两杯套组【精美禮盒】",
-        price: 357.0,
-        originalPrice: 430.0,
-        stock: 50,
-        image: "/images/products/tk-225/variant_6033471593649.webp",
-        sku: "6033471593649",
-      }
-    ],
-    sourceUrl: "https://detail.tmall.com/item.htm?id=1022223941247&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-    sourceSku: "1022223941247",
-    videos: [
-    "/videos/products/tk-225/product.mp4"
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
     specs: {},
