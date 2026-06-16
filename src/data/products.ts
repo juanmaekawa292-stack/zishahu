@@ -1,6 +1,6 @@
 import { Product } from "@/types";
 
-export const products: Product[] = [
+export const products = [
   {
     id: "tk-001",
     slug: "guishou-zisha-pot",
