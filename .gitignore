@@ -50,3 +50,6 @@ source_main_*.*
 data/images/input/
 data/images/processed/
 data/images/backup/
+# Product images (COS)
+public/images/products/
+
