@@ -1,6 +1,1 @@
-# Data Fix Report - 2026-06-17T00:56:22.888Z
-
-## Summary
-- Total products: 156
-- Images uploaded to COS: 5181
-- Upload failures: 0
+# Data Fix Report - 2026-06-17\n\n## Summary\n- Total products in products.ts: 156 (26 skipped due to price < 150 RMB)\n- Images uploaded to COS: 5181\n- Build: Successful (366 pages)\n\n## Key fixes\n1. detailImages: Now populated from local 详情_2~N.jpg files\n2. variants (SKU): Created from xlsx rows with pricing\n3. main images: All 5 main images uploaded for each product\n4. videos: Uploaded where local video files exist\n5. specs: Extracted from SKU variant names\n\n## COS paths\n- products/tk-xxx/main_1~5.webp — Main images\n- products/tk-xxx/detail_2~N.webp — Detail images (skipped 详情_1)\n- products/tk-xxx/variant_1~N.webp — SKU variant images\n- videos/tk-xxx.mp4 — Product videos\n\n## Missing\n- 11 folders had no valid xlsx or itemId\n- 26 products priced < 150 RMB were excluded\n- 2 616 batch folders had duplicate itemIds (same Taobao product)\n
