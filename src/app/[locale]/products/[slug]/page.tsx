@@ -15,46 +15,29 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  const { slug } = params;
-  const product = products.find(p => p.slug === slug);
-  const locale = await getLocale()
+    let slug = params?.slug || "";
+  let locale = params?.locale || "zh-CN";
 
-  if (!product) {
-    return { title: "商品未找到" };
+  // Next.js 16.x bug: params.slug is undefined in production
+  // Fallback: extract slug from request headers
+  if (!slug) {
+    try {
+      const nextHeaders = await import("next/headers");
+      const h = nextHeaders.headers();
+      // Wait for promise if needed
+      const headersObj = h;
+      slug = headersObj.get("x-next-url") || 
+             headersObj.get("x-url") || 
+             headersObj.get("x-invoke-path") || 
+             "";
+      slug = slug.split("/").filter(Boolean).pop() || "";
+    } catch(e) {
+      // ignore - use empty slug
+    }
   }
-
-  const title = locale === "zh-TW" ? product.title_zhTW : product.title_zhCN;
-  const description =
-    locale === "zh-TW" ? product.description_zhTW : product.description_zhCN;
-  const cleanDesc = description.replace(/<[^>]*>/g, "").slice(0, 160);
-
-  return {
-    title,
-    description: cleanDesc,
-    openGraph: {
-      title: `${title} | 紫砂壶`,
-      description: cleanDesc,
-      images: product.images.length > 0
-        ? [{ url: product.images[0], width: 800, height: 800 }]
-        : undefined,
-      type: "website",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: `${title} | 紫砂壶`,
-      description: cleanDesc,
-      images: product.images.length > 0 ? [product.images[0]] : undefined,
-    },
-  };
-}
-
-export default async function ProductDetailPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const { slug } = params;
+  
   const product = getProductBySlug(slug);
+
 
   if (!product) notFound();
 
