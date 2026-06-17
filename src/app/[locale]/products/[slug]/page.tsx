@@ -17,7 +17,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = params;
   const product = products.find(p => p.slug === slug);
-  const locale = await getLocale();
+  const locale = await getLocale()
 
   if (!product) {
     return { title: "商品未找到" };
