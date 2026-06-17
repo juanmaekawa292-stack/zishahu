@@ -4,15 +4,16 @@ import { ProductDetailContent } from "@/components/product/ProductDetailContent"
 import { ProductCard } from "@/components/product/ProductCard";
 
 export function generateStaticParams() {
-  return products.map((p) => ({ slug: p.slug }));
+  return products.map(function(p) { return { slug: p.slug }; });
 }
 
-export default function ProductDetailPage({
+export default async function ProductDetailPage({
   params,
 }: {
-  params: { slug: string; locale: string };
+  params: Promise<{ slug: string }>;
 }) {
-  var slug = params?.slug || "";
+  var _params = await params;
+  var slug = _params?.slug || "";
   var _product = getProductBySlug(slug);
   if (!_product) { notFound(); return null; }
   var product = _product;
