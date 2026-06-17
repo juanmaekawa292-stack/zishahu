@@ -28,6 +28,7 @@ export interface ProductSpecs {
   year?: string;
   color?: string;
   suitableTea?: string;
+  mainImageSource?: string;
   shapeType?: string;
 }
 

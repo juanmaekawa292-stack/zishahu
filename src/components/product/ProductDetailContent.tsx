@@ -25,22 +25,23 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
   const { format: _format } = useCurrency();
 
   const specLabelMap: Record<string, string> = {
+    firingType: "烧制窑型",
     capacity: tProduct("capacity"),
-    clay: tProduct("clay"),
-    craft: tProduct("craft"),
-    dimensions: tProduct("dimensions"),
     material: "材质",
     origin: "产地",
     handmade: "是否手工",
-    firingType: "烧制窑型",
-    scenario: "适用场景",
-    cleaning: "清洗方式",
+    shapeType: "壶型",
     packaging: "包装形式",
     kiln: "窑系",
     year: "年代/年份",
     color: "颜色分类",
+    clay: tProduct("clay"),
+    craft: tProduct("craft"),
+    dimensions: tProduct("dimensions"),
+    scenario: "适用场景",
+    cleaning: "清洗方式",
     suitableTea: "适合茶类",
-    shapeType: "壶型",
+    mainImageSource: "主图来源",
   };
   const [isClient, setIsClient] = useState(false);
   const [selectedImage, setSelectedImage] = useState(0);
