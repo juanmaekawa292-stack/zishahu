@@ -46,7 +46,7 @@ export default function CheckoutPage() {
 
   const [step, setStep] = useState("shipping");
   const [shippingMethod, setShippingMethod] = useState("standard");
-  const [paymentMethod, setPaymentMethod] = useState("stripe");
+  const [paymentMethod, setPaymentMethod] = useState("lianlian");
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const [address, setAddress] = useState({
@@ -260,8 +260,7 @@ export default function CheckoutPage() {
             </div>
             <div className="space-y-3">
               {[
-                { id: "stripe", label: tCheckout("stripe"), Icon: CreditCard },
-                { id: "paypal", label: tCheckout("paypal"), Icon: DollarSvg },
+                { id: "lianlian", label: "连连支付", Icon: CreditCard },
               ].map((method) => (
                 <label
                   key={method.id}
