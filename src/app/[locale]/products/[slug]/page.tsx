@@ -13,8 +13,9 @@ export default function ProductDetailPage({
   params: { slug: string; locale: string };
 }) {
   var slug = params?.slug || "";
-  var product = getProductBySlug(slug) as NonNullable<ReturnType<typeof getProductBySlug>>;
-  if (!product) return notFound();
+  var _product = getProductBySlug(slug);
+  if (!_product) { notFound(); return null; }
+  var product = _product;
 
   var relatedProducts = products
     .filter(function(p) { return p.category === product.category && p.id !== product.id; })
