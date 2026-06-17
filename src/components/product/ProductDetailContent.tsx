@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useRef, useEffect, useCallback, useMemo } from "react";
 import Image from "next/image";
@@ -202,10 +202,10 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
             )}
 
             {displayCarousel.length > 1 && (
-              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-10 flex gap-1.5">
+              <div className="absolute bottom-2 left-1/2 -translate-x-1/2 z-10 flex gap-1">
                 {displayCarousel.map((_, idx) => (
                   <button key={idx} onClick={() => goToSlide(idx)}
-                    className={cn("h-2 rounded-full transition-all", idx === selectedImage ? "w-6 bg-primary" : "w-2 bg-neutral-400/60 hover:bg-neutral-400/80")} />
+                    className={cn("h-1.5 rounded-full transition-all", idx === selectedImage ? "w-4 bg-white/90" : "w-1.5 bg-white/40 hover:bg-white/60")} />
                 ))}
               </div>
             )}

@@ -65,13 +65,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
               </div>
             </div>
           )}
-          {product.originalPrice && (
-            <Badge variant="destructive" className="absolute left-2 top-2">
-              -{Math.round((1 - product.price / product.originalPrice) * 100)}%
-            </Badge>
-          )}
-          
-          
+
           {product.shape && (
             <Badge variant="secondary" className="absolute right-2 top-2">
               {product.shape}

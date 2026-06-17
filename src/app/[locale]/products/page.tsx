@@ -17,7 +17,7 @@ const SORT_OPTIONS = [
   { key: "rating", labelKey: "rating" },
 ] as const;
 
-const ITEMS_PER_PAGE = 9;
+const ITEMS_PER_PAGE = 20;
 
 export default function ProductsPage() {
   return (
@@ -226,7 +226,7 @@ const filteredProducts = useMemo(() => {
         <div
           className={cn(
             viewMode === "grid"
-              ? "grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+              ? "grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
               : "space-y-4"
           )}
         >

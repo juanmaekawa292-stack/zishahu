@@ -97,7 +97,7 @@ export default function HomePage() {
             {t("viewAll")} <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
           {featuredProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
@@ -113,7 +113,7 @@ export default function HomePage() {
               <p className="mt-1 text-sm text-muted-foreground">最新上架的紫砂作品</p>
             </div>
           </div>
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
             {newProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
@@ -153,4 +153,5 @@ export default function HomePage() {
       </section>
     </div>
   );
-}
+}
+
