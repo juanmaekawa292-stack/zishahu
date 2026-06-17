@@ -54,7 +54,7 @@ const filteredProducts = useMemo(() => {
    }
 
     if (currentShape !== "all") {
-      result = result.filter((p) => p.shape === currentShape);
+      result = result.filter((p) => (p.specs?.shapeType || "") === currentShape);
     }
 
 

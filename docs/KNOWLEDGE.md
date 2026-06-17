@@ -1,54 +1,52 @@
- # 项目技术备忘 — 紫砂雅集 (Zisha Yaji)
- 
- ## 项目概况
- - **名称**: 紫砂雅集 / Zisha Yaji
- - **定位**: 宜兴紫砂壶跨境茶具商城，主攻海外华人市场
- - **语言**: 简体中文 (zh-CN) + 繁体中文 (zh-TW) 双版本
- - **域名**: zishapro.com（已买，DNS已解析到Vercel，未部署）
- - **GitHub**: juanmaekawa292-stack/zishahu
- - **本地**: F:\codex-yunxing\zishahu
- 
- ## 技术栈
- - **框架**: Next.js 16.2.9 (Turbopack)
- - **UI**: React 19.2.4 + Tailwind CSS v4 + Radix UI + lucide-react
- - **国际化**: next-intl v4，配置在 `src/i18n/`
- - **图片处理**: sharp 0.35.x
- - **包管理**: npm (C:\Program Files\nodejs)
- - **开发端口**: 4001 (dev), 4002 (prod)
- 
- ## 项目结构
- ```
- src/
-   app/[locale]/          — 页面路由
-   app/api/               — API路由
-   components/            — 组件
-   data/products.ts       — 商品数据源
-   i18n/                  — 多语言翻译
-   services/auth.ts       — 认证服务
- scripts/                 — 处理管线脚本
- data/                    — 数据文件
- docs/                    — 文档
- public/images/products/  — 最终产品图片
- ```
- 
- ## 路由一览
- /[locale] 首页, /[locale]/products 商品列表, /[locale]/products/[slug] 商品详情
- /[locale]/cart 购物车, /[locale]/checkout 结算, /[locale]/login 登录
- /[locale]/register 注册, /[locale]/orders 订单, /[locale]/blog 博客
- /[locale]/faq FAQ, /[locale]/help 帮助中心, /[locale]/admin/* 管理后台
- 
- ## 当前已上架商品
- - tk-001 归兽壶 ($269, 古悦堂, 单壶/一壶四杯/一壶六杯)
- - tk-002 石瓢壶 ($239, 古悦堂, 彩绘/刻绘/素颜 x 单壶/套装)
- 
- ## 定价: 采集价 x 10 / 7.3 -> USD取整, 低于150元跳过
- 
- ## 支付: 连连国际已注册等待审核, Stripe/PayPal预留未配置
- 
- ## 踩过的坑
- 1. 不要往Thread发图片(一张5-30万token)
- 2. 水印检测用detect-watermark.js纯代码, 不用AI
- 3. Next.js 16.2.9有breaking changes
- 4. 天猫店铺: https://guyuetang.tmall.com
- 
- ## 启动: cd F:\codex-yunxing\zishahu && npm run dev -- -p 4001
+﻿# 紫砂雅集 - 知识库
+
+## 项目信息
+- 网站: https://zishapro.com
+- 仓库: F:\codex-yunxing\zishahu
+- 管理工具: F:\codex-yunxing\紫砂壶管理系统 (Python HTTP服务器 :4567)
+- COS: zishahu-images-1301674224 (ap-hongkong)
+- 部署: GitHub -> Vercel 自动部署
+
+## 商品文件夹结构
+每个商品在 D:\图快下载器\淘宝采集\616\ 或 \0615\ 下有一个子文件夹
+
+文件夹内容:
+- 商品名.xlsx — SKU数据(sheet: sku) + 规格参数(sheet: 商品属性)
+- 主图_1.jpg ~ 主图_5.jpg — 主图
+- 详情_1.jpg ~ 详情_N.jpg — 详情图 (详情_1跳过不上传)
+- 1.mp4 — 视频
+- 页面数据.txt — 备用规格参数
+- 商品链接.txt — 淘宝链接
+- 编号_名称.jpg — SKU变体图 (编号从11开始)
+
+## xlsx结构
+所有xlsx都有两个sheet:
+1. sku sheet: A=名称, B=图片, C=skuId, D=价格, E=优惠前, L=产品链接, M=产品名称
+2. 商品属性 sheet: A=属性名称, B=属性值 (规格参数来源)
+
+## 11个规格参数映射
+烧制窑型 -> firingType
+容量 -> capacity
+主图来源 -> mainImageSource
+产地 -> origin
+是否手工 -> handmade
+材质 -> material
+壶型 -> shapeType
+包装形式 -> packaging
+窑系 -> kiln
+年代 -> year
+颜色分类 -> color
+泥料 -> clay (额外)
+工艺 -> craft (额外)
+
+## COS路径规则
+products/tk-xxx/main_1~5.webp — 主图
+products/tk-xxx/detail_2~N.webp — 详情图 (跳过详情_1)
+products/tk-xxx/variant_xxx.webp — SKU变体图
+videos/tk-xxx.mp4 — 视频
+
+## 重要注意事项
+1. 文件编码: 写中文products.ts时一定用UTF-8编码，不能用Node.js REPL的writeFileSync
+2. 详情_1.jpg不上传（和主图_1重复）
+3. slug直接用中文标题（不是拼音）
+4. products.ts格式用双引号JSON风格
