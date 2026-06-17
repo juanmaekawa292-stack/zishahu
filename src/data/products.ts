@@ -30,11 +30,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?ali_refid=a3_420434_1006%3A2674669856%3AH%3A3%2FT5baCejveN1N5Qaysy7A%3D%3D%3Aee3da36c2278ffa99e30b73824678ac6&ali_trackid=318_ee3da36c2278ffa99e30b73824678ac6&id=1037204377083&mi_id=0000_NIP25BcMC7BL-IGWUqf4Tj4mm25Ph6-W8sinv-EE8M&mm_sceneid=0_0_9338844806_0&priceTId=2147802217814704996127256e10c3&skuId=6218664239077&spm=a21n57.1.hoverItem.4&utparam=%7B%22aplus_abtest%22%3A%22b33cbf5074fb7754f17b43a1862cda88%22%7D&xxc=ad_ztc",
     sourceSku: "1037204377083",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-001/video_1.mp4", "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-001/video_2.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "301mL(含)-400mL(含)", clay: "紫泥", craft: "手工" },
+    specs: { capacity: "301mL(含)-400mL(含)", clay: "紫泥", craft: "手工" , shapeType: "仿古", origin: "宜兴市" },
   },
   {
     id: "tk-002",
@@ -65,11 +63,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?ali_refid=a3_420434_1006%3A1106812497%3AH%3A1bYg7HWuE6C4wz6xiRCcXI4kIpmnHZOG%3Ab249d08d1a649ea7b4f9c629b9feb0b6&ali_trackid=294_b249d08d1a649ea7b4f9c629b9feb0b6&id=576409597442&mi_id=0000csdb9X3bM4UfDFsTy2G8qLHeJ9GrXmYa_fYUxMxwGRw&mm_sceneid=2_0_48105493_0&priceTId=2147802217814703715965627e10c3&skuId=4922128389856&spm=a21n57.1.hoverItem.6&utparam=%7B%22aplus_abtest%22%3A%22174d15203da5aee8d1d5f287c69293b5%22%7D&xxc=ad_ztc",
     sourceSku: "576409597442",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-002/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约220ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约220ml", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "西施", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-003",
@@ -100,11 +96,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?abbucket=11&id=803658741072&mi_id=0000GMy9pG15Uo6FIFQNsONfwbvb9u4vRhte-imBhywguiU&ns=1&priceTId=2147802217814708183802531e10c3&skuId=5468999596941&spm=a21n57.1.hoverItem.13&utparam=%7B%22aplus_abtest%22%3A%22cdda3c554f93086a0c76af6c91fd73e3%22%7D&xxc=taobaoSearch",
     sourceSku: "803658741072",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-003/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约430ml", clay: "紫泥", craft: "原矿 沉雕 刻绘" },
+    specs: { capacity: "约430ml", clay: "紫泥", craft: "原矿 沉雕 刻绘" , shapeType: "西施" },
   },
   {
     id: "tk-004",
@@ -135,11 +129,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?ali_refid=a3_430582_1006%3A1103591867%3AN%3AE66UgKH8FXzArW5TDxC1%2FhvloxYy2D1N%3Aff729ddc53658fbdbdffdbc501edfc86&ali_trackid=199_ff729ddc53658fbdbdffdbc501edfc86&id=653132096787&mi_id=0000b5fNpnitRoMX0lvW_3BLcWTJUmq5LI1AXhVM_fRpTPA&mm_sceneid=5_1_27974703_0&priceTId=214783d717814701774324537e106b&skuId=4892704991279&spm=a21n57.1.hoverItem.1&utparam=%7B%22aplus_abtest%22%3A%22219d7392dd8feea110e3d2d1f1940cde%22%7D&xxc=ad_ztc",
     sourceSku: "653132096787",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-004/video_1.mp4", "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-004/video_2.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "201mL(含)-300mL(含)", clay: "家藏老紫泥", craft: "手工 传统工艺" },
+    specs: { capacity: "201mL(含)-300mL(含)", clay: "家藏老紫泥", craft: "手工 传统工艺" , shapeType: "西施", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-005",
@@ -170,11 +162,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?ali_refid=a3_420434_1006%3A1109759031%3AH%3A3%2FT5baCejveN1N5Qaysy7A%3D%3D%3A2437e4abbd80be29dae721f135b6e41e&ali_trackid=318_2437e4abbd80be29dae721f135b6e41e&id=1036309738420&mi_id=0000Vo7MFgdOBKV9MaZoKOwm_4Wqv3-ugl7eb8xtzMwHS5E&mm_sceneid=0_0_95704678_0&priceTId=2147802217814709542504271e10c3&skuId=6218713099208&spm=a21n57.1.hoverItem.6&utparam=%7B%22aplus_abtest%22%3A%22b234510937ef80e71a2e74454b947ebb%22%7D&xxc=ad_ztc",
     sourceSku: "1036309738420",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-005/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { clay: "紫砂", craft: "手工" },
+    specs: { clay: "紫砂", craft: "手工" , shapeType: "仿古", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-006",
@@ -205,11 +195,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?ali_refid=a3_420434_1006%3A1124298566%3AH%3A3%2FT5baCejveN1N5Qaysy7A%3D%3D%3A4260e6c1d100f41b9e5d8f6c6ae74087&ali_trackid=318_4260e6c1d100f41b9e5d8f6c6ae74087&id=648148767913&mi_id=0000ZaAScdq6uP08PlICOLhIdUjrh13GhkLtFNvXQisBWHY&mm_sceneid=0_0_118688675_0&priceTId=2147802217814706414501123e10c3&skuId=5870199246605&spm=a21n57.1.hoverItem.5&utparam=%7B%22aplus_abtest%22%3A%22b0b31b979a3877a0535db62d4842204d%22%7D&xxc=ad_ztc",
     sourceSku: "648148767913",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-006/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "260ml", clay: "紫泥", craft: "纯手工" },
+    specs: { capacity: "260ml", clay: "紫泥", craft: "纯手工" , shapeType: "汉瓦", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-007",
@@ -240,11 +228,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?abbucket=11&id=530429853535&mi_id=0000jHnq5BFqTe0rLrs5Z94YXvAxs2MBodHeWyljQkLFOH8&ns=1&priceTId=214783d817815271541657549e0f1f&skuId=6097597999539&spm=a21n57.1.hoverItem.5&utparam=%7B%22aplus_abtest%22%3A%22d1f272ad9993ece09a55b2a9ef16778a%22%7D&xxc=taobaoSearch",
     sourceSku: "530429853535",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-007/video_1.mp4", "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-007/video_2.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "201mL(含)-300mL(含)", clay: "紫砂", craft: "手工" },
+    specs: { capacity: "201mL(含)-300mL(含)", clay: "紫砂", craft: "手工" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-008",
@@ -275,11 +261,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=634224948756&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "634224948756",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-008/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约220ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约220ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-009",
@@ -314,7 +298,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约300ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约300ml", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-010",
@@ -345,11 +329,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=561562722621&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "561562722621",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-010/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫泥", craft: "原矿 光素 手工" },
+    specs: { capacity: "约200ml", clay: "紫泥", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-011",
@@ -419,7 +401,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约400ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约400ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-013",
@@ -450,11 +432,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=524564966948&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "524564966948",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-013/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "朱泥款70ml/紫泥款100ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "朱泥款70ml/紫泥款100ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-014",
@@ -489,7 +469,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-015",
@@ -520,11 +500,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1009926782913&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1009926782913",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-015/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约130ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约130ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-016",
@@ -594,7 +572,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约375mL", clay: "紫砂" },
+    specs: { capacity: "约375mL", clay: "紫砂" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-018",
@@ -629,7 +607,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约120ml", clay: "紫砂", craft: "泥绘" },
+    specs: { capacity: "约120ml", clay: "紫砂", craft: "泥绘" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-019",
@@ -664,7 +642,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { clay: "紫砂" },
+    specs: { clay: "紫砂" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-020",
@@ -695,11 +673,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=36037405367&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "36037405367",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-020/video_1.mp4", "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-020/video_2.mp4", "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-020/video_3.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 刻绘 彩绘" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 刻绘 彩绘" , shapeType: "石瓢", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-021",
@@ -734,7 +710,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约320ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约320ml", clay: "紫砂", craft: "光素" , handmade: "全手工" },
   },
   {
     id: "tk-022",
@@ -769,7 +745,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "101mL(含)-200mL(含)", clay: "天星泥", craft: "原矿 手工 柴烧" },
+    specs: { capacity: "101mL(含)-200mL(含)", clay: "天星泥", craft: "原矿 手工 柴烧" , handmade: "全手工" },
   },
   {
     id: "tk-023",
@@ -800,11 +776,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1013622271782&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1013622271782",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-023/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约70~90ml", clay: "紫砂" },
+    specs: { capacity: "约70~90ml", clay: "紫砂" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-024",
@@ -839,7 +813,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约150ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约150ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-025",
@@ -874,7 +848,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { clay: "紫砂" },
+    specs: { clay: "紫砂" , origin: "宜兴市" },
   },
   {
     id: "tk-026",
@@ -905,11 +879,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=635151019743&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "635151019743",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-026/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约210ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约210ml", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "西施", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-027",
@@ -940,11 +912,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=576409597442&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "576409597442",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-027/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约220ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约220ml", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "西施", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-028",
@@ -975,11 +945,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1015131381228&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1015131381228",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-028/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约80ml", clay: "紫砂" },
+    specs: { capacity: "约80ml", clay: "紫砂" , handmade: "全手工" },
   },
   {
     id: "tk-029",
@@ -1010,11 +978,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1011260309581&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1011260309581",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-029/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约170ml", clay: "朱泥", craft: "光素" },
+    specs: { capacity: "约170ml", clay: "朱泥", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-030",
@@ -1049,7 +1015,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约320ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约320ml", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-031",
@@ -1084,7 +1050,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约160ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约160ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-032",
@@ -1154,7 +1120,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约250ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约250ml", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "仿古", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-034",
@@ -1189,7 +1155,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "石瓢", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-035",
@@ -1220,11 +1186,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=754337119023&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "754337119023",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-035/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-036",
@@ -1259,7 +1223,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 光素 刻绘 手工" },
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 光素 刻绘 手工" , shapeType: "汉铎", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-037",
@@ -1290,11 +1254,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=557886878899&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "557886878899",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-037/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "小号约200ml/大号约300ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "小号约200ml/大号约300ml", clay: "紫砂", craft: "原矿 刻绘 手工" , shapeType: "石瓢", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-038",
@@ -1325,11 +1287,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=973250008874&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "973250008874",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-038/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "300ml" },
+    specs: { capacity: "300ml" , handmade: "手工" },
   },
   {
     id: "tk-039",
@@ -1364,7 +1324,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约170ml", clay: "紫砂", craft: "手工" },
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-040",
@@ -1395,11 +1355,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1010762797345&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1010762797345",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-040/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约130ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约130ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-041",
@@ -1434,7 +1392,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约280ml", clay: "紫砂" },
+    specs: { capacity: "约280ml", clay: "紫砂" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-042",
@@ -1469,7 +1427,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约240ml", clay: "紫砂" },
+    specs: { capacity: "约240ml", clay: "紫砂" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-043",
@@ -1504,7 +1462,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 刻绘 手工" , shapeType: "秦权", handmade: "全手工" },
   },
   {
     id: "tk-044",
@@ -1539,7 +1497,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约450ml", clay: "紫砂" },
+    specs: { capacity: "约450ml", clay: "紫砂" , handmade: "全手工" },
   },
   {
     id: "tk-045",
@@ -1570,11 +1528,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=992899996495&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "992899996495",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-045/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约180ml", clay: "紫砂", craft: "柴烧" },
+    specs: { capacity: "约180ml", clay: "紫砂", craft: "柴烧" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-046",
@@ -1609,7 +1565,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约160ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约160ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-047",
@@ -1640,11 +1596,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1011258625949&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1011258625949",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-047/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约170ml", clay: "朱泥", craft: "光素" },
+    specs: { capacity: "约170ml", clay: "朱泥", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-048",
@@ -1675,11 +1629,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=718989046682&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "718989046682",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-048/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200mL", clay: "紫砂" },
+    specs: { capacity: "约200mL", clay: "紫砂" , origin: "宜兴市" },
   },
   {
     id: "tk-049",
@@ -1714,7 +1666,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约190ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约190ml", clay: "紫砂", craft: "原矿 刻绘 手工" , shapeType: "汉瓦", handmade: "全手工" },
   },
   {
     id: "tk-050",
@@ -1745,11 +1697,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=875200764266&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "875200764266",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-050/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约210ml", clay: "紫砂", craft: "柴烧" },
+    specs: { capacity: "约210ml", clay: "紫砂", craft: "柴烧" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-051",
@@ -1780,11 +1730,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=992201065543&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "992201065543",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-051/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "柴烧" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "柴烧" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-052",
@@ -1819,7 +1767,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约170ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-053",
@@ -1854,7 +1802,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约170ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-054",
@@ -1885,11 +1833,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=902061506715&rn=74b8595a12adf656cb929f2a9ff5ed7e&abbucket=14",
     sourceSku: "902061506715",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-054/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "101mL(含)-200mL(含)", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "101mL(含)-200mL(含)", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-055",
@@ -1924,7 +1870,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约150ml", clay: "紫砂", craft: "柴烧" },
+    specs: { capacity: "约150ml", clay: "紫砂", craft: "柴烧" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-056",
@@ -1955,11 +1901,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=622517096426&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "622517096426",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-056/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约260ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约260ml", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "石瓢", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-057",
@@ -1994,7 +1938,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约220ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约220ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-058",
@@ -2029,7 +1973,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约170ml", clay: "紫砂", craft: "刻绘" },
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "刻绘" , handmade: "全手工" },
   },
   {
     id: "tk-059",
@@ -2064,7 +2008,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "黑泥", craft: "原矿 光素 手工" },
+    specs: { capacity: "约200ml", clay: "黑泥", craft: "原矿 光素 手工" , shapeType: "西施", handmade: "全手工" },
   },
   {
     id: "tk-060",
@@ -2095,11 +2039,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=991603633810&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "991603633810",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-060/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "柴烧" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "柴烧" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-061",
@@ -2134,7 +2076,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约280ml", clay: "紫砂", craft: "刻绘" },
+    specs: { capacity: "约280ml", clay: "紫砂", craft: "刻绘" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-062",
@@ -2169,7 +2111,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约170ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-063",
@@ -2235,11 +2177,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=562537033737&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "562537033737",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-064/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约260ml", clay: "紫砂", craft: "原矿 贴花 手工" },
+    specs: { capacity: "约260ml", clay: "紫砂", craft: "原矿 贴花 手工" , shapeType: "竹段", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-065",
@@ -2274,7 +2214,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约170ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-066",
@@ -2309,7 +2249,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约230ml-250ml", clay: "紫泥", craft: "原矿 光素 刻绘 手工" },
+    specs: { capacity: "约230ml-250ml", clay: "紫泥", craft: "原矿 光素 刻绘 手工" , shapeType: "扁腹", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-067",
@@ -2344,7 +2284,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约270ml", clay: "紫砂", craft: "刻绘" },
+    specs: { capacity: "约270ml", clay: "紫砂", craft: "刻绘" , handmade: "全手工" },
   },
   {
     id: "tk-068",
@@ -2379,7 +2319,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约225ml", clay: "紫泥", craft: "原矿 手工" },
+    specs: { capacity: "约225ml", clay: "紫泥", craft: "原矿 手工" , shapeType: "西施", handmade: "全手工" },
   },
   {
     id: "tk-069",
@@ -2414,7 +2354,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-070",
@@ -2449,7 +2389,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-071",
@@ -2484,7 +2424,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约240ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-072",
@@ -2515,11 +2455,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=624192331113&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "624192331113",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-072/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约320ml", clay: "紫泥", craft: "原矿 光素 手工" },
+    specs: { capacity: "约320ml", clay: "紫泥", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-073",
@@ -2550,11 +2488,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=659014362290&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "659014362290",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-073/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-074",
@@ -2589,7 +2525,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { origin: "宜兴市" },
   },
   {
     id: "tk-075",
@@ -2620,11 +2556,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1056677002443&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1056677002443",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-075/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-076",
@@ -2659,7 +2593,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约190ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约190ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-077",
@@ -2694,7 +2628,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约270ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约270ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-078",
@@ -2729,7 +2663,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约130ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约130ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-079",
@@ -2760,11 +2694,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1018252123495&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1018252123495",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-079/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约120ml", clay: "紫砂", craft: "刻绘" },
+    specs: { capacity: "约120ml", clay: "紫砂", craft: "刻绘" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-080",
@@ -2799,7 +2731,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { clay: "紫砂" },
+    specs: { clay: "紫砂" , origin: "宜兴市" },
   },
   {
     id: "tk-081",
@@ -2834,7 +2766,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-082",
@@ -2865,11 +2797,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=520028245228&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "520028245228",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-082/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约280ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约280ml", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-083",
@@ -2904,7 +2834,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约400ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约400ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-084",
@@ -2939,7 +2869,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 刻绘 手工" , shapeType: "西施", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-085",
@@ -2970,11 +2900,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1059586272745&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1059586272745",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-085/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "201mL(含)-300mL(含)", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "201mL(含)-300mL(含)", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-086",
@@ -3005,11 +2933,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1012027052002&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1012027052002",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-086/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约140ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约140ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-087",
@@ -3040,9 +2966,7 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1017757608340&rn=74b8595a12adf656cb929f2a9ff5ed7e&abbucket=14",
     sourceSku: "1017757608340",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-087/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
     specs: { clay: "陶瓷" },
   },
@@ -3079,7 +3003,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "201mL(含)-300mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "201mL(含)-300mL(含)", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "西施", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-089",
@@ -3110,11 +3034,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=658201500807&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "658201500807",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-089/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-090",
@@ -3149,7 +3071,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约220ml", clay: "紫泥", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约220ml", clay: "紫泥", craft: "原矿 刻绘 手工" , handmade: "全手工" },
   },
   {
     id: "tk-091",
@@ -3180,11 +3102,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=920535955744&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "920535955744",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-091/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约180ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约180ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-092",
@@ -3219,7 +3139,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约130ml", clay: "紫砂", craft: "原矿 手工 柴烧" },
+    specs: { capacity: "约130ml", clay: "紫砂", craft: "原矿 手工 柴烧" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-093",
@@ -3254,7 +3174,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约170ml", clay: "紫砂", craft: "柴烧" },
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "柴烧" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-094",
@@ -3289,7 +3209,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约240ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-095",
@@ -3320,11 +3240,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=655936354418&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "655936354418",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-095/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约75ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约75ml", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-096",
@@ -3359,7 +3277,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约170ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-097",
@@ -3394,7 +3312,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约300ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约300ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-098",
@@ -3429,7 +3347,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约160ml", clay: "紫砂", craft: "柴烧" },
+    specs: { capacity: "约160ml", clay: "紫砂", craft: "柴烧" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-099",
@@ -3460,11 +3378,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=626124933919&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "626124933919",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-099/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约270ml-350ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约270ml-350ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-100",
@@ -3499,7 +3415,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约220mL", clay: "紫砂" },
+    specs: { capacity: "约220mL", clay: "紫砂" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-101",
@@ -3530,11 +3446,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=39758779002&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "39758779002",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-101/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约60~80ml", clay: "紫砂" },
+    specs: { capacity: "约60~80ml", clay: "紫砂" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-102",
@@ -3565,11 +3479,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=676239095015&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "676239095015",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-102/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约270mL", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约270mL", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "西施", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-103",
@@ -3600,11 +3512,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=580277528452&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "580277528452",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-103/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约450ml", clay: "紫砂" },
+    specs: { capacity: "约450ml", clay: "紫砂" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-104",
@@ -3635,9 +3545,7 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1016116055887&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1016116055887",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-104/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
     specs: { clay: "陶瓷" },
   },
@@ -3674,7 +3582,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂" },
+    specs: { capacity: "约200ml", clay: "紫砂" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-106",
@@ -3709,7 +3617,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 刻绘 手工" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 刻绘 手工" , shapeType: "西施", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-107",
@@ -3744,7 +3652,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { origin: "宜兴市" },
   },
   {
     id: "tk-108",
@@ -3845,11 +3753,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1020479518491&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1020479518491",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-110/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-111",
@@ -3880,11 +3786,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=727022244335&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "727022244335",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-111/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约230ml", clay: "紫砂", craft: "原矿 手工" },
+    specs: { capacity: "约230ml", clay: "紫砂", craft: "原矿 手工" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-112",
@@ -3915,11 +3819,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=559013056659&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "559013056659",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-112/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "小号约220ml/大号约330ml", clay: "紫泥", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "小号约220ml/大号约330ml", clay: "紫泥", craft: "原矿 刻绘 手工" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-113",
@@ -3954,7 +3856,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约500ml", clay: "紫砂" },
+    specs: { capacity: "约500ml", clay: "紫砂" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-114",
@@ -3985,11 +3887,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=36197334969&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "36197334969",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-114/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约375ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约375ml", clay: "紫砂", craft: "原矿 刻绘 手工" , shapeType: "石瓢", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-115",
@@ -4020,11 +3920,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1009793519701&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1009793519701",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-115/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约230ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约230ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-116",
@@ -4059,7 +3957,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约170ml", clay: "紫砂", craft: "光素" },
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "光素" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-117",
@@ -4090,11 +3988,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=694467360415&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "694467360415",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-117/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约150mL", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约150mL", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-118",
@@ -4129,7 +4025,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { clay: "紫砂" },
+    specs: { clay: "紫砂" , origin: "宜兴市" },
   },
   {
     id: "tk-119",
@@ -4164,7 +4060,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约380mL", clay: "紫砂" },
+    specs: { capacity: "约380mL", clay: "紫砂" , origin: "宜兴市" },
   },
   {
     id: "tk-120",
@@ -4195,11 +4091,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=581856602858&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "581856602858",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-120/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-121",
@@ -4230,9 +4124,7 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1016119327430&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1016119327430",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-121/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
     specs: { capacity: "401mL(含)-500mL(含)", clay: "陶瓷", craft: "浮雕" },
   },
@@ -4300,11 +4192,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=550684089916&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "550684089916",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-123/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "200g" },
+    specs: { capacity: "200g" , origin: "宜兴市" },
   },
   {
     id: "tk-124",
@@ -4339,7 +4229,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约210mL", clay: "紫砂", craft: "手工雕刻" },
+    specs: { capacity: "约210mL", clay: "紫砂", craft: "手工雕刻" , shapeType: "石瓢", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-125",
@@ -4370,11 +4260,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1020460167315&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1020460167315",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-125/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约260ml", clay: "紫砂", craft: "原矿 贴花 手工" },
+    specs: { capacity: "约260ml", clay: "紫砂", craft: "原矿 贴花 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-126",
@@ -4409,7 +4297,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约330ml", clay: "紫砂", craft: "柴烧" },
+    specs: { capacity: "约330ml", clay: "紫砂", craft: "柴烧" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-127",
@@ -4440,11 +4328,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=563407722315&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "563407722315",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-127/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "红泥约350mL/紫泥约450mL", clay: "紫砂" },
+    specs: { capacity: "红泥约350mL/紫泥约450mL", clay: "紫砂" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-128",
@@ -4475,11 +4361,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=38536063279&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "38536063279",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-128/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "紫泥约240ml/朱泥约180ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "紫泥约240ml/朱泥约180ml", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "唐羽", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-129",
@@ -4510,11 +4394,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=784729856834&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "784729856834",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-129/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-130",
@@ -4549,7 +4431,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { clay: "紫砂" },
+    specs: { clay: "紫砂" , origin: "宜兴市" },
   },
   {
     id: "tk-131",
@@ -4580,11 +4462,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=554467640061&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "554467640061",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-131/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "龙蛋", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-132",
@@ -4615,11 +4495,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=652586518950&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "652586518950",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-132/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约170ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-133",
@@ -4650,11 +4528,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=1022223941247&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
     sourceSku: "1022223941247",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-133/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { clay: "紫砂" },
+    specs: { clay: "紫砂" , origin: "宜兴市" },
   },
   {
     id: "tk-134",
@@ -4689,7 +4565,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约290ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约290ml", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "石瓢", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-135",
@@ -4720,11 +4596,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=586843716347&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "586843716347",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-135/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约380ml", clay: "紫泥", craft: "原矿 光素 手工" },
+    specs: { capacity: "约380ml", clay: "紫泥", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-136",
@@ -4759,7 +4633,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约390ml", clay: "紫砂" },
+    specs: { capacity: "约390ml", clay: "紫砂" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-137",
@@ -4790,11 +4664,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=683795893213&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "683795893213",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-137/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "明炉", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-138",
@@ -4825,11 +4697,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=642722221511&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "642722221511",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-138/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约350ml", clay: "紫砂", craft: "刻花" },
+    specs: { capacity: "约350ml", clay: "紫砂", craft: "刻花" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-139",
@@ -4864,7 +4734,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { clay: "紫砂" },
+    specs: { clay: "紫砂" , origin: "宜兴市" },
   },
   {
     id: "tk-140",
@@ -4899,7 +4769,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { origin: "宜兴市" },
   },
   {
     id: "tk-141",
@@ -4934,7 +4804,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约300ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约300ml", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "仿古", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-142",
@@ -4969,7 +4839,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约270ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约270ml", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "西施", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-143",
@@ -5004,7 +4874,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约170mL", clay: "紫砂" },
+    specs: { capacity: "约170mL", clay: "紫砂" , shapeType: "西施", origin: "宜兴市" },
   },
   {
     id: "tk-144",
@@ -5074,7 +4944,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约115ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约115ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-146",
@@ -5109,7 +4979,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约160mL", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约160mL", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "西施", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-147",
@@ -5140,11 +5010,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=905082276412&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "905082276412",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-147/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约220ml", clay: "紫砂" },
+    specs: { capacity: "约220ml", clay: "紫砂" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-148",
@@ -5179,7 +5047,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约180ml", clay: "紫砂" },
+    specs: { capacity: "约180ml", clay: "紫砂" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-149",
@@ -5210,11 +5078,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=755427842989&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "755427842989",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-149/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂" },
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-150",
@@ -5245,11 +5111,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=920532219257&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "920532219257",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-150/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约210ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约210ml", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-151",
@@ -5284,7 +5148,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约320ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约320ml", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-152",
@@ -5315,11 +5179,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=920473955900&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "920473955900",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-152/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约210ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约210ml", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-153",
@@ -5350,11 +5212,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=761508087450&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "761508087450",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-153/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约125ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约125ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-154",
@@ -5385,11 +5245,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=761509307298&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "761509307298",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-154/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约120ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约120ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-155",
@@ -5424,7 +5282,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "手绘" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "手绘" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-156",
@@ -5459,7 +5317,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "高潘", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-157",
@@ -5494,7 +5352,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-158",
@@ -5529,7 +5387,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { clay: "紫砂" },
+    specs: { clay: "紫砂" , origin: "宜兴市" },
   },
   {
     id: "tk-159",
@@ -5564,7 +5422,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { clay: "紫砂" },
+    specs: { clay: "紫砂" , origin: "宜兴市" },
   },
   {
     id: "tk-160",
@@ -5599,7 +5457,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约40ml", clay: "紫砂" },
+    specs: { capacity: "约40ml", clay: "紫砂" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-161",
@@ -5634,7 +5492,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约40ml", clay: "紫砂" },
+    specs: { capacity: "约40ml", clay: "紫砂" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-162",
@@ -5669,7 +5527,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约350ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约350ml", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "秦权", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-163",
@@ -5700,11 +5558,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=912665788932&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "912665788932",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-163/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约120ml", clay: "紫砂", craft: "原矿 手工 柴烧" },
+    specs: { capacity: "约120ml", clay: "紫砂", craft: "原矿 手工 柴烧" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-164",
@@ -5735,11 +5591,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=942099137417&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
     sourceSku: "942099137417",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-164/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约150ml", clay: "紫砂", craft: "原矿 手工 柴烧" },
+    specs: { capacity: "约150ml", clay: "紫砂", craft: "原矿 手工 柴烧" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-165",
@@ -5774,7 +5628,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约240ml", clay: "紫砂" },
+    specs: { capacity: "约240ml", clay: "紫砂" , shapeType: "掇球", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-166",
@@ -5809,7 +5663,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "水平", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-167",
@@ -5844,7 +5698,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-168",
@@ -5879,7 +5733,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" , shapeType: "美人肩", handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-169",
@@ -5914,7 +5768,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { origin: "宜兴市" },
   },
   {
     id: "tk-170",
@@ -5949,7 +5803,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约240ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-171",
@@ -5984,7 +5838,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "101mL(含)-200mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "101mL(含)-200mL(含)", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-172",
@@ -6019,7 +5873,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约190ml", clay: "紫砂" },
+    specs: { capacity: "约190ml", clay: "紫砂" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-173",
@@ -6050,11 +5904,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=942357162247&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
     sourceSku: "942357162247",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-173/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约170ml", clay: "紫砂", craft: "原矿 手工 柴烧" },
+    specs: { capacity: "约170ml", clay: "紫砂", craft: "原矿 手工 柴烧" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-174",
@@ -6089,7 +5941,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约275ml", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "约275ml", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-175",
@@ -6124,7 +5976,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约280ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约280ml", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-176",
@@ -6159,7 +6011,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约370ml", clay: "紫砂" },
+    specs: { capacity: "约370ml", clay: "紫砂" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-177",
@@ -6194,7 +6046,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { origin: "宜兴市" },
   },
   {
     id: "tk-178",
@@ -6225,11 +6077,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=935939422182&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
     sourceSku: "935939422182",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-178/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约460ml", clay: "紫砂" },
+    specs: { capacity: "约460ml", clay: "紫砂" , origin: "宜兴市" },
   },
   {
     id: "tk-179",
@@ -6260,11 +6110,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=857378357988&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
     sourceSku: "857378357988",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-179/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约230ml", clay: "紫砂", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约230ml", clay: "紫砂", craft: "原矿 刻绘 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-180",
@@ -6295,11 +6143,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=941487050835&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
     sourceSku: "941487050835",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-180/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 手工 柴烧" },
+    specs: { capacity: "约200ml", clay: "紫砂", craft: "原矿 手工 柴烧" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-181",
@@ -6334,7 +6180,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约340ml", clay: "紫泥", craft: "原矿 刻绘 手工" },
+    specs: { capacity: "约340ml", clay: "紫泥", craft: "原矿 刻绘 手工" , shapeType: "德钟", handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-182",
@@ -6369,7 +6215,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { clay: "玻璃" },
+    specs: { clay: "玻璃" , handmade: "手工" },
   },
   {
     id: "tk-183",
@@ -6404,7 +6250,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-184",
@@ -6439,7 +6285,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约210ml", clay: "紫砂" },
+    specs: { capacity: "约210ml", clay: "紫砂" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-185",
@@ -6474,7 +6320,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "220ml", clay: "紫砂" },
+    specs: { capacity: "220ml", clay: "紫砂" , handmade: "手工", origin: "宜兴市" },
   },
   {
     id: "tk-186",
@@ -6509,7 +6355,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
   {
     id: "tk-187",
@@ -6544,7 +6390,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: {},
+    specs: { origin: "宜兴市" },
   },
   {
     id: "tk-188",
@@ -6575,9 +6421,7 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=880882779673&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
     sourceSku: "880882779673",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-188/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
     specs: { clay: "陶瓷" },
   },
@@ -6610,11 +6454,9 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=972602473739&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
     sourceSku: "972602473739",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-189/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "约90ml", clay: "紫砂" },
+    specs: { capacity: "约90ml", clay: "紫砂" , handmade: "手工" },
   },
   {
     id: "tk-190",
@@ -6645,9 +6487,7 @@ export const products = [
     variants: undefined,
     sourceUrl: "https://detail.tmall.com/item.htm?id=881244870494&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
     sourceSku: "881244870494",
-    videos: [
-
-    ],
+    videos: ["https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-190/video_1.mp4"],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
     specs: { clay: "陶" },
   },
@@ -6684,7 +6524,7 @@ export const products = [
 
     ],
     shipping: { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" },
+    specs: { capacity: "51mL(含)-100mL(含)", clay: "紫砂", craft: "原矿 光素 手工" , handmade: "全手工", origin: "宜兴市" },
   },
 ] as Product[];
 
