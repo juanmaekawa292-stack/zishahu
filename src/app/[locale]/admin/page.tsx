@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { getCurrentUser } from "@/services/auth";
 
 import { useTranslations } from "next-intl";
-import { Package, ShoppingCart, TrendingUp, Users, Plus, List, ClipboardList } from "lucide-react";
+import { Package, ShoppingCart, TrendingUp, Users, Plus, List, ClipboardList, CreditCard } from "lucide-react";
 import { Link } from "@/i18n";
 import { cn } from "@/lib/utils";
 
