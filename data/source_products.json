@@ -6360,6 +6360,89 @@
       ],
       "specs": {},
       "date_uploaded": "2026-06-16T23:46:34.320150"
+    },
+    {
+      "id": "tk-003",
+      "source_sku": "569949586801",
+      "source_url": "https://detail.tmall.com/item.htm?ali_refid=a3_420434_1006%3A1110763766%3AH%3AOsJQJie6DFCF%2FNRODkJo2ZE1Q2ltCGHc%3Aacc7255896368013424552c091fd23ef&ali_trackid=282_acc7255896368013424552c091fd23ef&id=569949586801&mi_id=0000sVslNgFRKvDxZ0isAoJWcuT1kAOJvi8y2GEU_oNWDQQ&mm_sceneid=1_0_109726231_0&priceTId=214781df17817857763535112e0e86&skuId=5721868989970&spm=a21n57.1.hoverItem.46&utparam=%7B%22aplus_abtest%22%3A%22f29aec199c50098cb6bf2d46b834fc9a%22%7D&xxc=ad_ztc",
+      "slug": "zishahuchunshougongpaochahuyongzhengchajuyuankuangdicaozinifanggushou",
+      "category": "teapot",
+      "title_zhCN": "德源昌紫砂壶纯手工泡茶壶专用正品茶具官方原矿底槽紫泥仿古半手",
+      "title_zhTW": "德源昌紫砂壺純手工泡茶壺专用正品茶具官方原礦底槽紫泥仿古半手",
+      "variants": [
+        {
+          "name": "4.0版迷你款100ml",
+          "price": 615.2,
+          "original_price": 780.0,
+          "sku_id": "5721868989970"
+        },
+        {
+          "name": "5.0版【升级泥料】单壶迷你款100ml",
+          "price": 830.0,
+          "original_price": null,
+          "sku_id": "6172757643266"
+        },
+        {
+          "name": "5.0版【升级泥料】单壶小款150ml",
+          "price": 655.7,
+          "original_price": 830.0,
+          "sku_id": "6172757643267"
+        },
+        {
+          "name": "5.0版【升级泥料】单壶中款200ml",
+          "price": 830.0,
+          "original_price": null,
+          "sku_id": "6172757643268"
+        },
+        {
+          "name": "5.0版【升级泥料】单壶大款250ml",
+          "price": 655.7,
+          "original_price": 830.0,
+          "sku_id": "6003373712105"
+        },
+        {
+          "name": "4.0版一壶一杯套组（迷你款100ml）",
+          "price": 735.72,
+          "original_price": 928.0,
+          "sku_id": "6008301393297"
+        },
+        {
+          "name": "5.0版【升级泥料】一壶一杯套组（迷你款100ml）",
+          "price": 793.02,
+          "original_price": 998.0,
+          "sku_id": "6172757643269"
+        },
+        {
+          "name": "5.0版【升级泥料】一壶一杯套组（小款150ml）",
+          "price": 793.02,
+          "original_price": 998.0,
+          "sku_id": "6172757643270"
+        },
+        {
+          "name": "5.0版【升级泥料】一壶一杯套组（中款200ml）",
+          "price": 793.02,
+          "original_price": 998.0,
+          "sku_id": "6006563048042"
+        },
+        {
+          "name": "5.0版【升级泥料】一壶一杯套组（大款250ml）",
+          "price": 793.02,
+          "original_price": 998.0,
+          "sku_id": "6006563048043"
+        }
+      ],
+      "images": [
+        "/images/products/tk-003/main_1.webp",
+        "/images/products/tk-003/main_2.webp",
+        "/images/products/tk-003/main_3.webp",
+        "/images/products/tk-003/main_4.webp",
+        "/images/products/tk-003/main_5.webp"
+      ],
+      "videos": [
+        "/videos/products/tk-003/product.mp4"
+      ],
+      "specs": {},
+      "date_uploaded": "2026-06-18T20:33:45.112077"
     }
   ]
 }
