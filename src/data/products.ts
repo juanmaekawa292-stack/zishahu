@@ -15046,6 +15046,19 @@ export const products: Product[] = [
     "inStock": true,
     "stock": 100,
     "shape": "仿古壶",
+    "specs": {
+      "firingType": "电窑",
+      "capacity": "约350ml",
+      "mainImageSource": "自主实拍图",
+      "origin": "宜兴市",
+      "handmade": "全手工",
+      "material": "紫砂",
+      "shapeType": "仿古壶",
+      "packaging": "礼盒装",
+      "kiln": "宜兴窑",
+      "year": "现代",
+      "color": "仿古壶"
+    },
     "createdAt": "2026-06-18",
     "rating": 4.8,
     "reviewCount": 0,
@@ -15191,7 +15204,6 @@ export const products: Product[] = [
     "/videos/products/tk-003/product.mp4"
     ],
     "shipping": { weight: 1.5, dimensions: { length: 25, width: 20, height: 15 } },
-    "specs": {},
   },
 ];
 export const categories = [
