@@ -15224,7 +15224,7 @@ export const products: Product[] = [
     "inStock": true,
     "stock": 100,
     "featured": true,
-    specs: {
+    "specs": {
       "capacity": "201mL(含)-300mL(含)",
       "mainImageSource": "自主实拍图",
       "origin": "宜兴市",
@@ -15288,7 +15288,7 @@ export const products: Product[] = [
         "price": 280.5,
         "originalPrice": 480.0,
         "stock": 50,
-        "image": "",
+        "image": "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-192/variant_tk-192-01.webp",
         "sku": "5205186139453",
       },
       {
@@ -15297,7 +15297,7 @@ export const products: Product[] = [
         "name_zhTW": "湖帆石瓢201mL(含)-300mL(含)",
         "price": 480.0,
         "stock": 50,
-        "image": "",
+        "image": "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-192/variant_tk-192-02.webp",
         "sku": "5205186139454",
       },
       {
@@ -15306,7 +15306,7 @@ export const products: Product[] = [
         "name_zhTW": "相明石瓢201mL(含)-300mL(含)",
         "price": 480.0,
         "stock": 50,
-        "image": "",
+        "image": "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-192/variant_tk-192-03.webp",
         "sku": "5205186139455",
       },
       {
@@ -15316,7 +15316,7 @@ export const products: Product[] = [
         "price": 280.5,
         "originalPrice": 480.0,
         "stock": 50,
-        "image": "",
+        "image": "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-192/variant_tk-192-04.webp",
         "sku": "5205186139456",
       },
     ],
