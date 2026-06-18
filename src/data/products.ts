@@ -15215,7 +15215,6 @@ export const products: Product[] = [
     "price": 280.5,
     "originalPrice": 480.0,
     "images": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-192/main_1.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-192/main_2.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-192/main_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-192/main_4.webp",
