@@ -223,7 +223,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
                       </div>
                     </div>
                   ) : (
-                    <Image src={item.src} alt="" fill className="object-cover" sizes="64px" />
+                    <Image src={item.src} alt="" fill className="object-contain" sizes="64px" />
                   )}
                 </button>
               ))}
@@ -306,7 +306,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
               {selectedVariant?.image && (
                 <div className="mt-2 flex items-center gap-3 rounded-md bg-muted/30 p-2">
                   <div className="h-12 w-12 flex-shrink-0 overflow-hidden rounded-md bg-white">
-                    <Image src={selectedVariant.image} alt={selectedVariant.name_zhCN} width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src={selectedVariant.image} alt={selectedVariant.name_zhCN} width={48} height={48} className="object-contain w-full h-full" />
                   </div>
                   <div className="text-xs">
                     <p className="font-medium text-foreground">{selectedVariant.name_zhCN}</p>

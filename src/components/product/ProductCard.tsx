@@ -45,14 +45,15 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
   return (
     <div className="group animate-fadeIn">
       <Link href={`/products/${product.slug}`} className="block">
-        <div className="relative overflow-hidden rounded-lg bg-muted aspect-square">
+        <div className="relative overflow-hidden rounded-lg bg-muted" style={{minHeight: '200px'}}>
           {product.images.length > 0 ? (
             <Image
               src={product.images[0]}
               alt={product.title_zhCN}
               fill
-              className="object-cover bg-muted/20 group-hover:scale-105 transition-transform duration-500"
+              className="object-contain bg-muted/20"
               sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+              style={{objectFit: 'contain'}}
               priority={priority}
             />
           ) : (
