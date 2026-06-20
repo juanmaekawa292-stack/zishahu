@@ -80,7 +80,7 @@ export default function ProductOpsPage() {
 
   if (loading) {
     return (
-      <div className="mx-auto max-w-7xl px-4 py-12 text-center text-muted-foreground">
+      <div className="mx-auto px-4 py-12 text-center text-muted-foreground">
         <RefreshCw className="mx-auto h-8 w-8 animate-spin mb-4" />
         <p>正在加载数据...</p>
       </div>
@@ -102,7 +102,7 @@ export default function ProductOpsPage() {
   ];
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+    <div className="mx-auto px-4 py-8 sm:px-6 lg:px-8">
       {/* Header */}
       <div className="mb-8 flex items-center justify-between">
         <div>

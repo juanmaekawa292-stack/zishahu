@@ -91,7 +91,7 @@ export default function AdminOrdersPage() {
   }
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+    <div className="mx-auto px-4 py-8 sm:px-6 lg:px-8">
       <div className="mb-6 flex items-center gap-3">
         <div className="rounded-lg bg-primary/10 p-2.5"><Truck className="h-6 w-6 text-primary" /></div>
         <div><h1 className="text-2xl font-bold text-foreground">订单管理</h1><p className="text-sm text-muted-foreground">管理订单发货和物流</p></div>

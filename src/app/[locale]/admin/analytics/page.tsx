@@ -14,7 +14,7 @@ export default function AdminAnalyticsPage() {
   const t = useTranslations("admin");
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+    <div className="mx-auto px-4 py-8 sm:px-6 lg:px-8">
       <div className="mb-6">
         <h1 className="text-2xl font-bold text-foreground">{t("analytics")}</h1>
         <p className="text-sm text-muted-foreground">最近30天数据概览</p>

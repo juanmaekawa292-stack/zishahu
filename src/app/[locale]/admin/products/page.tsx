@@ -2,13 +2,13 @@
 
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { getCurrentUser } from "@/services/auth";
 import { useTranslations } from "next-intl";
 import { Pencil } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import { formatPrice } from "@/lib/utils";
 import { products } from "@/data/products";
+import { getCurrentUser } from "@/services/auth";
 
 function EditModal(_ref: any) {
   var product = _ref.product, open = _ref.open, onClose = _ref.onClose;
@@ -64,7 +64,7 @@ export default function AdminProductsPage() {
 
   if (!authorized) return React.createElement("div", { className: "flex items-center justify-center min-h-\[60vh\]" }, React.createElement("div", { className: "animate-spin w-8 h-8 border-4 border-primary border-t-transparent rounded-full" }));
 
-  return React.createElement("div", { className: "mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8" },
+  return React.createElement("div", { className: "mx-auto px-4 py-8 sm:px-6 lg:px-8" },
     React.createElement(EditModal, { product: editProduct, open: !!editProduct, onClose: function() { setEditProduct(null); } }),
     React.createElement("h1", { className: "text-2xl font-bold text-foreground mb-6" }, t("products")),
     React.createElement("div", { className: "rounded-lg border border-border bg-card overflow-hidden" },
