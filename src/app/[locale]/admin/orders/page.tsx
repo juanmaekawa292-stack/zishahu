@@ -21,16 +21,16 @@ const STATUSES = [
 ];
 
 var mockOrders = [
-  { id: "ORD-001", customer: "王小明", email: "wang@example.com", phone: "+86 139****1234", items: 2, total: 1990, cost: 120, profit: 1870, status: "pending", createdAt: "2026-06-15 09:30" },
-  { id: "ORD-002", customer: "李芳", email: "li@example.com", phone: "+86 138****5678", items: 1, total: 2620, cost: 180, profit: 2440, status: "paid", createdAt: "2026-06-14 14:20" },
-  { id: "ORD-003", customer: "陈伟", email: "chen@example.com", phone: "+1 415***8901", items: 2, total: 7670, cost: 440, profit: 7230, status: "paid", createdAt: "2026-06-13 10:15" },
-  { id: "ORD-004", customer: "赵丽", email: "zhao@example.com", phone: "+86 186****2345", items: 1, total: 1740, cost: 95, profit: 1645, status: "shipped", createdAt: "2026-06-12 16:45", carrier: "shunfeng", trackingNumber: "SF1234567890" },
-  { id: "ORD-005", customer: "刘洋", email: "liu@example.com", phone: "+86 137****6789", items: 2, total: 4770, cost: 310, profit: 4460, status: "shipped", createdAt: "2026-06-11 11:30", carrier: "yuantong", trackingNumber: "YT9876543210" },
-  { id: "ORD-006", customer: "张敏", email: "zhangm@example.com", phone: "+65 9***1234", items: 1, total: 2600, cost: 160, profit: 2440, status: "delivered", createdAt: "2026-06-10 09:00", carrier: "shunfeng", trackingNumber: "SF1234567892" },
-  { id: "ORD-007", customer: "黄蓉", email: "huang@example.com", phone: "+86 133****8888", items: 1, total: 2620, cost: 180, profit: 2440, status: "delivered", createdAt: "2026-06-08 14:10", carrier: "shunfeng", trackingNumber: "SF1234567893" },
+  { id: "ORD-001", customer: "Michael Wang", email: "mwang@gmail.com", country: "US", items: 2, total: 139.90, cost: 35.00, profit: 104.90, status: "pending", createdAt: "2026-06-20 09:30" },
+  { id: "ORD-002", customer: "Sarah Li", email: "sli@outlook.com", country: "CA", items: 1, total: 88.50, cost: 22.00, profit: 66.50, status: "paid", createdAt: "2026-06-19 14:20" },
+  { id: "ORD-003", customer: "James Chen", email: "jchen@gmail.com", country: "US", items: 2, total: 215.00, cost: 55.00, profit: 160.00, status: "paid", createdAt: "2026-06-18 10:15" },
+  { id: "ORD-004", customer: "Emily Zhao", email: "ezhao@yahoo.com", country: "AU", items: 1, total: 120.00, cost: 28.00, profit: 92.00, status: "shipped", createdAt: "2026-06-16 16:45", carrier: "usps", trackingNumber: "USPS1234567890" },
+  { id: "ORD-005", customer: "David Liu", email: "dliu@gmail.com", country: "US", items: 2, total: 198.00, cost: 50.00, profit: 148.00, status: "shipped", createdAt: "2026-06-14 11:30", carrier: "fedex", trackingNumber: "FX12345678901" },
+  { id: "ORD-006", customer: "Ming Zhang", email: "mzhang@sgmail.com", country: "SG", items: 1, total: 95.00, cost: 20.00, profit: 75.00, status: "delivered", createdAt: "2026-06-10 09:00", carrier: "dhl", trackingNumber: "DHL1234567890" },
+  { id: "ORD-007", customer: "Grace Huang", email: "ghuang@icloud.com", country: "GB", items: 1, total: 110.00, cost: 25.00, profit: 85.00, status: "delivered", createdAt: "2026-06-08 14:10", carrier: "royal_mail", trackingNumber: "RM123456789GB" },
 ];
 
-const CARRIER_NAMES: Record<string, string> = { shunfeng: "顺丰速运", yuantong: "圆通速递", zhongtong: "中通快递", yunda: "韵达快递", shengtong: "申通快递", jingdong: "京东物流", debang: "德邦快递", ems: "EMS", huitong: "百世快递", other: "其他快递" };
+const CARRIER_NAMES: Record<string, string> = { usps: "USPS", fedex: "FedEx", ups: "UPS", dhl: "DHL Express", dhl_ecommerce: "DHL eCommerce", canada_post: "Canada Post", australia_post: "Australia Post", royal_mail: "Royal Mail", yanwen: "燕文物流", "4px": "递四方", cn_line: "CNE Express", speedpak: "SpeedPak", eub: "易邮宝 (EUB)", sf_international: "顺丰国际", other: "Other Carrier" };
 
 export default function AdminOrdersPage() {
   var router = useRouter();
@@ -40,7 +40,7 @@ export default function AdminOrdersPage() {
   var [trackData, setTrackData] = useState<Record<string, any>>({});
   var [trackingLoading, setTrackingLoading] = useState<Record<string, boolean>>({});
   var [showShipDialog, setShowShipDialog] = useState<string | null>(null);
-  var [shipCarrier, setShipCarrier] = useState("shunfeng");
+  var [shipCarrier, setShipCarrier] = useState("usps");
   var [shipNumber, setShipNumber] = useState("");
   var [carriers, setCarriers] = useState([]);
   var [orders, setOrders] = useState(mockOrders);
@@ -143,7 +143,7 @@ export default function AdminOrdersPage() {
                   </td>
                   <td className="px-4 py-3">
                     {o.status === "paid" ? (
-                      <button onClick={function() { setShowShipDialog(o.id); setShipCarrier("shunfeng"); setShipNumber(""); }}
+                      <button onClick={function() { setShowShipDialog(o.id); setShipCarrier("usps"); setShipNumber(""); }}
                         className="inline-flex items-center gap-1 text-xs bg-primary text-primary-foreground px-3 py-1.5 rounded-md hover:bg-primary/90 transition-colors">
                         <Package className="h-3 w-3" /> 发货
                       </button>

@@ -1,16 +1,21 @@
 import { NextRequest, NextResponse } from "next/server";
 
 const CARRIERS = [
-  { id: "shunfeng", name: "顺丰速运", code: "SF" },
-  { id: "yuantong", name: "圆通速递", code: "YTO" },
-  { id: "zhongtong", name: "中通快递", code: "ZTO" },
-  { id: "yunda", name: "韵达快递", code: "YD" },
-  { id: "shengtong", name: "申通快递", code: "STO" },
-  { id: "jingdong", name: "京东物流", code: "JD" },
-  { id: "debang", name: "德邦快递", code: "DBL" },
-  { id: "ems", name: "EMS", code: "EMS" },
-  { id: "huitong", name: "百世快递", code: "HTKY" },
-  { id: "other", name: "其他快递", code: "OTHER" },
+  { id: "usps", name: "USPS", code: "USPS" },
+  { id: "fedex", name: "FedEx", code: "FEDEX" },
+  { id: "ups", name: "UPS", code: "UPS" },
+  { id: "dhl", name: "DHL Express", code: "DHL" },
+  { id: "dhl_ecommerce", name: "DHL eCommerce", code: "DHL_ECOMMERCE" },
+  { id: "canada_post", name: "Canada Post", code: "CANADA_POST" },
+  { id: "australia_post", name: "Australia Post", code: "AUSTRALIA_POST" },
+  { id: "royal_mail", name: "Royal Mail", code: "ROYAL_MAIL" },
+  { id: "yanwen", name: "燕文物流", code: "YANWEN" },
+  { id: "4px", name: "递四方", code: "4PX" },
+  { id: "cn_line", name: "CNE Express", code: "CNE" },
+  { id: "speedpak", name: "SpeedPak", code: "SPEEDPAK" },
+  { id: "eub", name: "易邮宝 (EUB)", code: "EUB" },
+  { id: "sf_international", name: "顺丰国际", code: "SF_INTERNATIONAL" },
+  { id: "other", name: "Other Carrier", code: "OTHER" },
 ];
 
 export async function GET(request: NextRequest) {
@@ -23,20 +28,22 @@ export async function GET(request: NextRequest) {
     const num = searchParams.get("number");
     const carrier = searchParams.get("carrier") || "";
     if (!num) {
-      return NextResponse.json({ success: false, error: "缺少物流单号" }, { status: 400 });
+      return NextResponse.json({ success: false, error: "Tracking number required" }, { status: 400 });
     }
     const now = new Date();
     const ago = (d: number) => { const t = new Date(now); t.setDate(t.getDate() - d); return t.toISOString().replace("T", " ").substring(0, 19); };
     const c = CARRIERS.find(x => x.id === carrier || x.code === carrier);
     return NextResponse.json({
-      success: true, number: num, carrier: carrier || "SF", status: "transit",
+      success: true, number: num, carrier: carrier || "OTHER", status: "transit",
       traces: [
-        { time: ago(0), desc: "正在派送中，请保持电话畅通", location: "" },
-        { time: ago(1), desc: "快件已到达目的城市", location: "" },
-        { time: ago(2), desc: `快件已从${c?.name || "快递"}转运中心发出`, location: "" },
-        { time: ago(3), desc: `快件已到达${c?.name || "快递"}转运中心`, location: "" },
-        { time: ago(4), desc: "快件已从发货地发出", location: "" },
-        { time: ago(4), desc: "您的订单已发货，期待与您相遇", location: "" },
+        { time: ago(0), desc: "Out for delivery", location: "" },
+        { time: ago(1), desc: "Arrived at destination country", location: "" },
+        { time: ago(2), desc: `Departed from ${c?.name || "carrier"} transit hub`, location: "" },
+        { time: ago(4), desc: `Arrived at ${c?.name || "carrier"} facility`, location: "" },
+        { time: ago(5), desc: "Customs clearance completed", location: "" },
+        { time: ago(7), desc: "Departed from origin country", location: "" },
+        { time: ago(8), desc: "Package received at origin facility", location: "" },
+        { time: ago(8), desc: "Shipping label created, awaiting package", location: "" },
       ],
       updatedAt: new Date().toISOString(),
     });
