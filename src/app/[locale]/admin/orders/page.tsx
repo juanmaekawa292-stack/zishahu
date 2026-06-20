@@ -112,7 +112,7 @@ export default function AdminOrdersPage() {
         <table className="w-full text-sm">
           <thead className="bg-muted/50">
             <tr className="border-b border-border">
-              {["订单号", "客户", "金额", "利润", "下单时间", "状态", "物流", "操作"].map(function(h: string) {
+              {["订单号", "客户", "联系方式", "金额", "利润", "下单时间", "状态", "物流", "操作"].map(function(h: string) {
                 return <th key={h} className="px-4 py-3 text-left text-xs font-medium text-muted-foreground">{h}</th>;
               })}
             </tr>
@@ -123,6 +123,7 @@ export default function AdminOrdersPage() {
                 <tr key={o.id} className="hover:bg-muted/30">
                   <td className="px-4 py-3 text-sm font-medium">{o.id}</td>
                   <td className="px-4 py-3 text-sm">{o.customer}</td>
+                  <td className="px-4 py-3 text-xs text-muted-foreground">{(o.contactMethod && o.contactMethod !== "email") ? o.contactMethod.toUpperCase() + ": " + (o.contactId || "-") : "Email: " + (o.email || "-")}</td>
                   <td className="px-4 py-3 text-sm font-medium">¥{Number(o.total).toFixed(2)}</td>
                   <td className="px-4 py-3 text-sm font-medium text-green-600">¥{Number(o.profit).toFixed(2)}</td>
                   <td className="px-4 py-3 text-xs text-muted-foreground">{o.createdAt}</td>

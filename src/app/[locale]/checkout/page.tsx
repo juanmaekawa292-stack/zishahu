@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
-import { CreditCard, ChevronRight, MapPin, ShoppingBag } from "lucide-react";
+import { CreditCard, ChevronRight, MapPin, ShoppingBag, MessageSquare } from "lucide-react";
 import { Link } from "@/i18n";
 import { useCurrency } from "@/hooks/useCurrency";
 import { useCartStore } from "@/store/cart";
@@ -48,6 +48,19 @@ export default function CheckoutPage() {
   const [shippingMethod, setShippingMethod] = useState("standard");
   const [paymentMethod, setPaymentMethod] = useState("lianlian");
   const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const CHAT_TOOLS = [
+  { id: "email", label: "Email" },
+  { id: "whatsapp", label: "WhatsApp" },
+  { id: "telegram", label: "Telegram" },
+  { id: "wechat", label: "WeChat" },
+  { id: "messenger", label: "Messenger" },
+  { id: "signal", label: "Signal" },
+  { id: "line", label: "Line" },
+];
+
+  const [contactMethod, setContactMethod] = useState("email");
+  const [contactId, setContactId] = useState("");
 
   const [address, setAddress] = useState({
     name: "",
@@ -102,6 +115,8 @@ export default function CheckoutPage() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
+          contactMethod,
+          contactId,
           items,
           address,
           shippingMethod,
@@ -252,6 +267,29 @@ export default function CheckoutPage() {
             </div>
           </div>
 
+                    {/* Contact Method */}
+          <div className="rounded-lg border border-border bg-card p-6">
+            <div className="mb-4 flex items-center gap-2">
+              <MessageSquare className="h-5 w-5 text-primary" />
+              <h2 className="text-lg font-medium text-foreground">联系方式</h2>
+            </div>
+            <p className="text-xs text-muted-foreground mb-3">选择你方便的沟通方式，方便我们联系你</p>
+            <div className="grid gap-4 sm:grid-cols-2">
+              <div>
+                <label className="mb-1.5 block text-xs text-foreground">聊天工具</label>
+                <select value={contactMethod} onChange={e => setContactMethod(e.target.value)}
+                  className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm text-foreground">
+                  {CHAT_TOOLS.map(ct => <option key={ct.id} value={ct.id}>{ct.label}</option>)}
+                </select>
+              </div>
+              <div>
+                <label className="mb-1.5 block text-xs text-foreground">账号 / ID</label>
+                <input type="text" value={contactId} onChange={e => setContactId(e.target.value)}
+                  placeholder="输入你的账号"
+                  className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground" />
+              </div>
+            </div>
+          </div>
           {/* Payment Method */}
           <div className="rounded-lg border border-border bg-card p-6">
             <div className="mb-4 flex items-center gap-2">

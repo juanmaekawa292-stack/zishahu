@@ -19,10 +19,14 @@
 
  export default function HelpPage() {
   const t = useTranslations("service");
-  const [formData, setFormData] = useState({
+  const CHAT_TOOLS = [{ id: "email", label: "Email", icon: Mail }, { id: "whatsapp", label: "WhatsApp", icon: MessageSquare }, { id: "telegram", label: "Telegram", icon: MessageSquare }, { id: "wechat", label: "WeChat", icon: MessageSquare }, { id: "messenger", label: "Messenger", icon: MessageSquare }, { id: "signal", label: "Signal", icon: MessageSquare }, { id: "line", label: "Line", icon: MessageSquare }];
+
+const [formData, setFormData] = useState({
     name: "",
     email: "",
     orderId: "",
+    contactMethod: "email",
+    contactId: "",
     subject: "",
     message: "",
   });
@@ -38,7 +42,7 @@
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, contactMethod: formData.contactMethod, contactId: formData.contactId }),
       });
       if (!res.ok) {
         const err = await res.json();
@@ -97,8 +101,15 @@
                <div className="flex items-start gap-3">
                  <Mail className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                  <div>
-                   <p className="text-xs font-medium text-foreground">{t("emailUs")}</p>
-                   <p className="text-xs text-muted-foreground">{t("contactInfoEmail")}</p>
+                   <p className="text-xs font-medium text-foreground">Email</p>
+                   <p className="text-xs text-muted-foreground">zishapro@163.com</p>
+                 </div>
+               </div>
+               <div className="flex items-start gap-3">
+                 <MessageSquare className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                 <div>
+                   <p className="text-xs font-medium text-foreground">WhatsApp / Telegram / WeChat</p>
+                   <p className="text-xs text-muted-foreground">（后台配置中）</p>
                  </div>
                </div>
                <div className="flex items-start gap-3">
@@ -161,6 +172,26 @@
                        value={formData.orderId}
                        onChange={(e) => setFormData({ ...formData, orderId: e.target.value })}
                        placeholder="ORD-..."
+                       className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:border-ring focus:outline-none focus:ring-1 focus:ring-ring"
+                     />
+                   </div>
+                   <div>
+                     <label className="mb-1.5 block text-xs text-foreground">联系方式</label>
+                     <select
+                       value={formData.contactMethod}
+                       onChange={(e) => setFormData({ ...formData, contactMethod: e.target.value })}
+                       className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground focus:border-ring focus:outline-none focus:ring-1 focus:ring-ring"
+                     >
+                       {CHAT_TOOLS.map(function(ct) { return <option key={ct.id} value={ct.id}>{ct.label}</option>; })}
+                     </select>
+                   </div>
+                   <div>
+                     <label className="mb-1.5 block text-xs text-foreground">账号/ID</label>
+                     <input
+                       type="text"
+                       value={formData.contactId}
+                       onChange={(e) => setFormData({ ...formData, contactId: e.target.value })}
+                       placeholder="输入你的账号"
                        className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:border-ring focus:outline-none focus:ring-1 focus:ring-ring"
                      />
                    </div>

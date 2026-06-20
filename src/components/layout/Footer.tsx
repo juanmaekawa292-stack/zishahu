@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, MessageSquare } from "lucide-react";
 
 export function Footer() {
  const t = useTranslations("common");
@@ -45,8 +45,8 @@ export function Footer() {
               客户服务
             </h3>
             <ul className="space-y-2 text-xs text-muted-foreground">
-             <li className="flex items-center gap-2"><Mail className="h-3 w-3" /> hello@zishayaji.com</li>
-             <li className="flex items-center gap-2"><Phone className="h-3 w-3" /> +1 (888) 000-0000</li>
+             <li className="flex items-center gap-2"><Mail className="h-3 w-3" /> zishapro@163.com</li>
+             <li className="flex items-center gap-2"><MessageSquare className="h-3 w-3" /> WhatsApp / Telegram / WeChat</li>
              <li className="flex items-center gap-2"><MapPin className="h-3 w-3" /> Yixing, Jiangsu, China</li>
              <li><Link href="/faq" className="hover:text-primary transition-colors">{ts("faq")}</Link></li>
              <li><Link href="/help" className="hover:text-primary transition-colors">{ts("helpCenter")}</Link></li>
@@ -81,4 +81,4 @@ export function Footer() {
       </div>
     </footer>
   );
-}
+}

@@ -29,6 +29,8 @@ interface CheckoutBody {
   shipping: number;
   tax: number;
   total: number;
+  contactMethod?: string;
+  contactId?: string;
 }
 
 const orders = new Map<string, any>();
@@ -74,6 +76,8 @@ const order = {
       shipping: body.shipping,
       tax: body.tax,
       total: body.total,
+      contactMethod: body.contactMethod,
+      contactId: body.contactId,
       status: "pending" as const,
       sourceMap,
       createdAt: new Date().toISOString(),
