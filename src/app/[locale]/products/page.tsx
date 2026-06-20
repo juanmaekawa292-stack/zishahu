@@ -21,7 +21,7 @@ const ITEMS_PER_PAGE = 20;
 
 export default function ProductsPage() {
   return (
-    <Suspense fallback={<div className="mx-auto max-w-7xl px-4 py-12 text-center text-muted-foreground">加载中...</div>}>
+    <Suspense fallback={<div className="mx-auto max-w-[1600px] px-4 py-12 text-center text-muted-foreground">加载中...</div>}>
       <ProductsContent />
     </Suspense>
   );
@@ -111,7 +111,7 @@ const filteredProducts = useMemo(() => {
   };
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-[1600px] px-4 py-8 sm:px-6 lg:px-8">
       <nav className="mb-6 text-xs text-muted-foreground">
         <span>{t("home")}</span>
         <span className="mx-2">/</span>
@@ -226,7 +226,7 @@ const filteredProducts = useMemo(() => {
         <div
           className={cn(
             viewMode === "grid"
-              ? "grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
+              ? "grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4"
               : "space-y-4"
           )}
         >

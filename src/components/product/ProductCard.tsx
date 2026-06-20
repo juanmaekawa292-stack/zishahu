@@ -45,7 +45,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
   return (
     <div className="group animate-fadeIn">
       <Link href={`/products/${product.slug}`} className="block">
-        <div className="relative overflow-hidden rounded-lg bg-muted" style={{minHeight: '200px'}}>
+        <div className="relative overflow-hidden rounded-lg bg-muted" style={{minHeight: '280px'}}>
           {product.images.length > 0 ? (
             <Image
               src={product.images[0]}

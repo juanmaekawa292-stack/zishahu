@@ -13,7 +13,7 @@ export default function HomePage() {
     <div>
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-b from-amber-50 to-background dark:from-amber-950/20 dark:to-background">
-        <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-[1600px] px-4 py-20 sm:px-6 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
             <div className="animate-slideUp space-y-6">
               <div className="inline-block rounded-full bg-primary/10 px-3 py-1 text-xs text-primary font-medium">
@@ -60,7 +60,7 @@ export default function HomePage() {
       </section>
 
       {/* Features */}
-      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-[1600px] px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
           {[
             { icon: Truck, title: "全球配送", desc: "支持国际物流，安全送达" },
@@ -84,7 +84,7 @@ export default function HomePage() {
       </section>
 
       {/* Featured Products */}
-      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-[1600px] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mb-8 flex items-center justify-between">
           <div>
             <h2 className="text-2xl font-bold tracking-tight text-foreground">{t("featured")}</h2>
@@ -97,7 +97,7 @@ export default function HomePage() {
             {t("viewAll")} <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
           {featuredProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
@@ -106,7 +106,7 @@ export default function HomePage() {
 
       {/* New Arrivals */}
       <section className="bg-muted/50">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-[1600px] px-4 py-16 sm:px-6 lg:px-8">
           <div className="mb-8 flex items-center justify-between">
             <div>
               <h2 className="text-2xl font-bold tracking-tight text-foreground">{t("newArrivals")}</h2>
@@ -122,7 +122,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-[1600px] px-4 py-20 sm:px-6 lg:px-8">
         <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-primary to-secondary p-8 sm:p-12">
           <div className="relative z-10 text-center">
             <h2 className="text-2xl font-bold text-primary-foreground sm:text-3xl">
