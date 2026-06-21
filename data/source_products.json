@@ -1393,30 +1393,39 @@
     {
       "id": "tk-301",
       "source_sku": "1056675626507",
-      "source_url": "https://detail.tmall.com/item.htm?id=1056675626507&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "gushipiaochunshougongchahuyixingzishahupaochajiayongtaozhuang",
-      "category": "teapot",
-      "title_zhCN": "古悦堂马到成功平盖石瓢纯手工茶壶宜兴紫砂壶泡茶家用套装送客户",
-      "title_zhTW": "古悦堂马到成功平盖石瓢純手工茶壺宜興紫砂壺泡茶家用套裝送客戶",
+      "source_url": "https://detail.tmall.com/item.htm?id=727749619056&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "宜兴紫砂品茗杯功夫茶杯纯手工刻绘松鹤主人杯个人专用茶盏茶碗",
+      "category": "cup",
+      "title_zhCN": "宜兴紫砂品茗杯功夫茶杯纯手工刻绘松鹤主人杯个人专用茶盏茶碗",
+      "title_zhTW": "宜興紫砂品茗杯功夫茶杯純手工刻繪松鹤主人杯个人专用茶盏茶碗",
       "variants": [
         {
-          "name": "马到成功 | 单壶【精美礼盒】约200ml",
-          "price": 599.0,
-          "original_price": 999.0,
-          "sku_id": "6099091588842"
+          "name": "松鹤长春200mL以下",
+          "price": 46.2,
+          "original_price": 68.0,
+          "sku_id": "5048609417048"
         }
       ],
       "images": [
-        "/images/products/tk-301/main_1.webp",
-        "/images/products/tk-301/main_2.webp",
-        "/images/products/tk-301/main_3.webp",
-        "/images/products/tk-301/main_4.webp",
-        "/images/products/tk-301/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-301/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-301/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-301/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-301/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-301/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:37:03.872586",
-      "item_id": "1056675626507"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-301.mp4"
+      ],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "color": "松鹤长春"
+      },
+      "date_uploaded": "2026-06-21T20:40:07.171035",
+      "item_id": "727749619056"
     },
     {
       "id": "tk-302",
