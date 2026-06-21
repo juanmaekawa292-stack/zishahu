@@ -4500,30 +4500,42 @@
     {
       "id": "tk-377",
       "source_sku": "616701211755",
-      "source_url": "https://detail.tmall.com/item.htm?id=616701211755&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guyixingzishahuchunshougongpaochahufuchahuchajutaozhuangfangguhu",
+      "source_url": "https://detail.tmall.com/item.htm?id=599886777454&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "藏壶天下原矿紫泥宜兴紫砂壶纯手工泡茶壶家用紫砂功夫茶具养和壶",
       "category": "teapot",
-      "title_zhCN": "古悦堂  宜兴紫砂壶 纯手工泡茶壶功夫茶壶茶具套装 笑谈仿古壶",
-      "title_zhTW": "古悦堂  宜興紫砂壺 純手工泡茶壺功夫茶壺茶具套裝 笑谈仿古壺",
+      "title_zhCN": "藏壶天下原矿紫泥宜兴紫砂壶纯手工泡茶壶家用紫砂功夫茶具养和壶",
+      "title_zhTW": "藏壺天下原礦紫泥宜興紫砂壺純手工泡茶壺家用紫砂功夫茶具养和壺",
       "variants": [
         {
-          "name": "约250ml",
-          "price": 1683.0,
-          "original_price": 1980.0,
-          "sku_id": "4921502529845"
+          "name": "养和301mL(含)-400mL(含)",
+          "price": 680.0,
+          "original_price": 1080.0,
+          "sku_id": "4188705824435"
         }
       ],
       "images": [
-        "/images/products/tk-377/main_1.webp",
-        "/images/products/tk-377/main_2.webp",
-        "/images/products/tk-377/main_3.webp",
-        "/images/products/tk-377/main_4.webp",
-        "/images/products/tk-377/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-377/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-377/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-377/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-377/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-377/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:42:10.266513",
-      "item_id": "616701211755"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-377.mp4"
+      ],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "301mL(含)-400mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "特殊",
+        "packaging": "礼盒装",
+        "color": "养和"
+      },
+      "date_uploaded": "2026-06-21T20:52:39.823963",
+      "item_id": "599886777454"
     },
     {
       "id": "tk-378",
