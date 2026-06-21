@@ -8533,6 +8533,58 @@
         "color": "茄瓜"
       },
       "date_uploaded": "2026-06-21T20:28:37.841094"
+    },
+    {
+      "id": "tk-231",
+      "item_id": "524550700200",
+      "source_url": "https://detail.tmall.com/item.htm?id=524550700200&rn=af2538143be9363990755a697899f54e&abbucket=14",
+      "slug": "家用紫砂功夫茶杯个人专用主人杯单杯茶碗单个品茗杯竹节杯喝茶杯",
+      "category": "cup",
+      "title_zhCN": "家用紫砂功夫茶杯个人专用主人杯单杯茶碗单个品茗杯竹节杯喝茶杯",
+      "title_zhTW": "家用紫砂功夫茶杯个人专用主人杯單杯茶碗單个品茗杯竹节杯喝茶杯",
+      "variants": [
+        {
+          "name": "紫泥款200mL以下",
+          "price": 25.3,
+          "original_price": 38.0,
+          "sku_id": "3123231082051"
+        },
+        {
+          "name": "红泥款200mL以下",
+          "price": 25.3,
+          "original_price": 38.0,
+          "sku_id": "3123231082052"
+        },
+        {
+          "name": "段泥款200mL以下",
+          "price": 25.3,
+          "original_price": 38.0,
+          "sku_id": "3127424216421"
+        },
+        {
+          "name": "底槽青200mL以下",
+          "price": 25.3,
+          "original_price": 38.0,
+          "sku_id": "3135726580892"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-231/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-231/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-231/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-231/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-231/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "color": "紫泥款 红泥款 段泥款 底槽青"
+      },
+      "date_uploaded": "2026-06-21T20:28:47.184204"
     }
   ]
 }
