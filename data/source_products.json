@@ -1278,32 +1278,37 @@
     {
       "id": "tk-298",
       "source_sku": "1020460167315",
-      "source_url": "https://detail.tmall.com/item.htm?id=1020460167315&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingzishahuchunshougongzhengchajutaozhuangjiayongpaochahuli",
+      "source_url": "https://detail.tmall.com/item.htm?id=575656650561&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "藏壶天下宜兴原矿紫泥紫砂杯全手工刻绘办公盖杯时来运转隔舱杯",
       "category": "teapot",
-      "title_zhCN": "宜兴紫砂壶纯手工正品茶具套装家用泡茶壶送长辈朋友节节高升礼物",
-      "title_zhTW": "宜興紫砂壺純手工正品茶具套裝家用泡茶壺送长辈朋友节节高升禮物",
+      "title_zhCN": "藏壶天下宜兴原矿紫泥紫砂杯全手工刻绘办公盖杯时来运转隔舱杯",
+      "title_zhTW": "藏壺天下宜興原礦紫泥紫砂杯全手工刻繪办公盖杯时来运转隔舱杯",
       "variants": [
         {
-          "name": "原矿底槽清 | 节节高升套装【精美礼盒】约260ml",
-          "price": 356.0,
-          "original_price": 429.0,
-          "sku_id": "6032276336146"
+          "name": "时来运转400mL(不含)-600mL(含)",
+          "price": 378.0,
+          "original_price": 600.0,
+          "sku_id": "3778233372265"
         }
       ],
       "images": [
-        "/images/products/tk-298/main_1.webp",
-        "/images/products/tk-298/main_2.webp",
-        "/images/products/tk-298/main_3.webp",
-        "/images/products/tk-298/main_4.webp",
-        "/images/products/tk-298/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-298/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-298/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-298/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-298/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-298/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-298/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:36:49.394538",
-      "item_id": "1020460167315"
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "capacity": "400mL(不含)-600mL(含)",
+        "origin": "宜兴市",
+        "color": "时来运转",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:39:38.865360",
+      "item_id": "575656650561"
     },
     {
       "id": "tk-299",
