@@ -4067,32 +4067,42 @@
     {
       "id": "tk-366",
       "source_sku": "727022244335",
-      "source_url": "https://detail.tmall.com/item.htm?id=727022244335&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingyuankuangzinizishahuchunshougongpaochahufuchajuxishi",
+      "source_url": "https://detail.tmall.com/item.htm?id=679008862413&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "宜兴紫砂壶纯手工家用功夫茶具原矿紫茄泥小容量一人用泡茶壶文旦",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴原矿紫泥紫砂壶纯全手工泡茶壶中式功夫茶具 莲花西施",
-      "title_zhTW": "古悦堂 宜興原礦紫泥紫砂壺純全手工泡茶壺中式功夫茶具 莲花西施",
+      "title_zhCN": "宜兴紫砂壶纯手工家用功夫茶具原矿紫茄泥小容量一人用泡茶壶文旦",
+      "title_zhTW": "宜興紫砂壺純手工家用功夫茶具原礦紫茄泥小容量一人用泡茶壺文旦",
       "variants": [
         {
-          "name": "约230ml",
-          "price": 264.1,
-          "original_price": 311.1,
-          "sku_id": "5049321053201"
+          "name": "文旦壶101mL(含)-200mL(含)",
+          "price": 250.0,
+          "original_price": 398.0,
+          "sku_id": "5041057770584"
         }
       ],
       "images": [
-        "/images/products/tk-366/main_1.webp",
-        "/images/products/tk-366/main_2.webp",
-        "/images/products/tk-366/main_3.webp",
-        "/images/products/tk-366/main_4.webp",
-        "/images/products/tk-366/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-366/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-366/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-366/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-366/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-366/main_5.webp"
       ],
       "videos": [
-        "/videos/products/tk-366/product.mp4"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-366.mp4"
       ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:41:24.375889",
-      "item_id": "727022244335"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫茄泥",
+        "shapeType": "玉乳壶",
+        "packaging": "礼盒装",
+        "color": "文旦壶"
+      },
+      "date_uploaded": "2026-06-21T20:50:52.919893",
+      "item_id": "679008862413"
     },
     {
       "id": "tk-367",
