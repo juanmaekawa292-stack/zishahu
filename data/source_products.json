@@ -187,30 +187,35 @@
     {
       "id": "tk-273",
       "source_sku": "690209558139",
-      "source_url": "https://detail.tmall.com/item.htm?id=690209558139&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc",
-      "slug": "gujiayongbeibeifuchajuyongbeiqingbei",
-      "category": "cup",
-      "title_zhCN": "古悦堂 家用高端陶瓷主人杯单杯功夫茶具自用品茗杯 青瓷浮雕杯",
-      "title_zhTW": "古悦堂 家用高端陶瓷主人杯單杯功夫茶具自用品茗杯 青瓷浮雕杯",
+      "source_url": "https://detail.tmall.com/item.htm?id=635909678241&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "紫砂茶宠牛气冲天招财茶桌小摆件精品可养茶台装饰品茶具配件摆设",
+      "category": "teaPet",
+      "title_zhCN": "紫砂茶宠牛气冲天招财茶桌小摆件精品可养茶台装饰品茶具配件摆设",
+      "title_zhTW": "紫砂茶宠牛气冲天招财茶桌小摆件精品可养茶台裝饰品茶具配件摆设",
       "variants": [
         {
-          "name": "110ml",
-          "price": 329.0,
-          "original_price": 388.0,
-          "sku_id": "5090304138830"
+          "name": "财大气粗",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4554032301231"
         }
       ],
       "images": [
-        "/images/products/tk-273/main_1.webp",
-        "/images/products/tk-273/main_2.webp",
-        "/images/products/tk-273/main_3.webp",
-        "/images/products/tk-273/main_4.webp",
-        "/images/products/tk-273/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:35:31.169294",
-      "item_id": "690209558139"
+      "specs": {
+        "material": "紫砂",
+        "color": "财大气粗",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:35:48.082054",
+      "item_id": "635909678241"
     },
     {
       "id": "tk-274",

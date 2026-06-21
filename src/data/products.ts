@@ -22385,6 +22385,72 @@ export const products: Product[] = [
     ],
     "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
   },
+  {
+    "id": "tk-273",
+    "slug": "紫砂茶宠牛气冲天招财茶桌小摆件精品可养茶台装饰品茶具配件摆设",
+    "title_zhCN": "紫砂茶宠牛气冲天招财茶桌小摆件精品可养茶台装饰品茶具配件摆设",
+    "title_zhTW": "紫砂茶宠牛气冲天招财茶桌小摆件精品可养茶台裝饰品茶具配件摆设",
+    "description_zhCN": "紫砂茶宠牛气冲天招财茶桌小摆件精品可养茶台装饰品茶具配件摆设，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "description_zhTW": "紫砂茶宠牛气冲天招财茶桌小摆件精品可养茶台装饰品茶具配件摆设，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "price": 59.8,
+    "originalPrice": 88.0,
+    "images": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/main_1.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/main_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/main_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/main_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/main_5.webp"
+    ],
+    "category": "teaPet",
+    "inStock": true,
+    "stock": 100,
+    "featured": true,
+    "specs": {
+      "mainImageSource": "自主实拍图",
+      "handmade": "是",
+      "material": "紫砂",
+      "color": "财大气粗"
+    },
+    "createdAt": "2026-06-21",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "detailImages": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_5.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_6.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_7.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_8.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_9.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_10.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_11.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_12.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_13.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_14.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_15.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_16.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-273/detail_17.webp"
+    ],
+    "variants": [
+      {
+        "id": "tk-273-01",
+        "name_zhCN": "财大气粗",
+        "name_zhTW": "财大气粗",
+        "price": 59.8,
+        "originalPrice": 88.0,
+        "stock": 50,
+        "image": "",
+        "sku": "4554032301231",
+      },
+    ],
+    "sourceUrl": "https://detail.tmall.com/item.htm?id=635909678241&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+    "sourceSku": "635909678241",
+    "videos": [
+
+    ],
+    "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
+  },
 ];
 export const categories = [
   { key: "all", label_zhCN: "全部" },
