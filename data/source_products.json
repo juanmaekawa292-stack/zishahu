@@ -7636,6 +7636,58 @@
         "color": "卡盖西施单壶 一壶四杯套装"
       },
       "date_uploaded": "2026-06-21T20:24:53.451164"
+    },
+    {
+      "id": "tk-209",
+      "item_id": "44335826557",
+      "source_url": "https://detail.tmall.com/item.htm?id=44335826557&rn=af2538143be9363990755a697899f54e&abbucket=14",
+      "slug": "建盏品茗杯茶碗功夫茶杯陶瓷个人专用主人杯单杯天目釉茶盏小茶杯",
+      "category": "cup",
+      "title_zhCN": "建盏品茗杯茶碗功夫茶杯陶瓷个人专用主人杯单杯天目釉茶盏小茶杯",
+      "title_zhTW": "建盏品茗杯茶碗功夫茶杯陶磷个人专用主人杯單杯天目釉茶盏小茶杯",
+      "variants": [
+        {
+          "name": "天目小杯1只装200mL以下",
+          "price": 46.2,
+          "original_price": 68.0,
+          "sku_id": "3114708951926"
+        },
+        {
+          "name": "天目小杯2只装200mL以下",
+          "price": 86.2,
+          "original_price": 128.0,
+          "sku_id": "3977172215627"
+        },
+        {
+          "name": "天目小杯3只装200mL以下",
+          "price": 127.0,
+          "original_price": 188.0,
+          "sku_id": "3977172215626"
+        },
+        {
+          "name": "天目小杯4只装200mL以下",
+          "price": 160.7,
+          "original_price": 237.0,
+          "sku_id": "3977172215628"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-209/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-209/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-209/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-209/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-209/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "瓷",
+        "capacity": "200mL以下",
+        "origin": "宜兴市",
+        "color": "天目小杯1只装 天目小杯2只装 天目小杯3只装 天目小杯4只装",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:25:01.763930"
     }
   ]
 }
