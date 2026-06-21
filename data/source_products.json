@@ -6956,84 +6956,39 @@
     {
       "id": "tk-440",
       "source_sku": "757645319538",
-      "source_url": "https://detail.tmall.com/item.htm?id=757645319538&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingzishahuchunshougongpaochahu1hufuchajuda",
+      "source_url": "https://detail.tmall.com/item.htm?id=830898092348&rn=1a9d503a5eb80610a62081f1d55c5c59&abbucket=14",
+      "slug": "精品紫砂壶承干泡台原矿段泥养壶托盘刻绘壶茶盘圆形茶座狮子绣球",
       "category": "teapot",
-      "title_zhCN": "古悦堂宜兴紫砂壶纯手工泡茶壶迷你一人小壶功夫茶具大红袍美人肩",
-      "title_zhTW": "古悦堂宜興紫砂壺純手工泡茶壺迷你一人小壺功夫茶具大红袍美人肩",
+      "title_zhCN": "精品紫砂壶承干泡台原矿段泥养壶托盘刻绘壶茶盘圆形茶座狮子绣球",
+      "title_zhTW": "精品紫砂壺承干泡台原礦段泥养壺托盘刻繪壺茶盘圆形茶座狮子绣球",
       "variants": [
         {
-          "name": "美人肩51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231967577168"
-        },
-        {
-          "name": "龙蛋51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231967577161"
-        },
-        {
-          "name": "掇只51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231967577167"
-        },
-        {
-          "name": "仿古51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231967577165"
-        },
-        {
-          "name": "高潘51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231967577169"
-        },
-        {
-          "name": "汉棠石瓢51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231967577166"
-        },
-        {
-          "name": "君德51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231967577159"
-        },
-        {
-          "name": "水平51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231967577164"
-        },
-        {
-          "name": "思亭51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231967577160"
-        },
-        {
-          "name": "西施51mL(含)-100mL(含)",
-          "price": 357.0,
-          "original_price": 420.0,
-          "sku_id": "6012315539882"
+          "name": "双狮绣球",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "5566850704530"
         }
       ],
       "images": [
-        "/images/products/tk-440/main_1.webp",
-        "/images/products/tk-440/main_2.webp",
-        "/images/products/tk-440/main_3.webp",
-        "/images/products/tk-440/main_4.webp",
-        "/images/products/tk-440/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-440/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-440/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-440/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-440/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-440/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:45:54.287304",
-      "item_id": "757645319538"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-440.mp4"
+      ],
+      "specs": {
+        "scenario": "家用",
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "material": "紫砂",
+        "handmade": "手工",
+        "color": "双狮绣球"
+      },
+      "date_uploaded": "2026-06-21T21:02:58.850600",
+      "item_id": "830898092348"
     },
     {
       "id": "tk-441",
