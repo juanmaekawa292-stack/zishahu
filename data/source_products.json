@@ -1543,84 +1543,39 @@
     {
       "id": "tk-305",
       "source_sku": "753579256428",
-      "source_url": "https://detail.tmall.com/item.htm?id=753579256428&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingzishahuchunshougongpaochahu1yongfuchajudahu",
-      "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶纯手工泡茶壶迷你一人用功夫茶具 大红袍高潘壶",
-      "title_zhTW": "古悦堂 宜興紫砂壺純手工泡茶壺迷你一人用功夫茶具 大红袍高潘壺",
+      "source_url": "https://detail.tmall.com/item.htm?id=683779577900&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "大容量宜兴紫砂杯带过滤茶杯茶水分离个人专用茶具男士盖杯办公杯",
+      "category": "cup",
+      "title_zhCN": "大容量宜兴紫砂杯带过滤茶杯茶水分离个人专用茶具男士盖杯办公杯",
+      "title_zhTW": "大容量宜興紫砂杯带过滤茶杯茶水分离个人专用茶具男士盖杯办公杯",
       "variants": [
         {
-          "name": "潘壶51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231856637723"
-        },
-        {
-          "name": "思亭51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231856637716"
-        },
-        {
-          "name": "水平51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231856637721"
-        },
-        {
-          "name": "君德51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231856637715"
-        },
-        {
-          "name": "石瓢51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231856637717"
-        },
-        {
-          "name": "掇只51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231856637724"
-        },
-        {
-          "name": "仿古51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231856637722"
-        },
-        {
-          "name": "龙蛋51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231856637718"
-        },
-        {
-          "name": "美人肩51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231856637725"
-        },
-        {
-          "name": "西施51mL(含)-100mL(含)",
-          "price": 357.0,
-          "original_price": 420.0,
-          "sku_id": "5846162889453"
+          "name": "香远紫砂杯200mL(含)-400mL(含)",
+          "price": 239.0,
+          "original_price": 380.0,
+          "sku_id": "4894036928320"
         }
       ],
       "images": [
-        "/images/products/tk-305/main_1.webp",
-        "/images/products/tk-305/main_2.webp",
-        "/images/products/tk-305/main_3.webp",
-        "/images/products/tk-305/main_4.webp",
-        "/images/products/tk-305/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-305/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-305/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-305/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-305/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-305/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:37:15.850234",
-      "item_id": "753579256428"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-305.mp4"
+      ],
+      "specs": {
+        "material": "紫砂",
+        "capacity": "200mL(含)-400mL(含)",
+        "origin": "宜兴市",
+        "color": "香远紫砂杯",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:40:48.147620",
+      "item_id": "683779577900"
     },
     {
       "id": "tk-306",
