@@ -1885,38 +1885,42 @@
     {
       "id": "tk-314",
       "source_sku": "581856602858",
-      "source_url": "https://detail.tmall.com/item.htm?id=581856602858&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guyixingzishachashougongchachajuchacha",
-      "category": "teaPet",
-      "title_zhCN": "古悦堂 宜兴紫砂茶宠摆件精品 可养手工茶玩茶具茶桌配件福猪茶宠",
-      "title_zhTW": "古悦堂 宜興紫砂茶宠摆件精品 可养手工茶玩茶具茶桌配件福猪茶宠",
+      "source_url": "https://detail.tmall.com/item.htm?id=673307946753&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂壶纯手工家用泡茶壶原矿梨皮大红袍功夫茶具西施",
+      "category": "teapot",
+      "title_zhCN": "藏壶天下宜兴紫砂壶纯手工家用泡茶壶原矿梨皮大红袍功夫茶具西施",
+      "title_zhTW": "藏壺天下宜興紫砂壺純手工家用泡茶壺原礦梨皮大红袍功夫茶具西施",
       "variants": [
         {
-          "name": "老紫泥款",
-          "price": 40.8,
-          "original_price": 48.0,
-          "sku_id": "4062125807312"
-        },
-        {
-          "name": "朱泥款",
-          "price": 40.8,
-          "original_price": 48.0,
-          "sku_id": "4062125807313"
+          "name": "西施壶（光素款）201mL(含)-300mL(含)",
+          "price": 876.0,
+          "original_price": 1200.0,
+          "sku_id": "5016398902233"
         }
       ],
       "images": [
-        "/images/products/tk-314/main_1.webp",
-        "/images/products/tk-314/main_2.webp",
-        "/images/products/tk-314/main_3.webp",
-        "/images/products/tk-314/main_4.webp",
-        "/images/products/tk-314/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-314/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-314/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-314/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-314/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-314/main_5.webp"
       ],
       "videos": [
-        "/videos/products/tk-314/product.mp4"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-314.mp4"
       ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:37:55.861135",
-      "item_id": "581856602858"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "梨皮大红袍",
+        "shapeType": "西施壶",
+        "packaging": "礼盒装",
+        "color": "西施壶（光素款）"
+      },
+      "date_uploaded": "2026-06-21T20:42:15.050546",
+      "item_id": "673307946753"
     },
     {
       "id": "tk-315",
