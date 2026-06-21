@@ -4841,32 +4841,48 @@
     {
       "id": "tk-386",
       "source_sku": "912665788932",
-      "source_url": "https://detail.tmall.com/item.htm?id=912665788932&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "yixingchunshougongpaochahujiayongshouhuliyongpaochahushouhu",
+      "source_url": "https://detail.tmall.com/item.htm?id=757902267388&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "宜兴紫砂壶纯手工茶壶泡茶家用单壶原矿大红袍紫砂茶具红颜西施壶",
       "category": "teapot",
-      "title_zhCN": "宜兴纯手工泡茶壶家用招财手抓壶盖碗送礼专用泡茶单壶柴烧手抓壶",
-      "title_zhTW": "宜興純手工泡茶壺家用招财手抓壺盖碗送禮专用泡茶單壺柴烧手抓壺",
+      "title_zhCN": "宜兴紫砂壶纯手工茶壶泡茶家用单壶原矿大红袍紫砂茶具红颜西施壶",
+      "title_zhTW": "宜興紫砂壺純手工茶壺泡茶家用單壺原礦大红袍紫砂茶具红顏西施壺",
       "variants": [
         {
-          "name": "原矿紫砂 | 便携茶具手抓壶约120ml",
-          "price": 151.0,
-          "original_price": 178.0,
-          "sku_id": "6224191031632"
+          "name": "红颜西施-【刻绘款】201mL(含)-300mL(含)",
+          "price": 680.0,
+          "original_price": 1080.0,
+          "sku_id": "5398060619131"
+        },
+        {
+          "name": "红颜西施-【光素款】201mL(含)-300mL(含)",
+          "price": 617.0,
+          "original_price": 980.0,
+          "sku_id": "5398060619132"
         }
       ],
       "images": [
-        "/images/products/tk-386/main_1.webp",
-        "/images/products/tk-386/main_2.webp",
-        "/images/products/tk-386/main_3.webp",
-        "/images/products/tk-386/main_4.webp",
-        "/images/products/tk-386/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-386/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-386/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-386/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-386/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-386/main_5.webp"
       ],
       "videos": [
-        "/videos/products/tk-386/product.mp4"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-386.mp4"
       ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:42:35.555883",
-      "item_id": "912665788932"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "大红袍",
+        "shapeType": "西施壶",
+        "packaging": "礼盒装",
+        "color": "红颜西施-【刻绘款】 红颜西施-【光素款】"
+      },
+      "date_uploaded": "2026-06-21T20:54:05.218538",
+      "item_id": "757902267388"
     },
     {
       "id": "tk-387",
