@@ -761,30 +761,40 @@
     {
       "id": "tk-287",
       "source_sku": "1057047536498",
-      "source_url": "https://detail.tmall.com/item.htm?id=1057047536498&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guchunshougongzishahuzhengchahupaochajiayongtaozhuang2026xinkuanlichajuxishihu",
+      "source_url": "https://detail.tmall.com/item.htm?id=637697465530&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "藏壶天下原矿黄金段泥宜兴紫砂壶纯手工泡茶壶单人家用茶具仿古壶",
       "category": "teapot",
-      "title_zhCN": "古悦堂纯手工紫砂壶正品茶壶泡茶家用套装2026新款送礼茶具西施壶",
-      "title_zhTW": "古悦堂純手工紫砂壺正品茶壺泡茶家用套裝2026新款送禮茶具西施壺",
+      "title_zhCN": "藏壶天下原矿黄金段泥宜兴紫砂壶纯手工泡茶壶单人家用茶具仿古壶",
+      "title_zhTW": "藏壺天下原礦黄金段泥宜興紫砂壺純手工泡茶壺單人家用茶具仿古壺",
       "variants": [
         {
-          "name": "送礼茶具 | 莲花西施【精美礼盒】约225ml",
-          "price": 409.0,
-          "original_price": 999.0,
-          "sku_id": "6096321828361"
+          "name": "黄金段泥仿古201mL(含)-300mL(含)",
+          "price": 250.0,
+          "original_price": 398.0,
+          "sku_id": "4745278302294"
         }
       ],
       "images": [
-        "/images/products/tk-287/main_1.webp",
-        "/images/products/tk-287/main_2.webp",
-        "/images/products/tk-287/main_3.webp",
-        "/images/products/tk-287/main_4.webp",
-        "/images/products/tk-287/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-287/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-287/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-287/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-287/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-287/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:36:05.336437",
-      "item_id": "1057047536498"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "黄金段泥",
+        "shapeType": "仿古壶",
+        "packaging": "礼盒装",
+        "color": "黄金段泥仿古"
+      },
+      "date_uploaded": "2026-06-21T20:38:01.425453",
+      "item_id": "637697465530"
     },
     {
       "id": "tk-288",
