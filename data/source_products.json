@@ -4225,32 +4225,42 @@
     {
       "id": "tk-370",
       "source_sku": "1022223941247",
-      "source_url": "https://detail.tmall.com/item.htm?id=1022223941247&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingzishachajubei1taozhuangpaochachabei",
-      "category": "cup",
-      "title_zhCN": "宜兴紫砂旅行茶具快客杯一人饮便携式套装办公室户外露营泡茶茶杯",
-      "title_zhTW": "宜興紫砂旅行茶具快客杯一人饮便携式套裝办公室戶外露营泡茶茶杯",
+      "source_url": "https://detail.tmall.com/item.htm?id=680647636945&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂壶纯手工紫砂茶具原矿老紫泥茶壶泡茶家用西施壶",
+      "category": "teapot",
+      "title_zhCN": "藏壶天下宜兴紫砂壶纯手工紫砂茶具原矿老紫泥茶壶泡茶家用西施壶",
+      "title_zhTW": "藏壺天下宜興紫砂壺純手工紫砂茶具原礦老紫泥茶壺泡茶家用西施壺",
       "variants": [
         {
-          "name": "旅行茶具 | 一壶两杯套组【精美礼盒】",
-          "price": 357.0,
-          "original_price": 430.0,
-          "sku_id": "6033471593649"
+          "name": "西施201mL(含)-300mL(含)",
+          "price": 1247.0,
+          "original_price": 1980.0,
+          "sku_id": "5050873606732"
         }
       ],
       "images": [
-        "/images/products/tk-370/main_1.webp",
-        "/images/products/tk-370/main_2.webp",
-        "/images/products/tk-370/main_3.webp",
-        "/images/products/tk-370/main_4.webp",
-        "/images/products/tk-370/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-370/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-370/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-370/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-370/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-370/main_5.webp"
       ],
       "videos": [
-        "/videos/products/tk-370/product.mp4"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-370.mp4"
       ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:41:45.802520",
-      "item_id": "1022223941247"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "老紫泥",
+        "shapeType": "西施壶",
+        "packaging": "礼盒装",
+        "color": "西施"
+      },
+      "date_uploaded": "2026-06-21T20:51:33.726303",
+      "item_id": "680647636945"
     },
     {
       "id": "tk-371",
