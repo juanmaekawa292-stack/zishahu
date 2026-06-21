@@ -37612,6 +37612,65 @@ export const products: Product[] = [
     ],
     "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
   },
+  {
+    "id": "tk-466",
+    "slug": "藏壶天下 竹制茶勺功夫茶具茶道配件茶匙 茶铲木茶具六君子配件",
+    "title_zhCN": "藏壶天下 竹制茶勺功夫茶具茶道配件茶匙 茶铲木茶具六君子配件",
+    "title_zhTW": "藏壺天下 竹制茶勺功夫茶具茶道配件茶匙 茶铲木茶具六君子配件",
+    "description_zhCN": "藏壶天下 竹制茶勺功夫茶具茶道配件茶匙 茶铲木茶具六君子配件，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "description_zhTW": "藏壶天下 竹制茶勺功夫茶具茶道配件茶匙 茶铲木茶具六君子配件，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "price": 8.0,
+    "originalPrice": 8.0,
+    "images": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/main_1.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/main_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/main_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/main_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/main_5.webp"
+    ],
+    "category": "teapot",
+    "inStock": true,
+    "stock": 100,
+    "featured": true,
+    "specs": {
+      "mainImageSource": "自主实拍图",
+      "handmade": "是",
+      "material": "其他",
+      "color": "茶勺"
+    },
+    "createdAt": "2026-06-21",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "detailImages": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/detail_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/detail_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/detail_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/detail_5.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/detail_6.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/detail_7.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/detail_8.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/detail_9.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/detail_10.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/detail_11.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/detail_12.webp"
+    ],
+    "variants": [
+      {
+        "id": "tk-466-01",
+        "name_zhCN": "茶勺",
+        "name_zhTW": "茶勺",
+        "price": 8.0,
+        "stock": 50,
+        "image": "",
+        "sku": "4420168844134",
+      },
+    ],
+    "sourceUrl": "藏壶天下 竹制茶勺功夫茶具茶道配件茶匙 茶铲木茶具六君子配件",
+    "videos": [
+
+    ],
+    "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
+  },
 ];
 export const categories = [
   { key: "all", label_zhCN: "全部" },

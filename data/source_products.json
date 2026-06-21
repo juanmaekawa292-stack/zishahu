@@ -11609,6 +11609,38 @@
         "color": "仿古"
       },
       "date_uploaded": "2026-06-21T21:07:10.218622"
+    },
+    {
+      "id": "tk-466",
+      "item_id": "",
+      "source_url": "藏壶天下 竹制茶勺功夫茶具茶道配件茶匙 茶铲木茶具六君子配件",
+      "slug": "藏壶天下 竹制茶勺功夫茶具茶道配件茶匙 茶铲木茶具六君子配件",
+      "category": "teapot",
+      "title_zhCN": "藏壶天下 竹制茶勺功夫茶具茶道配件茶匙 茶铲木茶具六君子配件",
+      "title_zhTW": "藏壺天下 竹制茶勺功夫茶具茶道配件茶匙 茶铲木茶具六君子配件",
+      "variants": [
+        {
+          "name": "茶勺",
+          "price": 8.0,
+          "original_price": null,
+          "sku_id": "4420168844134"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-466/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "handmade": "是",
+        "material": "其他",
+        "color": "茶勺"
+      },
+      "date_uploaded": "2026-06-21T21:07:18.069776"
     }
   ]
 }
