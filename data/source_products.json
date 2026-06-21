@@ -4577,30 +4577,44 @@
     {
       "id": "tk-379",
       "source_sku": "1038022808362",
-      "source_url": "https://detail.tmall.com/item.htm?id=1038022808362&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingzishahuchunshougongpaochahujiayongzhengchaju2026xinkuanli",
+      "source_url": "https://detail.tmall.com/item.htm?id=731315967662&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "宜兴紫砂壶纯手工小茶壶原矿紫泥小容量家用功夫茶具单大口汉瓦壶",
       "category": "teapot",
-      "title_zhCN": "宜兴紫砂壶纯手工泡茶壶家用正品茶具2026新款送父亲长辈生日礼物",
-      "title_zhTW": "宜興紫砂壺純手工泡茶壺家用正品茶具2026新款送父亲长辈生日禮物",
+      "title_zhCN": "宜兴紫砂壶纯手工小茶壶原矿紫泥小容量家用功夫茶具单大口汉瓦壶",
+      "title_zhTW": "宜興紫砂壺純手工小茶壺原礦紫泥小容量家用功夫茶具單大口漢瓦壺",
       "variants": [
         {
-          "name": "约170ml",
-          "price": 754.8,
-          "original_price": 888.0,
-          "sku_id": "6053858021132"
+          "name": "光素款201mL(含)-300mL(含)",
+          "price": 189.0,
+          "original_price": 379.0,
+          "sku_id": "5234308238095"
         }
       ],
       "images": [
-        "/images/products/tk-379/main_1.webp",
-        "/images/products/tk-379/main_2.webp",
-        "/images/products/tk-379/main_3.webp",
-        "/images/products/tk-379/main_4.webp",
-        "/images/products/tk-379/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-379/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-379/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-379/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-379/main_4.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:42:14.291448",
-      "item_id": "1038022808362"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-379.mp4"
+      ],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "firingType": "气窑",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "cleaning": "手洗",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "汉瓦",
+        "packaging": "礼盒装",
+        "kiln": "宜兴窑",
+        "color": "光素款"
+      },
+      "date_uploaded": "2026-06-21T20:52:57.057997",
+      "item_id": "731315967662"
     },
     {
       "id": "tk-380",
