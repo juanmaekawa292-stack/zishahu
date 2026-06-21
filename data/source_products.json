@@ -8374,6 +8374,43 @@
         "color": "一壶两杯套装 一壶一杯套装"
       },
       "date_uploaded": "2026-06-21T20:27:45.123838"
+    },
+    {
+      "id": "tk-227",
+      "item_id": "527071320393",
+      "source_url": "https://detail.tmall.com/item.htm?id=527071320393&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "大容量宜兴紫砂壶纯手工紫砂茶具花器原矿朱泥家用泡茶壶鱼化龙壶",
+      "category": "teapot",
+      "title_zhCN": "大容量宜兴紫砂壶纯手工紫砂茶具花器原矿朱泥家用泡茶壶鱼化龙壶",
+      "title_zhTW": "大容量宜興紫砂壺純手工紫砂茶具花器原礦朱泥家用泡茶壺鱼化龍壺",
+      "variants": [
+        {
+          "name": "鱼化龙（朱泥）301mL(含)-400mL(含)",
+          "price": 1247.0,
+          "original_price": 1980.0,
+          "sku_id": "3213177316783"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-227/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-227/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-227/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-227/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-227/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "301mL(含)-400mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "朱泥",
+        "shapeType": "鱼化龙",
+        "packaging": "礼盒装",
+        "color": "鱼化龙（朱泥）"
+      },
+      "date_uploaded": "2026-06-21T20:27:58.893231"
     }
   ]
 }
