@@ -7259,6 +7259,88 @@
         "color": "梅 兰 竹 菊"
       },
       "date_uploaded": "2026-06-21T20:23:41.533957"
+    },
+    {
+      "id": "tk-203",
+      "item_id": "",
+      "source_url": "紫砂功夫茶杯个人专用主人杯单杯茶碗单个品茗杯古风茶盏小紫砂杯",
+      "slug": "紫砂功夫茶杯个人专用主人杯单杯茶碗单个品茗杯古风茶盏小紫砂杯",
+      "category": "cup",
+      "title_zhCN": "紫砂功夫茶杯个人专用主人杯单杯茶碗单个品茗杯古风茶盏小紫砂杯",
+      "title_zhTW": "紫砂功夫茶杯个人专用主人杯單杯茶碗單个品茗杯古风茶盏小紫砂杯",
+      "variants": [
+        {
+          "name": "紫泥200mL以下",
+          "price": 12.0,
+          "original_price": null,
+          "sku_id": "56269945391"
+        },
+        {
+          "name": "红泥200mL以下",
+          "price": 12.0,
+          "original_price": null,
+          "sku_id": "56269945390"
+        },
+        {
+          "name": "乌泥200mL以下",
+          "price": 12.0,
+          "original_price": null,
+          "sku_id": "3192206007402"
+        },
+        {
+          "name": "朱泥200mL以下",
+          "price": 12.0,
+          "original_price": null,
+          "sku_id": "3207847404865"
+        },
+        {
+          "name": "段泥200mL以下",
+          "price": 12.0,
+          "original_price": null,
+          "sku_id": "77008986486"
+        },
+        {
+          "name": "绿泥200mL以下",
+          "price": 12.0,
+          "original_price": null,
+          "sku_id": "82548825219"
+        },
+        {
+          "name": "大红袍200mL以下",
+          "price": 12.0,
+          "original_price": null,
+          "sku_id": "3868689363873"
+        },
+        {
+          "name": "底槽清200mL以下",
+          "price": 12.0,
+          "original_price": null,
+          "sku_id": "4194812912193"
+        },
+        {
+          "name": "民国绿泥200mL以下",
+          "price": 12.0,
+          "original_price": null,
+          "sku_id": "4540214849937"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-203/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-203/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-203/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-203/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-203/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "origin": "宜兴市",
+        "color": "紫泥 红泥 乌泥 朱泥 段泥 绿泥 大红袍 底槽清 民国绿泥",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:23:51.940728"
     }
   ]
 }
