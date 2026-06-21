@@ -11525,6 +11525,50 @@
         "color": "扁腹本山青段 扁腹绿泥 扁腹紫泥 扁腹底槽青"
       },
       "date_uploaded": "2026-06-21T21:06:52.608158"
+    },
+    {
+      "id": "tk-464",
+      "item_id": "583071757838",
+      "source_url": "https://detail.tmall.com/item.htm?id=583071757838&rn=af2538143be9363990755a697899f54e&abbucket=14",
+      "slug": "正宗宜兴紫砂壶纯手工茶壶单壶家用紫砂茶具泡茶壶原矿底槽清秦权",
+      "category": "teapot",
+      "title_zhCN": "正宗宜兴紫砂壶纯手工茶壶单壶家用紫砂茶具泡茶壶原矿底槽清秦权",
+      "title_zhTW": "正宗宜興紫砂壺純手工茶壺單壺家用紫砂茶具泡茶壺原礦底槽清秦權",
+      "variants": [
+        {
+          "name": "秦权大款301mL(含)-400mL(含)",
+          "price": 188.0,
+          "original_price": 299.0,
+          "sku_id": "3921592449932"
+        },
+        {
+          "name": "秦权小款301mL(含)-400mL(含)",
+          "price": 188.0,
+          "original_price": 299.0,
+          "sku_id": "4154736645623"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-464/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-464/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-464/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-464/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-464/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "301mL(含)-400mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "底槽清",
+        "shapeType": "秦权",
+        "packaging": "礼盒装",
+        "kiln": "宜兴窑",
+        "color": "秦权大款 秦权小款"
+      },
+      "date_uploaded": "2026-06-21T21:07:00.622830"
     }
   ]
 }
