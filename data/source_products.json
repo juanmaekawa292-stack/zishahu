@@ -3824,30 +3824,41 @@
     {
       "id": "tk-360",
       "source_sku": "1036658549424",
-      "source_url": "https://detail.tmall.com/item.htm?id=1036658549424&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingchunshougongchahupaochajiayonghuzhengchaju2026xinkuanzishahuli",
+      "source_url": "https://detail.tmall.com/item.htm?id=670068079275&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "宜兴紫砂壶纯手工家用泡茶壶原矿底槽清全手工大口扁腹景舟仿古壶",
       "category": "teapot",
-      "title_zhCN": "宜兴纯手工茶壶泡茶家用单壶正品茶具2026新款紫砂壶送朋友长辈礼",
-      "title_zhTW": "宜興純手工茶壺泡茶家用單壺正品茶具2026新款紫砂壺送朋友长辈禮",
+      "title_zhCN": "宜兴紫砂壶纯手工家用泡茶壶原矿底槽清全手工大口扁腹景舟仿古壶",
+      "title_zhTW": "宜興紫砂壺純手工家用泡茶壺原礦底槽清全手工大口扁腹景舟仿古壺",
       "variants": [
         {
-          "name": "小满窑柴烧 | 墨韵水平【精美礼盒】约170ml",
-          "price": 823.0,
-          "original_price": 969.0,
-          "sku_id": "6052151108480"
+          "name": "扁腹仿古201mL(含)-300mL(含)",
+          "price": 1226.0,
+          "original_price": 1680.0,
+          "sku_id": "4992933351027"
         }
       ],
       "images": [
-        "/images/products/tk-360/main_1.webp",
-        "/images/products/tk-360/main_2.webp",
-        "/images/products/tk-360/main_3.webp",
-        "/images/products/tk-360/main_4.webp",
-        "/images/products/tk-360/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-360/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-360/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-360/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-360/main_4.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:41:00.253634",
-      "item_id": "1036658549424"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-360.mp4"
+      ],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "底槽清",
+        "shapeType": "仿古壶",
+        "packaging": "礼盒装",
+        "color": "扁腹仿古"
+      },
+      "date_uploaded": "2026-06-21T20:49:49.770359",
+      "item_id": "670068079275"
     },
     {
       "id": "tk-361",
