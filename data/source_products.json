@@ -2369,30 +2369,40 @@
     {
       "id": "tk-326",
       "source_sku": "1050609840447",
-      "source_url": "https://detail.tmall.com/item.htm?id=1050609840447&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guyixingzishahutaozhuangchunshougongzhengzonglichahufuchajupaochadahulihe",
+      "source_url": "https://detail.tmall.com/item.htm?id=528678891763&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "藏壶天下名家戴尔其宜兴全手工紫砂壶黄龙山原矿紫泥古树梅桩套装",
       "category": "teapot",
-      "title_zhCN": "古悦堂宜兴紫砂壶套装纯手工正宗送礼茶壶功夫茶具泡茶大曲壶礼盒",
-      "title_zhTW": "古悦堂宜興紫砂壺套裝純手工正宗送禮茶壺功夫茶具泡茶大曲壺禮盒",
+      "title_zhCN": "藏壶天下名家戴尔其宜兴全手工紫砂壶黄龙山原矿紫泥古树梅桩套装",
+      "title_zhTW": "藏壺天下名家戴尔其宜興全手工紫砂壺黄龍山原礦紫泥古树梅桩套裝",
       "variants": [
         {
-          "name": "名师手制 | 百目曲壶套装【精美礼盒】约400ml",
-          "price": 499.0,
-          "original_price": 999.0,
-          "sku_id": "6243919183958"
+          "name": "紫泥款【1壶2杯套装】301mL(含)-400mL(含)",
+          "price": 3137.0,
+          "original_price": 4980.0,
+          "sku_id": "3184362827249"
         }
       ],
       "images": [
-        "/images/products/tk-326/main_1.webp",
-        "/images/products/tk-326/main_2.webp",
-        "/images/products/tk-326/main_3.webp",
-        "/images/products/tk-326/main_4.webp",
-        "/images/products/tk-326/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-326/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-326/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-326/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-326/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-326/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:38:38.136607",
-      "item_id": "1050609840447"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "301mL(含)-400mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "古树梅桩",
+        "packaging": "礼盒装",
+        "color": "紫泥款【1壶2杯套装】"
+      },
+      "date_uploaded": "2026-06-21T20:44:14.103701",
+      "item_id": "528678891763"
     },
     {
       "id": "tk-327",
