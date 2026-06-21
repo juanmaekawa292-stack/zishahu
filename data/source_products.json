@@ -3343,90 +3343,38 @@
     {
       "id": "tk-347",
       "source_sku": "755246912008",
-      "source_url": "https://detail.tmall.com/item.htm?id=755246912008&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
-      "slug": "guyixingzishahuchunshougongpaochahu1jiayongchajuhudahanwa",
-      "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶纯手工泡茶壶一人独饮家用茶具小壶 大红袍汉瓦",
-      "title_zhTW": "古悦堂 宜興紫砂壺純手工泡茶壺一人独饮家用茶具小壺 大红袍漢瓦",
+      "source_url": "https://detail.tmall.com/item.htm?id=995025636544&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "宜兴紫砂公道杯带把公杯分茶器加厚耐热茶具配件紫泥福禄分茶杯",
+      "category": "cup",
+      "title_zhCN": "宜兴紫砂公道杯带把公杯分茶器加厚耐热茶具配件紫泥福禄分茶杯",
+      "title_zhTW": "宜興紫砂公道杯带把公杯分茶器加厚耐热茶具配件紫泥福禄分茶杯",
       "variants": [
         {
-          "name": "龙蛋51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5402084411224"
-        },
-        {
-          "name": "掇只51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5402084411230"
-        },
-        {
-          "name": "仿古51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5402084411228"
-        },
-        {
-          "name": "高潘51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5402084411232"
-        },
-        {
-          "name": "汉棠石瓢51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5402084411229"
-        },
-        {
-          "name": "君德51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5402084411222"
-        },
-        {
-          "name": "美人肩51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5402084411231"
-        },
-        {
-          "name": "水平51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5402084411227"
-        },
-        {
-          "name": "思亭51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5402084411223"
-        },
-        {
-          "name": "朱泥汉瓦51mL(含)-100mL(含)",
-          "price": 398.0,
-          "original_price": 469.0,
-          "sku_id": "5748288640759"
-        },
-        {
-          "name": "西施51mL(含)-100mL(含)",
-          "price": 357.0,
-          "original_price": 420.0,
-          "sku_id": "6011201854094"
+          "name": "福禄公道杯",
+          "price": 66.6,
+          "original_price": 98.0,
+          "sku_id": "6135836878321"
         }
       ],
       "images": [
-        "/images/products/tk-347/main_1.webp",
-        "/images/products/tk-347/main_2.webp",
-        "/images/products/tk-347/main_3.webp",
-        "/images/products/tk-347/main_4.webp",
-        "/images/products/tk-347/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-347/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-347/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-347/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-347/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-347/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:40:06.410413",
-      "item_id": "755246912008"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-347.mp4"
+      ],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "color": "福禄公道杯"
+      },
+      "date_uploaded": "2026-06-21T20:47:46.419066",
+      "item_id": "995025636544"
     },
     {
       "id": "tk-348",
