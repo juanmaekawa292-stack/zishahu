@@ -3949,32 +3949,40 @@
     {
       "id": "tk-363",
       "source_sku": "784729856834",
-      "source_url": "https://detail.tmall.com/item.htm?id=784729856834&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingzishahumingjiachunshougongfuchahuchajujiayongtaozhuangdicaoshipiao",
+      "source_url": "https://detail.tmall.com/item.htm?id=623164997222&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "藏壶天下紫砂壶宜兴国工朱倩冰黄降坡大口全手工刻绘小容量汉瓦壶",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶名家纯手工功夫茶壶茶具家用套装 底槽清高石瓢",
-      "title_zhTW": "古悦堂 宜興紫砂壺名家純手工功夫茶壺茶具家用套裝 底槽清高石瓢",
+      "title_zhCN": "藏壶天下紫砂壶宜兴国工朱倩冰黄降坡大口全手工刻绘小容量汉瓦壶",
+      "title_zhTW": "藏壺天下紫砂壺宜興國工朱倩冰黄降坡大口全手工刻繪小容量漢瓦壺",
       "variants": [
         {
-          "name": "原矿紫砂 | 高石瓢【精美礼盒】约240ml",
-          "price": 241.3,
-          "original_price": 284.3,
-          "sku_id": "6229694454573"
+          "name": "汉瓦101mL(含)-200mL(含)",
+          "price": 680.0,
+          "original_price": 1080.0,
+          "sku_id": "4409835705617"
         }
       ],
       "images": [
-        "/images/products/tk-363/main_1.webp",
-        "/images/products/tk-363/main_2.webp",
-        "/images/products/tk-363/main_3.webp",
-        "/images/products/tk-363/main_4.webp",
-        "/images/products/tk-363/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-363/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-363/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-363/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-363/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-363/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-363/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:41:08.093459",
-      "item_id": "784729856834"
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "黄降坡",
+        "shapeType": "汉瓦壶",
+        "packaging": "礼盒装",
+        "color": "汉瓦"
+      },
+      "date_uploaded": "2026-06-21T20:50:23.132949",
+      "item_id": "623164997222"
     },
     {
       "id": "tk-364",
