@@ -8750,6 +8750,38 @@
         "color": "紫泥款 段泥款 红泥款"
       },
       "date_uploaded": "2026-06-21T20:29:24.264664"
+    },
+    {
+      "id": "tk-236",
+      "item_id": "665023950551",
+      "source_url": "https://detail.tmall.com/item.htm?id=665023950551&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "紫砂茶宠摆件精品可养茶台茶桌摆件萌鱼茶玩香插一鼓作气河豚茶宠",
+      "category": "teaPet",
+      "title_zhCN": "紫砂茶宠摆件精品可养茶台茶桌摆件萌鱼茶玩香插一鼓作气河豚茶宠",
+      "title_zhTW": "紫砂茶宠摆件精品可养茶台茶桌摆件萌鱼茶玩香插一鼓作气河豚茶宠",
+      "variants": [
+        {
+          "name": "一鼓作气",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4787711964916"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-236/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-236/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-236/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-236/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-236/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "color": "一鼓作气",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:29:32.527546"
     }
   ]
 }
