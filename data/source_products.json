@@ -6788,32 +6788,57 @@
     {
       "id": "tk-436",
       "source_sku": "694467360415",
-      "source_url": "https://detail.tmall.com/item.htm?id=694467360415&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guyixingyuankuangshougongzishahupaochahuhufuchajuguhanwa",
-      "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴原矿全手工紫砂壶小品泡茶壶单壶功夫茶具 古韵汉瓦",
-      "title_zhTW": "古悦堂 宜興原礦全手工紫砂壺小品泡茶壺單壺功夫茶具 古韵漢瓦",
+      "source_url": "https://detail.tmall.com/item.htm?id=877697512361&rn=1a9d503a5eb80610a62081f1d55c5c59&abbucket=14",
+      "slug": "大号功夫茶杯品茗杯个人专用主人杯手工带把紫砂杯原矿紫泥茶盏杯",
+      "category": "cup",
+      "title_zhCN": "大号功夫茶杯品茗杯个人专用主人杯手工带把紫砂杯原矿紫泥茶盏杯",
+      "title_zhTW": "大号功夫茶杯品茗杯个人专用主人杯手工带把紫砂杯原礦紫泥茶盏杯",
       "variants": [
         {
-          "name": "单壶约150mL",
-          "price": 297.35,
-          "original_price": 350.35,
-          "sku_id": "5149431263756"
+          "name": "主人杯1个200mL以下",
+          "price": 46.2,
+          "original_price": 68.0,
+          "sku_id": "5884960583547"
+        },
+        {
+          "name": "主人杯2个200mL以下",
+          "price": 86.2,
+          "original_price": 128.0,
+          "sku_id": "5884960583548"
+        },
+        {
+          "name": "主人杯3个200mL以下",
+          "price": 127.0,
+          "original_price": 188.0,
+          "sku_id": "5884960583549"
+        },
+        {
+          "name": "主人杯4个200mL以下",
+          "price": 167.8,
+          "original_price": 248.0,
+          "sku_id": "5884960583550"
         }
       ],
       "images": [
-        "/images/products/tk-436/main_1.webp",
-        "/images/products/tk-436/main_2.webp",
-        "/images/products/tk-436/main_3.webp",
-        "/images/products/tk-436/main_4.webp",
-        "/images/products/tk-436/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-436/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-436/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-436/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-436/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-436/main_5.webp"
       ],
       "videos": [
-        "/videos/products/tk-436/product.mp4"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-436.mp4"
       ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:45:40.298365",
-      "item_id": "694467360415"
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "color": "主人杯1个 主人杯2个 主人杯3个 主人杯4个"
+      },
+      "date_uploaded": "2026-06-21T21:02:15.450404",
+      "item_id": "877697512361"
     },
     {
       "id": "tk-437",
