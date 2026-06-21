@@ -7084,6 +7084,75 @@
         "color": "大红袍-西施[单壶]230ml礼盒装1 大红袍-西施[1壶2杯]230ml礼盒装1 紫泥-西施[单壶]230ml礼盒装1 紫泥- 西施[1壶2杯]230ml礼盒装1 朱泥-西施[单壶]190ml礼盒装1 朱泥-西施[1壶2杯]190ml礼盒装1"
       },
       "date_uploaded": "2026-06-21T20:23:02.646417"
+    },
+    {
+      "id": "tk-200",
+      "item_id": "19405558977",
+      "source_url": "https://detail.tmall.com/item.htm?id=19405558977&rn=af2538143be9363990755a697899f54e&abbucket=14",
+      "slug": "礼品纯手工刻绘宜兴紫砂壶家用功夫泡茶具套装小茶壶石瓢壶200ml",
+      "category": "teapot",
+      "title_zhCN": "礼品纯手工刻绘宜兴紫砂壶家用功夫泡茶具套装小茶壶石瓢壶200ml",
+      "title_zhTW": "禮品純手工刻繪宜興紫砂壺家用功夫泡茶具套裝小茶壺石瓢壺200ml",
+      "variants": [
+        {
+          "name": "紫泥山水套装201mL(含)-300mL(含)",
+          "price": 250.0,
+          "original_price": 398.0,
+          "sku_id": "3687727938424"
+        },
+        {
+          "name": "紫泥荷趣套装201mL(含)-300mL(含)",
+          "price": 250.0,
+          "original_price": 398.0,
+          "sku_id": "3687727938426"
+        },
+        {
+          "name": "喜梅套装201mL(含)-300mL(含)",
+          "price": 250.0,
+          "original_price": 398.0,
+          "sku_id": "3687727938427"
+        },
+        {
+          "name": "紫泥山水单壶201mL(含)-300mL(含)",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "3949558213058"
+        },
+        {
+          "name": "紫泥荷趣单壶201mL(含)-300mL(含)",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "3946994620228"
+        },
+        {
+          "name": "喜梅款单壶201mL(含)-300mL(含)",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "3949558213060"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-200/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-200/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-200/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-200/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-200/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-200.mp4"
+      ],
+      "specs": {
+        "craft": "刻绘 手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "石瓢壶",
+        "packaging": "礼盒装",
+        "color": "紫泥山水套装 紫泥荷趣套装 喜梅套装 紫泥山水单壶 紫泥荷趣单壶 喜梅款单壶"
+      },
+      "date_uploaded": "2026-06-21T20:23:19.834844"
     }
   ]
 }
