@@ -5123,30 +5123,37 @@
     {
       "id": "tk-393",
       "source_sku": "543892253802",
-      "source_url": "https://detail.tmall.com/item.htm?id=543892253802&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guhuchachachafuchahu",
-      "category": "teapot",
-      "title_zhCN": "古悦堂 黑檀不易掉毛养壶笔茶刷茶笔茶洗功夫茶道配件 獾毛养壶笔",
-      "title_zhTW": "古悦堂 黑檀不易掉毛养壺笔茶刷茶笔茶洗功夫茶道配件 獾毛养壺笔",
+      "source_url": "https://detail.tmall.com/item.htm?id=671459214844&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "宜兴紫砂杯纯手工男士泡茶杯带盖个人专用办公茶具大容量雅趣盖杯",
+      "category": "cup",
+      "title_zhCN": "宜兴紫砂杯纯手工男士泡茶杯带盖个人专用办公茶具大容量雅趣盖杯",
+      "title_zhTW": "宜興紫砂杯純手工男士泡茶杯带盖个人专用办公茶具大容量雅趣盖杯",
       "variants": [
         {
-          "name": "獾毛养壶笔 【已售罄 拍下不发】",
-          "price": 83.3,
-          "original_price": 98.0,
-          "sku_id": "3287647541782"
+          "name": "雅趣紫砂杯401mL(含)-500mL(含)",
+          "price": 428.0,
+          "original_price": 680.0,
+          "sku_id": "4832824433264"
         }
       ],
       "images": [
-        "/images/products/tk-393/main_1.webp",
-        "/images/products/tk-393/main_2.webp",
-        "/images/products/tk-393/main_3.webp",
-        "/images/products/tk-393/main_4.webp",
-        "/images/products/tk-393/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-393/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-393/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-393/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-393/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-393/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:42:58.989880",
-      "item_id": "543892253802"
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "401mL(含)-500mL(含)",
+        "color": "雅趣紫砂杯"
+      },
+      "date_uploaded": "2026-06-21T20:55:06.326584",
+      "item_id": "671459214844"
     },
     {
       "id": "tk-394",
