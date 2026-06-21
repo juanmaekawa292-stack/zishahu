@@ -8819,6 +8819,49 @@
         "color": "清莲生香"
       },
       "date_uploaded": "2026-06-21T20:29:40.632374"
+    },
+    {
+      "id": "tk-238",
+      "item_id": "608205804901",
+      "source_url": "https://detail.tmall.com/item.htm?id=608205804901&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "藏壶天下正宗原矿大红袍宜兴紫砂壶纯手工泡茶壶单人家用茶具潘壶",
+      "category": "teapot",
+      "title_zhCN": "藏壶天下正宗原矿大红袍宜兴紫砂壶纯手工泡茶壶单人家用茶具潘壶",
+      "title_zhTW": "藏壺天下正宗原礦大红袍宜興紫砂壺純手工泡茶壺單人家用茶具潘壺",
+      "variants": [
+        {
+          "name": "大款220cc101mL(含)-200mL(含)",
+          "price": 680.0,
+          "original_price": 1080.0,
+          "sku_id": "5107330215457"
+        },
+        {
+          "name": "小款140cc101mL(含)-200mL(含)",
+          "price": 680.0,
+          "original_price": 1080.0,
+          "sku_id": "5107330215456"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-238/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-238/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-238/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-238/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-238/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "大红袍",
+        "shapeType": "潘壶",
+        "packaging": "礼盒装",
+        "color": "大款220cc 小款140cc"
+      },
+      "date_uploaded": "2026-06-21T20:29:51.523728"
     }
   ]
 }
