@@ -2472,32 +2472,40 @@
     {
       "id": "tk-328",
       "source_sku": "992899996495",
-      "source_url": "https://detail.tmall.com/item.htm?id=992899996495&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingzishahuchunshougongjiayongchahu1chajuzhengli",
+      "source_url": "https://detail.tmall.com/item.htm?id=616902807665&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "宜兴紫砂壶国工全手工刻绘大容量泡茶壶紫泥秦权家用功夫茶具单壶",
       "category": "teapot",
-      "title_zhCN": "宜兴紫砂壶纯手工家用茶壶一人独饮小茶具正品送长辈朋友生日礼物",
-      "title_zhTW": "宜興紫砂壺純手工家用茶壺一人独饮小茶具正品送长辈朋友生日禮物",
+      "title_zhCN": "宜兴紫砂壶国工全手工刻绘大容量泡茶壶紫泥秦权家用功夫茶具单壶",
+      "title_zhTW": "宜興紫砂壺國工全手工刻繪大容量泡茶壺紫泥秦權家用功夫茶具單壺",
       "variants": [
         {
-          "name": "翡翠金砂 | 仿古如意（高端礼盒装）约180ml",
-          "price": 764.0,
-          "original_price": 899.0,
-          "sku_id": "5964384517189"
+          "name": "秦权  长乐未央201mL(含)-300mL(含)",
+          "price": 998.0,
+          "original_price": 1998.0,
+          "sku_id": "4348577881737"
         }
       ],
       "images": [
-        "/images/products/tk-328/main_1.webp",
-        "/images/products/tk-328/main_2.webp",
-        "/images/products/tk-328/main_3.webp",
-        "/images/products/tk-328/main_4.webp",
-        "/images/products/tk-328/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-328/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-328/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-328/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-328/main_4.webp"
       ],
-      "videos": [
-        "/videos/products/tk-328/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:38:46.782617",
-      "item_id": "992899996495"
+      "videos": [],
+      "specs": {
+        "craft": "手工 手工雕刻 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "handmade": "全手工",
+        "material": "紫泥",
+        "shapeType": "秦权",
+        "packaging": "礼盒装",
+        "color": "秦权  长乐未央"
+      },
+      "date_uploaded": "2026-06-21T20:44:33.498920",
+      "item_id": "616902807665"
     },
     {
       "id": "tk-329",
