@@ -5941,30 +5941,39 @@
     {
       "id": "tk-414",
       "source_sku": "1037397028936",
-      "source_url": "https://detail.tmall.com/item.htm?id=1037397028936&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingchunshougongchahupaochajiayongzishahu2026xinkuan1yongchaju",
+      "source_url": "https://detail.tmall.com/item.htm?id=595851888093&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "宜兴正宗全手工紫砂壶原矿底槽清纯手工刻绘功夫茶具大容量高井栏",
       "category": "teapot",
-      "title_zhCN": "宜兴纯手工茶壶泡茶家用紫砂壶2026新款柴烧一人用茶具送朋友长辈",
-      "title_zhTW": "宜興純手工茶壺泡茶家用紫砂壺2026新款柴烧一人用茶具送朋友长辈",
+      "title_zhCN": "宜兴正宗全手工紫砂壶原矿底槽清纯手工刻绘功夫茶具大容量高井栏",
+      "title_zhTW": "宜興正宗全手工紫砂壺原礦底槽清純手工刻繪功夫茶具大容量高井欄",
       "variants": [
         {
-          "name": "小满窑柴烧 | 平底德钟【精美礼盒】约150ml",
-          "price": 823.0,
-          "original_price": 969.0,
-          "sku_id": "6217229398890"
+          "name": "高井栏401mL(含)-500mL(含)",
+          "price": 1625.0,
+          "original_price": 2580.0,
+          "sku_id": "4310733398318"
         }
       ],
       "images": [
-        "/images/products/tk-414/main_1.webp",
-        "/images/products/tk-414/main_2.webp",
-        "/images/products/tk-414/main_3.webp",
-        "/images/products/tk-414/main_4.webp",
-        "/images/products/tk-414/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-414/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-414/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-414/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-414/main_4.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:44:23.017522",
-      "item_id": "1037397028936"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "401mL(含)-500mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "底槽清",
+        "shapeType": "井栏",
+        "packaging": "礼盒装",
+        "color": "高井栏"
+      },
+      "date_uploaded": "2026-06-21T20:58:27.775432",
+      "item_id": "595851888093"
     },
     {
       "id": "tk-415",
