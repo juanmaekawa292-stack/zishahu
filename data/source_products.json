@@ -11641,6 +11641,38 @@
         "color": "茶勺"
       },
       "date_uploaded": "2026-06-21T21:07:18.069776"
+    },
+    {
+      "id": "tk-467",
+      "item_id": "530902621130",
+      "source_url": "https://detail.tmall.com/item.htm?id=530902621130&rn=af2538143be9363990755a697899f54e&abbucket=14",
+      "slug": "轻奢现代简约实木茶盘家用茶具托盘小茶台茶海干泡台竹制功夫茶盘",
+      "category": "teapot",
+      "title_zhCN": "轻奢现代简约实木茶盘家用茶具托盘小茶台茶海干泡台竹制功夫茶盘",
+      "title_zhTW": "轻奢現代简約實木茶盘家用茶具托盘小茶台茶海干泡台竹制功夫茶盘",
+      "variants": [
+        {
+          "name": "小款茶盘",
+          "price": 162.0,
+          "original_price": 258.0,
+          "sku_id": "3319773568272"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-467/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-467/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-467/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-467/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-467/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "竹",
+        "origin": "宜兴市",
+        "color": "小款茶盘",
+        "mainImageSource": "自主实拍图"
+      },
+      "date_uploaded": "2026-06-21T21:07:26.002263"
     }
   ]
 }
