@@ -4311,32 +4311,39 @@
     {
       "id": "tk-372",
       "source_sku": "1012027052002",
-      "source_url": "https://detail.tmall.com/item.htm?id=1012027052002&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingyuankuangzishahuchunshougongpaochahuxinkuanchaju1yonghushouli",
-      "category": "teapot",
-      "title_zhCN": "宜兴原矿紫砂壶纯手工泡茶壶新款茶具一人用小壶送客户商务伴手礼",
-      "title_zhTW": "宜興原礦紫砂壺純手工泡茶壺新款茶具一人用小壺送客戶商务伴手禮",
+      "source_url": "https://detail.tmall.com/item.htm?id=855553694989&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "宜兴紫砂主人杯功夫茶杯个人专用小杯茶盏茶碗原矿紫泥铃铛品茗杯",
+      "category": "cup",
+      "title_zhCN": "宜兴紫砂主人杯功夫茶杯个人专用小杯茶盏茶碗原矿紫泥铃铛品茗杯",
+      "title_zhTW": "宜興紫砂主人杯功夫茶杯个人专用小杯茶盏茶碗原礦紫泥铃铛品茗杯",
       "variants": [
         {
-          "name": "玩壶必入 | 特高温青灰泥喜瓢【精美礼盒】约140ml",
-          "price": 594.0,
-          "original_price": 699.0,
-          "sku_id": "6011688424825"
+          "name": "铃铛品茗杯200mL以下",
+          "price": 25.8,
+          "original_price": 38.0,
+          "sku_id": "5659460412414"
         }
       ],
       "images": [
-        "/images/products/tk-372/main_1.webp",
-        "/images/products/tk-372/main_2.webp",
-        "/images/products/tk-372/main_3.webp",
-        "/images/products/tk-372/main_4.webp",
-        "/images/products/tk-372/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-372/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-372/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-372/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-372/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-372/main_5.webp"
       ],
       "videos": [
-        "/videos/products/tk-372/product.mp4"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-372.mp4"
       ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:41:53.177537",
-      "item_id": "1012027052002"
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "color": "铃铛品茗杯"
+      },
+      "date_uploaded": "2026-06-21T20:51:53.378001",
+      "item_id": "855553694989"
     },
     {
       "id": "tk-373",
