@@ -2296,30 +2296,37 @@
     {
       "id": "tk-324",
       "source_sku": "669156382187",
-      "source_url": "https://detail.tmall.com/item.htm?id=669156382187&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingyuankuangdabeifuchajujiayongchachajucha",
+      "source_url": "https://detail.tmall.com/item.htm?id=670598031094&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "大容量个人专用办公茶具宜兴紫砂杯男士泡茶杯带盖纯手工贴花盖杯",
       "category": "cup",
-      "title_zhCN": "古悦堂 宜兴原矿大红袍公道杯功夫茶具配件家用茶道茶具分茶器",
-      "title_zhTW": "古悦堂 宜興原礦大红袍公道杯功夫茶具配件家用茶道茶具分茶器",
+      "title_zhCN": "大容量个人专用办公茶具宜兴紫砂杯男士泡茶杯带盖纯手工贴花盖杯",
+      "title_zhTW": "大容量个人专用办公茶具宜興紫砂杯男士泡茶杯带盖純手工贴花盖杯",
       "variants": [
         {
-          "name": "大红袍公道杯 （拍下15天内发货）",
-          "price": 100.0,
-          "original_price": 118.0,
-          "sku_id": "4930051192550"
+          "name": "君子之风400mL(不含)-600mL(含)",
+          "price": 554.0,
+          "original_price": 880.0,
+          "sku_id": "4996927899934"
         }
       ],
       "images": [
-        "/images/products/tk-324/main_1.webp",
-        "/images/products/tk-324/main_2.webp",
-        "/images/products/tk-324/main_3.webp",
-        "/images/products/tk-324/main_4.webp",
-        "/images/products/tk-324/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-324/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-324/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-324/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-324/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-324/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:38:27.992694",
-      "item_id": "669156382187"
+      "specs": {
+        "material": "紫砂",
+        "capacity": "400mL(不含)-600mL(含)",
+        "origin": "宜兴市",
+        "color": "君子之风",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:43:54.347665",
+      "item_id": "670598031094"
     },
     {
       "id": "tk-325",
