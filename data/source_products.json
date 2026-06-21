@@ -2659,30 +2659,42 @@
     {
       "id": "tk-332",
       "source_sku": "779856557151",
-      "source_url": "https://detail.tmall.com/item.htm?id=779856557151&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingzishabeidachafuchajuchabei",
-      "category": "cup",
-      "title_zhCN": "古悦堂 宜兴紫砂公道杯大红袍分茶器中式功夫茶具配件 茶香公道杯",
-      "title_zhTW": "古悦堂 宜興紫砂公道杯大红袍分茶器中式功夫茶具配件 茶香公道杯",
+      "source_url": "https://detail.tmall.com/item.htm?id=665190699226&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "宜兴原矿大红泥紫砂茶壶纯手工朱倩冰德钟小茶壶单壶紫砂茶具家用",
+      "category": "teapot",
+      "title_zhCN": "宜兴原矿大红泥紫砂茶壶纯手工朱倩冰德钟小茶壶单壶紫砂茶具家用",
+      "title_zhTW": "宜興原礦大红泥紫砂茶壺純手工朱倩冰德鍾小茶壺單壺紫砂茶具家用",
       "variants": [
         {
-          "name": "原矿紫砂 | 大红袍公道杯",
-          "price": 75.6,
-          "original_price": 89.0,
-          "sku_id": "6223696695666"
+          "name": "德钟101mL(含)-200mL(含)",
+          "price": 1058.0,
+          "original_price": 1680.0,
+          "sku_id": "4785812128090"
         }
       ],
       "images": [
-        "/images/products/tk-332/main_1.webp",
-        "/images/products/tk-332/main_2.webp",
-        "/images/products/tk-332/main_3.webp",
-        "/images/products/tk-332/main_4.webp",
-        "/images/products/tk-332/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-332/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-332/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-332/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-332/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-332/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:39:10.921579",
-      "item_id": "779856557151"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-332.mp4"
+      ],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "大红泥",
+        "shapeType": "德钟",
+        "packaging": "礼盒装",
+        "color": "德钟"
+      },
+      "date_uploaded": "2026-06-21T20:45:15.377304",
+      "item_id": "665190699226"
     },
     {
       "id": "tk-333",
