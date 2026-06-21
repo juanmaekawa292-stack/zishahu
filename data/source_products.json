@@ -6625,30 +6625,36 @@
     {
       "id": "tk-432",
       "source_sku": "628626770427",
-      "source_url": "https://detail.tmall.com/item.htm?id=628626770427&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingyuankuangzishahuchunshougongpaochahuchajutaozhuangdahu",
-      "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴原矿紫砂壶 纯手工泡茶壶茶具套装 大红袍掇球壶",
-      "title_zhTW": "古悦堂 宜興原礦紫砂壺 純手工泡茶壺茶具套裝 大红袍掇球壺",
+      "source_url": "https://detail.tmall.com/item.htm?id=671302001953&rn=1a9d503a5eb80610a62081f1d55c5c59&abbucket=14",
+      "slug": "宜兴紫砂公道杯茶具配件公杯分茶器加厚耐热创意仿生公道茶杯茶海",
+      "category": "cup",
+      "title_zhCN": "宜兴紫砂公道杯茶具配件公杯分茶器加厚耐热创意仿生公道茶杯茶海",
+      "title_zhTW": "宜興紫砂公道杯茶具配件公杯分茶器加厚耐热创意仿生公道茶杯茶海",
       "variants": [
         {
-          "name": "约240ml",
-          "price": 1258.0,
-          "original_price": 1480.0,
-          "sku_id": "4916372596020"
+          "name": "富甲天下公道杯",
+          "price": 239.0,
+          "original_price": 380.0,
+          "sku_id": "5002458862067"
         }
       ],
       "images": [
-        "/images/products/tk-432/main_1.webp",
-        "/images/products/tk-432/main_2.webp",
-        "/images/products/tk-432/main_3.webp",
-        "/images/products/tk-432/main_4.webp",
-        "/images/products/tk-432/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-432/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-432/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-432/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-432/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-432/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:45:24.926306",
-      "item_id": "628626770427"
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "color": "富甲天下公道杯"
+      },
+      "date_uploaded": "2026-06-21T21:01:34.557861",
+      "item_id": "671302001953"
     },
     {
       "id": "tk-433",
