@@ -6818,6 +6818,51 @@
         "color": "星眸石瓢（八件套） 星眸石瓢（一壶四杯） 星眸石瓢（单壶） 苍梧石瓢·刻绘款（八件套） 苍梧石瓢·刻绘款（单壶） 悠然石瓢（单壶） 悠然石瓢（一壶四杯） 悠然石瓢（八件套） 星眸璀璨（单壶） 星眸璀璨（一壶四杯） 石黄石瓢（十件套）"
       },
       "date_uploaded": "2026-06-21T20:21:54.799304"
+    },
+    {
+      "id": "tk-195",
+      "item_id": "722715196699",
+      "source_url": "https://detail.tmall.com/item.htm?abbucket=11&id=722715196699&mi_id=0000ZfE0skWMT0kG-duqRE8PSOWpEJccJuoP1lsx4ueKxlI&ns=1&priceTId=2147846217820288270731813e118c&skuId=5701427772537&spm=a21n57.1.hoverItem.24&utparam=%7B%22aplus_abtest%22%3A%220b0936db43172c327e5ff1fbc08bf906%22%7D&xxc=taobaoSearch",
+      "slug": "宜兴紫砂壶纯手工功夫茶具一人用紫泥小容量泡茶汉瓦壶套装180ml",
+      "category": "teapot",
+      "title_zhCN": "宜兴紫砂壶纯手工功夫茶具一人用紫泥小容量泡茶汉瓦壶套装180ml",
+      "title_zhTW": "宜興紫砂壺純手工功夫茶具一人用紫泥小容量泡茶漢瓦壺套裝180ml",
+      "variants": [
+        {
+          "name": "汉瓦101mL(含)-200mL(含)",
+          "price": 239.0,
+          "original_price": 380.0,
+          "sku_id": "5701427772537"
+        },
+        {
+          "name": "汉瓦壶套装101mL(含)-200mL(含)",
+          "price": 255.0,
+          "original_price": 399.0,
+          "sku_id": "5701427772538"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-195/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-195/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-195/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-195/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-195/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-195.mp4"
+      ],
+      "specs": {
+        "craft": "手工",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "休闲",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "汉瓦",
+        "packaging": "礼盒装",
+        "color": "汉瓦 汉瓦壶套装"
+      },
+      "date_uploaded": "2026-06-21T20:22:10.749596"
     }
   ]
 }
