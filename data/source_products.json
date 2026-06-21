@@ -1730,36 +1730,44 @@
     {
       "id": "tk-310",
       "source_sku": "611459182400",
-      "source_url": "https://detail.tmall.com/item.htm?id=611459182400&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingzishachafuzishahu",
-      "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂茶道功夫配件 紫砂壶盖拖 盖碗盖托 可养胶木盖托",
-      "title_zhTW": "古悦堂 宜興紫砂茶道功夫配件 紫砂壺盖拖 盖碗盖托 可养胶木盖托",
+      "source_url": "https://detail.tmall.com/item.htm?id=757191734790&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "宜兴紫砂品茗杯功夫茶杯个人专用茶盏茶碗段泥粉浆心经斗笠主人杯",
+      "category": "cup",
+      "title_zhCN": "宜兴紫砂品茗杯功夫茶杯个人专用茶盏茶碗段泥粉浆心经斗笠主人杯",
+      "title_zhTW": "宜興紫砂品茗杯功夫茶杯个人专用茶盏茶碗段泥粉浆心經斗笠主人杯",
       "variants": [
         {
-          "name": "红料款",
-          "price": 98.0,
-          "original_price": null,
-          "sku_id": "4305967645462"
+          "name": "老段泥款200mL以下",
+          "price": 86.0,
+          "original_price": 138.0,
+          "sku_id": "5393604551028"
         },
         {
-          "name": "黄料款",
-          "price": 83.3,
-          "original_price": 98.0,
-          "sku_id": "4305967645463"
+          "name": "紫泥粉浆金黄段200mL以下",
+          "price": 86.0,
+          "original_price": 138.0,
+          "sku_id": "5393604551030"
         }
       ],
       "images": [
-        "/images/products/tk-310/main_1.webp",
-        "/images/products/tk-310/main_2.webp",
-        "/images/products/tk-310/main_3.webp",
-        "/images/products/tk-310/main_4.webp",
-        "/images/products/tk-310/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-310/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-310/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-310/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-310/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-310/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:37:31.909448",
-      "item_id": "611459182400"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-310.mp4"
+      ],
+      "specs": {
+        "origin": "宜兴市",
+        "handmade": "半手工",
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "color": "老段泥款 紫泥粉浆金黄段"
+      },
+      "date_uploaded": "2026-06-21T20:41:34.670596",
+      "item_id": "757191734790"
     },
     {
       "id": "tk-311",
