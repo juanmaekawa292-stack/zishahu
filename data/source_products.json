@@ -4348,30 +4348,34 @@
     {
       "id": "tk-373",
       "source_sku": "1038633805561",
-      "source_url": "https://detail.tmall.com/item.htm?id=1038633805561&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingchunshougongzishahuyongchahu2026xinkuanzhengchajuli",
+      "source_url": "https://detail.tmall.com/item.htm?id=37276465285&rn=af2538143be9363990755a697899f54e&abbucket=14",
+      "slug": "鸡翅木养壶笔养壶刷洗壶笔茶刷功夫茶具配件茶道用具茶盘茶台配件",
       "category": "teapot",
-      "title_zhCN": "宜兴纯手工紫砂壶个人专用小茶壶2026新款正品茶具送朋友生日礼物",
-      "title_zhTW": "宜興純手工紫砂壺个人专用小茶壺2026新款正品茶具送朋友生日禮物",
+      "title_zhCN": "鸡翅木养壶笔养壶刷洗壶笔茶刷功夫茶具配件茶道用具茶盘茶台配件",
+      "title_zhTW": "鸡翅木养壺笔养壺刷洗壺笔茶刷功夫茶具配件茶道用具茶盘茶台配件",
       "variants": [
         {
-          "name": "原矿紫砂 | 本山绿泥石瓢【精美礼盒】约130ml",
-          "price": 823.0,
-          "original_price": 969.0,
-          "sku_id": "6220982926850"
+          "name": "鸡翅木高端扁款养壶笔",
+          "price": 17.0,
+          "original_price": 20.0,
+          "sku_id": "86723891305"
         }
       ],
       "images": [
-        "/images/products/tk-373/main_1.webp",
-        "/images/products/tk-373/main_2.webp",
-        "/images/products/tk-373/main_3.webp",
-        "/images/products/tk-373/main_4.webp",
-        "/images/products/tk-373/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-373/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-373/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-373/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-373/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-373/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:41:59.528407",
-      "item_id": "1038633805561"
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "handmade": "是",
+        "color": "鸡翅木高端扁款养壶笔"
+      },
+      "date_uploaded": "2026-06-21T20:51:59.753822",
+      "item_id": "37276465285"
     },
     {
       "id": "tk-374",
