@@ -6863,6 +6863,45 @@
         "color": "汉瓦 汉瓦壶套装"
       },
       "date_uploaded": "2026-06-21T20:22:10.749596"
+    },
+    {
+      "id": "tk-196",
+      "item_id": "785472196956",
+      "source_url": "https://detail.tmall.com/item.htm?ali_refid=a3_420434_1006%3A1103591867%3AN%3Au92cQJhhoFKGXB5lDsQdrKsBjxVnJFPc%3Ac9359ab0a81d628c7103a9ea238f5528&ali_trackid=1_c9359ab0a81d628c7103a9ea238f5528&id=785472196956&mi_id=0000fLBgp9L7e6sCOmCHVYtKVUwXJAg0aeUgG7_5QmzDOi4&mm_sceneid=1_0_27974703_0&priceTId=2147820a17820284486536385e11e3&skuId=5362090256448&spm=a21n57.1.hoverItem.38&utparam=%7B%22aplus_abtest%22%3A%225fde5479e6615ef73f4fd90200683975%22%7D&xxc=ad_ztc",
+      "slug": "宜兴紫砂壶纯手工四方器绞泥家用泡茶壶单壶原矿紫泥紫砂茶具龙尊",
+      "category": "teapot",
+      "title_zhCN": "宜兴紫砂壶纯手工四方器绞泥家用泡茶壶单壶原矿紫泥紫砂茶具龙尊",
+      "title_zhTW": "宜興紫砂壺純手工四方器绞泥家用泡茶壺單壺原礦紫泥紫砂茶具龍尊",
+      "variants": [
+        {
+          "name": "龙尊101mL(含)-200mL(含)",
+          "price": 646.0,
+          "original_price": 1080.0,
+          "sku_id": "5362090256448"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-196/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-196/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-196/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-196/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-196/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-196.mp4"
+      ],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "四方壶",
+        "packaging": "礼盒装",
+        "color": "龙尊"
+      },
+      "date_uploaded": "2026-06-21T20:22:21.080065"
     }
   ]
 }
