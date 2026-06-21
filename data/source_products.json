@@ -3379,90 +3379,23 @@
     {
       "id": "tk-348",
       "source_sku": "754146080293",
-      "source_url": "https://detail.tmall.com/item.htm?id=754146080293&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
-      "slug": "guyixingzishahuchunshougongpaochahuyongchajuhuda",
+      "source_url": "﻿https://detail.tmall.com/item.htm?id=42277803959&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "藏壶天下 宜兴紫砂茶宠 家藏 茶玩 茶盘摆件  原矿紫泥 美梦猪",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶纯手工泡茶壶个人专用独饮茶具小壶 大红袍掇只",
-      "title_zhTW": "古悦堂 宜興紫砂壺純手工泡茶壺个人专用独饮茶具小壺 大红袍掇只",
-      "variants": [
-        {
-          "name": "掇只101mL(含)-200mL(含)",
-          "price": 339.0,
-          "original_price": 399.0,
-          "sku_id": "5228235396288"
-        },
-        {
-          "name": "龙蛋101mL(含)-200mL(含)",
-          "price": 339.0,
-          "original_price": 399.0,
-          "sku_id": "5228235396282"
-        },
-        {
-          "name": "仿古101mL(含)-200mL(含)",
-          "price": 339.0,
-          "original_price": 399.0,
-          "sku_id": "5228235396286"
-        },
-        {
-          "name": "思亭101mL(含)-200mL(含)",
-          "price": 339.0,
-          "original_price": 399.0,
-          "sku_id": "5228235396280"
-        },
-        {
-          "name": "水平101mL(含)-200mL(含)",
-          "price": 339.0,
-          "original_price": 399.0,
-          "sku_id": "5228235396285"
-        },
-        {
-          "name": "君德101mL(含)-200mL(含)",
-          "price": 339.0,
-          "original_price": 399.0,
-          "sku_id": "5228235396279"
-        },
-        {
-          "name": "石瓢101mL(含)-200mL(含)",
-          "price": 339.0,
-          "original_price": 399.0,
-          "sku_id": "5228235396281"
-        },
-        {
-          "name": "潘壶101mL(含)-200mL(含)",
-          "price": 339.0,
-          "original_price": 399.0,
-          "sku_id": "5228235396287"
-        },
-        {
-          "name": "美人肩101mL(含)-200mL(含)",
-          "price": 339.0,
-          "original_price": 399.0,
-          "sku_id": "5228235396289"
-        },
-        {
-          "name": "汉瓦101mL(含)-200mL(含)",
-          "price": 424.0,
-          "original_price": 499.0,
-          "sku_id": "5228235396284"
-        },
-        {
-          "name": "西施101mL(含)-200mL(含)",
-          "price": 382.0,
-          "original_price": 450.0,
-          "sku_id": "6011202486892"
-        }
-      ],
+      "title_zhCN": "藏壶天下 宜兴紫砂茶宠 家藏 茶玩 茶盘摆件  原矿紫泥 美梦猪",
+      "title_zhTW": "藏壺天下 宜興紫砂茶宠 家藏 茶玩 茶盘摆件  原礦紫泥 美梦猪",
+      "variants": [],
       "images": [
-        "/images/products/tk-348/main_1.webp",
-        "/images/products/tk-348/main_2.webp",
-        "/images/products/tk-348/main_3.webp",
-        "/images/products/tk-348/main_4.webp",
-        "/images/products/tk-348/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-348/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-348/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-348/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-348/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-348/main_5.webp"
       ],
       "videos": [],
       "specs": {},
-      "date_uploaded": "2026-06-16T23:40:10.012575",
-      "item_id": "754146080293"
+      "date_uploaded": "2026-06-21T20:47:53.270254",
+      "item_id": "42277803959"
     },
     {
       "id": "tk-349",
