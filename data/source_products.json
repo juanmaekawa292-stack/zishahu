@@ -3753,44 +3753,40 @@
     {
       "id": "tk-358",
       "source_sku": "39758779002",
-      "source_url": "https://detail.tmall.com/item.htm?id=39758779002&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guyixingzishahutaozishabeibeichabeishougongbeibei",
+      "source_url": "https://detail.tmall.com/item.htm?id=594531426591&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "藏壶天下原矿老紫泥宜兴全手工紫砂壶名家戴尔其大口径胸有成竹",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶配套紫砂杯小口杯/茶杯/手工杯/品茗小杯",
-      "title_zhTW": "古悦堂 宜興紫砂壺配套紫砂杯小口杯/茶杯/手工杯/品茗小杯",
+      "title_zhCN": "藏壶天下原矿老紫泥宜兴全手工紫砂壶名家戴尔其大口径胸有成竹",
+      "title_zhTW": "藏壺天下原礦老紫泥宜興全手工紫砂壺名家戴尔其大口径胸有成竹",
       "variants": [
         {
-          "name": "朱泥款约60~80ml",
-          "price": 10.2,
-          "original_price": 12.0,
-          "sku_id": "5090319286101"
-        },
-        {
-          "name": "底槽青款约60~80ml",
-          "price": 10.2,
-          "original_price": 12.0,
-          "sku_id": "5090319286098"
-        },
-        {
-          "name": "紫泥款约60~80ml",
-          "price": 10.2,
-          "original_price": 12.0,
-          "sku_id": "5090319286100"
+          "name": "胸有成竹301mL(含)-400mL(含)",
+          "price": 1247.0,
+          "original_price": 1980.0,
+          "sku_id": "4286466599644"
         }
       ],
       "images": [
-        "/images/products/tk-358/main_1.webp",
-        "/images/products/tk-358/main_2.webp",
-        "/images/products/tk-358/main_3.webp",
-        "/images/products/tk-358/main_4.webp",
-        "/images/products/tk-358/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-358/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-358/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-358/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-358/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-358/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-358/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:40:40.292268",
-      "item_id": "39758779002"
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "301mL(含)-400mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "老紫泥",
+        "shapeType": "特殊",
+        "packaging": "礼盒装",
+        "color": "胸有成竹"
+      },
+      "date_uploaded": "2026-06-21T20:49:29.482346",
+      "item_id": "594531426591"
     },
     {
       "id": "tk-359",
