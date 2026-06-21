@@ -6587,30 +6587,40 @@
     {
       "id": "tk-431",
       "source_sku": "1038006736973",
-      "source_url": "https://detail.tmall.com/item.htm?id=1038006736973&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingchunshougongchahupaochajiayongzishahu2026xinkuanshouli",
+      "source_url": "https://detail.tmall.com/item.htm?id=669875227071&rn=1a9d503a5eb80610a62081f1d55c5c59&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂壶纯手工西施壶原矿黄金段泥家用功夫茶具泡茶壶",
       "category": "teapot",
-      "title_zhCN": "宜兴纯手工茶壶泡茶家用紫砂单壶2026新款送客户领导商务伴手礼物",
-      "title_zhTW": "宜興純手工茶壺泡茶家用紫砂單壺2026新款送客戶领导商务伴手禮物",
+      "title_zhCN": "藏壶天下宜兴紫砂壶纯手工西施壶原矿黄金段泥家用功夫茶具泡茶壶",
+      "title_zhTW": "藏壺天下宜興紫砂壺純手工西施壺原礦黄金段泥家用功夫茶具泡茶壺",
       "variants": [
         {
-          "name": "约240ml",
-          "price": 1258.0,
-          "original_price": 1480.0,
-          "sku_id": "6053832361436"
+          "name": "西施201mL(含)-300mL(含)",
+          "price": 617.0,
+          "original_price": 980.0,
+          "sku_id": "4813830992629"
         }
       ],
       "images": [
-        "/images/products/tk-431/main_1.webp",
-        "/images/products/tk-431/main_2.webp",
-        "/images/products/tk-431/main_3.webp",
-        "/images/products/tk-431/main_4.webp",
-        "/images/products/tk-431/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-431/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-431/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-431/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-431/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-431/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:45:22.612963",
-      "item_id": "1038006736973"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "黄金段泥",
+        "shapeType": "西施壶",
+        "packaging": "礼盒装",
+        "color": "西施"
+      },
+      "date_uploaded": "2026-06-21T21:01:23.672849",
+      "item_id": "669875227071"
     },
     {
       "id": "tk-432",
