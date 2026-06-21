@@ -7999,6 +7999,38 @@
         "color": "汉铎壶"
       },
       "date_uploaded": "2026-06-21T20:26:11.618818"
+    },
+    {
+      "id": "tk-217",
+      "item_id": "655500913239",
+      "source_url": "https://detail.tmall.com/item.htm?id=655500913239&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "紫砂茶宠摆件精品可养茶桌风水摆件老虎茶宠小摆件茶玩可爱茶宠虎",
+      "category": "teaPet",
+      "title_zhCN": "紫砂茶宠摆件精品可养茶桌风水摆件老虎茶宠小摆件茶玩可爱茶宠虎",
+      "title_zhTW": "紫砂茶宠摆件精品可养茶桌风水摆件老虎茶宠小摆件茶玩可爱茶宠虎",
+      "variants": [
+        {
+          "name": "虎啸河山",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "4902765286220"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-217/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-217/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-217/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-217/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-217/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "color": "虎啸河山",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:26:20.831807"
     }
   ]
 }
