@@ -950,32 +950,40 @@
     {
       "id": "tk-290",
       "source_sku": "1011258625949",
-      "source_url": "https://detail.tmall.com/item.htm?id=1011258625949&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingzishahuchunshougongpaochahuzhengjiayongchajuchunxinli",
+      "source_url": "https://detail.tmall.com/item.htm?id=651932044242&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "紫砂壶盖托电木盖置茶壶盖托盖碗茶杯盖托茶具配件茶桌茶台茶摆件",
       "category": "teapot",
-      "title_zhCN": "宜兴紫砂壶纯手工泡茶壶正品家用茶具春节送朋友长辈新居生日礼物",
-      "title_zhTW": "宜興紫砂壺純手工泡茶壺正品家用茶具春节送朋友长辈新居生日禮物",
+      "title_zhCN": "紫砂壶盖托电木盖置茶壶盖托盖碗茶杯盖托茶具配件茶桌茶台茶摆件",
+      "title_zhTW": "紫砂壺盖托電木盖置茶壺盖托盖碗茶杯盖托茶具配件茶桌茶台茶摆件",
       "variants": [
         {
-          "name": "原矿紫砂 | 朱泥薄胎潘壶【精美礼盒】约170ml",
-          "price": 305.0,
-          "original_price": 369.0,
-          "sku_id": "6011664236287"
+          "name": "电木红料",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "4704560148867"
+        },
+        {
+          "name": "电木黄料",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "4704560148868"
         }
       ],
       "images": [
-        "/images/products/tk-290/main_1.webp",
-        "/images/products/tk-290/main_2.webp",
-        "/images/products/tk-290/main_3.webp",
-        "/images/products/tk-290/main_4.webp",
-        "/images/products/tk-290/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-290/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-290/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-290/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-290/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-290/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-290/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:36:16.052197",
-      "item_id": "1011258625949"
+      "videos": [],
+      "specs": {
+        "scenario": "日常使用",
+        "handmade": "手工",
+        "color": "电木红料 电木黄料"
+      },
+      "date_uploaded": "2026-06-21T20:38:29.476723",
+      "item_id": "651932044242"
     },
     {
       "id": "tk-291",
