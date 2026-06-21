@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 import { Link } from "@/i18n";
 import {
   LayoutDashboard, ShoppingCart, Package, Users, BarChart3,
-  CreditCard, MessageSquare, ClipboardList, Settings, Menu, X, LogOut, ChevronDown
+  CreditCard, MessageSquare, ClipboardList, Settings, Menu, X, LogOut
 } from "lucide-react";
 
 var navItems = [
@@ -40,9 +40,9 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   if (!authorized) return null;
 
   return (
-    <div className="min-h-screen bg-muted/30">
+    <div className="flex min-h-screen bg-muted/30">
       {/* Mobile header */}
-      <div className="lg:hidden flex items-center justify-between bg-card border-b border-border px-4 py-3">
+      <div className="lg:hidden fixed top-0 left-0 right-0 z-50 flex items-center justify-between bg-card border-b border-border px-4 py-3">
         <button onClick={function() { setSidebarOpen(true); }} className="p-1 text-muted-foreground hover:text-foreground">
           <Menu className="h-5 w-5" />
         </button>
@@ -55,51 +55,49 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
 
       {/* Sidebar */}
       <aside className={cn(
-        "fixed top-0 left-0 z-50 h-full w-64 bg-card border-r border-border transform transition-transform duration-200 lg:translate-x-0 lg:static lg:z-auto",
-        sidebarOpen ? "translate-x-0" : "-translate-x-full"
+        "fixed lg:relative z-50 h-full w-64 bg-card border-r border-border flex flex-col transition-transform duration-200 lg:translate-x-0 flex-shrink-0",
+        sidebarOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
       )}>
-        <div className="flex flex-col h-full">
-          {/* Logo */}
-          <div className="flex items-center justify-between px-5 py-4 border-b border-border">
-            <Link href="/admin" className="flex items-center gap-2">
-              <span className="text-xl">🫖</span>
-              <span className="text-sm font-bold text-primary">紫砂雅集</span>
-            </Link>
-            <button onClick={function() { setSidebarOpen(false); }} className="lg:hidden p-1 text-muted-foreground hover:text-foreground">
-              <X className="h-4 w-4" />
-            </button>
-          </div>
+        {/* Logo */}
+        <div className="flex items-center justify-between px-5 py-4 border-b border-border flex-shrink-0">
+          <Link href="/admin" className="flex items-center gap-2">
+            <span className="text-xl">🫖</span>
+            <span className="text-sm font-bold text-primary">紫砂雅集</span>
+          </Link>
+          <button onClick={function() { setSidebarOpen(false); }} className="lg:hidden p-1 text-muted-foreground hover:text-foreground">
+            <X className="h-4 w-4" />
+          </button>
+        </div>
 
-          {/* Nav */}
-          <nav className="flex-1 overflow-y-auto py-4 px-3 space-y-1">
-            {navItems.map(function(item) {
-              var active = pathname === item.href || (item.href !== "/admin" && pathname.startsWith(item.href));
-              return (
-                <Link key={item.href} href={item.href}
-                  className={cn(
-                    "flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-colors",
-                    active ? "bg-primary text-primary-foreground font-medium" : "text-muted-foreground hover:text-foreground hover:bg-muted"
-                  )}
-                  onClick={function() { setSidebarOpen(false); }}>
-                  <item.icon className="h-4 w-4" />
-                  {item.label}
-                </Link>
-              );
-            })}
-          </nav>
+        {/* Nav */}
+        <nav className="flex-1 overflow-y-auto py-4 px-3 space-y-1">
+          {navItems.map(function(item) {
+            var active = pathname === item.href || (item.href !== "/admin" && pathname.startsWith(item.href));
+            return (
+              <Link key={item.href} href={item.href}
+                className={cn(
+                  "flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-colors",
+                  active ? "bg-primary text-primary-foreground font-medium" : "text-muted-foreground hover:text-foreground hover:bg-muted"
+                )}
+                onClick={function() { setSidebarOpen(false); }}>
+                <item.icon className="h-4 w-4" />
+                {item.label}
+              </Link>
+            );
+          })}
+        </nav>
 
-          {/* Bottom */}
-          <div className="border-t border-border px-3 py-3">
-            <Link href="/" className="flex items-center gap-3 px-3 py-2 rounded-lg text-xs text-muted-foreground hover:text-foreground hover:bg-muted transition-colors">
-              <LogOut className="h-4 w-4" />
-              返回前台
-            </Link>
-          </div>
+        {/* Bottom */}
+        <div className="border-t border-border px-3 py-3 flex-shrink-0">
+          <Link href="/" className="flex items-center gap-3 px-3 py-2 rounded-lg text-xs text-muted-foreground hover:text-foreground hover:bg-muted transition-colors">
+            <LogOut className="h-4 w-4" />
+            返回前台
+          </Link>
         </div>
       </aside>
 
       {/* Main */}
-      <main className="lg:ml-64 min-h-screen">
+      <main className="flex-1 min-h-screen overflow-auto pt-[57px] lg:pt-0">
         <div className="p-6">
           {children}
         </div>
