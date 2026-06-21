@@ -8178,6 +8178,37 @@
         "color": "吉祥如意"
       },
       "date_uploaded": "2026-06-21T20:27:00.504167"
+    },
+    {
+      "id": "tk-222",
+      "item_id": "655666770025",
+      "source_url": "https://detail.tmall.com/item.htm?id=655666770025&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "紫砂葫芦茶宠摆件精品可养茶桌风水摆件紫砂茶具摆件茶盘摆件茶玩",
+      "category": "teaPet",
+      "title_zhCN": "紫砂葫芦茶宠摆件精品可养茶桌风水摆件紫砂茶具摆件茶盘摆件茶玩",
+      "title_zhTW": "紫砂葫蘊茶宠摆件精品可养茶桌风水摆件紫砂茶具摆件茶盘摆件茶玩",
+      "variants": [
+        {
+          "name": "葫芦壶",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4901445902643"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-222/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-222/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-222/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-222/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-222/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "handmade": "是",
+        "color": "葫芦壶"
+      },
+      "date_uploaded": "2026-06-21T20:27:06.804906"
     }
   ]
 }
