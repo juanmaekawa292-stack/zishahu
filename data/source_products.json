@@ -7186,45 +7186,40 @@
     {
       "id": "tk-446",
       "source_sku": "530429853535",
-      "source_url": "https://detail.tmall.com/item.htm?abbucket=11&id=530429853535&mi_id=0000jHnq5BFqTe0rLrs5Z94YXvAxs2MBodHeWyljQkLFOH8&ns=1&priceTId=214783d817815271541657549e0f1f&skuId=6097597999539&spm=a21n57.1.hoverItem.5&utparam=%7B%22aplus_abtest%22%3A%22d1f272ad9993ece09a55b2a9ef16778a%22%7D&xxc=taobaoSearch",
-      "slug": "yixingshougongzishahuchahujiayongchajushipiaotaozhuang200cc",
+      "source_url": "https://detail.tmall.com/item.htm?id=687762852884&rn=1a9d503a5eb80610a62081f1d55c5c59&abbucket=14",
+      "slug": "【景舟窑】大珍藏 宜兴紫砂壶 高温老紫泥德钟壶 吕盘军全手工",
       "category": "teapot",
-      "title_zhCN": "【畅陶】 宜兴手工紫砂壶茶壶家用茶具李晓璐竹叶石瓢套装200cc",
-      "title_zhTW": "【畅陶】 宜興手工紫砂壺茶壺家用茶具李晓璐竹叶石瓢套裝200cc",
+      "title_zhCN": "【景舟窑】大珍藏 宜兴紫砂壶 高温老紫泥德钟壶 吕盘军全手工",
+      "title_zhTW": "【景舟窯】大珍藏 宜興紫砂壺 高温老紫泥德鍾壺 吕盘军全手工",
       "variants": [
         {
-          "name": "单壶.201mL(含)-300mL(含)",
-          "price": 220.0,
-          "original_price": 259.0,
-          "sku_id": "6097597999539"
-        },
-        {
-          "name": "一壶四杯套装.201mL(含)-300mL(含)",
-          "price": 224.0,
-          "original_price": 299.0,
-          "sku_id": "6097597999540"
-        },
-        {
-          "name": "十件套.201mL(含)-300mL(含)",
-          "price": 309.0,
-          "original_price": 399.0,
-          "sku_id": "6097597999538"
+          "name": "景舟窑大珍藏德钟200ml101mL(含)-200mL(含)",
+          "price": 3480.0,
+          "original_price": 5800.0,
+          "sku_id": "5074694250511"
         }
       ],
       "images": [
-        "/images/products/tk-446/main_1.webp",
-        "/images/products/tk-446/main_2.webp",
-        "/images/products/tk-446/main_3.webp",
-        "/images/products/tk-446/main_4.webp",
-        "/images/products/tk-446/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-446/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-446/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-446/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-446/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-446/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-446/product.mp4",
-        "/videos/products/tk-446/product_2.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:46:14.191854",
-      "item_id": "530429853535"
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "高温老紫泥",
+        "shapeType": "德钟壶",
+        "packaging": "礼盒装",
+        "color": "景舟窑大珍藏德钟200ml"
+      },
+      "date_uploaded": "2026-06-21T21:04:02.283080",
+      "item_id": "687762852884"
     },
     {
       "id": "tk-447",
