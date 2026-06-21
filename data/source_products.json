@@ -6372,30 +6372,32 @@
     {
       "id": "tk-425",
       "source_sku": "1035568147690",
-      "source_url": "https://detail.tmall.com/item.htm?id=1035568147690&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingzishahuchunshougongchahupaocha1chaju2026xinkuanli",
-      "category": "teapot",
-      "title_zhCN": "宜兴紫砂壶纯手工茶壶泡茶一人饮茶具2026新款送客户领导商务礼物",
-      "title_zhTW": "宜興紫砂壺純手工茶壺泡茶一人饮茶具2026新款送客戶领导商务禮物",
+      "source_url": "https://detail.tmall.com/item.htm?id=655951066265&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "纯手工紫砂茶宠茶桌摆件精品可养正品茶玩茶台风水摆件招财茶宠牛",
+      "category": "teaPet",
+      "title_zhCN": "纯手工紫砂茶宠茶桌摆件精品可养正品茶玩茶台风水摆件招财茶宠牛",
+      "title_zhTW": "純手工紫砂茶宠茶桌摆件精品可养正品茶玩茶台风水摆件招财茶宠牛",
       "variants": [
         {
-          "name": "约170ml",
-          "price": 1088.0,
-          "original_price": 1280.0,
-          "sku_id": "6218679691272"
+          "name": "萌萌哒",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "4729256716896"
         }
       ],
       "images": [
-        "/images/products/tk-425/main_1.webp",
-        "/images/products/tk-425/main_2.webp",
-        "/images/products/tk-425/main_3.webp",
-        "/images/products/tk-425/main_4.webp",
-        "/images/products/tk-425/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:45:03.698966",
-      "item_id": "1035568147690"
+      "specs": {
+        "color": "萌萌哒"
+      },
+      "date_uploaded": "2026-06-21T21:00:17.939363",
+      "item_id": "655951066265"
     },
     {
       "id": "tk-426",

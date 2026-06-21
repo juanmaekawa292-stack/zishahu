@@ -34383,6 +34383,68 @@ export const products: Product[] = [
     ],
     "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
   },
+  {
+    "id": "tk-425",
+    "slug": "纯手工紫砂茶宠茶桌摆件精品可养正品茶玩茶台风水摆件招财茶宠牛",
+    "title_zhCN": "纯手工紫砂茶宠茶桌摆件精品可养正品茶玩茶台风水摆件招财茶宠牛",
+    "title_zhTW": "純手工紫砂茶宠茶桌摆件精品可养正品茶玩茶台风水摆件招财茶宠牛",
+    "description_zhCN": "纯手工紫砂茶宠茶桌摆件精品可养正品茶玩茶台风水摆件招财茶宠牛，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "description_zhTW": "纯手工紫砂茶宠茶桌摆件精品可养正品茶玩茶台风水摆件招财茶宠牛，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "price": 189.0,
+    "originalPrice": 300.0,
+    "images": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/main_1.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/main_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/main_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/main_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/main_5.webp"
+    ],
+    "category": "teaPet",
+    "inStock": true,
+    "stock": 100,
+    "featured": true,
+    "specs": {
+      "color": "萌萌哒"
+    },
+    "createdAt": "2026-06-21",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "detailImages": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/detail_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/detail_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/detail_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/detail_5.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/detail_6.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/detail_7.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/detail_8.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/detail_9.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/detail_10.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/detail_11.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/detail_12.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/detail_13.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/detail_14.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/detail_15.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-425/detail_16.webp"
+    ],
+    "variants": [
+      {
+        "id": "tk-425-01",
+        "name_zhCN": "萌萌哒",
+        "name_zhTW": "萌萌哒",
+        "price": 189.0,
+        "originalPrice": 300.0,
+        "stock": 50,
+        "image": "",
+        "sku": "4729256716896",
+      },
+    ],
+    "sourceUrl": "https://detail.tmall.com/item.htm?id=655951066265&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+    "sourceSku": "655951066265",
+    "videos": [
+
+    ],
+    "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
+  },
 ];
 export const categories = [
   { key: "all", label_zhCN: "全部" },
