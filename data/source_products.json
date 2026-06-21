@@ -11969,6 +11969,60 @@
         "color": "西施（大款330ML）"
       },
       "date_uploaded": "2026-06-21T21:08:42.563099"
+    },
+    {
+      "id": "tk-476",
+      "item_id": "682225760174",
+      "source_url": "https://detail.tmall.com/item.htm?id=682225760174&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "紫砂功夫茶杯个人专用主人杯单杯小茶杯茶盏紫砂杯单个茶碗品茗杯",
+      "category": "cup",
+      "title_zhCN": "紫砂功夫茶杯个人专用主人杯单杯小茶杯茶盏紫砂杯单个茶碗品茗杯",
+      "title_zhTW": "紫砂功夫茶杯个人专用主人杯單杯小茶杯茶盏紫砂杯單个茶碗品茗杯",
+      "variants": [
+        {
+          "name": "大红袍品茗杯200mL以下",
+          "price": 25.8,
+          "original_price": 38.0,
+          "sku_id": "4887409425077"
+        },
+        {
+          "name": "朱泥品茗杯200mL以下",
+          "price": 25.8,
+          "original_price": 38.0,
+          "sku_id": "4887409425078"
+        },
+        {
+          "name": "底槽清品茗杯200mL以下",
+          "price": 25.8,
+          "original_price": 38.0,
+          "sku_id": "4887409425079"
+        },
+        {
+          "name": "紫泥品茗杯200mL以下",
+          "price": 25.8,
+          "original_price": 38.0,
+          "sku_id": "4887409425080"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-476/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-476/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-476/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-476/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-476/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-476.mp4"
+      ],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "color": "大红袍品茗杯 朱泥品茗杯 底槽清品茗杯 紫泥品茗杯"
+      },
+      "date_uploaded": "2026-06-21T21:08:53.996065"
     }
   ]
 }
