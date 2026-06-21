@@ -13007,6 +13007,57 @@
         "handmade": "是"
       },
       "date_uploaded": "2026-06-21T21:13:05.524200"
+    },
+    {
+      "id": "tk-503",
+      "item_id": "613264361247",
+      "source_url": "https://detail.tmall.com/item.htm?id=613264361247&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "三足金蟾招财摆件紫砂茶宠精品可养茶具配件摆设茶桌小摆件手把件",
+      "category": "teaPet",
+      "title_zhCN": "三足金蟾招财摆件紫砂茶宠精品可养茶具配件摆设茶桌小摆件手把件",
+      "title_zhTW": "三足金蟾招财摆件紫砂茶宠精品可养茶具配件摆设茶桌小摆件手把件",
+      "variants": [
+        {
+          "name": "七宝金蟾-红泥",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4490396231593"
+        },
+        {
+          "name": "七宝金蟾-紫泥",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4490396231592"
+        },
+        {
+          "name": "七宝金蟾-段泥",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4490396231594"
+        },
+        {
+          "name": "七宝金蟾-绿泥",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4490396231591"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-503/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-503/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-503/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-503/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-503/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-503.mp4"
+      ],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "handmade": "是",
+        "color": "七宝金蟾-红泥 七宝金蟾-紫泥 七宝金蟾-段泥 七宝金蟾-绿泥"
+      },
+      "date_uploaded": "2026-06-21T21:13:13.231796"
     }
   ]
 }
