@@ -7896,6 +7896,38 @@
         "color": "大西施"
       },
       "date_uploaded": "2026-06-21T20:25:45.898416"
+    },
+    {
+      "id": "tk-214",
+      "item_id": "613698382014",
+      "source_url": "https://detail.tmall.com/item.htm?id=613698382014&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "招财紫砂茶宠牛气冲天茶桌小摆件精品可养茶具配件摆设茶台装饰品",
+      "category": "teaPet",
+      "title_zhCN": "招财紫砂茶宠牛气冲天茶桌小摆件精品可养茶具配件摆设茶台装饰品",
+      "title_zhTW": "招财紫砂茶宠牛气冲天茶桌小摆件精品可养茶具配件摆设茶台裝饰品",
+      "variants": [
+        {
+          "name": "一往无前",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4321178105505"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "color": "一往无前",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:25:52.731347"
     }
   ]
 }

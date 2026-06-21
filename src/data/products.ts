@@ -17548,6 +17548,68 @@ export const products: Product[] = [
     ],
     "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
   },
+  {
+    "id": "tk-214",
+    "slug": "招财紫砂茶宠牛气冲天茶桌小摆件精品可养茶具配件摆设茶台装饰品",
+    "title_zhCN": "招财紫砂茶宠牛气冲天茶桌小摆件精品可养茶具配件摆设茶台装饰品",
+    "title_zhTW": "招财紫砂茶宠牛气冲天茶桌小摆件精品可养茶具配件摆设茶台裝饰品",
+    "description_zhCN": "招财紫砂茶宠牛气冲天茶桌小摆件精品可养茶具配件摆设茶台装饰品，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "description_zhTW": "招财紫砂茶宠牛气冲天茶桌小摆件精品可养茶具配件摆设茶台装饰品，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "price": 59.8,
+    "originalPrice": 88.0,
+    "images": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/main_1.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/main_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/main_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/main_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/main_5.webp"
+    ],
+    "category": "teaPet",
+    "inStock": true,
+    "stock": 100,
+    "featured": true,
+    "specs": {
+      "mainImageSource": "自主实拍图",
+      "handmade": "是",
+      "material": "紫砂",
+      "color": "一往无前"
+    },
+    "createdAt": "2026-06-21",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "detailImages": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/detail_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/detail_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/detail_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/detail_5.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/detail_6.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/detail_7.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/detail_8.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/detail_9.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/detail_10.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/detail_11.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/detail_12.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-214/detail_13.webp"
+    ],
+    "variants": [
+      {
+        "id": "tk-214-01",
+        "name_zhCN": "一往无前",
+        "name_zhTW": "一往无前",
+        "price": 59.8,
+        "originalPrice": 88.0,
+        "stock": 50,
+        "image": "",
+        "sku": "4321178105505",
+      },
+    ],
+    "sourceUrl": "https://detail.tmall.com/item.htm?id=613698382014&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+    "sourceSku": "613698382014",
+    "videos": [
+
+    ],
+    "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
+  },
 ];
 export const categories = [
   { key: "all", label_zhCN: "全部" },
