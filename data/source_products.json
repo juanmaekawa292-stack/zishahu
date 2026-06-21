@@ -12435,6 +12435,45 @@
         "color": "汉瓦"
       },
       "date_uploaded": "2026-06-21T21:10:44.483700"
+    },
+    {
+      "id": "tk-488",
+      "item_id": "678179584481",
+      "source_url": "https://detail.tmall.com/item.htm?id=678179584481&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂壶纯手工小容量功夫茶具原矿紫泥家用泡茶壶德钟",
+      "category": "teapot",
+      "title_zhCN": "藏壶天下宜兴紫砂壶纯手工小容量功夫茶具原矿紫泥家用泡茶壶德钟",
+      "title_zhTW": "藏壺天下宜興紫砂壺純手工小容量功夫茶具原礦紫泥家用泡茶壺德鍾",
+      "variants": [
+        {
+          "name": "德钟101mL(含)-200mL(含)",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "5044581419223"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-488/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-488/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-488/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-488/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-488/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-488.mp4"
+      ],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "德钟壶",
+        "packaging": "礼盒装",
+        "color": "德钟"
+      },
+      "date_uploaded": "2026-06-21T21:10:53.309498"
     }
   ]
 }
