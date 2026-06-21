@@ -8585,6 +8585,50 @@
         "color": "紫泥款 红泥款 段泥款 底槽青"
       },
       "date_uploaded": "2026-06-21T20:28:47.184204"
+    },
+    {
+      "id": "tk-232",
+      "item_id": "607226189574",
+      "source_url": "https://detail.tmall.com/item.htm?id=607226189574&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "藏壶天下紫砂茶宠手把件茶玩茶道配件茶桌摆件迷你南瓜青蛙茶宠",
+      "category": "teapot",
+      "title_zhCN": "藏壶天下紫砂茶宠手把件茶玩茶道配件茶桌摆件迷你南瓜青蛙茶宠",
+      "title_zhTW": "藏壺天下紫砂茶宠手把件茶玩茶道配件茶桌摆件迷你南瓜青蛙茶宠",
+      "variants": [
+        {
+          "name": "莲蓬款",
+          "price": 39.4,
+          "original_price": 58.0,
+          "sku_id": "4433631607353"
+        },
+        {
+          "name": "南瓜款",
+          "price": 39.4,
+          "original_price": 58.0,
+          "sku_id": "4433631607354"
+        },
+        {
+          "name": "套装款",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "4433631607355"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-232/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-232/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-232/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-232/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-232/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "color": "莲蓬款 南瓜款 套装款",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:28:53.786513"
     }
   ]
 }
