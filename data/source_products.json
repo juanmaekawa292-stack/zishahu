@@ -7110,30 +7110,40 @@
     {
       "id": "tk-444",
       "source_sku": "521120789971",
-      "source_url": "https://detail.tmall.com/item.htm?id=521120789971&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingzishabeishougongyuankuangzinichabeimingjiabeibei",
-      "category": "cup",
-      "title_zhCN": "古悦堂 宜兴紫砂杯 全手工原矿紫泥茶杯 名家办公盖杯 宁静致远杯",
-      "title_zhTW": "古悦堂 宜興紫砂杯 全手工原礦紫泥茶杯 名家办公盖杯 宁静致远杯",
+      "source_url": "https://detail.tmall.com/item.htm?id=787109898377&rn=1a9d503a5eb80610a62081f1d55c5c59&abbucket=14",
+      "slug": "宜兴紫砂壶小容量纯手工一人用小茶壶家用功夫茶具原矿底槽清德钟",
+      "category": "teapot",
+      "title_zhCN": "宜兴紫砂壶小容量纯手工一人用小茶壶家用功夫茶具原矿底槽清德钟",
+      "title_zhTW": "宜興紫砂壺小容量純手工一人用小茶壺家用功夫茶具原礦底槽清德鍾",
       "variants": [
         {
-          "name": "紫泥宁静致远盖杯约500ml",
-          "price": 151.0,
-          "original_price": 178.0,
-          "sku_id": "5089795206037"
+          "name": "德钟201mL(含)-300mL(含)",
+          "price": 554.0,
+          "original_price": 880.0,
+          "sku_id": "5375416613508"
         }
       ],
       "images": [
-        "/images/products/tk-444/main_1.webp",
-        "/images/products/tk-444/main_2.webp",
-        "/images/products/tk-444/main_3.webp",
-        "/images/products/tk-444/main_4.webp",
-        "/images/products/tk-444/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-444/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-444/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-444/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-444/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-444/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:46:04.779628",
-      "item_id": "521120789971"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "底槽清",
+        "shapeType": "德钟壶",
+        "packaging": "礼盒装",
+        "color": "德钟"
+      },
+      "date_uploaded": "2026-06-21T21:03:39.502997",
+      "item_id": "787109898377"
     },
     {
       "id": "tk-445",
