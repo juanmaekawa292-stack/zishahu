@@ -13058,6 +13058,39 @@
         "color": "七宝金蟾-红泥 七宝金蟾-紫泥 七宝金蟾-段泥 七宝金蟾-绿泥"
       },
       "date_uploaded": "2026-06-21T21:13:13.231796"
+    },
+    {
+      "id": "tk-504",
+      "item_id": "632662358134",
+      "source_url": "https://detail.tmall.com/item.htm?id=632662358134&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "紫砂三才盖碗茶杯单个茶碗带盖不烫手古代敬茶杯小盖碗手抓壶茶具",
+      "category": "teapot",
+      "title_zhCN": "紫砂三才盖碗茶杯单个茶碗带盖不烫手古代敬茶杯小盖碗手抓壶茶具",
+      "title_zhTW": "紫砂三才盖碗茶杯單个茶碗带盖不烫手古代敬茶杯小盖碗手抓壺茶具",
+      "variants": [
+        {
+          "name": "三才盖碗",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4687456379031"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-504/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-504/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-504/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-504/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-504/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "color": "三才盖碗"
+      },
+      "date_uploaded": "2026-06-21T21:13:20.381200"
     }
   ]
 }
