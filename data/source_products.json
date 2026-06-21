@@ -12474,6 +12474,41 @@
         "color": "德钟"
       },
       "date_uploaded": "2026-06-21T21:10:53.309498"
+    },
+    {
+      "id": "tk-489",
+      "item_id": "735456759810",
+      "source_url": "https://detail.tmall.com/item.htm?id=735456759810&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "茶具带过滤茶杯茶水分离大容量紫砂杯带隔舱男士办公宁静致远盖杯",
+      "category": "cup",
+      "title_zhCN": "茶具带过滤茶杯茶水分离大容量紫砂杯带隔舱男士办公宁静致远盖杯",
+      "title_zhTW": "茶具带过滤茶杯茶水分离大容量紫砂杯带隔舱男士办公宁静致远盖杯",
+      "variants": [
+        {
+          "name": "宁静致远盖杯400mL(不含)-600mL(含)",
+          "price": 135.0,
+          "original_price": 180.0,
+          "sku_id": "5251967394385"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-489/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-489/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-489/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-489/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-489/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-489.mp4"
+      ],
+      "specs": {
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫泥",
+        "capacity": "400mL(不含)-600mL(含)",
+        "color": "宁静致远盖杯"
+      },
+      "date_uploaded": "2026-06-21T21:11:04.245032"
     }
   ]
 }
