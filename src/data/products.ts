@@ -37017,6 +37017,69 @@ export const products: Product[] = [
     ],
     "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
   },
+  {
+    "id": "tk-459",
+    "slug": "藏壶天下宜兴紫砂杯主人杯原矿黑金砂 品茗杯个人杯 配壶小杯单只",
+    "title_zhCN": "藏壶天下宜兴紫砂杯主人杯原矿黑金砂 品茗杯个人杯 配壶小杯单只",
+    "title_zhTW": "藏壺天下宜興紫砂杯主人杯原礦黑金砂 品茗杯个人杯 配壺小杯單只",
+    "description_zhCN": "藏壶天下宜兴紫砂杯主人杯原矿黑金砂 品茗杯个人杯 配壶小杯单只，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "description_zhTW": "藏壶天下宜兴紫砂杯主人杯原矿黑金砂 品茗杯个人杯 配壶小杯单只，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "price": 25.8,
+    "originalPrice": 38.0,
+    "images": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/main_1.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/main_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/main_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/main_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/main_5.webp"
+    ],
+    "category": "teapot",
+    "inStock": true,
+    "stock": 100,
+    "featured": true,
+    "specs": {
+      "capacity": "200mL以下",
+      "mainImageSource": "自主实拍图",
+      "origin": "宜兴市",
+      "handmade": "是",
+      "material": "紫砂",
+      "color": "黑金砂"
+    },
+    "createdAt": "2026-06-21",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "detailImages": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/detail_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/detail_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/detail_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/detail_5.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/detail_6.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/detail_7.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/detail_8.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/detail_9.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/detail_10.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/detail_11.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-459/detail_12.webp"
+    ],
+    "variants": [
+      {
+        "id": "tk-459-01",
+        "name_zhCN": "黑金砂200mL以下",
+        "name_zhTW": "黑金砂200mL以下",
+        "price": 25.8,
+        "originalPrice": 38.0,
+        "stock": 50,
+        "image": "",
+        "sku": "5697185321400",
+      },
+    ],
+    "sourceUrl": "https://detail.tmall.com/item.htm?id=520194753375&rn=af2538143be9363990755a697899f54e&abbucket=14",
+    "sourceSku": "520194753375",
+    "videos": [
+
+    ],
+    "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
+  },
 ];
 export const categories = [
   { key: "all", label_zhCN: "全部" },
