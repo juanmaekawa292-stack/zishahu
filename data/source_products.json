@@ -8782,6 +8782,43 @@
         "handmade": "是"
       },
       "date_uploaded": "2026-06-21T20:29:32.527546"
+    },
+    {
+      "id": "tk-237",
+      "item_id": "730818228849",
+      "source_url": "https://detail.tmall.com/item.htm?id=730818228849&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "宜兴紫砂壶纯手工刻绘家用紫砂茶具原矿紫泥泡茶壶清莲生香匏尊壶",
+      "category": "teapot",
+      "title_zhCN": "宜兴紫砂壶纯手工刻绘家用紫砂茶具原矿紫泥泡茶壶清莲生香匏尊壶",
+      "title_zhTW": "宜興紫砂壺純手工刻繪家用紫砂茶具原礦紫泥泡茶壺清莲生香匏尊壺",
+      "variants": [
+        {
+          "name": "清莲生香201mL(含)-300mL(含)",
+          "price": 189.0,
+          "original_price": 379.0,
+          "sku_id": "5237947847833"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-237/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-237/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-237/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-237/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-237/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "老紫泥",
+        "shapeType": "匏尊",
+        "packaging": "礼盒装",
+        "color": "清莲生香"
+      },
+      "date_uploaded": "2026-06-21T20:29:40.632374"
     }
   ]
 }
