@@ -4147,36 +4147,42 @@
     {
       "id": "tk-368",
       "source_sku": "550195067674",
-      "source_url": "https://detail.tmall.com/item.htm?id=550195067674&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingmingjiazishahuchunshougongyuankuangchahufuchajudaxishihu",
+      "source_url": "https://detail.tmall.com/item.htm?id=672935746824&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "宜兴紫砂壶纯手工小容量家用泡茶壶原矿梨皮大红袍功夫茶具水平壶",
       "category": "teapot",
-      "title_zhCN": "古悦堂宜兴名家紫砂壶纯全手工原矿茶壶功夫茶具 大红袍西施壶",
-      "title_zhTW": "古悦堂宜興名家紫砂壺純全手工原礦茶壺功夫茶具 大红袍西施壺",
+      "title_zhCN": "宜兴紫砂壶纯手工小容量家用泡茶壶原矿梨皮大红袍功夫茶具水平壶",
+      "title_zhTW": "宜興紫砂壺純手工小容量家用泡茶壺原礦梨皮大红袍功夫茶具水平壺",
       "variants": [
         {
-          "name": "小号160cc201mL(含)-300mL(含)",
-          "price": 216.55,
-          "original_price": 255.55,
-          "sku_id": "4910668472227"
-        },
-        {
-          "name": "大号210cc201mL(含)-300mL(含)",
-          "price": 258.0,
-          "original_price": 304.0,
-          "sku_id": "4910668472228"
+          "name": "水平101mL(含)-200mL(含)",
+          "price": 806.0,
+          "original_price": 1280.0,
+          "sku_id": "5018821731505"
         }
       ],
       "images": [
-        "/images/products/tk-368/main_1.webp",
-        "/images/products/tk-368/main_2.webp",
-        "/images/products/tk-368/main_3.webp",
-        "/images/products/tk-368/main_4.webp",
-        "/images/products/tk-368/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-368/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-368/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-368/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-368/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-368/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:41:34.493549",
-      "item_id": "550195067674"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-368.mp4"
+      ],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "梨皮大红袍",
+        "shapeType": "水平",
+        "packaging": "礼盒装",
+        "color": "水平"
+      },
+      "date_uploaded": "2026-06-21T20:51:13.879694",
+      "item_id": "672935746824"
     },
     {
       "id": "tk-369",
