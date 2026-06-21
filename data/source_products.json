@@ -2858,30 +2858,39 @@
     {
       "id": "tk-337",
       "source_sku": "1035583359442",
-      "source_url": "https://detail.tmall.com/item.htm?id=1035583359442&rn=74b8595a12adf656cb929f2a9ff5ed7e&abbucket=14",
-      "slug": "guchunshougongzishahuyongchahupaochajiayong2026xinkuanchaju",
+      "source_url": "https://detail.tmall.com/item.htm?id=600477946861&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "小容量小号宜兴紫砂壶纯手工茶壶单壶家用功夫茶壶紫砂茶具泡茶壶",
       "category": "teapot",
-      "title_zhCN": "古悦堂纯手工紫砂壶个人专用茶壶泡茶家用2026新款茶具送长辈领导",
-      "title_zhTW": "古悦堂純手工紫砂壺个人专用茶壺泡茶家用2026新款茶具送长辈领导",
+      "title_zhCN": "小容量小号宜兴紫砂壶纯手工茶壶单壶家用功夫茶壶紫砂茶具泡茶壶",
+      "title_zhTW": "小容量小号宜興紫砂壺純手工茶壺單壺家用功夫茶壺紫砂茶具泡茶壺",
       "variants": [
         {
-          "name": "约170ml",
-          "price": 1258.0,
-          "original_price": 1480.0,
-          "sku_id": "6052983488494"
+          "name": "文旦101mL(含)-200mL(含)",
+          "price": 680.0,
+          "original_price": 1080.0,
+          "sku_id": "4363914298838"
         }
       ],
       "images": [
-        "/images/products/tk-337/main_1.webp",
-        "/images/products/tk-337/main_2.webp",
-        "/images/products/tk-337/main_3.webp",
-        "/images/products/tk-337/main_4.webp",
-        "/images/products/tk-337/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-337/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-337/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-337/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-337/main_4.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:39:26.173849",
-      "item_id": "1035583359442"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "青灰段",
+        "shapeType": "文旦",
+        "packaging": "礼盒装",
+        "color": "文旦"
+      },
+      "date_uploaded": "2026-06-21T20:46:06.700218",
+      "item_id": "600477946861"
     },
     {
       "id": "tk-338",
