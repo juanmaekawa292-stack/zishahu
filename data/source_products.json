@@ -5044,30 +5044,48 @@
     {
       "id": "tk-391",
       "source_sku": "1050609840447",
-      "source_url": "https://detail.tmall.com/item.htm?ali_refid=a3_430582_1006%3A1106812497%3AH%3A3%2FT5baCejveN1N5Qaysy7A%3D%3D%3Ae817ff8f3c7ff545027b198781a3fcb7&ali_trackid=318_e817ff8f3c7ff545027b198781a3fcb7&id=1050609840447&mi_id=0000xdFnSRsw7Skg1kXFrQynyR_uIo8CUZazuDSq7Tl-NZ0&mm_sceneid=0_0_48105493_0&priceTId=2147841f17815270737004037e1028&skuId=6243919183958&spm=a21n57.1.hoverItem.1&utparam=%7B%22aplus_abtest%22%3A%2226d82af2204e9084a2510ab8f141f4f9%22%7D&xxc=ad_ztc",
-      "slug": "guyixingzishahutaozhuangchunshougongzhengzonglichahufuchajupaochadahulihe",
-      "category": "teapot",
-      "title_zhCN": "古悦堂宜兴紫砂壶套装纯手工正宗送礼茶壶功夫茶具泡茶大曲壶礼盒",
-      "title_zhTW": "古悦堂宜興紫砂壺套裝純手工正宗送禮茶壺功夫茶具泡茶大曲壺禮盒",
+      "source_url": "https://detail.tmall.com/item.htm?id=871103562740&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "宜兴紫砂品茗杯功夫茶杯个人专用小杯茶盏原矿紫砂小口杯主人杯",
+      "category": "cup",
+      "title_zhCN": "宜兴紫砂品茗杯功夫茶杯个人专用小杯茶盏原矿紫砂小口杯主人杯",
+      "title_zhTW": "宜興紫砂品茗杯功夫茶杯个人专用小杯茶盏原礦紫砂小口杯主人杯",
       "variants": [
         {
-          "name": "名师手制 | 百目曲壶套装【精美礼盒】约400ml",
-          "price": 499.0,
-          "original_price": 999.0,
-          "sku_id": "6243919183958"
+          "name": "枫叶品茗杯200mL以下",
+          "price": 15.3,
+          "original_price": 18.0,
+          "sku_id": "5704303389980"
+        },
+        {
+          "name": "降坡泥品茗杯200mL以下",
+          "price": 18.0,
+          "original_price": null,
+          "sku_id": "5704303389981"
+        },
+        {
+          "name": "大红袍品茗杯200mL以下",
+          "price": 18.0,
+          "original_price": null,
+          "sku_id": "5704303389982"
         }
       ],
       "images": [
-        "/images/products/tk-391/main_1.webp",
-        "/images/products/tk-391/main_2.webp",
-        "/images/products/tk-391/main_3.webp",
-        "/images/products/tk-391/main_4.webp",
-        "/images/products/tk-391/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-391/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-391/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-391/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-391/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-391/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:42:53.235570",
-      "item_id": "1050609840447"
+      "specs": {
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "color": "枫叶品茗杯 降坡泥品茗杯 大红袍品茗杯"
+      },
+      "date_uploaded": "2026-06-21T20:54:50.017922",
+      "item_id": "871103562740"
     },
     {
       "id": "tk-392",
