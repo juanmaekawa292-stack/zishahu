@@ -35,32 +35,40 @@
     {
       "id": "tk-269",
       "source_sku": "622517096426",
-      "source_url": "https://detail.tmall.com/item.htm?id=622517096426&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guyixingyuankuangzishahuchunshougongchahuchajutaozhuangjiayongzinishipiaohu",
+      "source_url": "https://detail.tmall.com/item.htm?id=652333407279&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "藏壶天下纯手工宜兴紫砂壶茶具泡茶壶原矿紫泥紫砂茶壶单壶水平壶",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴原矿紫砂壶 纯手工茶壶茶具套装家用 紫泥景舟石瓢壶",
-      "title_zhTW": "古悦堂 宜興原礦紫砂壺 純手工茶壺茶具套裝家用 紫泥景舟石瓢壺",
+      "title_zhCN": "藏壶天下纯手工宜兴紫砂壶茶具泡茶壶原矿紫泥紫砂茶壶单壶水平壶",
+      "title_zhTW": "藏壺天下純手工宜興紫砂壺茶具泡茶壺原礦紫泥紫砂茶壺單壺水平壺",
       "variants": [
         {
-          "name": "一壶四杯约260ml",
-          "price": 362.5,
-          "original_price": 436.5,
-          "sku_id": "4978177329991"
+          "name": "纳福水平201mL(含)-300mL(含)",
+          "price": 198.0,
+          "original_price": 398.0,
+          "sku_id": "4876423143732"
         }
       ],
       "images": [
-        "/images/products/tk-269/main_1.webp",
-        "/images/products/tk-269/main_2.webp",
-        "/images/products/tk-269/main_3.webp",
-        "/images/products/tk-269/main_4.webp",
-        "/images/products/tk-269/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-269/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-269/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-269/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-269/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-269/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-269/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:35:18.252585",
-      "item_id": "622517096426"
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "水平",
+        "packaging": "礼盒装",
+        "color": "纳福水平"
+      },
+      "date_uploaded": "2026-06-21T20:35:07.732317",
+      "item_id": "652333407279"
     },
     {
       "id": "tk-270",
