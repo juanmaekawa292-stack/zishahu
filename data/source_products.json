@@ -9247,6 +9247,38 @@
         "color": "喜上眉梢"
       },
       "date_uploaded": "2026-06-21T20:31:32.929107"
+    },
+    {
+      "id": "tk-249",
+      "item_id": "666227788604",
+      "source_url": "https://detail.tmall.com/item.htm?id=666227788604&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "家用茶艺套组黑檀木茶道六君子功夫茶具配件茶刀茶勺茶叉茶夹套装",
+      "category": "teapot",
+      "title_zhCN": "家用茶艺套组黑檀木茶道六君子功夫茶具配件茶刀茶勺茶叉茶夹套装",
+      "title_zhTW": "家用茶藝套組黑檀木茶道六君子功夫茶具配件茶刀茶勺茶叉茶夹套裝",
+      "variants": [
+        {
+          "name": "黑檀木茶道六君子款式一",
+          "price": 86.0,
+          "original_price": 138.0,
+          "sku_id": "4976520406670"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-249/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-249/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-249/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-249/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-249/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "scenario": "日常使用",
+        "mainImageSource": "自主实拍图",
+        "handmade": "手工",
+        "color": "黑檀木茶道六君子款式一"
+      },
+      "date_uploaded": "2026-06-21T20:31:45.824186"
     }
   ]
 }
