@@ -3863,30 +3863,42 @@
     {
       "id": "tk-361",
       "source_sku": "1054173448088",
-      "source_url": "https://detail.tmall.com/item.htm?id=1054173448088&rn=74b8595a12adf656cb929f2a9ff5ed7e&abbucket=14",
-      "slug": "guchunshougongzishabeidarongliangpaochabeichabeiyongbei",
-      "category": "cup",
-      "title_zhCN": "古悦堂纯手工紫砂盖杯大容量泡茶杯办公室喝茶杯个人专用山水盖杯",
-      "title_zhTW": "古悦堂純手工紫砂盖杯大容量泡茶杯办公室喝茶杯个人专用山水盖杯",
+      "source_url": "https://detail.tmall.com/item.htm?id=877898650970&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "宜兴紫砂壶纯手工泥绘花鸟功夫茶具原矿大红袍家用泡茶壶西施壶",
+      "category": "teapot",
+      "title_zhCN": "宜兴紫砂壶纯手工泥绘花鸟功夫茶具原矿大红袍家用泡茶壶西施壶",
+      "title_zhTW": "宜興紫砂壺純手工泥繪花鸟功夫茶具原礦大红袍家用泡茶壺西施壺",
       "variants": [
         {
-          "name": "原矿紫砂 | 竹节山水盖杯约450ml",
-          "price": 100.0,
-          "original_price": 118.0,
-          "sku_id": "6254556170147"
+          "name": "泥绘西施201mL(含)-300mL(含)",
+          "price": 549.1,
+          "original_price": 940.0,
+          "sku_id": "5886550551087"
         }
       ],
       "images": [
-        "/images/products/tk-361/main_1.webp",
-        "/images/products/tk-361/main_2.webp",
-        "/images/products/tk-361/main_3.webp",
-        "/images/products/tk-361/main_4.webp",
-        "/images/products/tk-361/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-361/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-361/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-361/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-361/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-361/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:41:02.520813",
-      "item_id": "1054173448088"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-361.mp4"
+      ],
+      "specs": {
+        "craft": "泥绘 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "大红袍",
+        "shapeType": "西施壶",
+        "packaging": "礼盒装",
+        "color": "泥绘西施"
+      },
+      "date_uploaded": "2026-06-21T20:50:00.573831",
+      "item_id": "877898650970"
     },
     {
       "id": "tk-362",
