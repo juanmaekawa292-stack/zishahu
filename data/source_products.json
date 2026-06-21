@@ -642,30 +642,42 @@
     {
       "id": "tk-284",
       "source_sku": "1036324734819",
-      "source_url": "https://detail.tmall.com/item.htm?id=1036324734819&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingzishahuchunshougongchahupaocha1chaju2026xinkuanli",
+      "source_url": "https://detail.tmall.com/item.htm?id=1019844463894&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "宜兴紫砂壶手工茶壶泡茶家用刻生肖马紫砂茶具单壶橘黄朱泥秦权壶",
       "category": "teapot",
-      "title_zhCN": "宜兴紫砂壶纯手工茶壶泡茶一人饮茶具2026新款送客户领导商务礼物",
-      "title_zhTW": "宜興紫砂壺純手工茶壺泡茶一人饮茶具2026新款送客戶领导商务禮物",
+      "title_zhCN": "宜兴紫砂壶手工茶壶泡茶家用刻生肖马紫砂茶具单壶橘黄朱泥秦权壶",
+      "title_zhTW": "宜興紫砂壺手工茶壺泡茶家用刻生肖马紫砂茶具單壺橘黄朱泥秦權壺",
       "variants": [
         {
-          "name": "约130ml",
-          "price": 1088.0,
-          "original_price": 1280.0,
-          "sku_id": "6218252706918"
+          "name": "秦权201mL(含)-300mL(含)",
+          "price": 211.0,
+          "original_price": 460.0,
+          "sku_id": "6032605381916"
         }
       ],
       "images": [
-        "/images/products/tk-284/main_1.webp",
-        "/images/products/tk-284/main_2.webp",
-        "/images/products/tk-284/main_3.webp",
-        "/images/products/tk-284/main_4.webp",
-        "/images/products/tk-284/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-284/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-284/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-284/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-284/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-284/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:35:53.064267",
-      "item_id": "1036324734819"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-284.mp4"
+      ],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "红卫橘黄朱泥",
+        "shapeType": "秦权",
+        "packaging": "礼盒装",
+        "color": "秦权"
+      },
+      "date_uploaded": "2026-06-21T20:37:33.238161",
+      "item_id": "1019844463894"
     },
     {
       "id": "tk-285",
