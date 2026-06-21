@@ -6751,48 +6751,39 @@
     {
       "id": "tk-435",
       "source_sku": "1053353733923",
-      "source_url": "https://detail.tmall.com/item.htm?id=1053353733923&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "gupaochachabeijiayongchahuhubei4taochajutaozhuang",
+      "source_url": "https://detail.tmall.com/item.htm?id=639606694465&rn=1a9d503a5eb80610a62081f1d55c5c59&abbucket=14",
+      "slug": "宜兴名家紫砂壶纯手工四方茶壶单人家用茶具小茶壶一人用单壶方壶",
       "category": "teapot",
-      "title_zhCN": "古悦堂陶瓷泡茶盖碗高档喝茶杯家用茶壶托壶承杯垫四件套茶具套装",
-      "title_zhTW": "古悦堂陶瓷泡茶盖碗高档喝茶杯家用茶壺托壺承杯垫四件套茶具套裝",
+      "title_zhCN": "宜兴名家紫砂壶纯手工四方茶壶单人家用茶具小茶壶一人用单壶方壶",
+      "title_zhTW": "宜興名家紫砂壺純手工四方茶壺單人家用茶具小茶壺一人用單壺方壺",
       "variants": [
         {
-          "name": "山楼云涧 | 容天杯",
-          "price": 57.8,
-          "original_price": 68.0,
-          "sku_id": "6090454961325"
-        },
-        {
-          "name": "山楼云涧 | 杯垫",
-          "price": 74.8,
-          "original_price": 88.0,
-          "sku_id": "6090454961326"
-        },
-        {
-          "name": "山楼云涧 | 二才盖碗",
-          "price": 100.0,
-          "original_price": 118.0,
-          "sku_id": "6090454961323"
-        },
-        {
-          "name": "山楼云涧 | 壶承",
-          "price": 134.0,
-          "original_price": 158.0,
-          "sku_id": "6090454961324"
+          "name": "升方201mL(含)-300mL(含)",
+          "price": 869.0,
+          "original_price": 1380.0,
+          "sku_id": "4589922969335"
         }
       ],
       "images": [
-        "/images/products/tk-435/main_1.webp",
-        "/images/products/tk-435/main_2.webp",
-        "/images/products/tk-435/main_3.webp",
-        "/images/products/tk-435/main_4.webp",
-        "/images/products/tk-435/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-435/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-435/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-435/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-435/main_4.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:45:37.429655",
-      "item_id": "1053353733923"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "四方壶",
+        "packaging": "礼盒装",
+        "color": "升方"
+      },
+      "date_uploaded": "2026-06-21T21:02:06.507222",
+      "item_id": "639606694465"
     },
     {
       "id": "tk-436",
