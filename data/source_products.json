@@ -1656,32 +1656,40 @@
     {
       "id": "tk-308",
       "source_sku": "1009926782913",
-      "source_url": "https://detail.tmall.com/item.htm?id=1009926782913&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingzishachajuchunshougongpaochahuzhengzishahu1yonghuli",
+      "source_url": "https://detail.tmall.com/item.htm?id=682090735806&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "小容量宜兴紫砂壶纯手工家用功夫茶具原矿紫茄泥一人用泡茶壶水平",
       "category": "teapot",
-      "title_zhCN": "宜兴紫砂茶具纯手工泡茶壶正品紫砂壶一人用小壶送领导朋友商务礼",
-      "title_zhTW": "宜興紫砂茶具純手工泡茶壺正品紫砂壺一人用小壺送领导朋友商务禮",
+      "title_zhCN": "小容量宜兴紫砂壶纯手工家用功夫茶具原矿紫茄泥一人用泡茶壶水平",
+      "title_zhTW": "小容量宜興紫砂壺純手工家用功夫茶具原礦紫茄泥一人用泡茶壺水平",
       "variants": [
         {
-          "name": "紫玉金砂 | 高执【精美礼盒】约130ml",
-          "price": 594.0,
-          "original_price": 699.0,
-          "sku_id": "6176549622117"
+          "name": "水平壶101mL(含)-200mL(含)",
+          "price": 250.0,
+          "original_price": 398.0,
+          "sku_id": "5056932387358"
         }
       ],
       "images": [
-        "/images/products/tk-308/main_1.webp",
-        "/images/products/tk-308/main_2.webp",
-        "/images/products/tk-308/main_3.webp",
-        "/images/products/tk-308/main_4.webp",
-        "/images/products/tk-308/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-308/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-308/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-308/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-308/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-308/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-308/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:37:26.893117",
-      "item_id": "1009926782913"
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫茄泥",
+        "shapeType": "水平",
+        "packaging": "礼盒装",
+        "color": "水平壶"
+      },
+      "date_uploaded": "2026-06-21T20:41:14.935609",
+      "item_id": "682090735806"
     },
     {
       "id": "tk-309",
