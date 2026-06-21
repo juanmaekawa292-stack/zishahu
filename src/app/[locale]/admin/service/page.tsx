@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useTranslations } from "next-intl";
 import { useState } from "react";
@@ -127,7 +127,7 @@ export default function AdminServicePage() {
   };
 
   return (
-    <div className="mx-auto px-4 py-8 sm:px-6 lg:px-8">
+    <div>
       {/* Header */}
       <div className="mb-6 flex items-center justify-between">
         <div>

@@ -15,7 +15,19 @@ export default function PaymentSettingsPage() {
   const [error, setError] = useState("")
   const [config, setConfig] = useState({ oid_partner: "", private_key: "" })
 
-  
+  useEffect(() => {
+    async function init() {
+      const user = await getCurrentUser()
+      if (!user) {
+        router.replace("/login")
+        return
+      }
+      await loadConfig()
+      setAuthorized(true)
+    }
+    init()
+  }, [])
+
   async function loadConfig() {
     try {
       const res = await fetch("/api/payment/settings")

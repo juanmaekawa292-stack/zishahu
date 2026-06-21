@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState } from "react";
 import {
@@ -102,7 +102,7 @@ export default function ProductOpsPage() {
   ];
 
   return (
-    <div className="mx-auto px-4 py-8 sm:px-6 lg:px-8">
+    <div>
       {/* Header */}
       <div className="mb-8 flex items-center justify-between">
         <div>

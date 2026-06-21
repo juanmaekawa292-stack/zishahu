@@ -1,7 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import { Users, Search, Mail, Globe, ShoppingCart, MoreHorizontal, ChevronDown, ArrowUpDown } from "lucide-react";
+import { getCurrentUser } from "@/services/auth";
 import { cn } from "@/lib/utils";
 
 var mockCustomers = [
@@ -16,9 +18,19 @@ var mockCustomers = [
 ];
 
 var flagEmoji: Record<string, string> = { US: "🇺🇸", CA: "🇨🇦", GB: "🇬🇧", AU: "🇦🇺", JP: "🇯🇵", DE: "🇩🇪", FR: "🇫🇷", SG: "🇸🇬", KR: "🇰🇷", TW: "🇹🇼" };
+var countryNames: Record<string, string> = { US: "美国", CA: "加拿大", GB: "英国", AU: "澳大利亚", JP: "日本", DE: "德国", FR: "法国", SG: "新加坡", KR: "韩国", TW: "台湾" };
+
 var chatIcons: Record<string, string> = { whatsapp: "💬", telegram: "✈️", wechat: "💚", messenger: "🔵", signal: "🟢", line: "🟣" };
 
 export default function AdminCustomersPage() {
+  var router = useRouter();
+  var [authorized, setAuthorized] = useState(false);
+
+  useEffect(function() {
+    var user = getCurrentUser();
+    if (!user || user.role !== "admin") router.push("/login");
+    else setAuthorized(true);
+  }, [router]);
   var [search, setSearch] = useState("");
   var [sortBy, setSortBy] = useState("spent");
 
@@ -31,6 +43,8 @@ export default function AdminCustomersPage() {
   var totalCustomers = mockCustomers.length;
   var activeCustomers = mockCustomers.filter(function(c) { return c.status === "active"; }).length;
   var totalRevenue = mockCustomers.reduce(function(s, c) { return s + c.spent; }, 0);
+
+  if (!authorized) return null;
 
   return (
     <div>
@@ -68,7 +82,7 @@ export default function AdminCustomersPage() {
                 <tr key={c.email} className="hover:bg-muted/30 transition-colors">
                   <td className="px-4 py-3"><span className="text-sm font-medium text-foreground">{c.name}</span></td>
                   <td className="px-4 py-3 text-xs text-muted-foreground">{c.email}</td>
-                  <td className="px-4 py-3 text-xs">{flagEmoji[c.country] || "🌐"} {c.country}</td>
+                  <td className="px-4 py-3 text-xs">{flagEmoji[c.country] || "🌐"} {countryNames[c.country] || c.country}</td>
                   <td className="px-4 py-3 text-sm">{c.orders}</td>
                   <td className="px-4 py-3 text-sm font-medium">${c.spent.toFixed(2)}</td>
                   <td className="px-4 py-3 text-xs">
