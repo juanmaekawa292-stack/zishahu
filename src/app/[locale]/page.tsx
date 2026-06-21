@@ -1,16 +1,16 @@
-﻿import { useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import { Link } from "@/i18n";
 import { HomeCarousel } from "@/components/product/HomeCarousel";
 import { ProductCard } from "@/components/product/ProductCard";
 import { products } from "@/data/products";
-import { ArrowRight, Shield, Truck, RefreshCw } from "lucide-react";
+import { ArrowRight, Shield, Truck, RefreshCw, Star, Sparkles, Flame, Heart } from "lucide-react";
 
 const categoryCards = [
-  { key: "teapot", emoji: "🫖", name: "??ɰ??", count: products.filter((p) => p.category === "teapot").length },
-  { key: "cup", emoji: "🍵", name: "?豭", count: products.filter((p) => p.category === "cup").length },
-  { key: "teaPet", emoji: "🦊", name: "???", count: products.filter((p) => p.category === "teaPet").length },
-  { key: "teaTool", emoji: "🔧", name: "??????", count: products.filter((p) => p.category === "teaTool").length },
-  { key: "gift", emoji: "🎁", name: "??Ʒ??װ", count: products.filter((p) => p.category === "gift").length },
+  { key: "teapot", emoji: "🫖", name: "紫砂壶", count: products.filter((p) => p.category === "teapot").length },
+  { key: "cup", emoji: "🍵", name: "茶杯", count: products.filter((p) => p.category === "cup").length },
+  { key: "teaPet", emoji: "🦊", name: "茶宠", count: products.filter((p) => p.category === "teaPet").length },
+  { key: "teaTool", emoji: "🔧", name: "茶具配件", count: products.filter((p) => p.category === "teaTool").length },
+  { key: "gift", emoji: "🎁", name: "礼品套装", count: products.filter((p) => p.category === "gift").length },
 ];
 
 export default function HomePage() {
@@ -24,196 +24,91 @@ export default function HomePage() {
     .slice()
     .sort((a, b) => b.rating - a.rating)
     .slice(0, 8);
-  const shapes = [
-    ...new Set(products.filter((p) => p.specs.shapeType).map((p) => p.specs.shapeType as string)),
-  ];
 
   return (
     <div>
       <HomeCarousel />
 
-      {/* Features Section */}
-      <section className="border-y bg-muted/30">
-        <div className="mx-auto max-w-[1600px] px-4 py-12 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
-            <div className="flex items-center gap-4 rounded-lg bg-background p-6 shadow-sm">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
-                <Truck className="h-6 w-6 text-primary" />
+      {/* Features Strip - mobile optimized */}
+      <section className="border-y border-border/30 bg-muted/20">
+        <div className="mx-auto max-w-[1600px] px-3 py-8 sm:px-6 lg:px-8">
+          <div className="flex flex-nowrap gap-3 overflow-x-auto pb-2 sm:grid sm:grid-cols-3 sm:gap-6 scrollbar-none">
+            <div className="flex min-w-[200px] sm:min-w-0 shrink-0 items-center gap-3 rounded-lg bg-background p-4 shadow-sm border border-border/30">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10">
+                <Truck className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-medium text-foreground">ȫ?????</h3>
-                <p className="text-sm text-muted-foreground">??$99???˷ѣ???ȫ?ʹ?</p>
+                <h3 className="text-sm font-medium text-foreground">全球配送</h3>
+                <p className="text-xs text-muted-foreground whitespace-nowrap">满，全球送达</p>
               </div>
             </div>
-            <div className="flex items-center gap-4 rounded-lg bg-background p-6 shadow-sm">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
-                <Shield className="h-6 w-6 text-primary" />
+            <div className="flex min-w-[200px] sm:min-w-0 shrink-0 items-center gap-3 rounded-lg bg-background p-4 shadow-sm border border-border/30">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10">
+                <Shield className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-medium text-foreground">Ʒ?ʱ???</h3>
-                <p className="text-sm text-muted-foreground">ԭ????ɰ???ֹ?????</p>
+                <h3 className="text-sm font-medium text-foreground">品质保证</h3>
+                <p className="text-xs text-muted-foreground whitespace-nowrap">原矿紫砂，手工制作</p>
               </div>
             </div>
-            <div className="flex items-center gap-4 rounded-lg bg-background p-6 shadow-sm">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
-                <RefreshCw className="h-6 w-6 text-primary" />
+            <div className="flex min-w-[200px] sm:min-w-0 shrink-0 items-center gap-3 rounded-lg bg-background p-4 shadow-sm border border-border/30">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10">
+                <RefreshCw className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-medium text-foreground">?????˻?</h3>
-                <p className="text-sm text-muted-foreground">30???˻???????ѡ??</p>
+                <h3 className="text-sm font-medium text-foreground">无忧退换</h3>
+                <p className="text-xs text-muted-foreground whitespace-nowrap">30天退换，放心选购</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Category Browse */}
+      {/* Category Grid */}
       <section>
-        <div className="mx-auto max-w-[1600px] px-4 py-16 sm:px-6 lg:px-8">
-          <div className="mb-8 text-center">
-            <h2 className="text-2xl font-bold tracking-tight text-foreground">???????</h2>
-            <p className="mt-1 text-sm text-muted-foreground">??Ʒ??????ҵ????ǵ???ɰ??Ʒ</p>
+        <div className="mx-auto max-w-[1600px] px-3 py-12 sm:px-6 lg:px-8">
+          <div className="mb-6">
+            <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">分类浏览</h2>
+            <p className="mt-1 text-sm text-muted-foreground">探索我们的紫砂世界</p>
           </div>
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5">
             {categoryCards.map((cat) => (
               <Link
                 key={cat.key}
                 href={`/products?category=${cat.key}`}
-                className="group flex flex-col items-center rounded-xl border bg-background p-6 transition-all hover:border-primary hover:shadow-lg hover:shadow-primary/5"
+                className="group flex flex-col items-center rounded-xl border border-border/40 bg-background p-5 sm:p-6 transition-all hover:border-primary hover:shadow-lg hover:shadow-primary/5 active:scale-95"
               >
-                <span className="mb-3 text-4xl transition-transform group-hover:scale-110">{cat.emoji}</span>
+                <span className="mb-2 text-3xl sm:text-4xl transition-transform group-hover:scale-110">{cat.emoji}</span>
                 <span className="text-sm font-medium text-foreground">{cat.name}</span>
-                <span className="mt-1 text-xs text-muted-foreground">{cat.count} ????Ʒ</span>
+                <span className="mt-1 text-xs text-muted-foreground">{cat.count} 件商品</span>
               </Link>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Top Rated */}
-      <section className="bg-muted/50">
-        <div className="mx-auto max-w-[1600px] px-4 py-16 sm:px-6 lg:px-8">
-          <div className="mb-8 flex items-center justify-between">
-            <div>
-              <h2 className="text-2xl font-bold tracking-tight text-foreground">热销排行</h2>
-              <p className="mt-1 text-sm text-muted-foreground">评分最高的热门紫砂作品</p>
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-            {topRated.map((product) => (
-              <div key={product.id} className="relative">
-                {product.rating > 4.9 && (
-                  <div className="absolute -top-2 -right-2 z-10">
-                    <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-red-500 to-rose-500 px-2.5 py-0.5 text-[10px] font-bold text-white shadow-lg shadow-red-500/30">
-                      <svg className="h-3 w-3" viewBox="0 0 24 24" fill="currentColor"><path d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" /></svg>
-                      HOT
-                    </span>
-                  </div>
-                )}
-                <ProductCard product={product} />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Shape Gallery */}
-      {shapes.length > 0 && (
-        <section>
-          <div className="mx-auto max-w-[1600px] px-4 py-16 sm:px-6 lg:px-8">
-            <div className="mb-8 text-center">
-              <h2 className="text-2xl font-bold tracking-tight text-foreground">壶型速览</h2>
-              <p className="mt-1 text-sm text-muted-foreground">按壶型筛选，找到你喜欢的款式</p>
-            </div>
-            <div className="flex flex-wrap justify-center gap-3">
-              {shapes.map((shape) => (
-                <Link
-                  key={shape}
-                  href={"/products?shape=" + encodeURIComponent(shape)}
-                  className="rounded-full border border-border bg-background px-5 py-2.5 text-sm text-foreground hover:border-primary hover:text-primary hover:bg-primary/5 transition-all"
-                >
-                  {shape}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Top Rated */}
-      <section className="bg-muted/50">
-        <div className="mx-auto max-w-[1600px] px-4 py-16 sm:px-6 lg:px-8">
-          <div className="mb-8 flex items-center justify-between">
-            <div>
-              <h2 className="text-2xl font-bold tracking-tight text-foreground">????????</h2>
-              <p className="mt-1 text-sm text-muted-foreground">??????ߵ???????ɰ??Ʒ</p>
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-            {topRated.map((product, index) => (
-              <div key={product.id} className="relative">
-                {product.rating > 4.9 && (
-                  <div className="absolute -top-2 -right-2 z-10">
-                    <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-red-500 to-rose-500 px-2.5 py-0.5 text-[10px] font-bold text-white shadow-lg shadow-red-500/30">
-                      <svg className="h-3 w-3" viewBox="0 0 24 24" fill="currentColor"><path d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" /></svg>
-                      HOT
-                    </span>
-                  </div>
-                )}
-                <div className="absolute left-2 top-2 z-10 flex h-6 w-6 items-center justify-center rounded-full bg-primary text-[11px] font-bold text-primary-foreground shadow">
-                  {index + 1}
-                </div>
-                <ProductCard product={product} />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Shape Quick View */}
-      <section>
-        <div className="mx-auto max-w-[1600px] px-4 py-16 sm:px-6 lg:px-8">
-          <div className="mb-8 text-center">
-            <h2 className="text-2xl font-bold tracking-tight text-foreground">????????</h2>
-            <p className="mt-1 text-sm text-muted-foreground">?????????̽????ɰ????</p>
-          </div>
-          <div className="flex flex-wrap justify-center gap-3">
-            {shapes.map((shape) => (
-              <Link
-                key={shape}
-                href={`/products?shape=${encodeURIComponent(shape!)}`}
-                className="inline-flex items-center rounded-full border bg-background px-5 py-2 text-sm font-medium text-foreground transition-all hover:border-primary hover:bg-primary/5 hover:text-primary hover:shadow-sm"
-              >
-                {shape}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Featured Products */}
-      <section>
-        <div className="mx-auto max-w-[1600px] px-4 py-16 sm:px-6 lg:px-8">
-          <div className="mb-8 flex items-center justify-between">
-            <div>
-              <h2 className="text-2xl font-bold tracking-tight text-foreground">{t("featured")}</h2>
-              <p className="mt-1 text-sm text-muted-foreground">??ѡ??????ɰ??Ʒ</p>
+      {/* Hot Seller - Top Rated */}
+      <section className="bg-gradient-to-b from-muted/30 to-transparent">
+        <div className="mx-auto max-w-[1600px] px-3 py-12 sm:px-6 lg:px-8">
+          <div className="mb-5 flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <Flame className="h-5 w-5 text-orange-500" />
+              <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">热销排行</h2>
             </div>
             <Link
-              href="/products"
-              className="hidden sm:inline-flex items-center gap-1 text-sm text-primary hover:text-primary/80 transition-colors"
+              href="/products?sort=rating"
+              className="flex items-center gap-1 text-sm text-primary hover:text-primary/80 transition-colors"
             >
-              {t("viewAll")} <ArrowRight className="h-4 w-4" />
+              查看全部 <ArrowRight className="h-3.5 w-3.5" />
             </Link>
           </div>
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-            {featuredProducts.map((product) => (
+          <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+            {topRated.map((product, idx) => (
               <div key={product.id} className="relative">
-                {product.rating > 4.9 && (
-                  <div className="absolute -top-2 -right-2 z-10">
-                    <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-red-500 to-rose-500 px-2.5 py-0.5 text-[10px] font-bold text-white shadow-lg shadow-red-500/30">
-                      <svg className="h-3 w-3" viewBox="0 0 24 24" fill="currentColor"><path d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" /></svg>
-                      HOT
+                {idx < 3 && (
+                  <div className="absolute -top-1.5 -left-1.5 z-10">
+                    <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-gradient-to-br from-amber-500 to-orange-600 text-[11px] font-bold text-white shadow-lg">
+                      {idx + 1}
                     </span>
                   </div>
                 )}
@@ -225,21 +120,49 @@ export default function HomePage() {
       </section>
 
       {/* New Arrivals */}
-      <section className="bg-muted/50">
-        <div className="mx-auto max-w-[1600px] px-4 py-16 sm:px-6 lg:px-8">
-          <div className="mb-8 flex items-center justify-between">
-            <div>
-              <h2 className="text-2xl font-bold tracking-tight text-foreground">{t("newArrivals")}</h2>
-              <p className="mt-1 text-sm text-muted-foreground">?????ϼܵ???ɰ??Ʒ</p>
+      <section>
+        <div className="mx-auto max-w-[1600px] px-3 py-12 sm:px-6 lg:px-8">
+          <div className="mb-5 flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <Sparkles className="h-5 w-5 text-amber-500" />
+              <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">{t("newArrivals")}</h2>
             </div>
+            <Link
+              href="/products?sort=newest"
+              className="flex items-center gap-1 text-sm text-primary hover:text-primary/80 transition-colors"
+            >
+              查看全部 <ArrowRight className="h-3.5 w-3.5" />
+            </Link>
           </div>
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+          <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
             {newProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Products */}
+      <section className="bg-muted/20">
+        <div className="mx-auto max-w-[1600px] px-3 py-12 sm:px-6 lg:px-8">
+          <div className="mb-5 flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <Star className="h-5 w-5 text-primary" />
+              <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">{t("featured")}</h2>
+            </div>
+            <Link
+              href="/products"
+              className="flex items-center gap-1 text-sm text-primary hover:text-primary/80 transition-colors"
+            >
+              查看全部 <ArrowRight className="h-3.5 w-3.5" />
+            </Link>
+          </div>
+          <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+            {featuredProducts.map((product) => (
               <div key={product.id} className="relative">
                 {product.rating > 4.9 && (
                   <div className="absolute -top-2 -right-2 z-10">
                     <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-red-500 to-rose-500 px-2.5 py-0.5 text-[10px] font-bold text-white shadow-lg shadow-red-500/30">
-                      <svg className="h-3 w-3" viewBox="0 0 24 24" fill="currentColor"><path d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" /></svg>
                       HOT
                     </span>
                   </div>
@@ -251,29 +174,29 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="mx-auto max-w-[1600px] px-4 py-20 sm:px-6 lg:px-8">
-        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-primary to-secondary p-8 sm:p-12">
+      {/* CTA */}
+      <section className="mx-auto max-w-[1600px] px-3 py-16 sm:px-6 lg:px-8">
+        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-primary via-primary to-secondary p-8 sm:p-12">
           <div className="relative z-10 text-center">
-            <h2 className="text-2xl font-bold text-primary-foreground sm:text-3xl">
-              ?????????ɰ֮??
+            <h2 className="text-xl sm:text-3xl font-bold text-primary-foreground">
+              开启你的紫砂之旅
             </h2>
-            <p className="mt-3 text-sm text-primary-foreground/80 max-w-lg mx-auto">
-              ÿһ?Ѻ??????Լ????Ը??ҵ?????????????һ?ѡ?
-              ע???Ϊ??Ա??????ר???Żݺ???????Ʒ֪ͨ??
+            <p className="mt-3 text-sm text-primary-foreground/80 max-w-lg mx-auto leading-relaxed">
+              每一把壶都有它自己的故事。无论你是资深茶客还是刚刚入门，
+              在这里都能找到属于你的那一把。
             </p>
             <div className="mt-6 flex justify-center gap-3">
               <Link
                 href="/register"
-                className="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 text-sm font-medium text-primary hover:bg-white/90 transition-colors shadow-lg"
+                className="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 text-sm font-medium text-primary hover:bg-white/90 transition-colors shadow-lg active:scale-95"
               >
-                {t("register")}
+                注册会员
               </Link>
               <Link
                 href="/products"
-                className="inline-flex items-center gap-2 rounded-lg border border-white/30 px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-white/10 transition-colors"
+                className="inline-flex items-center gap-2 rounded-lg border border-white/30 px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-white/10 transition-colors active:scale-95"
               >
-                {t("viewAll")}
+                浏览商品
               </Link>
             </div>
           </div>
