@@ -4380,36 +4380,40 @@
     {
       "id": "tk-374",
       "source_sku": "714586974020",
-      "source_url": "https://detail.tmall.com/item.htm?id=714586974020&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingzishahuchunshougongpaochahujiayongzhengchajuhushadaxishi",
+      "source_url": "https://detail.tmall.com/item.htm?id=600185216904&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂壶纯手工老紫泥泡茶壶家用功夫茶具单壶一帆风顺",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶纯手工泡茶壶家用正品茶具单壶 粗砂大红袍西施",
-      "title_zhTW": "古悦堂 宜興紫砂壺純手工泡茶壺家用正品茶具單壺 粗砂大红袍西施",
+      "title_zhCN": "藏壶天下宜兴紫砂壶纯手工老紫泥泡茶壶家用功夫茶具单壶一帆风顺",
+      "title_zhTW": "藏壺天下宜興紫砂壺純手工老紫泥泡茶壺家用功夫茶具單壺一帆风顺",
       "variants": [
         {
-          "name": "单壶约220mL",
-          "price": 327.0,
-          "original_price": 399.0,
-          "sku_id": "5012430329493"
-        },
-        {
-          "name": "【点收藏加购】享优先发货全场包邮▲晒图有好礼！约220mL",
-          "price": 399.0,
-          "original_price": null,
-          "sku_id": "5012430329494"
+          "name": "老紫泥款101mL(含)-200mL(含)",
+          "price": 540.0,
+          "original_price": 1080.0,
+          "sku_id": "4198531357162"
         }
       ],
       "images": [
-        "/images/products/tk-374/main_1.webp",
-        "/images/products/tk-374/main_2.webp",
-        "/images/products/tk-374/main_3.webp",
-        "/images/products/tk-374/main_4.webp",
-        "/images/products/tk-374/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-374/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-374/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-374/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-374/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-374/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:42:02.278452",
-      "item_id": "714586974020"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "老紫泥",
+        "shapeType": "一帆风顺",
+        "packaging": "礼盒装",
+        "color": "老紫泥款"
+      },
+      "date_uploaded": "2026-06-21T20:52:09.984139",
+      "item_id": "600185216904"
     },
     {
       "id": "tk-375",
