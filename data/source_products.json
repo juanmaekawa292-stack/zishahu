@@ -5865,30 +5865,40 @@
     {
       "id": "tk-412",
       "source_sku": "1039477812149",
-      "source_url": "https://detail.tmall.com/item.htm?id=1039477812149&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingchunshougongzishahupaochajiayongzhengchahu2026xinkuanli",
+      "source_url": "https://detail.tmall.com/item.htm?id=619479069177&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂茶壶单壶纯全手工刻绘降坡泥石瓢单壶家用泡茶壶",
       "category": "teapot",
-      "title_zhCN": "宜兴纯手工紫砂壶泡茶家用正品茶壶2026新款送父亲长辈身体礼物",
-      "title_zhTW": "宜興純手工紫砂壺泡茶家用正品茶壺2026新款送父亲长辈身体禮物",
+      "title_zhCN": "藏壶天下宜兴紫砂茶壶单壶纯全手工刻绘降坡泥石瓢单壶家用泡茶壶",
+      "title_zhTW": "藏壺天下宜興紫砂茶壺單壺純全手工刻繪降坡泥石瓢單壺家用泡茶壺",
       "variants": [
         {
-          "name": "原矿紫砂 | 节节高升【精美礼盒】约320ml",
-          "price": 1173.0,
-          "original_price": 1380.0,
-          "sku_id": "6055769708978"
+          "name": "秋水长天201mL(含)-300mL(含)",
+          "price": 932.0,
+          "original_price": 1480.0,
+          "sku_id": "4378641361206"
         }
       ],
       "images": [
-        "/images/products/tk-412/main_1.webp",
-        "/images/products/tk-412/main_2.webp",
-        "/images/products/tk-412/main_3.webp",
-        "/images/products/tk-412/main_4.webp",
-        "/images/products/tk-412/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-412/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-412/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-412/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-412/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-412/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:44:14.480278",
-      "item_id": "1039477812149"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "降坡泥",
+        "shapeType": "石瓢壶",
+        "packaging": "礼盒装",
+        "color": "秋水长天"
+      },
+      "date_uploaded": "2026-06-21T20:58:10.921832",
+      "item_id": "619479069177"
     },
     {
       "id": "tk-413",
