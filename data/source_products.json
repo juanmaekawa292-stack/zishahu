@@ -6160,36 +6160,40 @@
     {
       "id": "tk-420",
       "source_sku": "1059363913382",
-      "source_url": "https://detail.tmall.com/item.htm?id=1059363913382&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guchunshougongzishahuzhengpaochahujiayongchajutaozhuanghanwahuli",
+      "source_url": "https://detail.tmall.com/item.htm?id=632959107661&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "紫砂壶宜兴全手工刻绘六方泡茶壶井栏四号井底槽清朱倩冰单壶茶具",
       "category": "teapot",
-      "title_zhCN": "古悦堂纯手工紫砂壶正品泡茶壶家用茶具套装汉瓦壶送长辈朋友礼物",
-      "title_zhTW": "古悦堂純手工紫砂壺正品泡茶壺家用茶具套裝漢瓦壺送长辈朋友禮物",
+      "title_zhCN": "紫砂壶宜兴全手工刻绘六方泡茶壶井栏四号井底槽清朱倩冰单壶茶具",
+      "title_zhTW": "紫砂壺宜興全手工刻繪六方泡茶壺井欄四号井底槽清朱倩冰單壺茶具",
       "variants": [
         {
-          "name": "原矿紫砂 | 劲竹汉瓦【精美礼盒】约190ml",
-          "price": 299.0,
-          "original_price": 999.0,
-          "sku_id": "6102294160562"
-        },
-        {
-          "name": "原矿紫砂 | 一壶四杯【精美礼盒】约190ml",
-          "price": 327.0,
-          "original_price": 1032.0,
-          "sku_id": "6267188862281"
+          "name": "六方井栏101mL(含)-200mL(含)",
+          "price": 869.0,
+          "original_price": 1380.0,
+          "sku_id": "4515157541926"
         }
       ],
       "images": [
-        "/images/products/tk-420/main_1.webp",
-        "/images/products/tk-420/main_2.webp",
-        "/images/products/tk-420/main_3.webp",
-        "/images/products/tk-420/main_4.webp",
-        "/images/products/tk-420/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-420/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-420/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-420/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-420/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-420/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:44:47.839542",
-      "item_id": "1059363913382"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "四号井底槽清",
+        "shapeType": "井栏",
+        "packaging": "礼盒装",
+        "color": "六方井栏"
+      },
+      "date_uploaded": "2026-06-21T20:59:24.816357",
+      "item_id": "632959107661"
     },
     {
       "id": "tk-421",
