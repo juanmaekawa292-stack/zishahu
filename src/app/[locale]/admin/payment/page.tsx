@@ -55,7 +55,7 @@ export default function PaymentSettingsPage() {
   }
 
   return (
-    <div className="mx-auto px-4 py-8 sm:px-6 lg:px-8">
+    <div className="mx-auto">
       <div className="mb-8 flex items-center gap-3">
         <div className="rounded-lg bg-primary/10 p-2.5"><CreditCard className="h-6 w-6 text-primary" /></div>
         <div><h1 className="text-2xl font-bold text-foreground">支付设置</h1><p className="text-sm text-muted-foreground">配置连连支付商户信息</p></div>
