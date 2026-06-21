@@ -154,32 +154,35 @@
     {
       "id": "tk-272",
       "source_sku": "942099137417",
-      "source_url": "https://detail.tmall.com/item.htm?id=942099137417&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "yixingzishahuchunshougong1yongchaju2026xinkuanpaochahujiayongfuhuhanwa",
-      "category": "teapot",
-      "title_zhCN": "宜兴紫砂壶纯手工一人用茶具2026新款泡茶壶家用功夫小壶柴烧汉瓦",
-      "title_zhTW": "宜興紫砂壺純手工一人用茶具2026新款泡茶壺家用功夫小壺柴烧漢瓦",
+      "source_url": "https://detail.tmall.com/item.htm?id=664484202617&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "紫砂茶宠摆件精品可养茶具配件茶盘摆件可爱茶玩鸿运当头金鱼茶宠",
+      "category": "teaPet",
+      "title_zhCN": "紫砂茶宠摆件精品可养茶具配件茶盘摆件可爱茶玩鸿运当头金鱼茶宠",
+      "title_zhTW": "紫砂茶宠摆件精品可养茶具配件茶盘摆件可爱茶玩鸿运当头金鱼茶宠",
       "variants": [
         {
-          "name": "原矿紫砂 | 天星泥汉瓦【精美礼盒】约150ml",
-          "price": 398.0,
-          "original_price": 469.0,
-          "sku_id": "6230204219682"
+          "name": "鸿运当头",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4956732634319"
         }
       ],
       "images": [
-        "/images/products/tk-272/main_1.webp",
-        "/images/products/tk-272/main_2.webp",
-        "/images/products/tk-272/main_3.webp",
-        "/images/products/tk-272/main_4.webp",
-        "/images/products/tk-272/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-272/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-272/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-272/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-272/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-272/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-272/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:35:29.368642",
-      "item_id": "942099137417"
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "color": "鸿运当头",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:35:39.914683",
+      "item_id": "664484202617"
     },
     {
       "id": "tk-273",
