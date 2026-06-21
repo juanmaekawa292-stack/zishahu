@@ -342,30 +342,49 @@
     {
       "id": "tk-277",
       "source_sku": "1038091764916",
-      "source_url": "https://detail.tmall.com/item.htm?id=1038091764916&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingchunshougongpaochahujiayongzhengchaju2026xinkuanzishahulaoli",
+      "source_url": "https://detail.tmall.com/item.htm?id=604137652936&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂品茗杯纯全手工刻字茶杯紫泥柴烧窑变心经主人杯",
       "category": "teapot",
-      "title_zhCN": "宜兴纯手工泡茶壶家用正品茶具2026新款紫砂壶送长辈老师退休礼物",
-      "title_zhTW": "宜興純手工泡茶壺家用正品茶具2026新款紫砂壺送长辈老师退休禮物",
+      "title_zhCN": "藏壶天下宜兴紫砂品茗杯纯全手工刻字茶杯紫泥柴烧窑变心经主人杯",
+      "title_zhTW": "藏壺天下宜興紫砂品茗杯純全手工刻字茶杯紫泥柴烧窯变心經主人杯",
       "variants": [
         {
-          "name": "约240ml",
-          "price": 1088.0,
-          "original_price": 1280.0,
-          "sku_id": "6218236374458"
+          "name": "窑变心经主人杯200mL以下",
+          "price": 239.0,
+          "original_price": 380.0,
+          "sku_id": "4407117567048"
+        },
+        {
+          "name": "心经茶缸200mL以下",
+          "price": 239.0,
+          "original_price": 380.0,
+          "sku_id": "5080930856910"
+        },
+        {
+          "name": "心经主人杯-高款200mL以下",
+          "price": 239.0,
+          "original_price": 380.0,
+          "sku_id": "5080930856911"
         }
       ],
       "images": [
-        "/images/products/tk-277/main_1.webp",
-        "/images/products/tk-277/main_2.webp",
-        "/images/products/tk-277/main_3.webp",
-        "/images/products/tk-277/main_4.webp",
-        "/images/products/tk-277/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-277/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-277/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-277/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-277/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-277/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:35:38.362059",
-      "item_id": "1038091764916"
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "color": "窑变心经主人杯 心经茶缸 心经主人杯-高款"
+      },
+      "date_uploaded": "2026-06-21T20:36:26.381174",
+      "item_id": "604137652936"
     },
     {
       "id": "tk-278",
