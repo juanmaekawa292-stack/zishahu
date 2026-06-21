@@ -6285,60 +6285,51 @@
     {
       "id": "tk-423",
       "source_sku": "528271607833",
-      "source_url": "https://detail.tmall.com/item.htm?id=528271607833&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "gufuchachachayuancha",
-      "category": "teapot",
-      "title_zhCN": "古悦堂 台湾式功夫电胶木茶盘 电木茶盘 胶木茶海 环保原板茶盘",
-      "title_zhTW": "古悦堂 台湾式功夫電胶木茶盘 電木茶盘 胶木茶海 环保原板茶盘",
+      "source_url": "https://detail.tmall.com/item.htm?id=987297404660&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "宜兴紫砂杯个人专用主人杯纯手工普洱杯紫泥大红袍品茗杯茶盏茶碗",
+      "category": "cup",
+      "title_zhCN": "宜兴紫砂杯个人专用主人杯纯手工普洱杯紫泥大红袍品茗杯茶盏茶碗",
+      "title_zhTW": "宜興紫砂杯个人专用主人杯純手工普洱杯紫泥大红袍品茗杯茶盏茶碗",
       "variants": [
         {
-          "name": "5号50x80",
-          "price": 1428.0,
-          "original_price": 1680.0,
-          "sku_id": "3145012945404"
+          "name": "紫泥200mL以下",
+          "price": 46.2,
+          "original_price": 68.0,
+          "sku_id": "5950045345689"
         },
         {
-          "name": "6号60x100",
-          "price": 1912.0,
-          "original_price": 2250.0,
-          "sku_id": "3145012945405"
+          "name": "大红袍200mL以下",
+          "price": 46.2,
+          "original_price": 68.0,
+          "sku_id": "5950045345690"
         },
         {
-          "name": "4号40x80",
-          "price": 1400.0,
-          "original_price": null,
-          "sku_id": "3145012945403"
-        },
-        {
-          "name": "3号40x70",
-          "price": 1250.0,
-          "original_price": null,
-          "sku_id": "3145012945402"
-        },
-        {
-          "name": "1号20x40",
-          "price": 360.0,
-          "original_price": null,
-          "sku_id": "3145012945400"
-        },
-        {
-          "name": "2号40x60",
-          "price": 999.0,
-          "original_price": null,
-          "sku_id": "3145012945401"
+          "name": "段泥200mL以下",
+          "price": 46.2,
+          "original_price": 68.0,
+          "sku_id": "6197848822183"
         }
       ],
       "images": [
-        "/images/products/tk-423/main_1.webp",
-        "/images/products/tk-423/main_2.webp",
-        "/images/products/tk-423/main_3.webp",
-        "/images/products/tk-423/main_4.webp",
-        "/images/products/tk-423/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-423/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-423/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-423/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-423/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-423/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:44:59.528967",
-      "item_id": "528271607833"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-423.mp4"
+      ],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "color": "紫泥 大红袍 段泥"
+      },
+      "date_uploaded": "2026-06-21T21:00:01.006525",
+      "item_id": "987297404660"
     },
     {
       "id": "tk-424",
