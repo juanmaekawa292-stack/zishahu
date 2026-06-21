@@ -7458,6 +7458,105 @@
         "color": "朱泥西施(嵌盖) 朱泥西施套组【1壶4杯】 朱泥西施套组【1壶6杯】 紫泥西施(嵌盖) 紫泥西施套组【1壶4杯】 紫泥西施套组【1壶6杯】"
       },
       "date_uploaded": "2026-06-21T20:24:19.023698"
+    },
+    {
+      "id": "tk-206",
+      "item_id": "35413441901",
+      "source_url": "https://detail.tmall.com/item.htm?id=35413441901&rn=af2538143be9363990755a697899f54e&abbucket=14",
+      "slug": "加厚耐热紫砂公道杯茶漏套装茶具配件分茶器家用倒茶器公杯分茶杯",
+      "category": "cup",
+      "title_zhCN": "加厚耐热紫砂公道杯茶漏套装茶具配件分茶器家用倒茶器公杯分茶杯",
+      "title_zhTW": "加厚耐热紫砂公道杯茶漏套裝茶具配件分茶器家用倒茶器公杯分茶杯",
+      "variants": [
+        {
+          "name": "款式1:紫泥（150ml）",
+          "price": 32.6,
+          "original_price": 48.0,
+          "sku_id": "3115243895710"
+        },
+        {
+          "name": "款式2:红泥（150ml）",
+          "price": 32.6,
+          "original_price": 48.0,
+          "sku_id": "6241682875368"
+        },
+        {
+          "name": "款式3：简茗款（205ml）",
+          "price": 53.0,
+          "original_price": 78.0,
+          "sku_id": "6241805867068"
+        },
+        {
+          "name": "款式4:圆满款（225ml）",
+          "price": 66.6,
+          "original_price": 98.0,
+          "sku_id": "4022888277562"
+        },
+        {
+          "name": "款式5:黑金砂款（240ml）",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4022888277553"
+        },
+        {
+          "name": "款式6:鱼化龙款（325ml）",
+          "price": 134.3,
+          "original_price": 198.0,
+          "sku_id": "4022888277554"
+        },
+        {
+          "name": "款式7:如意款（280ml）",
+          "price": 134.3,
+          "original_price": 198.0,
+          "sku_id": "4022888277561"
+        },
+        {
+          "name": "款式8:问道款（225ml）",
+          "price": 46.2,
+          "original_price": 68.0,
+          "sku_id": "6241682875369"
+        },
+        {
+          "name": "款式9:古香款（190ml）",
+          "price": 66.6,
+          "original_price": 98.0,
+          "sku_id": "6241682875370"
+        },
+        {
+          "name": "款式10:福禄款（260ml）",
+          "price": 66.6,
+          "original_price": 98.0,
+          "sku_id": "6241682875371"
+        },
+        {
+          "name": "款式11:高石瓢款（260ml）",
+          "price": 113.4,
+          "original_price": 168.0,
+          "sku_id": "5866353823739"
+        },
+        {
+          "name": "款式12:怡然款（200ml）",
+          "price": 66.6,
+          "original_price": 98.0,
+          "sku_id": "5866353823740"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-206/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-206/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-206/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-206/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-206/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "color": "款式1:紫泥（150ml） 款式2:红泥（150ml） 款式3：简茗款（205ml） 款式4:圆满款（225ml） 款式5:黑金砂款（240ml） 款式6:鱼化龙款（325ml） 款式7:如意款（280ml） 款式8:问道款（225ml） 款式9:古香款（190ml） 款式10:福禄款（260ml） 款式11:高石瓢款（260ml） 款式12:怡然款（200ml）"
+      },
+      "date_uploaded": "2026-06-21T20:24:31.053343"
     }
   ]
 }
