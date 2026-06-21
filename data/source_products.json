@@ -2737,38 +2737,43 @@
     {
       "id": "tk-334",
       "source_sku": "920473955900",
-      "source_url": "https://detail.tmall.com/item.htm?id=920473955900&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "yixingzishachunshougongchahuxinkuanlihezhuang1hu4beilifuchajutaozhuangzini",
+      "source_url": "https://detail.tmall.com/item.htm?id=798288590107&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "【晨光窑·造】宜兴紫砂壶 黄龙源底槽清 大亨德钟壶 手工制作",
       "category": "teapot",
-      "title_zhCN": "宜兴紫砂纯手工茶壶新款礼盒装一壶四杯送礼功夫茶具套装紫泥德钟",
-      "title_zhTW": "宜興紫砂純手工茶壺新款禮盒裝一壺四杯送禮功夫茶具套裝紫泥德钟",
+      "title_zhCN": "【晨光窑·造】宜兴紫砂壶 黄龙源底槽清 大亨德钟壶 手工制作",
+      "title_zhTW": "【晨光窯·造】宜興紫砂壺 黄龍源底槽清 大亨德鍾壺 手工制作",
       "variants": [
         {
-          "name": "单壶约210ml",
-          "price": 208.05,
-          "original_price": 245.05,
-          "sku_id": "5962999319334"
-        },
-        {
-          "name": "一壶四杯约210ml",
-          "price": 240.35,
-          "original_price": 283.35,
-          "sku_id": "5962999319333"
+          "name": "大亨德钟101mL(含)-200mL(含)",
+          "price": 999.0,
+          "original_price": 1800.0,
+          "sku_id": "5609447830945"
         }
       ],
       "images": [
-        "/images/products/tk-334/main_1.webp",
-        "/images/products/tk-334/main_2.webp",
-        "/images/products/tk-334/main_3.webp",
-        "/images/products/tk-334/main_4.webp",
-        "/images/products/tk-334/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-334/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-334/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-334/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-334/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-334/main_5.webp"
       ],
       "videos": [
-        "/videos/products/tk-334/product.mp4"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-334.mp4"
       ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:39:16.343495",
-      "item_id": "920473955900"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "黄龙源底槽清",
+        "handmade": "半手工",
+        "shapeType": "德钟壶",
+        "packaging": "礼盒装",
+        "color": "大亨德钟"
+      },
+      "date_uploaded": "2026-06-21T20:45:34.309450",
+      "item_id": "798288590107"
     },
     {
       "id": "tk-335",
