@@ -3594,30 +3594,49 @@
     {
       "id": "tk-354",
       "source_sku": "1036273558019",
-      "source_url": "https://detail.tmall.com/item.htm?id=1036273558019&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingchahupaochajiayongzishahuchunshougong1yongchaju2026xinkuanli",
+      "source_url": "https://detail.tmall.com/item.htm?id=847984933154&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "宜兴紫砂壶纯手工紫砂茶具单壶套装原矿紫泥家用泡茶壶美人西施壶",
       "category": "teapot",
-      "title_zhCN": "宜兴茶壶泡茶家用紫砂壶纯手工一人用茶具2026新款送父亲长辈礼物",
-      "title_zhTW": "宜興茶壺泡茶家用紫砂壺純手工一人用茶具2026新款送父亲长辈禮物",
+      "title_zhCN": "宜兴紫砂壶纯手工紫砂茶具单壶套装原矿紫泥家用泡茶壶美人西施壶",
+      "title_zhTW": "宜興紫砂壺純手工紫砂茶具單壺套裝原礦紫泥家用泡茶壺美人西施壺",
       "variants": [
         {
-          "name": "约160ml",
-          "price": 1088.0,
-          "original_price": 1280.0,
-          "sku_id": "6218178466721"
+          "name": "西施壶201mL(含)-300mL(含)",
+          "price": 349.0,
+          "original_price": 600.0,
+          "sku_id": "5800628650029"
+        },
+        {
+          "name": "西施壶-套组201mL(含)-300mL(含)",
+          "price": 391.0,
+          "original_price": 650.0,
+          "sku_id": "5800628650030"
         }
       ],
       "images": [
-        "/images/products/tk-354/main_1.webp",
-        "/images/products/tk-354/main_2.webp",
-        "/images/products/tk-354/main_3.webp",
-        "/images/products/tk-354/main_4.webp",
-        "/images/products/tk-354/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-354/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-354/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-354/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-354/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-354/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:40:28.728824",
-      "item_id": "1036273558019"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-354.mp4"
+      ],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "家中",
+        "origin": "宜兴市",
+        "material": "紫砂",
+        "shapeType": "西施壶",
+        "packaging": "礼盒装",
+        "year": "70年代",
+        "color": "西施壶 西施壶-套组"
+      },
+      "date_uploaded": "2026-06-21T20:48:53.319880",
+      "item_id": "847984933154"
     },
     {
       "id": "tk-355",
