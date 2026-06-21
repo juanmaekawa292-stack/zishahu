@@ -2125,30 +2125,60 @@
     {
       "id": "tk-320",
       "source_sku": "1036301234698",
-      "source_url": "https://detail.tmall.com/item.htm?id=1036301234698&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guchunshougongpaochahu2026xinkuanzishahujiayongchajuli",
+      "source_url": "https://detail.tmall.com/item.htm?id=950300914727&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "宜兴紫砂壶纯手工紫砂茶具深井紫泥家用泡茶壶套装复刻景舟石瓢壶",
       "category": "teapot",
-      "title_zhCN": "古悦堂纯手工泡茶单壶2026新款紫砂壶家用茶具送父亲长辈寿宴礼物",
-      "title_zhTW": "古悦堂純手工泡茶單壺2026新款紫砂壺家用茶具送父亲长辈寿宴禮物",
+      "title_zhCN": "宜兴紫砂壶纯手工紫砂茶具深井紫泥家用泡茶壶套装复刻景舟石瓢壶",
+      "title_zhTW": "宜興紫砂壺純手工紫砂茶具深井紫泥家用泡茶壺套裝复刻景舟石瓢壺",
       "variants": [
         {
-          "name": "约270ml",
-          "price": 1258.0,
-          "original_price": 1480.0,
-          "sku_id": "6053933093781"
+          "name": "唐云石瓢201mL(含)-300mL(含)",
+          "price": 302.0,
+          "original_price": 480.0,
+          "sku_id": "5864624176337"
+        },
+        {
+          "name": "湖帆石瓢201mL(含)-300mL(含)",
+          "price": 302.0,
+          "original_price": 480.0,
+          "sku_id": "5864624176338"
+        },
+        {
+          "name": "相明石瓢201mL(含)-300mL(含)",
+          "price": 302.0,
+          "original_price": 480.0,
+          "sku_id": "5864624176339"
+        },
+        {
+          "name": "寒汀石瓢201mL(含)-300mL(含)",
+          "price": 480.0,
+          "original_price": null,
+          "sku_id": "5864624176340"
         }
       ],
       "images": [
-        "/images/products/tk-320/main_1.webp",
-        "/images/products/tk-320/main_2.webp",
-        "/images/products/tk-320/main_3.webp",
-        "/images/products/tk-320/main_4.webp",
-        "/images/products/tk-320/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-320/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-320/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-320/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-320/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-320/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:38:17.561054",
-      "item_id": "1036301234698"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-320.mp4"
+      ],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "深井老紫泥",
+        "shapeType": "石瓢壶",
+        "packaging": "礼盒装",
+        "color": "唐云石瓢 湖帆石瓢 相明石瓢 寒汀石瓢"
+      },
+      "date_uploaded": "2026-06-21T20:43:14.982386",
+      "item_id": "950300914727"
     },
     {
       "id": "tk-321",
