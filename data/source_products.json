@@ -4657,38 +4657,40 @@
     {
       "id": "tk-381",
       "source_sku": "1020479518491",
-      "source_url": "https://detail.tmall.com/item.htm?id=1020479518491&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "chunshougongchahuyixingzishahupaochajiayongxinkuanchajutaozhuangli",
+      "source_url": "https://detail.tmall.com/item.htm?id=612807444030&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂壶纯手工绞泥泡茶壶原矿紫泥大容量家用茶具单壶",
       "category": "teapot",
-      "title_zhCN": "马到成功纯手工茶壶宜兴紫砂壶泡茶家用新款茶具套装送客户朋友礼",
-      "title_zhTW": "马到成功純手工茶壺宜興紫砂壺泡茶家用新款茶具套裝送客戶朋友禮",
+      "title_zhCN": "藏壶天下宜兴紫砂壶纯手工绞泥泡茶壶原矿紫泥大容量家用茶具单壶",
+      "title_zhTW": "藏壺天下宜興紫砂壺純手工绞泥泡茶壺原礦紫泥大容量家用茶具單壺",
       "variants": [
         {
-          "name": "马到成功 | 单壶【精美礼盒】约200ml",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "6032581637567"
-        },
-        {
-          "name": "马到成功 | 一壶四杯【精美礼盒】约200ml",
-          "price": 339.0,
-          "original_price": 399.0,
-          "sku_id": "6032581637568"
+          "name": "财运亨通301mL(含)-400mL(含)",
+          "price": 680.0,
+          "original_price": 1080.0,
+          "sku_id": "4488688663469"
         }
       ],
       "images": [
-        "/images/products/tk-381/main_1.webp",
-        "/images/products/tk-381/main_2.webp",
-        "/images/products/tk-381/main_3.webp",
-        "/images/products/tk-381/main_4.webp",
-        "/images/products/tk-381/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-381/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-381/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-381/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-381/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-381/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-381/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:42:23.083718",
-      "item_id": "1020479518491"
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "301mL(含)-400mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "特殊",
+        "packaging": "礼盒装",
+        "color": "财运亨通"
+      },
+      "date_uploaded": "2026-06-21T20:53:13.249172",
+      "item_id": "612807444030"
     },
     {
       "id": "tk-382",
