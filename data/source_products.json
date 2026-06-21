@@ -1807,44 +1807,40 @@
     {
       "id": "tk-312",
       "source_sku": "642722221511",
-      "source_url": "https://detail.tmall.com/item.htm?id=642722221511&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingmingjiazishahuchunshougongjiayongpaochahufuchajutaozhuang4",
+      "source_url": "https://detail.tmall.com/item.htm?id=644350021766&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "藏壶天下宜兴名家紫砂壶纯手工茶壶单壶紫砂茶具原矿老紫泥石瓢壶",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴名家紫砂壶 纯手工家用泡茶壶功夫茶具套装 行云四方",
-      "title_zhTW": "古悦堂 宜興名家紫砂壺 純手工家用泡茶壺功夫茶具套裝 行云四方",
+      "title_zhCN": "藏壶天下宜兴名家紫砂壶纯手工茶壶单壶紫砂茶具原矿老紫泥石瓢壶",
+      "title_zhTW": "藏壺天下宜興名家紫砂壺純手工茶壺單壺紫砂茶具原礦老紫泥石瓢壺",
       "variants": [
         {
-          "name": "凌霜傲雪约350ml",
-          "price": 789.0,
-          "original_price": 1478.0,
-          "sku_id": "5089688362814"
-        },
-        {
-          "name": "组合款约350ml",
-          "price": 2341.0,
-          "original_price": null,
-          "sku_id": "5089688362812"
-        },
-        {
-          "name": "碧翠浓春约350ml",
-          "price": 789.0,
-          "original_price": 1478.0,
-          "sku_id": "5089688362813"
+          "name": "子冶石瓢201mL(含)-300mL(含)",
+          "price": 620.0,
+          "original_price": 980.0,
+          "sku_id": "4637236796477"
         }
       ],
       "images": [
-        "/images/products/tk-312/main_1.webp",
-        "/images/products/tk-312/main_2.webp",
-        "/images/products/tk-312/main_3.webp",
-        "/images/products/tk-312/main_4.webp",
-        "/images/products/tk-312/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-312/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-312/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-312/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-312/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-312/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-312/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:37:50.718405",
-      "item_id": "642722221511"
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "老紫泥",
+        "shapeType": "子冶石瓢",
+        "packaging": "礼盒装",
+        "color": "子冶石瓢"
+      },
+      "date_uploaded": "2026-06-21T20:41:54.527278",
+      "item_id": "644350021766"
     },
     {
       "id": "tk-313",
