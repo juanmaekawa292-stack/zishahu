@@ -7557,6 +7557,40 @@
         "color": "款式1:紫泥（150ml） 款式2:红泥（150ml） 款式3：简茗款（205ml） 款式4:圆满款（225ml） 款式5:黑金砂款（240ml） 款式6:鱼化龙款（325ml） 款式7:如意款（280ml） 款式8:问道款（225ml） 款式9:古香款（190ml） 款式10:福禄款（260ml） 款式11:高石瓢款（260ml） 款式12:怡然款（200ml）"
       },
       "date_uploaded": "2026-06-21T20:24:31.053343"
+    },
+    {
+      "id": "tk-207",
+      "item_id": "522995540593",
+      "source_url": "https://detail.tmall.com/item.htm?id=522995540593&rn=af2538143be9363990755a697899f54e&abbucket=14",
+      "slug": "礼品定制宜兴紫砂杯带过滤茶杯茶具茶水分离大容量盖杯男士办公杯",
+      "category": "cup",
+      "title_zhCN": "礼品定制宜兴紫砂杯带过滤茶杯茶具茶水分离大容量盖杯男士办公杯",
+      "title_zhTW": "禮品定制宜興紫砂杯带过滤茶杯茶具茶水分离大容量盖杯男士办公杯",
+      "variants": [
+        {
+          "name": "隔舱盖杯400mL(不含)-600mL(含)",
+          "price": 148.5,
+          "original_price": 198.0,
+          "sku_id": "3469464602181"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-207/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-207/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-207/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-207/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-207/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "400mL(不含)-600mL(含)",
+        "color": "隔舱盖杯"
+      },
+      "date_uploaded": "2026-06-21T20:24:41.367591"
     }
   ]
 }
