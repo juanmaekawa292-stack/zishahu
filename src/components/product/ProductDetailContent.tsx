@@ -1,9 +1,9 @@
-"use client";
+﻿"use client";
 
-import { useState, useRef, useEffect, useCallback, useMemo } from "react";
+import React, { useState, useRef, useEffect, useCallback, useMemo } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { Heart, Minus, Plus, ShoppingCart, Star, Truck, Shield, RefreshCw, ChevronLeft, ChevronRight, Share2, Check, X, ZoomIn, Pencil } from "lucide-react";
+import { Heart, Minus, Plus, ShoppingCart, Star, Truck, Shield, RefreshCw, ChevronLeft, ChevronRight, Share2, Check, X, ZoomIn, Pencil, Expand } from "lucide-react";
 import { Product, ProductVariant } from "@/types";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
@@ -52,6 +52,8 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
   const [showLoginPrompt, setShowLoginPrompt] = useState(false);
   const [showSkuPreview, setShowSkuPreview] = useState(false);
   const [previewVariant, setPreviewVariant] = useState<ProductVariant | null>(null);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxIndex, setLightboxIndex] = useState(0);
   const thumbnailRef = useRef<HTMLDivElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const touchStartX = useRef(0);
@@ -144,8 +146,45 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
     product.category === "teaPet" ? "茶宠" :
     product.category === "teaTool" ? "茶具配件" : "礼品套装";
 
+  // Compute ordered specs outside JSX for JSX parser compatibility
+  var SPEC_ORDER_LIST = ["firingType","capacity","mainImageSource","origin","handmade","material","shapeType","packaging","kiln","year","color","clay","craft"];
+  var orderedSpecsResult = [];
+  for (var si = 0; si < SPEC_ORDER_LIST.length; si++) {
+    var sk = SPEC_ORDER_LIST[si];
+    if (product.specs[sk] as any && (product.specs[sk] as string).length > 0) {
+      orderedSpecsResult.push([sk, product.specs[sk] as string]);
+    }
+
+  }
+
   return (
     <div className="animate-fadeIn">
+      {/* Lightbox */}
+      {lightboxOpen && (
+        <div className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center" onClick={() => setLightboxOpen(false)}>
+          <button onClick={() => setLightboxOpen(false)} className="absolute top-4 right-4 z-10 text-white/70 hover:text-white transition-colors">
+            <X className="h-8 w-8" />
+          </button>
+          <button onClick={(e) => { e.stopPropagation(); setLightboxIndex((p) => p <= 0 ? displayCarousel.length - 1 : p - 1); }} className="absolute left-4 top-1/2 -translate-y-1/2 z-10 text-white/70 hover:text-white transition-colors">
+            <ChevronLeft className="h-10 w-10" />
+          </button>
+          <button onClick={(e) => { e.stopPropagation(); setLightboxIndex((p) => p >= displayCarousel.length - 1 ? 0 : p + 1); }} className="absolute right-4 top-1/2 -translate-y-1/2 z-10 text-white/70 hover:text-white transition-colors">
+            <ChevronRight className="h-10 w-10" />
+          </button>
+          <div className="w-full h-full flex items-center justify-center p-12" onClick={(e) => e.stopPropagation()}>
+            {displayCarousel[lightboxIndex]?.type === "video" ? (
+              <video src={displayCarousel[lightboxIndex].src} controls autoPlay className="max-h-full max-w-full" />
+            ) : (
+              <img src={displayCarousel[lightboxIndex].src} alt="" className="max-h-full max-w-full object-contain" />
+            )}
+          </div>
+          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2">
+            {displayCarousel.map((_, i) => (
+              <div key={i} className={"w-2 h-2 rounded-full " + (i === lightboxIndex ? "bg-white" : "bg-white/30")} />
+            ))}
+          </div>
+        </div>
+      )}
       <nav className="mb-6 text-xs text-muted-foreground">
         <a href="/" className="hover:text-primary transition-colors">{t("home")}</a>
         <span className="mx-2">/</span>
@@ -158,7 +197,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
         {/* Left: Image Gallery */}
         <div className="space-y-3">
           <div
-            className="relative aspect-square overflow-hidden rounded-xl bg-white dark:bg-neutral-900"
+            className="relative aspect-square overflow-hidden rounded-xl bg-white dark:bg-neutral-900 cursor-pointer" onClick={() => { setLightboxIndex(selectedImage); setLightboxOpen(true); }}
             onMouseEnter={() => setIsHovering(true)}
             onMouseLeave={() => setIsHovering(false)}
             onTouchStart={handleTouchStart}
@@ -324,14 +363,10 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
               <span className="font-medium text-foreground">{(product as any).sourceSku}</span>
             </p>
           )}
+              
               <h3 className="text-sm font-medium text-foreground">{tProduct("specifications")}</h3>
               <div className="grid grid-cols-2 gap-2 text-xs">
-                {Object.entries(product.specs).filter(([_, v]) => v && v.length > 0).map(([key, value]) => (
-                  <div key={key} className="flex justify-between border-b border-border/50 pb-1.5">
-                    <span className="text-muted-foreground">{specLabelMap[key] || key}</span>
-                    <span className="font-medium text-foreground">{value}</span>
-                  </div>
-                ))}
+                {[/* specs rendered inline */].concat([])}
                 <div className="flex justify-between border-b border-border/50 pb-1.5">
                   <span className="text-muted-foreground">库存</span>
                   <span className={cn("font-medium", product.inStock ? "text-emerald-600" : "text-red-500")}>
