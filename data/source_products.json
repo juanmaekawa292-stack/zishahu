@@ -6244,32 +6244,43 @@
     {
       "id": "tk-422",
       "source_sku": "941487050835",
-      "source_url": "https://detail.tmall.com/item.htm?id=941487050835&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
-      "slug": "yixingzishahuchunshougongjiayongpaochahuxinkuanyongrongliangfuhu",
+      "source_url": "https://detail.tmall.com/item.htm?id=848698514967&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂杯青年男士茶杯养生保温水杯紫砂内胆木纹保温杯",
       "category": "teapot",
-      "title_zhCN": "宜兴紫砂壶纯手工家用泡茶壶新款个人专用小容量功夫单壶柴烧德钟",
-      "title_zhTW": "宜興紫砂壺純手工家用泡茶壺新款个人专用小容量功夫單壺柴烧德钟",
+      "title_zhCN": "藏壶天下宜兴紫砂杯青年男士茶杯养生保温水杯紫砂内胆木纹保温杯",
+      "title_zhTW": "藏壺天下宜興紫砂杯青年男士茶杯养生保温水杯紫砂内胆木纹保温杯",
       "variants": [
         {
-          "name": "原矿紫砂 | 天星泥德钟约200ml",
-          "price": 378.1,
-          "original_price": 445.1,
-          "sku_id": "6230148959566"
+          "name": "红木纹200mL(含)-400mL(含)",
+          "price": 162.0,
+          "original_price": 258.0,
+          "sku_id": "5804029434925"
+        },
+        {
+          "name": "棕木纹200mL(含)-400mL(含)",
+          "price": 162.0,
+          "original_price": 258.0,
+          "sku_id": "5804029434926"
         }
       ],
       "images": [
-        "/images/products/tk-422/main_1.webp",
-        "/images/products/tk-422/main_2.webp",
-        "/images/products/tk-422/main_3.webp",
-        "/images/products/tk-422/main_4.webp",
-        "/images/products/tk-422/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-422/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-422/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-422/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-422/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-422/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-422/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:44:56.175752",
-      "item_id": "941487050835"
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "200mL(含)-400mL(含)",
+        "color": "红木纹 棕木纹"
+      },
+      "date_uploaded": "2026-06-21T20:59:49.092085",
+      "item_id": "848698514967"
     },
     {
       "id": "tk-423",
