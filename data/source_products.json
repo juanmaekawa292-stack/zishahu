@@ -6918,32 +6918,40 @@
     {
       "id": "tk-439",
       "source_sku": "1016119327430",
-      "source_url": "https://detail.tmall.com/item.htm?id=1016119327430&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "chahupaochajiayonghuzhengfuchajulaoli",
+      "source_url": "https://detail.tmall.com/item.htm?id=669390219792&rn=1a9d503a5eb80610a62081f1d55c5c59&abbucket=14",
+      "slug": "正宗宜兴紫砂壶全手工功夫茶壶原矿底槽清纯手工刻绘山水景舟石瓢",
       "category": "teapot",
-      "title_zhCN": "耀州窑陶瓷茶壶泡茶家用凤鸣单壶正品功夫茶具送长辈老人生日礼物",
-      "title_zhTW": "耀州窑陶瓷茶壺泡茶家用鳳鸣單壺正品功夫茶具送长辈老人生日禮物",
+      "title_zhCN": "正宗宜兴紫砂壶全手工功夫茶壶原矿底槽清纯手工刻绘山水景舟石瓢",
+      "title_zhTW": "正宗宜興紫砂壺全手工功夫茶壺原礦底槽清純手工刻繪山水景舟石瓢",
       "variants": [
         {
-          "name": "非遗耀州窑 | 凤鸣壶401mL(含)-500mL(含)",
-          "price": 142.0,
-          "original_price": 168.0,
-          "sku_id": "6025213980388"
+          "name": "景舟石瓢401mL(含)-500mL(含)",
+          "price": 1625.0,
+          "original_price": 2580.0,
+          "sku_id": "4989142927076"
         }
       ],
       "images": [
-        "/images/products/tk-439/main_1.webp",
-        "/images/products/tk-439/main_2.webp",
-        "/images/products/tk-439/main_3.webp",
-        "/images/products/tk-439/main_4.webp",
-        "/images/products/tk-439/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-439/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-439/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-439/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-439/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-439/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-439/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:45:50.745944",
-      "item_id": "1016119327430"
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "401mL(含)-500mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "底槽清",
+        "shapeType": "石瓢壶",
+        "packaging": "礼盒装",
+        "color": "景舟石瓢"
+      },
+      "date_uploaded": "2026-06-21T21:02:47.805004",
+      "item_id": "669390219792"
     },
     {
       "id": "tk-440",
