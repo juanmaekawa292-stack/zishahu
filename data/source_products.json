@@ -12961,6 +12961,52 @@
         "handmade": "是"
       },
       "date_uploaded": "2026-06-21T21:12:55.971392"
+    },
+    {
+      "id": "tk-502",
+      "item_id": "714794030252",
+      "source_url": "https://detail.tmall.com/item.htm?id=714794030252&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "个人专用主人杯纯手工紫砂杯小口茶杯品茗杯紫泥元宝小杯朱泥对杯",
+      "category": "cup",
+      "title_zhCN": "个人专用主人杯纯手工紫砂杯小口茶杯品茗杯紫泥元宝小杯朱泥对杯",
+      "title_zhTW": "个人专用主人杯純手工紫砂杯小口茶杯品茗杯紫泥元宝小杯朱泥对杯",
+      "variants": [
+        {
+          "name": "紫泥元宝杯一对200mL以下",
+          "price": 32.6,
+          "original_price": 48.0,
+          "sku_id": "5169867814380"
+        },
+        {
+          "name": "朱泥元宝杯一对200mL以下",
+          "price": 32.6,
+          "original_price": 48.0,
+          "sku_id": "5169867814381"
+        },
+        {
+          "name": "段泥元宝杯一对200mL以下",
+          "price": 32.6,
+          "original_price": 48.0,
+          "sku_id": "5169867814382"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-502/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-502/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-502/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-502/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-502/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "origin": "宜兴市",
+        "color": "紫泥元宝杯一对 朱泥元宝杯一对 段泥元宝杯一对",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T21:13:05.524200"
     }
   ]
 }
