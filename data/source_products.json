@@ -7688,6 +7688,78 @@
         "handmade": "是"
       },
       "date_uploaded": "2026-06-21T20:25:01.763930"
+    },
+    {
+      "id": "tk-210",
+      "item_id": "720667227272",
+      "source_url": "https://detail.tmall.com/item.htm?id=720667227272&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "个人专用宜兴紫砂品茗杯功夫茶杯茶盏多种泥料竹节小杯闲叙主人杯",
+      "category": "cup",
+      "title_zhCN": "个人专用宜兴紫砂品茗杯功夫茶杯茶盏多种泥料竹节小杯闲叙主人杯",
+      "title_zhTW": "个人专用宜興紫砂品茗杯功夫茶杯茶盏多种泥料竹节小杯闲叙主人杯",
+      "variants": [
+        {
+          "name": "大红袍200mL以下",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "5016181504816"
+        },
+        {
+          "name": "紫泥200mL以下",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "5016181504817"
+        },
+        {
+          "name": "黄金段泥200mL以下",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "5016181504818"
+        },
+        {
+          "name": "段泥200mL以下",
+          "price": 99.0,
+          "original_price": null,
+          "sku_id": "5016181504819"
+        },
+        {
+          "name": "朱泥200mL以下",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "5016181504820"
+        },
+        {
+          "name": "绿泥200mL以下",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "5016181504821"
+        },
+        {
+          "name": "茄皮紫泥200mL以下",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "5212489097271"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-210/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-210/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-210/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-210/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-210/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-210.mp4"
+      ],
+      "specs": {
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "origin": "宜兴市",
+        "color": "大红袍 紫泥 黄金段泥 段泥 朱泥 绿泥 茄皮紫泥",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:25:14.357932"
     }
   ]
 }
