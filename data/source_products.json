@@ -2219,32 +2219,40 @@
     {
       "id": "tk-322",
       "source_sku": "659014362290",
-      "source_url": "https://detail.tmall.com/item.htm?id=659014362290&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingzishahuchunshougongjiayuankuangpaochahutaozhuangfuchajuda",
+      "source_url": "https://detail.tmall.com/item.htm?id=591977374929&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂壶原矿大红袍大容量茶具泡茶壶纯手工刻字满江红",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶纯手工家藏原矿泡茶壶套装功夫茶具 大红袍德钟",
-      "title_zhTW": "古悦堂 宜興紫砂壺純手工家藏原礦泡茶壺套裝功夫茶具 大红袍德钟",
+      "title_zhCN": "藏壶天下宜兴紫砂壶原矿大红袍大容量茶具泡茶壶纯手工刻字满江红",
+      "title_zhTW": "藏壺天下宜興紫砂壺原礦大红袍大容量茶具泡茶壺純手工刻字满江红",
       "variants": [
         {
-          "name": "原矿紫砂 | 大红袍德钟【精美礼盒】约200ml",
-          "price": 216.6,
-          "original_price": 255.6,
-          "sku_id": "6059452689409"
+          "name": "满江红301mL(含)-400mL(含)",
+          "price": 504.0,
+          "original_price": 800.0,
+          "sku_id": "4238548446328"
         }
       ],
       "images": [
-        "/images/products/tk-322/main_1.webp",
-        "/images/products/tk-322/main_2.webp",
-        "/images/products/tk-322/main_3.webp",
-        "/images/products/tk-322/main_4.webp",
-        "/images/products/tk-322/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-322/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-322/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-322/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-322/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-322/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-322/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:38:22.104816",
-      "item_id": "659014362290"
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "301mL(含)-400mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "大红袍",
+        "shapeType": "特殊",
+        "packaging": "礼盒装",
+        "color": "满江红"
+      },
+      "date_uploaded": "2026-06-21T20:43:34.761054",
+      "item_id": "591977374929"
     },
     {
       "id": "tk-323",
