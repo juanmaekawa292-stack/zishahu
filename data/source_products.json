@@ -4967,38 +4967,39 @@
     {
       "id": "tk-389",
       "source_sku": "935939422182",
-      "source_url": "https://detail.tmall.com/item.htm?id=935939422182&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
-      "slug": "yixingzishajiayongchabeiyongfulichaju3taoruyibei",
-      "category": "cup",
-      "title_zhCN": "宜兴紫砂家用办公喝茶杯个人专用高档功夫送礼茶具三件套如意盖杯",
-      "title_zhTW": "宜興紫砂家用办公喝茶杯个人专用高档功夫送禮茶具三件套如意盖杯",
+      "source_url": "https://detail.tmall.com/item.htm?id=623557705265&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "小容量宜兴紫砂壶纯手工双面刻绘泡茶壶底槽清家用功夫茶具汉瓦壶",
+      "category": "teapot",
+      "title_zhCN": "小容量宜兴紫砂壶纯手工双面刻绘泡茶壶底槽清家用功夫茶具汉瓦壶",
+      "title_zhTW": "小容量宜興紫砂壺純手工双面刻繪泡茶壺底槽清家用功夫茶具漢瓦壺",
       "variants": [
         {
-          "name": "清水泥约460ml",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5827669584420"
-        },
-        {
-          "name": "绿泥 【已售罄 拍下不发】约460ml",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5827669584421"
+          "name": "汉瓦-厚德载物101mL(含)-200mL(含)",
+          "price": 490.0,
+          "original_price": 980.0,
+          "sku_id": "4585371411513"
         }
       ],
       "images": [
-        "/images/products/tk-389/main_1.webp",
-        "/images/products/tk-389/main_2.webp",
-        "/images/products/tk-389/main_3.webp",
-        "/images/products/tk-389/main_4.webp",
-        "/images/products/tk-389/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-389/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-389/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-389/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-389/main_4.webp"
       ],
-      "videos": [
-        "/videos/products/tk-389/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:42:43.049599",
-      "item_id": "935939422182"
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "底槽清",
+        "shapeType": "汉瓦壶",
+        "packaging": "礼盒装",
+        "color": "汉瓦-厚德载物"
+      },
+      "date_uploaded": "2026-06-21T20:54:32.307338",
+      "item_id": "623557705265"
     },
     {
       "id": "tk-390",
