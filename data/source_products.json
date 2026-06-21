@@ -10020,6 +10020,40 @@
         "color": "雨露星空"
       },
       "date_uploaded": "2026-06-21T20:34:25.669726"
+    },
+    {
+      "id": "tk-265",
+      "item_id": "693384267291",
+      "source_url": "https://detail.tmall.com/item.htm?id=693384267291&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "个人专用主人杯纯手工紫砂杯茶杯闻香杯品茗杯小口杯黑金砂小杯",
+      "category": "cup",
+      "title_zhCN": "个人专用主人杯纯手工紫砂杯茶杯闻香杯品茗杯小口杯黑金砂小杯",
+      "title_zhTW": "个人专用主人杯純手工紫砂杯茶杯闻香杯品茗杯小口杯黑金砂小杯",
+      "variants": [
+        {
+          "name": "黑金砂品茗杯200mL以下",
+          "price": 25.8,
+          "original_price": 38.0,
+          "sku_id": "4917375548886"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-265/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-265/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-265/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-265/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-265/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "origin": "宜兴市",
+        "color": "黑金砂品茗杯",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:34:33.144773"
     }
   ]
 }
