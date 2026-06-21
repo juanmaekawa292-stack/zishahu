@@ -3791,36 +3791,35 @@
     {
       "id": "tk-359",
       "source_sku": "586266140180",
-      "source_url": "https://detail.tmall.com/item.htm?id=586266140180&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingmingjiazishahuchunshougongchahujiayongfuchajuyuankuangdicaohanhu",
-      "category": "teapot",
-      "title_zhCN": "古悦堂宜兴名家紫砂壶纯全手工茶壶家用功夫茶具原矿底槽清汉铎壶",
-      "title_zhTW": "古悦堂宜興名家紫砂壺純全手工茶壺家用功夫茶具原礦底槽清漢铎壺",
+      "source_url": "https://detail.tmall.com/item.htm?id=655319977186&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "紫砂金蟾茶宠摆件精品可养茶桌风水摆件茶玩紫砂茶具摆件盖置盖托",
+      "category": "teaPet",
+      "title_zhCN": "紫砂金蟾茶宠摆件精品可养茶桌风水摆件茶玩紫砂茶具摆件盖置盖托",
+      "title_zhTW": "紫砂金蟾茶宠摆件精品可养茶桌风水摆件茶玩紫砂茶具摆件盖置盖托",
       "variants": [
         {
-          "name": "光素款约240ml",
-          "price": 167.2,
-          "original_price": 197.2,
-          "sku_id": "4916916768655"
-        },
-        {
-          "name": "刻绘款约240ml",
-          "price": 190.95,
-          "original_price": 224.95,
-          "sku_id": "4916916768656"
+          "name": "金蟾盖托",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "4901573374977"
         }
       ],
       "images": [
-        "/images/products/tk-359/main_1.webp",
-        "/images/products/tk-359/main_2.webp",
-        "/images/products/tk-359/main_3.webp",
-        "/images/products/tk-359/main_4.webp",
-        "/images/products/tk-359/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-359/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-359/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-359/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-359/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-359/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:40:54.258315",
-      "item_id": "586266140180"
+      "specs": {
+        "material": "紫砂",
+        "color": "金蟾盖托",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:49:38.206475",
+      "item_id": "655319977186"
     },
     {
       "id": "tk-360",
