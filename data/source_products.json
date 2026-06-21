@@ -6513,25 +6513,38 @@
     {
       "id": "tk-429",
       "source_sku": "881244870494",
-      "source_url": "https://detail.tmall.com/item.htm?id=881244870494&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
-      "slug": "chabeibeiyongchajubeiyongbeilihezhuang",
-      "category": "cup",
-      "title_zhCN": "敦煌茶杯陶瓷侘寂杯个人专用茶具主人杯高档个人专用闻香杯礼盒装",
-      "title_zhTW": "敦煌茶杯陶瓷侘寂杯个人专用茶具主人杯高档个人专用闻香杯禮盒裝",
-      "variants": [],
+      "source_url": "https://detail.tmall.com/item.htm?id=762505206552&rn=1a9d503a5eb80610a62081f1d55c5c59&abbucket=14",
+      "slug": "宜兴紫砂盖置精品可养茶台茶桌摆件茶具配件茶盘摆件茶宠盖托镇纸",
+      "category": "teaPet",
+      "title_zhCN": "宜兴紫砂盖置精品可养茶台茶桌摆件茶具配件茶盘摆件茶宠盖托镇纸",
+      "title_zhTW": "宜興紫砂盖置精品可养茶台茶桌摆件茶具配件茶盘摆件茶宠盖托鎮纸",
+      "variants": [
+        {
+          "name": "盖托5.3x3.9cm",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "5251086340793"
+        }
+      ],
       "images": [
-        "/images/products/tk-429/main_1.webp",
-        "/images/products/tk-429/main_2.webp",
-        "/images/products/tk-429/main_3.webp",
-        "/images/products/tk-429/main_4.webp",
-        "/images/products/tk-429/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-429/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-429/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-429/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-429/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-429/main_5.webp"
       ],
       "videos": [
-        "/videos/products/tk-429/product.mp4"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-429.mp4"
       ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:45:18.202821",
-      "item_id": "881244870494"
+      "specs": {
+        "scenario": "日常使用",
+        "mainImageSource": "自主实拍图",
+        "dimensions": "5.3x3.9cm",
+        "handmade": "手工",
+        "color": "盖托"
+      },
+      "date_uploaded": "2026-06-21T21:01:03.754251",
+      "item_id": "762505206552"
     },
     {
       "id": "tk-430",
