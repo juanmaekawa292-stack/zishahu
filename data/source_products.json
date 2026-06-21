@@ -3714,38 +3714,41 @@
     {
       "id": "tk-357",
       "source_sku": "38536063279",
-      "source_url": "https://detail.tmall.com/item.htm?id=38536063279&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guyixingzishahuchajuchahushougongzhengzinihu",
-      "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶 日式茶具侧把茶壶全手工正品 紫泥横把唐羽壶",
-      "title_zhTW": "古悦堂 宜興紫砂壺 日式茶具侧把茶壺全手工正品 紫泥横把唐羽壺",
+      "source_url": "https://detail.tmall.com/item.htm?id=655805602322&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "紫砂金蟾茶宠摆件精品可养茶桌风水摆件紫砂茶玩摆件茶盘招财摆件",
+      "category": "teaPet",
+      "title_zhCN": "紫砂金蟾茶宠摆件精品可养茶桌风水摆件紫砂茶玩摆件茶盘招财摆件",
+      "title_zhTW": "紫砂金蟾茶宠摆件精品可养茶桌风水摆件紫砂茶玩摆件茶盘招财摆件",
       "variants": [
         {
-          "name": "紫泥款唐羽壶紫泥约240ml/朱泥约180ml",
-          "price": 160.55,
-          "original_price": 189.55,
-          "sku_id": "5093899471003"
+          "name": "紫泥进宝金蟾",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4907021343033"
         },
         {
-          "name": "朱泥款唐羽壶紫泥约240ml/朱泥约180ml",
-          "price": 177.65,
-          "original_price": 209.65,
-          "sku_id": "5093899471002"
+          "name": "乌泥进宝金蟾",
+          "price": 88.0,
+          "original_price": null,
+          "sku_id": "4907021343034"
         }
       ],
       "images": [
-        "/images/products/tk-357/main_1.webp",
-        "/images/products/tk-357/main_2.webp",
-        "/images/products/tk-357/main_3.webp",
-        "/images/products/tk-357/main_4.webp",
-        "/images/products/tk-357/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-357/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-357/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-357/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-357/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-357/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-357/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:40:38.159746",
-      "item_id": "38536063279"
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "color": "紫泥进宝金蟾 乌泥进宝金蟾",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:49:18.647333",
+      "item_id": "655805602322"
     },
     {
       "id": "tk-358",
