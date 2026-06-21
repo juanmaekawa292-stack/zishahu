@@ -6843,62 +6843,40 @@
     {
       "id": "tk-437",
       "source_sku": "761509307298",
-      "source_url": "https://detail.tmall.com/item.htm?id=761509307298&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingyuankuangzishahuchunshougongpaochahuzhengchajutaozhuangchun",
+      "source_url": "https://detail.tmall.com/item.htm?id=523805286701&rn=af2538143be9363990755a697899f54e&abbucket=14",
+      "slug": "宜兴紫砂壶纯手工原矿紫泥竹节壶家用泡茶壶单壶茶具套装扁竹段",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶迷你正品茶具套装 春华思亭",
-      "title_zhTW": "古悦堂 宜興原礦紫砂壺純全手工泡茶壺迷你正品茶具套裝 春华思亭",
+      "title_zhCN": "宜兴紫砂壶纯手工原矿紫泥竹节壶家用泡茶壶单壶茶具套装扁竹段",
+      "title_zhTW": "宜興紫砂壺純手工原礦紫泥竹节壺家用泡茶壺單壺茶具套裝扁竹段",
       "variants": [
         {
-          "name": "思亭约120ml",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5493577710139"
-        },
-        {
-          "name": "容天约120ml",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5493577710140"
-        },
-        {
-          "name": "西施约120ml",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5671979646650"
-        },
-        {
-          "name": "德钟约120ml",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5671979646649"
-        },
-        {
-          "name": "仿古约120ml",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5671979646648"
-        },
-        {
-          "name": "明炉 【已售罄 拍下不发】约120ml",
-          "price": 369.0,
-          "original_price": null,
-          "sku_id": "5671979646651"
+          "name": "紫泥款201mL(含)-300mL(含)",
+          "price": 264.0,
+          "original_price": 420.0,
+          "sku_id": "3215813189824"
         }
       ],
       "images": [
-        "/images/products/tk-437/main_1.webp",
-        "/images/products/tk-437/main_2.webp",
-        "/images/products/tk-437/main_3.webp",
-        "/images/products/tk-437/main_4.webp",
-        "/images/products/tk-437/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-437/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-437/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-437/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-437/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-437/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-437/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:45:42.851585",
-      "item_id": "761509307298"
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "竹段",
+        "packaging": "礼盒装",
+        "color": "紫泥款"
+      },
+      "date_uploaded": "2026-06-21T21:02:25.356408",
+      "item_id": "523805286701"
     },
     {
       "id": "tk-438",
