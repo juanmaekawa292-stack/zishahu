@@ -1470,36 +1470,40 @@
     {
       "id": "tk-303",
       "source_sku": "632019800826",
-      "source_url": "https://detail.tmall.com/item.htm?id=632019800826&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "gubeichabeifuchajucha",
-      "category": "cup",
-      "title_zhCN": "古悦堂 玻璃公道杯加厚耐热分茶器过滤公杯高档镶银功夫茶具茶漏",
-      "title_zhTW": "古悦堂 玻璃公道杯加厚耐热分茶器过滤公杯高档镶银功夫茶具茶漏",
+      "source_url": "https://detail.tmall.com/item.htm?id=586482329911&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "正宗原矿朱泥宜兴名家紫砂壶纯手工茶壶家用茶具套装全手工鱼化龙",
+      "category": "teapot",
+      "title_zhCN": "正宗原矿朱泥宜兴名家紫砂壶纯手工茶壶家用茶具套装全手工鱼化龙",
+      "title_zhTW": "正宗原礦朱泥宜興名家紫砂壺純手工茶壺家用茶具套裝全手工鱼化龍",
       "variants": [
         {
-          "name": "莲年有余",
-          "price": 160.0,
-          "original_price": 189.0,
-          "sku_id": "4683584058853"
-        },
-        {
-          "name": "出水芙蓉 【已售罄 拍下不发】",
-          "price": 160.0,
-          "original_price": 189.0,
-          "sku_id": "4683584058852"
+          "name": "鱼跃龙门301mL(含)-400mL(含)",
+          "price": 1445.0,
+          "original_price": 1980.0,
+          "sku_id": "3982675368204"
         }
       ],
       "images": [
-        "/images/products/tk-303/main_1.webp",
-        "/images/products/tk-303/main_2.webp",
-        "/images/products/tk-303/main_3.webp",
-        "/images/products/tk-303/main_4.webp",
-        "/images/products/tk-303/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-303/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-303/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-303/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-303/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-303/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:37:09.306672",
-      "item_id": "632019800826"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "301mL(含)-400mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "朱泥",
+        "shapeType": "鱼化龙",
+        "packaging": "礼盒装",
+        "color": "鱼跃龙门"
+      },
+      "date_uploaded": "2026-06-21T20:40:29.858856",
+      "item_id": "586482329911"
     },
     {
       "id": "tk-304",
