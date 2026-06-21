@@ -11174,6 +11174,40 @@
         "color": "竹 兰 菊 梅"
       },
       "date_uploaded": "2026-06-21T21:05:35.609170"
+    },
+    {
+      "id": "tk-456",
+      "item_id": "39769143280",
+      "source_url": "https://detail.tmall.com/item.htm?id=39769143280&rn=af2538143be9363990755a697899f54e&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂杯 品茗杯功夫茶杯茶碗配壶小杯子自用茶道配件",
+      "category": "teapot",
+      "title_zhCN": "藏壶天下宜兴紫砂杯 品茗杯功夫茶杯茶碗配壶小杯子自用茶道配件",
+      "title_zhTW": "藏壺天下宜興紫砂杯 品茗杯功夫茶杯茶碗配壺小杯子自用茶道配件",
+      "variants": [
+        {
+          "name": "品茗杯200mL以下",
+          "price": 17.0,
+          "original_price": 20.0,
+          "sku_id": "5210628818417"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-456/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-456/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-456/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-456/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-456/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "origin": "宜兴市",
+        "color": "品茗杯",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T21:05:42.034312"
     }
   ]
 }
