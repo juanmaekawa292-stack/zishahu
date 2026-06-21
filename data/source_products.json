@@ -7342,32 +7342,41 @@
     {
       "id": "tk-450",
       "source_sku": "1015131381228",
-      "source_url": "https://detail.tmall.com/item.htm?id=1015131381228&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guchunshougongzishachabeiyongbeilihezhuanglifuchajutaozhuang",
-      "category": "cup",
-      "title_zhCN": "古悦堂纯手工紫砂茶杯高档个人专用主人杯礼盒装送礼功夫茶具套装",
-      "title_zhTW": "古悦堂純手工紫砂茶杯高档个人专用主人杯禮盒裝送禮功夫茶具套裝",
+      "source_url": "https://detail.tmall.com/item.htm?id=527701301484&rn=af2538143be9363990755a697899f54e&abbucket=14",
+      "slug": "功夫茶具配件紫砂小茶盘壶承蓄水小型干泡台茶托盘家用小茶台茶承",
+      "category": "teapot",
+      "title_zhCN": "功夫茶具配件紫砂小茶盘壶承蓄水小型干泡台茶托盘家用小茶台茶承",
+      "title_zhTW": "功夫茶具配件紫砂小茶盘壺承蓄水小型干泡台茶托盘家用小茶台茶承",
       "variants": [
         {
-          "name": "送礼茶具 | 五福葫芦杯套组【精美礼盒】约80ml",
-          "price": 168.0,
-          "original_price": 198.0,
-          "sku_id": "6020893369912"
+          "name": "壶承红泥",
+          "price": 46.2,
+          "original_price": 68.0,
+          "sku_id": "5361510519604"
+        },
+        {
+          "name": "壶承紫泥",
+          "price": 46.2,
+          "original_price": 68.0,
+          "sku_id": "6137525587623"
         }
       ],
       "images": [
-        "/images/products/tk-450/main_1.webp",
-        "/images/products/tk-450/main_2.webp",
-        "/images/products/tk-450/main_3.webp",
-        "/images/products/tk-450/main_4.webp",
-        "/images/products/tk-450/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-450/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-450/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-450/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-450/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-450/main_5.webp"
       ],
       "videos": [
-        "/videos/products/tk-450/product.mp4"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-450.mp4"
       ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:46:30.111496",
-      "item_id": "1015131381228"
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "color": "壶承红泥 壶承紫泥"
+      },
+      "date_uploaded": "2026-06-21T21:04:49.201965",
+      "item_id": "527701301484"
     },
     {
       "id": "tk-451",
