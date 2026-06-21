@@ -34596,6 +34596,73 @@ export const products: Product[] = [
     ],
     "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
   },
+  {
+    "id": "tk-428",
+    "slug": "宜兴原矿紫砂杯纯手工带盖茶杯隔舱内胆过滤大容量办公杯海纳百川",
+    "title_zhCN": "宜兴原矿紫砂杯纯手工带盖茶杯隔舱内胆过滤大容量办公杯海纳百川",
+    "title_zhTW": "宜興原礦紫砂杯純手工带盖茶杯隔舱内胆过滤大容量办公杯海纳百川",
+    "description_zhCN": "宜兴原矿紫砂杯纯手工带盖茶杯隔舱内胆过滤大容量办公杯海纳百川，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "description_zhTW": "宜兴原矿紫砂杯纯手工带盖茶杯隔舱内胆过滤大容量办公杯海纳百川，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "price": 378.0,
+    "originalPrice": 600.0,
+    "images": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/main_1.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/main_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/main_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/main_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/main_5.webp"
+    ],
+    "category": "cup",
+    "inStock": true,
+    "stock": 100,
+    "featured": true,
+    "specs": {
+      "capacity": "400mL(不含)-600mL(含)",
+      "mainImageSource": "自主实拍图",
+      "handmade": "是",
+      "material": "紫砂",
+      "color": "海纳百川"
+    },
+    "createdAt": "2026-06-21",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "detailImages": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_5.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_6.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_7.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_8.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_9.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_10.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_11.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_12.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_13.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_14.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_15.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_16.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-428/detail_17.webp"
+    ],
+    "variants": [
+      {
+        "id": "tk-428-01",
+        "name_zhCN": "海纳百川400mL(不含)-600mL(含)",
+        "name_zhTW": "海纳百川400mL(不含)-600mL(含)",
+        "price": 378.0,
+        "originalPrice": 600.0,
+        "stock": 50,
+        "image": "",
+        "sku": "4816128337650",
+      },
+    ],
+    "sourceUrl": "https://detail.tmall.com/item.htm?id=668301624197&rn=1a9d503a5eb80610a62081f1d55c5c59&abbucket=14",
+    "sourceSku": "668301624197",
+    "videos": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-428.mp4"
+    ],
+    "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
+  },
 ];
 export const categories = [
   { key: "all", label_zhCN: "全部" },
