@@ -3243,90 +3243,102 @@
     {
       "id": "tk-346",
       "source_sku": "754395231504",
-      "source_url": "https://detail.tmall.com/item.htm?id=754395231504&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
-      "slug": "guyixingzishahuchunshougongpaochahu1chajuhudafanggu",
-      "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶纯手工泡茶壶迷你一人独饮茶具单壶 大红袍仿古",
-      "title_zhTW": "古悦堂 宜興紫砂壺純手工泡茶壺迷你一人独饮茶具單壺 大红袍仿古",
+      "source_url": "https://detail.tmall.com/item.htm?id=628260929963&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "宜兴原矿紫泥功夫茶具公道杯十二生肖分茶器加厚倒茶器配件茶杯",
+      "category": "cup",
+      "title_zhCN": "宜兴原矿紫泥功夫茶具公道杯十二生肖分茶器加厚倒茶器配件茶杯",
+      "title_zhTW": "宜興原礦紫泥功夫茶具公道杯十二生肖分茶器加厚倒茶器配件茶杯",
       "variants": [
         {
-          "name": "仿古51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231882309086"
+          "name": "鼠",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "4463437297929"
         },
         {
-          "name": "掇只51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231882309088"
+          "name": "牛",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "4463437297930"
         },
         {
-          "name": "潘壶51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231882309087"
+          "name": "虎",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "4463437297931"
         },
         {
-          "name": "石瓢51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231882309081"
+          "name": "兔",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "4463437297932"
         },
         {
-          "name": "汉瓦51mL(含)-100mL(含)",
-          "price": 398.0,
-          "original_price": 469.0,
-          "sku_id": "5231882309084"
+          "name": "龙",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "4463437297933"
         },
         {
-          "name": "君德51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231882309079"
+          "name": "蛇",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "4463437297934"
         },
         {
-          "name": "水平51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231882309085"
+          "name": "马",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "4463437297935"
         },
         {
-          "name": "思亭51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231882309080"
+          "name": "羊",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "4463437297936"
         },
         {
-          "name": "龙蛋51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231882309082"
+          "name": "猴",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "4463437297937"
         },
         {
-          "name": "美人肩51mL(含)-100mL(含)",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "5231882309089"
+          "name": "鸡",
+          "price": 300.0,
+          "original_price": null,
+          "sku_id": "4463437297938"
         },
         {
-          "name": "西施51mL(含)-100mL(含)",
-          "price": 357.0,
-          "original_price": 420.0,
-          "sku_id": "6011204146139"
+          "name": "狗",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "4463437297939"
+        },
+        {
+          "name": "猪",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "4463437297940"
         }
       ],
       "images": [
-        "/images/products/tk-346/main_1.webp",
-        "/images/products/tk-346/main_2.webp",
-        "/images/products/tk-346/main_3.webp",
-        "/images/products/tk-346/main_4.webp",
-        "/images/products/tk-346/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-346/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-346/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-346/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-346/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-346/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:40:02.860029",
-      "item_id": "754395231504"
+      "specs": {
+        "material": "紫砂",
+        "origin": "宜兴市",
+        "color": "鼠 牛 虎 兔 龙 蛇 马 羊 猴 鸡 狗 猪",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:47:36.790242",
+      "item_id": "628260929963"
     },
     {
       "id": "tk-347",
