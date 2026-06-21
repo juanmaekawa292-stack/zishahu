@@ -3438,44 +3438,42 @@
     {
       "id": "tk-350",
       "source_sku": "576409597442",
-      "source_url": "https://detail.tmall.com/item.htm?id=576409597442&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guyixingmingjiazishahuchunshougongfuchahuchajutaozhuangpaochahuruyixishihu",
+      "source_url": "https://detail.tmall.com/item.htm?id=676310779273&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂壶纯手工功夫茶具原矿紫泥家用泡茶壶全手工仿古",
       "category": "teapot",
-      "title_zhCN": "古悦堂宜兴名家紫砂壶 纯手工功夫茶壶茶具套装泡茶壶如意西施壶",
-      "title_zhTW": "古悦堂宜興名家紫砂壺 純手工功夫茶壺茶具套裝泡茶壺如意西施壺",
+      "title_zhCN": "藏壶天下宜兴紫砂壶纯手工功夫茶具原矿紫泥家用泡茶壶全手工仿古",
+      "title_zhTW": "藏壺天下宜興紫砂壺純手工功夫茶具原礦紫泥家用泡茶壺全手工仿古",
       "variants": [
         {
-          "name": "套餐一：单壶约220ml",
-          "price": 275.62,
-          "original_price": 361.62,
-          "sku_id": "4922128389856"
-        },
-        {
-          "name": "套餐二：一壶四杯约220ml",
-          "price": 325.42,
-          "original_price": 420.42,
-          "sku_id": "4922128389855"
-        },
-        {
-          "name": "套餐三：一壶六杯+公道杯+茶漏约220ml",
-          "price": 357.69,
-          "original_price": 457.69,
-          "sku_id": "4922128389857"
+          "name": "仿古201mL(含)-300mL(含)",
+          "price": 1489.0,
+          "original_price": 2979.0,
+          "sku_id": "4860319589917"
         }
       ],
       "images": [
-        "/images/products/tk-350/main_1.webp",
-        "/images/products/tk-350/main_2.webp",
-        "/images/products/tk-350/main_3.webp",
-        "/images/products/tk-350/main_4.webp",
-        "/images/products/tk-350/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-350/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-350/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-350/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-350/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-350/main_5.webp"
       ],
       "videos": [
-        "/videos/products/tk-350/product.mp4"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-350.mp4"
       ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:40:16.656797",
-      "item_id": "576409597442"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "仿古壶",
+        "packaging": "礼盒装",
+        "color": "仿古"
+      },
+      "date_uploaded": "2026-06-21T20:48:13.047221",
+      "item_id": "676310779273"
     },
     {
       "id": "tk-351",
