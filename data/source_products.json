@@ -9211,6 +9211,42 @@
         "handmade": "是"
       },
       "date_uploaded": "2026-06-21T20:31:24.038855"
+    },
+    {
+      "id": "tk-248",
+      "item_id": "613060101934",
+      "source_url": "https://detail.tmall.com/item.htm?id=613060101934&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "藏壶天下紫砂杯茶杯盖杯原矿青段纯手工堆绘大容量杯子喜上眉梢",
+      "category": "teapot",
+      "title_zhCN": "藏壶天下紫砂杯茶杯盖杯原矿青段纯手工堆绘大容量杯子喜上眉梢",
+      "title_zhTW": "藏壺天下紫砂杯茶杯盖杯原礦青段純手工堆繪大容量杯子喜上眉梢",
+      "variants": [
+        {
+          "name": "喜上眉梢400mL(不含)-600mL(含)",
+          "price": 496.0,
+          "original_price": 680.0,
+          "sku_id": "4313978888245"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-248.mp4"
+      ],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "400mL(不含)-600mL(含)",
+        "color": "喜上眉梢"
+      },
+      "date_uploaded": "2026-06-21T20:31:32.929107"
     }
   ]
 }

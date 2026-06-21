@@ -20220,6 +20220,73 @@ export const products: Product[] = [
     ],
     "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
   },
+  {
+    "id": "tk-248",
+    "slug": "藏壶天下紫砂杯茶杯盖杯原矿青段纯手工堆绘大容量杯子喜上眉梢",
+    "title_zhCN": "藏壶天下紫砂杯茶杯盖杯原矿青段纯手工堆绘大容量杯子喜上眉梢",
+    "title_zhTW": "藏壺天下紫砂杯茶杯盖杯原礦青段純手工堆繪大容量杯子喜上眉梢",
+    "description_zhCN": "藏壶天下紫砂杯茶杯盖杯原矿青段纯手工堆绘大容量杯子喜上眉梢，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "description_zhTW": "藏壶天下紫砂杯茶杯盖杯原矿青段纯手工堆绘大容量杯子喜上眉梢，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "price": 496.0,
+    "originalPrice": 680.0,
+    "images": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/main_1.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/main_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/main_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/main_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/main_5.webp"
+    ],
+    "category": "teapot",
+    "inStock": true,
+    "stock": 100,
+    "featured": true,
+    "specs": {
+      "capacity": "400mL(不含)-600mL(含)",
+      "mainImageSource": "自主实拍图",
+      "origin": "宜兴市",
+      "handmade": "是",
+      "material": "紫砂",
+      "color": "喜上眉梢"
+    },
+    "createdAt": "2026-06-21",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "detailImages": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/detail_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/detail_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/detail_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/detail_5.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/detail_6.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/detail_7.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/detail_8.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/detail_9.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/detail_10.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/detail_11.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/detail_12.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/detail_13.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/detail_14.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/detail_15.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-248/detail_16.webp"
+    ],
+    "variants": [
+      {
+        "id": "tk-248-01",
+        "name_zhCN": "喜上眉梢400mL(不含)-600mL(含)",
+        "name_zhTW": "喜上眉梢400mL(不含)-600mL(含)",
+        "price": 496.0,
+        "originalPrice": 680.0,
+        "stock": 50,
+        "image": "",
+        "sku": "4313978888245",
+      },
+    ],
+    "sourceUrl": "https://detail.tmall.com/item.htm?id=613060101934&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+    "sourceSku": "613060101934",
+    "videos": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-248.mp4"
+    ],
+    "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
+  },
 ];
 export const categories = [
   { key: "all", label_zhCN: "全部" },
