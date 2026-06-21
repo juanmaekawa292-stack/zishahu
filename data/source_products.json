@@ -7148,32 +7148,40 @@
     {
       "id": "tk-445",
       "source_sku": "991603633810",
-      "source_url": "https://detail.tmall.com/item.htm?id=991603633810&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingzishahuchunshougongzhengpaochahujiayongchajulaoli",
+      "source_url": "https://detail.tmall.com/item.htm?id=630457365243&rn=1a9d503a5eb80610a62081f1d55c5c59&abbucket=14",
+      "slug": "紫砂壶宜兴全手工国高工纯手工刻绘大红袍270cc单壶泡茶壶具影瓢",
       "category": "teapot",
-      "title_zhCN": "宜兴紫砂壶纯手工正品泡茶壶家用高档茶具送长辈领导老师退休礼物",
-      "title_zhTW": "宜興紫砂壺純手工正品泡茶壺家用高档茶具送长辈领导老师退休禮物",
+      "title_zhCN": "紫砂壶宜兴全手工国高工纯手工刻绘大红袍270cc单壶泡茶壶具影瓢",
+      "title_zhTW": "紫砂壺宜興全手工國高工純手工刻繪大红袍270cc單壺泡茶壺具影瓢",
       "variants": [
         {
-          "name": "高档礼盒装 | 翡翠金砂高汉瓦约200ml",
-          "price": 764.0,
-          "original_price": 899.0,
-          "sku_id": "5961275956302"
+          "name": "影瓢201mL(含)-300mL(含)",
+          "price": 1877.0,
+          "original_price": 2980.0,
+          "sku_id": "4490501113953"
         }
       ],
       "images": [
-        "/images/products/tk-445/main_1.webp",
-        "/images/products/tk-445/main_2.webp",
-        "/images/products/tk-445/main_3.webp",
-        "/images/products/tk-445/main_4.webp",
-        "/images/products/tk-445/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-445/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-445/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-445/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-445/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-445/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-445/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:46:11.269698",
-      "item_id": "991603633810"
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "大红袍",
+        "shapeType": "影瓢",
+        "packaging": "礼盒装",
+        "color": "影瓢"
+      },
+      "date_uploaded": "2026-06-21T21:03:50.808435",
+      "item_id": "630457365243"
     },
     {
       "id": "tk-446",
