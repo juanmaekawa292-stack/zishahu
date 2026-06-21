@@ -12578,6 +12578,40 @@
         "handmade": "是"
       },
       "date_uploaded": "2026-06-21T21:11:22.090778"
+    },
+    {
+      "id": "tk-492",
+      "item_id": "671667091388",
+      "source_url": "https://detail.tmall.com/item.htm?id=671667091388&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "大容量宜兴紫砂杯纯手工男士泡茶带盖个人专用茶具飞把办公杯盖杯",
+      "category": "cup",
+      "title_zhCN": "大容量宜兴紫砂杯纯手工男士泡茶带盖个人专用茶具飞把办公杯盖杯",
+      "title_zhTW": "大容量宜興紫砂杯純手工男士泡茶带盖个人专用茶具飞把办公杯盖杯",
+      "variants": [
+        {
+          "name": "清心抒怀400mL(不含)-600mL(含)",
+          "price": 126.0,
+          "original_price": 168.0,
+          "sku_id": "4827051720342"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-492/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-492/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-492/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-492/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-492/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "400mL(不含)-600mL(含)",
+        "color": "清心抒怀"
+      },
+      "date_uploaded": "2026-06-21T21:11:30.745813"
     }
   ]
 }
