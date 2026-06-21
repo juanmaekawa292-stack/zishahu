@@ -3400,30 +3400,40 @@
     {
       "id": "tk-349",
       "source_sku": "719757691168",
-      "source_url": "https://detail.tmall.com/item.htm?id=719757691168&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingyuankuangdazishahuchunshougongpaochahufuchaju",
+      "source_url": "https://detail.tmall.com/item.htm?id=625016515646&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂壶原矿紫泥纯手工贴花紫砂茶具大容量家用泡茶壶",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴原矿大红袍紫砂壶纯全手工泡茶壶功夫茶具 琼芝高龙蛋",
-      "title_zhTW": "古悦堂 宜興原礦大红袍紫砂壺純全手工泡茶壺功夫茶具 琼芝高龍蛋",
+      "title_zhCN": "藏壶天下宜兴紫砂壶原矿紫泥纯手工贴花紫砂茶具大容量家用泡茶壶",
+      "title_zhTW": "藏壺天下宜興紫砂壺原礦紫泥純手工贴花紫砂茶具大容量家用泡茶壺",
       "variants": [
         {
-          "name": "约180ml",
-          "price": 474.0,
-          "original_price": 558.0,
-          "sku_id": "5017450845559"
+          "name": "迎春301mL(含)-400mL(含)",
+          "price": 617.0,
+          "original_price": 980.0,
+          "sku_id": "4591208278496"
         }
       ],
       "images": [
-        "/images/products/tk-349/main_1.webp",
-        "/images/products/tk-349/main_2.webp",
-        "/images/products/tk-349/main_3.webp",
-        "/images/products/tk-349/main_4.webp",
-        "/images/products/tk-349/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-349/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-349/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-349/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-349/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-349/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:40:12.690399",
-      "item_id": "719757691168"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "301mL(含)-400mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "花器",
+        "packaging": "礼盒装",
+        "color": "迎春"
+      },
+      "date_uploaded": "2026-06-21T20:48:02.393795",
+      "item_id": "625016515646"
     },
     {
       "id": "tk-350",
