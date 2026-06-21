@@ -5830,30 +5830,37 @@
     {
       "id": "tk-411",
       "source_sku": "759970841391",
-      "source_url": "https://detail.tmall.com/item.htm?id=759970841391&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
-      "slug": "guyixingyuankuangzishahuchunshougongpaochahunizhengchajutaozhuangfanggu",
-      "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶朱泥正品茶具套装 芳影仿古",
-      "title_zhTW": "古悦堂 宜興原礦紫砂壺純全手工泡茶壺朱泥正品茶具套裝 芳影仿古",
+      "source_url": "https://detail.tmall.com/item.htm?id=654286429663&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "宜兴紫砂茶具泡茶杯男士紫砂杯带过滤功夫茶杯盖杯个人专用主人杯",
+      "category": "cup",
+      "title_zhCN": "宜兴紫砂茶具泡茶杯男士紫砂杯带过滤功夫茶杯盖杯个人专用主人杯",
+      "title_zhTW": "宜興紫砂茶具泡茶杯男士紫砂杯带过滤功夫茶杯盖杯个人专用主人杯",
       "variants": [
         {
-          "name": "原矿紫砂 | 芳影仿古【精美礼盒】约275ml",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "6069132356344"
+          "name": "舍得紫砂杯200mL(含)-400mL(含)",
+          "price": 124.0,
+          "original_price": 198.0,
+          "sku_id": "4893093046972"
         }
       ],
       "images": [
-        "/images/products/tk-411/main_1.webp",
-        "/images/products/tk-411/main_2.webp",
-        "/images/products/tk-411/main_3.webp",
-        "/images/products/tk-411/main_4.webp",
-        "/images/products/tk-411/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-411/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-411/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-411/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-411/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-411/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:44:08.661687",
-      "item_id": "759970841391"
+      "specs": {
+        "material": "紫砂",
+        "capacity": "200mL(含)-400mL(含)",
+        "origin": "宜兴市",
+        "color": "舍得紫砂杯",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:58:01.294208",
+      "item_id": "654286429663"
     },
     {
       "id": "tk-412",
