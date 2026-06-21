@@ -7381,32 +7381,48 @@
     {
       "id": "tk-451",
       "source_sku": "652586518950",
-      "source_url": "https://detail.tmall.com/item.htm?id=652586518950&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingchunshougongzishahupaochachahufuchaju20shada",
+      "source_url": "实木功夫茶具储水茶盘托盘现代简约家用小茶台干泡台竹制小型茶海",
+      "slug": "162",
       "category": "teapot",
-      "title_zhCN": "古悦堂宜兴纯全手工紫砂壶泡茶小茶壶功夫茶具20目粗砂大红袍德钟",
-      "title_zhTW": "古悦堂宜興純全手工紫砂壺泡茶小茶壺功夫茶具20目粗砂大红袍德钟",
+      "title_zhCN": "162",
+      "title_zhTW": "162",
       "variants": [
         {
-          "name": "原矿紫砂 | 大红袍德钟【精美礼盒】约170ml",
-          "price": 279.0,
-          "original_price": 509.0,
-          "sku_id": "6063784292356"
+          "name": "圆形茶盘小款",
+          "price": 258.0,
+          "original_price": null,
+          "sku_id": "4020134425320"
+        },
+        {
+          "name": "竹木茶盘",
+          "price": 162.0,
+          "original_price": 258.0,
+          "sku_id": "4020134425321"
+        },
+        {
+          "name": "茶盘套装",
+          "price": 498.0,
+          "original_price": null,
+          "sku_id": "4026557856879"
         }
       ],
       "images": [
-        "/images/products/tk-451/main_1.webp",
-        "/images/products/tk-451/main_2.webp",
-        "/images/products/tk-451/main_3.webp",
-        "/images/products/tk-451/main_4.webp",
-        "/images/products/tk-451/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-451/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-451/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-451/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-451/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-451/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-451/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:46:32.190236",
-      "item_id": "652586518950"
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "material": "竹",
+        "scenario": "家用 办公",
+        "color": "圆形茶盘小款 竹木茶盘 茶盘套装"
+      },
+      "date_uploaded": "2026-06-21T21:04:57.015426",
+      "item_id": ""
     },
     {
       "id": "tk-452",
