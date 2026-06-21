@@ -564,30 +564,40 @@
     {
       "id": "tk-282",
       "source_sku": "1036321430326",
-      "source_url": "https://detail.tmall.com/item.htm?id=1036321430326&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guchunshougongpaochahu2026xinkuanzishahujiayongchajulaoli",
+      "source_url": "https://detail.tmall.com/item.htm?id=711046556226&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "宜兴紫砂壶纯手工家用泡茶小西施壶原矿紫茄泥一人用小品功夫茶具",
       "category": "teapot",
-      "title_zhCN": "古悦堂纯手工泡茶壶2026新款紫砂壶家用茶具送长辈老人寿宴退休礼",
-      "title_zhTW": "古悦堂純手工泡茶壺2026新款紫砂壺家用茶具送长辈老人寿宴退休禮",
+      "title_zhCN": "宜兴紫砂壶纯手工家用泡茶小西施壶原矿紫茄泥一人用小品功夫茶具",
+      "title_zhTW": "宜興紫砂壺純手工家用泡茶小西施壺原礦紫茄泥一人用小品功夫茶具",
       "variants": [
         {
-          "name": "约320ml",
-          "price": 1088.0,
-          "original_price": 1280.0,
-          "sku_id": "6218733435345"
+          "name": "西施壶101mL(含)-200mL(含)",
+          "price": 250.0,
+          "original_price": 398.0,
+          "sku_id": "4983021700039"
         }
       ],
       "images": [
-        "/images/products/tk-282/main_1.webp",
-        "/images/products/tk-282/main_2.webp",
-        "/images/products/tk-282/main_3.webp",
-        "/images/products/tk-282/main_4.webp",
-        "/images/products/tk-282/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-282/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-282/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-282/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-282/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-282/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:35:48.913673",
-      "item_id": "1036321430326"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫茄泥",
+        "shapeType": "西施壶",
+        "packaging": "礼盒装",
+        "color": "西施壶"
+      },
+      "date_uploaded": "2026-06-21T20:37:13.571203",
+      "item_id": "711046556226"
     },
     {
       "id": "tk-283",
