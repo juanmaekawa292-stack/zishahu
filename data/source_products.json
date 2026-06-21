@@ -10089,6 +10089,45 @@
         "handmade": "是"
       },
       "date_uploaded": "2026-06-21T20:34:42.855818"
+    },
+    {
+      "id": "tk-267",
+      "item_id": "683679592596",
+      "source_url": "https://detail.tmall.com/item.htm?id=683679592596&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "宜兴紫砂壶纯手工刻绘小品功夫茶具单壶原矿大红袍泡茶壶喜上眉梢",
+      "category": "teapot",
+      "title_zhCN": "宜兴紫砂壶纯手工刻绘小品功夫茶具单壶原矿大红袍泡茶壶喜上眉梢",
+      "title_zhTW": "宜興紫砂壺純手工刻繪小品功夫茶具單壺原礦大红袍泡茶壺喜上眉梢",
+      "variants": [
+        {
+          "name": "喜上眉梢201mL(含)-300mL(含)",
+          "price": 365.0,
+          "original_price": 580.0,
+          "sku_id": "4904142177114"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-267/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-267/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-267/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-267/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-267/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-267.mp4"
+      ],
+      "specs": {
+        "craft": "刻绘 手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "大红袍",
+        "shapeType": "石瓢壶",
+        "packaging": "礼盒装",
+        "color": "喜上眉梢"
+      },
+      "date_uploaded": "2026-06-21T20:34:52.377634"
     }
   ]
 }
