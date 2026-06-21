@@ -5090,38 +5090,35 @@
     {
       "id": "tk-392",
       "source_sku": "634224948756",
-      "source_url": "https://detail.tmall.com/item.htm?id=634224948756&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guyixingzishahuchunshougongrongliangjiayongpaochahuchajutaozhuangzinihu",
+      "source_url": "https://detail.tmall.com/item.htm?id=666718933489&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "现代简约家用小茶台竹制功夫茶具储水茶盘托盘干泡台大号燕喜茶盘",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶 纯手工小容量家用泡茶壶茶具套装 紫泥玉润壶",
-      "title_zhTW": "古悦堂 宜興紫砂壺 純手工小容量家用泡茶壺茶具套裝 紫泥玉潤壺",
+      "title_zhCN": "现代简约家用小茶台竹制功夫茶具储水茶盘托盘干泡台大号燕喜茶盘",
+      "title_zhTW": "現代简約家用小茶台竹制功夫茶具储水茶盘托盘干泡台大号燕喜茶盘",
       "variants": [
         {
-          "name": "单壶约220ml",
-          "price": 159.2,
-          "original_price": 197.2,
-          "sku_id": "5146092954492"
-        },
-        {
-          "name": "【收藏加购】享优先发货全场包邮▲shaitu有好礼！(勿拍)约220ml",
-          "price": 291.95,
-          "original_price": null,
-          "sku_id": "5146092954493"
+          "name": "燕喜茶盘-大号",
+          "price": 124.0,
+          "original_price": 198.0,
+          "sku_id": "4977209726494"
         }
       ],
       "images": [
-        "/images/products/tk-392/main_1.webp",
-        "/images/products/tk-392/main_2.webp",
-        "/images/products/tk-392/main_3.webp",
-        "/images/products/tk-392/main_4.webp",
-        "/images/products/tk-392/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-392/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:42:56.957840",
-      "item_id": "634224948756"
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主效果图",
+        "material": "竹",
+        "scenario": "家用",
+        "color": "燕喜茶盘-大号"
+      },
+      "date_uploaded": "2026-06-21T20:54:57.376903",
+      "item_id": "666718933489"
     },
     {
       "id": "tk-393",

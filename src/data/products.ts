@@ -31899,6 +31899,64 @@ export const products: Product[] = [
     ],
     "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
   },
+  {
+    "id": "tk-392",
+    "slug": "现代简约家用小茶台竹制功夫茶具储水茶盘托盘干泡台大号燕喜茶盘",
+    "title_zhCN": "现代简约家用小茶台竹制功夫茶具储水茶盘托盘干泡台大号燕喜茶盘",
+    "title_zhTW": "現代简約家用小茶台竹制功夫茶具储水茶盘托盘干泡台大号燕喜茶盘",
+    "description_zhCN": "现代简约家用小茶台竹制功夫茶具储水茶盘托盘干泡台大号燕喜茶盘，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "description_zhTW": "现代简约家用小茶台竹制功夫茶具储水茶盘托盘干泡台大号燕喜茶盘，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "price": 124.0,
+    "originalPrice": 198.0,
+    "images": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/main_1.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/main_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/main_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/main_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/main_5.webp"
+    ],
+    "category": "teapot",
+    "inStock": true,
+    "stock": 100,
+    "featured": true,
+    "specs": {
+      "mainImageSource": "自主效果图",
+      "material": "竹",
+      "color": "燕喜茶盘-大号",
+      "scenario": "家用"
+    },
+    "createdAt": "2026-06-21",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "detailImages": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/detail_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/detail_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/detail_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/detail_5.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/detail_6.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/detail_7.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/detail_8.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-392/detail_9.webp"
+    ],
+    "variants": [
+      {
+        "id": "tk-392-01",
+        "name_zhCN": "燕喜茶盘-大号",
+        "name_zhTW": "燕喜茶盘-大号",
+        "price": 124.0,
+        "originalPrice": 198.0,
+        "stock": 50,
+        "image": "",
+        "sku": "4977209726494",
+      },
+    ],
+    "sourceUrl": "https://detail.tmall.com/item.htm?id=666718933489&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+    "sourceSku": "666718933489",
+    "videos": [
+
+    ],
+    "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
+  },
 ];
 export const categories = [
   { key: "all", label_zhCN: "全部" },
