@@ -1313,32 +1313,42 @@
     {
       "id": "tk-299",
       "source_sku": "683795893213",
-      "source_url": "https://detail.tmall.com/item.htm?id=683795893213&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingyuankuangzishahuchunshougongpaochahujiayongfuchajuzinihu",
+      "source_url": "https://detail.tmall.com/item.htm?id=716653690399&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "宜兴紫砂壶纯手工刻绘功夫茶具原矿家藏老紫泥家用泡茶壶东坡石瓢",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴原矿紫砂壶纯手工高端泡茶壶家用功夫茶具 紫泥明炉壶",
-      "title_zhTW": "古悦堂 宜興原礦紫砂壺純手工高端泡茶壺家用功夫茶具 紫泥明炉壺",
+      "title_zhCN": "宜兴紫砂壶纯手工刻绘功夫茶具原矿家藏老紫泥家用泡茶壶东坡石瓢",
+      "title_zhTW": "宜興紫砂壺純手工刻繪功夫茶具原礦家藏老紫泥家用泡茶壺东坡石瓢",
       "variants": [
         {
-          "name": "单壶约200ml",
-          "price": 504.0,
-          "original_price": 599.0,
-          "sku_id": "5146166554682"
+          "name": "东坡石瓢101mL(含)-200mL(含)",
+          "price": 876.0,
+          "original_price": 1200.0,
+          "sku_id": "5002085636478"
         }
       ],
       "images": [
-        "/images/products/tk-299/main_1.webp",
-        "/images/products/tk-299/main_2.webp",
-        "/images/products/tk-299/main_3.webp",
-        "/images/products/tk-299/main_4.webp",
-        "/images/products/tk-299/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-299/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-299/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-299/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-299/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-299/main_5.webp"
       ],
       "videos": [
-        "/videos/products/tk-299/product.mp4"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-299.mp4"
       ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:36:52.105082",
-      "item_id": "683795893213"
+      "specs": {
+        "craft": "刻绘 手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "中国大陆",
+        "material": "家藏老紫泥",
+        "shapeType": "石瓢壶",
+        "packaging": "礼盒装",
+        "color": "东坡石瓢"
+      },
+      "date_uploaded": "2026-06-21T20:39:48.831839",
+      "item_id": "716653690399"
     },
     {
       "id": "tk-300",
