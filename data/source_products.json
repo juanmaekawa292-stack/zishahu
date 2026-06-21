@@ -12146,6 +12146,40 @@
         "color": "德钟壶"
       },
       "date_uploaded": "2026-06-21T21:09:27.148861"
+    },
+    {
+      "id": "tk-480",
+      "item_id": "628424644420",
+      "source_url": "https://detail.tmall.com/item.htm?id=628424644420&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "大红袍紫砂功夫茶杯个人专用主人杯单杯小茶杯茶盏品茗杯单个茶碗",
+      "category": "cup",
+      "title_zhCN": "大红袍紫砂功夫茶杯个人专用主人杯单杯小茶杯茶盏品茗杯单个茶碗",
+      "title_zhTW": "大红袍紫砂功夫茶杯个人专用主人杯單杯小茶杯茶盏品茗杯單个茶碗",
+      "variants": [
+        {
+          "name": "品茗杯200mL以下",
+          "price": 25.8,
+          "original_price": 38.0,
+          "sku_id": "4641197499599"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-480/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-480/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-480/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-480/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-480/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "color": "品茗杯"
+      },
+      "date_uploaded": "2026-06-21T21:09:34.485110"
     }
   ]
 }
