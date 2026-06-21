@@ -12180,6 +12180,39 @@
         "color": "品茗杯"
       },
       "date_uploaded": "2026-06-21T21:09:34.485110"
+    },
+    {
+      "id": "tk-481",
+      "item_id": "522086077528",
+      "source_url": "https://detail.tmall.com/item.htm?id=522086077528&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "藏壶天下宜兴家藏紫砂公道杯手工大红袍公杯茶道配件功夫如意公杯",
+      "category": "teapot",
+      "title_zhCN": "藏壶天下宜兴家藏紫砂公道杯手工大红袍公杯茶道配件功夫如意公杯",
+      "title_zhTW": "藏壺天下宜興家藏紫砂公道杯手工大红袍公杯茶道配件功夫如意公杯",
+      "variants": [
+        {
+          "name": "如意公道杯",
+          "price": 124.0,
+          "original_price": 198.0,
+          "sku_id": "5016828352259"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-481/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-481/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-481/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-481/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-481/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "origin": "宜兴市",
+        "color": "如意公道杯",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T21:09:42.542650"
     }
   ]
 }
