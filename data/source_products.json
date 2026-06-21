@@ -3681,30 +3681,35 @@
     {
       "id": "tk-356",
       "source_sku": "630459941606",
-      "source_url": "https://detail.tmall.com/item.htm?id=630459941606&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingzishahuchunshougongjiayongpaochahuchajutaozhuangdazinixishihu",
+      "source_url": "https://detail.tmall.com/item.htm?id=667339910135&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "藏壶天下紫砂茶宠可养茶桌摆件茶具配件茶盘摆件拉毛工艺小猫茶玩",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶纯全手工家用泡茶壶茶具套装 大号紫茄泥西施壶",
-      "title_zhTW": "古悦堂 宜興紫砂壺純全手工家用泡茶壺茶具套裝 大号紫茄泥西施壺",
+      "title_zhCN": "藏壶天下紫砂茶宠可养茶桌摆件茶具配件茶盘摆件拉毛工艺小猫茶玩",
+      "title_zhTW": "藏壺天下紫砂茶宠可养茶桌摆件茶具配件茶盘摆件拉毛工藝小猫茶玩",
       "variants": [
         {
-          "name": "原矿紫砂 | 紫茄泥西施【精美礼盒】约270ml",
-          "price": 1173.0,
-          "original_price": 1380.0,
-          "sku_id": "6229392851149"
+          "name": "小橘猫",
+          "price": 39.4,
+          "original_price": 58.0,
+          "sku_id": "4810635581376"
         }
       ],
       "images": [
-        "/images/products/tk-356/main_1.webp",
-        "/images/products/tk-356/main_2.webp",
-        "/images/products/tk-356/main_3.webp",
-        "/images/products/tk-356/main_4.webp",
-        "/images/products/tk-356/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-356/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-356/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-356/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-356/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-356/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:40:35.772122",
-      "item_id": "630459941606"
+      "specs": {
+        "material": "紫砂",
+        "color": "小橘猫",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:49:10.690930",
+      "item_id": "667339910135"
     },
     {
       "id": "tk-357",
