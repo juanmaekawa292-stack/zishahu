@@ -2183,30 +2183,38 @@
     {
       "id": "tk-321",
       "source_sku": "1037995337928",
-      "source_url": "https://detail.tmall.com/item.htm?id=1037995337928&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingzishahuchunshougongpaochahujiayongdarongliangchaju2026xinkuanli",
-      "category": "teapot",
-      "title_zhCN": "宜兴紫砂壶纯手工泡茶壶家用大容量茶具2026新款送领导长辈生日礼",
-      "title_zhTW": "宜興紫砂壺純手工泡茶壺家用大容量茶具2026新款送领导长辈生日禮",
+      "source_url": "https://detail.tmall.com/item.htm?id=722048037663&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "大容量宜兴主人杯纯手工男士泡茶杯带盖个人专用办公茶具紫砂盖杯",
+      "category": "cup",
+      "title_zhCN": "大容量宜兴主人杯纯手工男士泡茶杯带盖个人专用办公茶具紫砂盖杯",
+      "title_zhTW": "大容量宜興主人杯純手工男士泡茶杯带盖个人专用办公茶具紫砂盖杯",
       "variants": [
         {
-          "name": "约330ml",
-          "price": 1088.0,
-          "original_price": 1280.0,
-          "sku_id": "6055330969871"
+          "name": "禅心杯200mL(含)-400mL(含)",
+          "price": 124.0,
+          "original_price": 198.0,
+          "sku_id": "5025194437134"
         }
       ],
       "images": [
-        "/images/products/tk-321/main_1.webp",
-        "/images/products/tk-321/main_2.webp",
-        "/images/products/tk-321/main_3.webp",
-        "/images/products/tk-321/main_4.webp",
-        "/images/products/tk-321/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-321/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-321/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-321/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-321/main_4.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:38:19.279420",
-      "item_id": "1037995337928"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-321.mp4"
+      ],
+      "specs": {
+        "material": "紫砂",
+        "capacity": "200mL(含)-400mL(含)",
+        "origin": "宜兴市",
+        "color": "禅心杯",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:43:25.206193",
+      "item_id": "722048037663"
     },
     {
       "id": "tk-322",
