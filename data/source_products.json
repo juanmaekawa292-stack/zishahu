@@ -9535,6 +9535,38 @@
         "color": "竹韵清风西施壶"
       },
       "date_uploaded": "2026-06-21T20:32:52.205617"
+    },
+    {
+      "id": "tk-256",
+      "item_id": "608460940832",
+      "source_url": "https://detail.tmall.com/item.htm?id=608460940832&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "牛年转运珠男紫砂茶宠精品可养招财茶桌小摆件茶具配件摆设茶摆件",
+      "category": "teaPet",
+      "title_zhCN": "牛年转运珠男紫砂茶宠精品可养招财茶桌小摆件茶具配件摆设茶摆件",
+      "title_zhTW": "牛年转运珠男紫砂茶宠精品可养招财茶桌小摆件茶具配件摆设茶摆件",
+      "variants": [
+        {
+          "name": "转运珠",
+          "price": 86.0,
+          "original_price": 138.0,
+          "sku_id": "4274516508870"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-256/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-256/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-256/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-256/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-256/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "color": "转运珠",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:32:59.547619"
     }
   ]
 }
