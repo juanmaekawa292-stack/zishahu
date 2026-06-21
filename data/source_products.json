@@ -1508,38 +1508,37 @@
     {
       "id": "tk-304",
       "source_sku": "559013056659",
-      "source_url": "https://detail.tmall.com/item.htm?id=559013056659&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guyixingyuankuangzishahumingjiachunshougongzhengchahutaozhuangfuchajuhu",
+      "source_url": "https://detail.tmall.com/item.htm?id=891109048134&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "泡茶神器茶叶过滤器原矿紫砂茶漏球孔茶滤茶隔茶具配件茶漏架茶托",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴原矿紫砂壶名家纯全手工正品茶壶套装功夫茶具 曲壶",
-      "title_zhTW": "古悦堂 宜興原礦紫砂壺名家純全手工正品茶壺套裝功夫茶具 曲壺",
+      "title_zhCN": "泡茶神器茶叶过滤器原矿紫砂茶漏球孔茶滤茶隔茶具配件茶漏架茶托",
+      "title_zhTW": "泡茶神器茶叶过滤器原礦紫砂茶漏球孔茶滤茶隔茶具配件茶漏架茶托",
       "variants": [
         {
-          "name": "小号：220毫升小号约220ml/大号约330ml",
-          "price": 319.2,
-          "original_price": 399.0,
-          "sku_id": "5094405587685"
-        },
-        {
-          "name": "大号：330毫升小号约220ml/大号约330ml",
-          "price": 450.0,
-          "original_price": null,
-          "sku_id": "5094405587684"
+          "name": "紫砂茶漏",
+          "price": 46.2,
+          "original_price": 68.0,
+          "sku_id": "5735541584046"
         }
       ],
       "images": [
-        "/images/products/tk-304/main_1.webp",
-        "/images/products/tk-304/main_2.webp",
-        "/images/products/tk-304/main_3.webp",
-        "/images/products/tk-304/main_4.webp",
-        "/images/products/tk-304/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-304/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-304/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-304/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-304/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-304/main_5.webp"
       ],
       "videos": [
-        "/videos/products/tk-304/product.mp4"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-304.mp4"
       ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:37:12.099856",
-      "item_id": "559013056659"
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "handmade": "是",
+        "material": "紫砂",
+        "color": "紫砂茶漏"
+      },
+      "date_uploaded": "2026-06-21T20:40:37.904335",
+      "item_id": "891109048134"
     },
     {
       "id": "tk-305",
