@@ -9279,6 +9279,63 @@
         "color": "黑檀木茶道六君子款式一"
       },
       "date_uploaded": "2026-06-21T20:31:45.824186"
+    },
+    {
+      "id": "tk-250",
+      "item_id": "678032220767",
+      "source_url": "https://detail.tmall.com/item.htm?id=678032220767&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂壶纯手工家用泡茶壶单壶原矿底槽清功夫茶具德钟",
+      "category": "teapot",
+      "title_zhCN": "藏壶天下宜兴紫砂壶纯手工家用泡茶壶单壶原矿底槽清功夫茶具德钟",
+      "title_zhTW": "藏壺天下宜興紫砂壺純手工家用泡茶壺單壺原礦底槽清功夫茶具德鍾",
+      "variants": [
+        {
+          "name": "剑流德钟201mL(含)-300mL(含)",
+          "price": 250.0,
+          "original_price": 398.0,
+          "sku_id": "4872296009206"
+        },
+        {
+          "name": "剑流德钟101mL(含)-200mL(含)",
+          "price": 398.0,
+          "original_price": null,
+          "sku_id": "6169920486530"
+        },
+        {
+          "name": "剑流德钟-朱泥201mL(含)-300mL(含)",
+          "price": 380.0,
+          "original_price": null,
+          "sku_id": "6169920486532"
+        },
+        {
+          "name": "剑流德钟-朱泥101mL(含)-200mL(含)",
+          "price": 239.0,
+          "original_price": 380.0,
+          "sku_id": "6169920486531"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-250/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-250/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-250/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-250/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-250/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-250.mp4"
+      ],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含) 201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "底槽清",
+        "shapeType": "德钟壶",
+        "packaging": "礼盒装",
+        "color": "剑流德钟 剑流德钟-朱泥"
+      },
+      "date_uploaded": "2026-06-21T20:32:00.403070"
     }
   ]
 }
