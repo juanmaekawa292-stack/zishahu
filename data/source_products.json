@@ -11124,6 +11124,56 @@
         "color": "青蛙莲子"
       },
       "date_uploaded": "2026-06-21T21:05:26.377671"
+    },
+    {
+      "id": "tk-455",
+      "item_id": "629114260099",
+      "source_url": "https://detail.tmall.com/item.htm?id=629114260099&rn=af2538143be9363990755a697899f54e&abbucket=14",
+      "slug": "精品宜兴紫砂茶叶罐小号陶瓷密封罐家用茶罐中式普洱储茶罐紫砂罐",
+      "category": "teapot",
+      "title_zhCN": "精品宜兴紫砂茶叶罐小号陶瓷密封罐家用茶罐中式普洱储茶罐紫砂罐",
+      "title_zhTW": "精品宜興紫砂茶叶罐小号陶磷密封罐家用茶罐中式普洱储茶罐紫砂罐",
+      "variants": [
+        {
+          "name": "竹",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4477675789500"
+        },
+        {
+          "name": "兰",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4477675789499"
+        },
+        {
+          "name": "菊",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4477675789501"
+        },
+        {
+          "name": "梅",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4477675789498"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-455/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-455/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-455/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-455/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-455/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "手工",
+        "color": "竹 兰 菊 梅"
+      },
+      "date_uploaded": "2026-06-21T21:05:35.609170"
     }
   ]
 }
