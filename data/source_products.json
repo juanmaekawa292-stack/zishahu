@@ -1028,90 +1028,34 @@
     {
       "id": "tk-292",
       "source_sku": "754087356305",
-      "source_url": "https://detail.tmall.com/item.htm?id=754087356305&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingzishahuchunshougongpaochahu1chajufuhuda",
+      "source_url": "https://detail.tmall.com/item.htm?id=612909204918&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "藏壶天下功夫茶具原矿段泥紫砂树桩盖托茶桌摆件盖座盖置全手工",
       "category": "teapot",
-      "title_zhCN": "古悦堂宜兴紫砂壶纯手工泡茶壶一人独饮小茶具功夫单壶大红袍君德",
-      "title_zhTW": "古悦堂宜興紫砂壺純手工泡茶壺一人独饮小茶具功夫單壺大红袍君德",
+      "title_zhCN": "藏壶天下功夫茶具原矿段泥紫砂树桩盖托茶桌摆件盖座盖置全手工",
+      "title_zhTW": "藏壺天下功夫茶具原礦段泥紫砂树桩盖托茶桌摆件盖座盖置全手工",
       "variants": [
         {
-          "name": "君德51mL(含)-100mL(含)",
-          "price": 297.35,
-          "original_price": 350.35,
-          "sku_id": "5402037159063"
-        },
-        {
-          "name": "龙蛋51mL(含)-100mL(含)",
-          "price": 297.35,
-          "original_price": 350.35,
-          "sku_id": "5402037159066"
-        },
-        {
-          "name": "仿古51mL(含)-100mL(含)",
-          "price": 297.35,
-          "original_price": 350.35,
-          "sku_id": "5402037159070"
-        },
-        {
-          "name": "思亭51mL(含)-100mL(含)",
-          "price": 297.35,
-          "original_price": 350.35,
-          "sku_id": "5402037159064"
-        },
-        {
-          "name": "水平51mL(含)-100mL(含)",
-          "price": 297.35,
-          "original_price": 350.35,
-          "sku_id": "5402037159069"
-        },
-        {
-          "name": "汉瓦51mL(含)-100mL(含)",
-          "price": 378.1,
-          "original_price": 445.1,
-          "sku_id": "5402037159068"
-        },
-        {
-          "name": "石瓢51mL(含)-100mL(含)",
-          "price": 297.35,
-          "original_price": 350.35,
-          "sku_id": "5402037159065"
-        },
-        {
-          "name": "潘壶51mL(含)-100mL(含)",
-          "price": 297.35,
-          "original_price": 350.35,
-          "sku_id": "5402037159071"
-        },
-        {
-          "name": "掇只51mL(含)-100mL(含)",
-          "price": 297.35,
-          "original_price": 350.35,
-          "sku_id": "5402037159072"
-        },
-        {
-          "name": "美人肩51mL(含)-100mL(含)",
-          "price": 297.35,
-          "original_price": 350.35,
-          "sku_id": "5402037159073"
-        },
-        {
-          "name": "西施51mL(含)-100mL(含)",
-          "price": 339.15,
-          "original_price": 399.15,
-          "sku_id": "5846159837434"
+          "name": "树桩盖托",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4318789989772"
         }
       ],
       "images": [
-        "/images/products/tk-292/main_1.webp",
-        "/images/products/tk-292/main_2.webp",
-        "/images/products/tk-292/main_3.webp",
-        "/images/products/tk-292/main_4.webp",
-        "/images/products/tk-292/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-292/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-292/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-292/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-292/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-292/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:36:21.455807",
-      "item_id": "754087356305"
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "handmade": "是",
+        "color": "树桩盖托"
+      },
+      "date_uploaded": "2026-06-21T20:38:44.660366",
+      "item_id": "612909204918"
     },
     {
       "id": "tk-293",
