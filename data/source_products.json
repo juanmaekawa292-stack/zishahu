@@ -12648,6 +12648,49 @@
         "handmade": "是"
       },
       "date_uploaded": "2026-06-21T21:11:40.178073"
+    },
+    {
+      "id": "tk-494",
+      "item_id": "638190610918",
+      "source_url": "https://detail.tmall.com/item.htm?id=638190610918&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "黄金段泥宜兴名家紫砂壶纯手工小茶壶单人家用茶具小号西施壶单壶",
+      "category": "teapot",
+      "title_zhCN": "黄金段泥宜兴名家紫砂壶纯手工小茶壶单人家用茶具小号西施壶单壶",
+      "title_zhTW": "黄金段泥宜興名家紫砂壺純手工小茶壺單人家用茶具小号西施壺單壺",
+      "variants": [
+        {
+          "name": "清风西施201mL(含)-300mL(含)",
+          "price": 250.0,
+          "original_price": 398.0,
+          "sku_id": "4750443795599"
+        },
+        {
+          "name": "兰馨西施201mL(含)-300mL(含)",
+          "price": 250.0,
+          "original_price": 398.0,
+          "sku_id": "5844736404738"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-494/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-494/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-494/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-494/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-494/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "craft": "手工",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "黄金段泥",
+        "shapeType": "西施壶",
+        "packaging": "礼盒装",
+        "color": "清风西施 兰馨西施"
+      },
+      "date_uploaded": "2026-06-21T21:11:48.957558"
     }
   ]
 }
