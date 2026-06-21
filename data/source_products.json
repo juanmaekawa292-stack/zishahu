@@ -1845,30 +1845,42 @@
     {
       "id": "tk-313",
       "source_sku": "694981281074",
-      "source_url": "https://detail.tmall.com/item.htm?id=694981281074&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingyuankuangzishahuchafuchahuhuxishihuchaju",
+      "source_url": "https://detail.tmall.com/item.htm?id=616750503124&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂壶紫泥小容量泡茶壶单人纯手工刻绘四方功夫茶具",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴原矿紫砂壶煮茶功夫小茶壶单壶西施壶茶具 呈祥献瑞",
-      "title_zhTW": "古悦堂 宜興原礦紫砂壺煮茶功夫小茶壺單壺西施壺茶具 呈祥献瑞",
+      "title_zhCN": "藏壶天下宜兴紫砂壶紫泥小容量泡茶壶单人纯手工刻绘四方功夫茶具",
+      "title_zhTW": "藏壺天下宜興紫砂壺紫泥小容量泡茶壺單人純手工刻繪四方功夫茶具",
       "variants": [
         {
-          "name": "约170mL",
-          "price": 313.0,
-          "original_price": 369.0,
-          "sku_id": "4935642309496"
+          "name": "愚方201mL(含)-300mL(含)",
+          "price": 680.0,
+          "original_price": 1080.0,
+          "sku_id": "4343078636461"
         }
       ],
       "images": [
-        "/images/products/tk-313/main_1.webp",
-        "/images/products/tk-313/main_2.webp",
-        "/images/products/tk-313/main_3.webp",
-        "/images/products/tk-313/main_4.webp",
-        "/images/products/tk-313/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-313/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-313/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-313/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-313/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-313/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:37:53.668494",
-      "item_id": "694981281074"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-313.mp4"
+      ],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "方形",
+        "packaging": "礼盒装",
+        "color": "愚方"
+      },
+      "date_uploaded": "2026-06-21T20:42:04.632437",
+      "item_id": "616750503124"
     },
     {
       "id": "tk-314",
