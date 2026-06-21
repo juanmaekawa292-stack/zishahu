@@ -2331,38 +2331,40 @@
     {
       "id": "tk-325",
       "source_sku": "920532219257",
-      "source_url": "https://detail.tmall.com/item.htm?id=920532219257&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "yixingzishachunshougongpaochayonghu2026xinkuanlichajutaozhuang1hu4beihanwa",
+      "source_url": "https://detail.tmall.com/item.htm?id=567940657446&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "全手工宜兴名家鱼化龙紫砂壶民国绿泥家用纯手工泡茶壶茶具花器",
       "category": "teapot",
-      "title_zhCN": "宜兴紫砂纯手工泡茶专用壶2026新款送礼茶具套装一壶四杯梅花汉瓦",
-      "title_zhTW": "宜興紫砂純手工泡茶专用壺2026新款送禮茶具套裝一壺四杯梅花漢瓦",
+      "title_zhCN": "全手工宜兴名家鱼化龙紫砂壶民国绿泥家用纯手工泡茶壶茶具花器",
+      "title_zhTW": "全手工宜興名家鱼化龍紫砂壺民國绿泥家用純手工泡茶壺茶具花器",
       "variants": [
         {
-          "name": "单壶约210ml",
-          "price": 208.05,
-          "original_price": 245.05,
-          "sku_id": "5794885376132"
-        },
-        {
-          "name": "一壶四杯约210ml",
-          "price": 240.35,
-          "original_price": 283.35,
-          "sku_id": "5794885376133"
+          "name": "鱼跃龙门201mL(含)-300mL(含)",
+          "price": 1040.0,
+          "original_price": 2080.0,
+          "sku_id": "3624575080173"
         }
       ],
       "images": [
-        "/images/products/tk-325/main_1.webp",
-        "/images/products/tk-325/main_2.webp",
-        "/images/products/tk-325/main_3.webp",
-        "/images/products/tk-325/main_4.webp",
-        "/images/products/tk-325/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-325/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-325/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-325/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-325/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-325/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-325/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:38:30.793770",
-      "item_id": "920532219257"
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "民国绿泥",
+        "shapeType": "鱼化龙",
+        "packaging": "礼盒装",
+        "color": "鱼跃龙门"
+      },
+      "date_uploaded": "2026-06-21T20:44:02.621497",
+      "item_id": "567940657446"
     },
     {
       "id": "tk-326",
