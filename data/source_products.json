@@ -7224,32 +7224,40 @@
     {
       "id": "tk-447",
       "source_sku": "1009793519701",
-      "source_url": "https://detail.tmall.com/item.htm?id=1009793519701&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingzhengchajuchunshougongchahupaochajiayongxinkuanzishahuxinnianli",
+      "source_url": "https://detail.tmall.com/item.htm?id=650339866086&rn=1a9d503a5eb80610a62081f1d55c5c59&abbucket=14",
+      "slug": "小容量宜兴纯手工紫砂壶茶具家用茶壶单壶原矿底槽清全手工西施壶",
       "category": "teapot",
-      "title_zhCN": "宜兴正品茶具纯手工茶壶泡茶家用新款紫砂壶送长辈领导新年生日礼",
-      "title_zhTW": "宜興正品茶具純手工茶壺泡茶家用新款紫砂壺送长辈领导新年生日禮",
+      "title_zhCN": "小容量宜兴纯手工紫砂壶茶具家用茶壶单壶原矿底槽清全手工西施壶",
+      "title_zhTW": "小容量宜興純手工紫砂壺茶具家用茶壺單壺原礦底槽清全手工西施壺",
       "variants": [
         {
-          "name": "玩壶必入 | 特高温青灰泥道洪掇只【精美礼盒】约230ml",
-          "price": 594.0,
-          "original_price": 699.0,
-          "sku_id": "6177826919576"
+          "name": "西施壶201mL(含)-300mL(含)",
+          "price": 1247.0,
+          "original_price": 1980.0,
+          "sku_id": "4856970810336"
         }
       ],
       "images": [
-        "/images/products/tk-447/main_1.webp",
-        "/images/products/tk-447/main_2.webp",
-        "/images/products/tk-447/main_3.webp",
-        "/images/products/tk-447/main_4.webp",
-        "/images/products/tk-447/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-447/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-447/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-447/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-447/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-447/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-447/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:46:19.827787",
-      "item_id": "1009793519701"
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "底槽清",
+        "shapeType": "西施壶",
+        "packaging": "礼盒装",
+        "color": "西施壶"
+      },
+      "date_uploaded": "2026-06-21T21:04:13.750461",
+      "item_id": "650339866086"
     },
     {
       "id": "tk-448",
