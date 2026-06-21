@@ -2257,50 +2257,41 @@
     {
       "id": "tk-323",
       "source_sku": "635151019743",
-      "source_url": "https://detail.tmall.com/item.htm?id=635151019743&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingzishahuchunshougongjiayongrongliangpaochahuchajutaozhuang5xishihu",
+      "source_url": "https://detail.tmall.com/item.htm?id=611501116112&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "宜兴紫砂壶纯手工紫泥泡茶壶四方器国工朱倩冰全手工刻绘家用茶具",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶 纯手工家用小容量泡茶壶茶具套装 五色西施壶",
-      "title_zhTW": "古悦堂 宜興紫砂壺 純手工家用小容量泡茶壺茶具套裝 五色西施壺",
+      "title_zhCN": "宜兴紫砂壶纯手工紫泥泡茶壶四方器国工朱倩冰全手工刻绘家用茶具",
+      "title_zhTW": "宜興紫砂壺純手工紫泥泡茶壺四方器國工朱倩冰全手工刻繪家用茶具",
       "variants": [
         {
-          "name": "天青泥款 （已售罄 拍下不发）约210ml",
-          "price": 197.2,
-          "original_price": null,
-          "sku_id": "4921591913254"
-        },
-        {
-          "name": "段泥款约210ml",
-          "price": 167.2,
-          "original_price": 197.2,
-          "sku_id": "4921591913257"
-        },
-        {
-          "name": "紫泥款 【拍下20天内发货】约210ml",
-          "price": 167.2,
-          "original_price": 197.2,
-          "sku_id": "4921591913256"
-        },
-        {
-          "name": "大红袍款约210ml",
-          "price": 167.2,
-          "original_price": 197.2,
-          "sku_id": "4921591913255"
+          "name": "四方坦然101mL(含)-200mL(含)",
+          "price": 932.0,
+          "original_price": 1480.0,
+          "sku_id": "4306235456601"
         }
       ],
       "images": [
-        "/images/products/tk-323/main_1.webp",
-        "/images/products/tk-323/main_2.webp",
-        "/images/products/tk-323/main_3.webp",
-        "/images/products/tk-323/main_4.webp",
-        "/images/products/tk-323/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-323/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-323/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-323/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-323/main_4.webp"
       ],
       "videos": [
-        "/videos/products/tk-323/product.mp4"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-323.mp4"
       ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:38:25.049782",
-      "item_id": "635151019743"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "方形",
+        "packaging": "礼盒装",
+        "color": "四方坦然"
+      },
+      "date_uploaded": "2026-06-21T20:43:45.125915",
+      "item_id": "611501116112"
     },
     {
       "id": "tk-324",
