@@ -7153,6 +7153,61 @@
         "color": "紫泥山水套装 紫泥荷趣套装 喜梅套装 紫泥山水单壶 紫泥荷趣单壶 喜梅款单壶"
       },
       "date_uploaded": "2026-06-21T20:23:19.834844"
+    },
+    {
+      "id": "tk-201",
+      "item_id": "45477459075",
+      "source_url": "https://detail.tmall.com/item.htm?id=45477459075&rn=af2538143be9363990755a697899f54e&abbucket=14",
+      "slug": "礼品宜兴紫砂壶纯手工紫砂茶具套装原矿老紫泥泡茶壶吉祥如意",
+      "category": "teapot",
+      "title_zhCN": "礼品宜兴紫砂壶纯手工紫砂茶具套装原矿老紫泥泡茶壶吉祥如意",
+      "title_zhTW": "禮品宜興紫砂壺純手工紫砂茶具套裝原礦老紫泥泡茶壺吉祥如意",
+      "variants": [
+        {
+          "name": "万事如意-单壶101mL(含)-200mL(含)",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "5893275618914"
+        },
+        {
+          "name": "万事如意-套装101mL(含)-200mL(含)",
+          "price": 220.0,
+          "original_price": 350.0,
+          "sku_id": "5893275618913"
+        },
+        {
+          "name": "吉祥如意-单壶101mL(含)-200mL(含)",
+          "price": 189.0,
+          "original_price": 300.0,
+          "sku_id": "4966979564619"
+        },
+        {
+          "name": "吉祥如意-套装101mL(含)-200mL(含)",
+          "price": 220.0,
+          "original_price": 350.0,
+          "sku_id": "4966979564618"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-201/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-201/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-201/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-201/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-201/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "特殊",
+        "packaging": "礼盒装",
+        "color": "万事如意-单壶 万事如意-套装 吉祥如意-单壶 吉祥如意-套装"
+      },
+      "date_uploaded": "2026-06-21T20:23:32.845619"
     }
   ]
 }
