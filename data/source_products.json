@@ -523,36 +523,43 @@
     {
       "id": "tk-281",
       "source_sku": "789032217966",
-      "source_url": "https://detail.tmall.com/item.htm?id=789032217966&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
-      "slug": "guyixingyuankuangzishachachachacha",
+      "source_url": "https://detail.tmall.com/item.htm?id=713590065880&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "藏壶天下黑檀木养壶笔不掉毛茶刷茶扫洗壶刷子功夫茶具茶道配件",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴原矿紫砂红茶普洱储茶罐收纳密封醒茶罐 山河茶叶罐",
-      "title_zhTW": "古悦堂 宜興原礦紫砂红茶普洱储茶罐收纳密封醒茶罐 山河茶叶罐",
+      "title_zhCN": "藏壶天下黑檀木养壶笔不掉毛茶刷茶扫洗壶刷子功夫茶具茶道配件",
+      "title_zhTW": "藏壺天下黑檀木养壺笔不掉毛茶刷茶扫洗壺刷子功夫茶具茶道配件",
       "variants": [
         {
-          "name": "山河茶叶罐",
-          "price": 117.0,
-          "original_price": 138.0,
-          "sku_id": "5382841412992"
+          "name": "黑檀木",
+          "price": 25.8,
+          "original_price": 38.0,
+          "sku_id": "5169535783429"
         },
         {
-          "name": "山川茶叶罐",
-          "price": 117.0,
-          "original_price": 138.0,
-          "sku_id": "5382841412993"
+          "name": "花梨木",
+          "price": 25.8,
+          "original_price": 38.0,
+          "sku_id": "5169535783430"
         }
       ],
       "images": [
-        "/images/products/tk-281/main_1.webp",
-        "/images/products/tk-281/main_2.webp",
-        "/images/products/tk-281/main_3.webp",
-        "/images/products/tk-281/main_4.webp",
-        "/images/products/tk-281/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-281/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-281/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-281/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-281/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-281/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:35:47.280182",
-      "item_id": "789032217966"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-281.mp4"
+      ],
+      "specs": {
+        "scenario": "日常使用",
+        "mainImageSource": "自主实拍图",
+        "handmade": "手工",
+        "color": "黑檀木 花梨木"
+      },
+      "date_uploaded": "2026-06-21T20:37:04.330035",
+      "item_id": "713590065880"
     },
     {
       "id": "tk-282",
