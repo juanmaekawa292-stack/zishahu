@@ -8070,6 +8070,43 @@
         "color": "秦权壶"
       },
       "date_uploaded": "2026-06-21T20:26:32.301267"
+    },
+    {
+      "id": "tk-219",
+      "item_id": "597338154334",
+      "source_url": "https://detail.tmall.com/item.htm?id=597338154334&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "正宗宜兴紫砂壶纯手工茶壶原矿紫泥家用功夫茶具泡茶壶如意西施壶",
+      "category": "teapot",
+      "title_zhCN": "正宗宜兴紫砂壶纯手工茶壶原矿紫泥家用功夫茶具泡茶壶如意西施壶",
+      "title_zhTW": "正宗宜興紫砂壺純手工茶壺原礦紫泥家用功夫茶具泡茶壺如意西施壺",
+      "variants": [
+        {
+          "name": "一壶两杯套装201mL(含)-300mL(含)",
+          "price": 365.0,
+          "original_price": 580.0,
+          "sku_id": "4153647188510"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-219/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-219/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-219/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-219/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-219/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "西施壶",
+        "packaging": "礼盒装",
+        "color": "一壶两杯套装"
+      },
+      "date_uploaded": "2026-06-21T20:26:41.718260"
     }
   ]
 }
