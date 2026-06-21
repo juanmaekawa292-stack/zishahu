@@ -5752,30 +5752,40 @@
     {
       "id": "tk-409",
       "source_sku": "630770966947",
-      "source_url": "https://detail.tmall.com/item.htm?id=630770966947&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingzishahuchunshougongjiayongpaochahuchajutaozhuangdazinihu",
+      "source_url": "https://detail.tmall.com/item.htm?id=597764841701&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "宜兴国高工周小明全手工刻字原矿老紫泥中品紫砂壶心经景舟石瓢",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶纯全手工家用泡茶壶茶具套装 大号紫茄泥秦权壶",
-      "title_zhTW": "古悦堂 宜興紫砂壺純全手工家用泡茶壺茶具套裝 大号紫茄泥秦权壺",
+      "title_zhCN": "宜兴国高工周小明全手工刻字原矿老紫泥中品紫砂壶心经景舟石瓢",
+      "title_zhTW": "宜興國高工周小明全手工刻字原礦老紫泥中品紫砂壺心經景舟石瓢",
       "variants": [
         {
-          "name": "原矿紫砂 | 紫茄泥秦权【精美礼盒】约350ml",
-          "price": 1173.0,
-          "original_price": 1380.0,
-          "sku_id": "5089221106387"
+          "name": "心经景舟石瓢301mL(含)-400mL(含)",
+          "price": 3360.0,
+          "original_price": 5600.0,
+          "sku_id": "4163961317094"
         }
       ],
       "images": [
-        "/images/products/tk-409/main_1.webp",
-        "/images/products/tk-409/main_2.webp",
-        "/images/products/tk-409/main_3.webp",
-        "/images/products/tk-409/main_4.webp",
-        "/images/products/tk-409/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-409/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-409/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-409/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-409/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-409/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:44:02.663787",
-      "item_id": "630770966947"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "301mL(含)-400mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫泥",
+        "shapeType": "石瓢壶",
+        "packaging": "礼盒装",
+        "color": "心经景舟石瓢"
+      },
+      "date_uploaded": "2026-06-21T20:57:42.647852",
+      "item_id": "597764841701"
     },
     {
       "id": "tk-410",
