@@ -11783,6 +11783,45 @@
         "color": "清风雅韵"
       },
       "date_uploaded": "2026-06-21T21:07:58.940549"
+    },
+    {
+      "id": "tk-471",
+      "item_id": "724577399614",
+      "source_url": "https://detail.tmall.com/item.htm?id=724577399614&rn=af2538143be9363990755a697899f54e",
+      "slug": "藏壶天下宜兴紫砂壶纯手工家用紫砂茶具泡茶壶贵妃红朱泥虚扁壶",
+      "category": "teapot",
+      "title_zhCN": "藏壶天下宜兴紫砂壶纯手工家用紫砂茶具泡茶壶贵妃红朱泥虚扁壶",
+      "title_zhTW": "藏壺天下宜興紫砂壺純手工家用紫砂茶具泡茶壺贵妃红朱泥虚扁壺",
+      "variants": [
+        {
+          "name": "虚扁101mL(含)-200mL(含)",
+          "price": 869.0,
+          "original_price": 1380.0,
+          "sku_id": "5029385800264"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-471/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-471/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-471/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-471/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-471/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-471.mp4"
+      ],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "中国大陆",
+        "material": "贵妃红朱泥",
+        "shapeType": "虚扁壶",
+        "packaging": "礼盒装",
+        "color": "虚扁"
+      },
+      "date_uploaded": "2026-06-21T21:08:08.830342"
     }
   ]
 }
