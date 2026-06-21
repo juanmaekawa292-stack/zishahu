@@ -9772,6 +9772,38 @@
         "color": "龙蛋壶"
       },
       "date_uploaded": "2026-06-21T20:33:49.451451"
+    },
+    {
+      "id": "tk-262",
+      "item_id": "688685503114",
+      "source_url": "https://detail.tmall.com/item.htm?id=688685503114&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "紫砂茶漏茶具配件泡茶神器茶叶过滤器创意手工茶滤茶隔一体茶漏架",
+      "category": "teapot",
+      "title_zhCN": "紫砂茶漏茶具配件泡茶神器茶叶过滤器创意手工茶滤茶隔一体茶漏架",
+      "title_zhTW": "紫砂茶漏茶具配件泡茶神器茶叶过滤器创意手工茶滤茶隔一体茶漏架",
+      "variants": [
+        {
+          "name": "清荷茶漏",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "5078913079906"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-262/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-262/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-262/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-262/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-262/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "color": "清荷茶漏",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:33:59.936013"
     }
   ]
 }
