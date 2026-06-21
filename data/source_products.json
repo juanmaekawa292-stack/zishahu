@@ -1240,48 +1240,40 @@
     {
       "id": "tk-297",
       "source_sku": "578706144401",
-      "source_url": "https://detail.tmall.com/item.htm?id=578706144401&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guyixingmingjiazishahuchunshougongchahujiayongchajuyuankuanglaozinihu",
+      "source_url": "https://detail.tmall.com/item.htm?id=607029076466&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "小容量宜兴紫砂壶纯手工功夫茶具泡茶壶原矿底槽清虾趣景舟石瓢壶",
       "category": "teapot",
-      "title_zhCN": "古悦堂宜兴名家紫砂壶纯全手工茶壶家用茶具原矿老紫泥扁腹壶",
-      "title_zhTW": "古悦堂宜興名家紫砂壺純全手工茶壺家用茶具原礦老紫泥扁腹壺",
+      "title_zhCN": "小容量宜兴紫砂壶纯手工功夫茶具泡茶壶原矿底槽清虾趣景舟石瓢壶",
+      "title_zhTW": "小容量宜興紫砂壺純手工功夫茶具泡茶壺原礦底槽清虾趣景舟石瓢壺",
       "variants": [
         {
-          "name": "光素款约230ml-250ml",
-          "price": 161.0,
-          "original_price": 199.0,
-          "sku_id": "4922124541703"
-        },
-        {
-          "name": "刻绘款约230ml-250ml",
-          "price": 185.0,
-          "original_price": 228.0,
-          "sku_id": "4922124541704"
-        },
-        {
-          "name": "光素款大套装约230ml-250ml",
-          "price": 185.0,
-          "original_price": 228.0,
-          "sku_id": "5850430170096"
-        },
-        {
-          "name": "刻绘款大套装约230ml-250ml",
-          "price": 211.0,
-          "original_price": 258.0,
-          "sku_id": "5850430170095"
+          "name": "虾趣石瓢景舟款101mL(含)-200mL(含)",
+          "price": 680.0,
+          "original_price": 1080.0,
+          "sku_id": "4434393175561"
         }
       ],
       "images": [
-        "/images/products/tk-297/main_1.webp",
-        "/images/products/tk-297/main_2.webp",
-        "/images/products/tk-297/main_3.webp",
-        "/images/products/tk-297/main_4.webp",
-        "/images/products/tk-297/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-297/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-297/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-297/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-297/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-297/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:36:41.903458",
-      "item_id": "578706144401"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "底槽清",
+        "shapeType": "石瓢壶",
+        "packaging": "礼盒装",
+        "color": "虾趣石瓢景舟款"
+      },
+      "date_uploaded": "2026-06-21T20:39:29.743161",
+      "item_id": "607029076466"
     },
     {
       "id": "tk-298",
