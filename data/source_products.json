@@ -1142,38 +1142,39 @@
     {
       "id": "tk-295",
       "source_sku": "563407722315",
-      "source_url": "https://detail.tmall.com/item.htm?id=563407722315&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingyuankuangzishabeizhengshougongzishabeichabeidarongliangbeibei",
+      "source_url": "https://detail.tmall.com/item.htm?id=670654631165&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "个人专用茶杯办公茶具宜兴紫砂杯男士泡茶杯带盖纯手工太湖石盖杯",
       "category": "cup",
-      "title_zhCN": "古悦堂 宜兴原矿紫砂杯正品全手工紫砂盖杯茶杯大容量杯子舍得杯",
-      "title_zhTW": "古悦堂 宜興原礦紫砂杯正品全手工紫砂盖杯茶杯大容量杯子舍得杯",
+      "title_zhCN": "个人专用茶杯办公茶具宜兴紫砂杯男士泡茶杯带盖纯手工太湖石盖杯",
+      "title_zhTW": "个人专用茶杯办公茶具宜興紫砂杯男士泡茶杯带盖純手工太湖石盖杯",
       "variants": [
         {
-          "name": "紫泥款红泥约350mL/紫泥约450mL",
-          "price": 142.0,
-          "original_price": 168.0,
-          "sku_id": "4920817305564"
-        },
-        {
-          "name": "红泥款红泥约350mL/紫泥约450mL",
-          "price": 168.0,
-          "original_price": null,
-          "sku_id": "4920817305563"
+          "name": "太湖石400mL(不含)-600mL(含)",
+          "price": 584.0,
+          "original_price": 800.0,
+          "sku_id": "5654239024626"
         }
       ],
       "images": [
-        "/images/products/tk-295/main_1.webp",
-        "/images/products/tk-295/main_2.webp",
-        "/images/products/tk-295/main_3.webp",
-        "/images/products/tk-295/main_4.webp",
-        "/images/products/tk-295/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-295/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-295/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-295/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-295/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-295/main_5.webp"
       ],
       "videos": [
-        "/videos/products/tk-295/product.mp4"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-295.mp4"
       ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:36:28.650009",
-      "item_id": "563407722315"
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "400mL(不含)-600mL(含)",
+        "color": "太湖石"
+      },
+      "date_uploaded": "2026-06-21T20:39:12.048381",
+      "item_id": "670654631165"
     },
     {
       "id": "tk-296",
