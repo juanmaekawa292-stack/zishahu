@@ -67,6 +67,9 @@ export interface Product {
   sourceSku?: string;
   videos: string[];
   shipping?: ShippingInfo;
+  metaTitle?: string;
+  metaDescription?: string;
+  seoKeywords?: string[];
 }
 
 export interface CartItem {

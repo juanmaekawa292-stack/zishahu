@@ -3,6 +3,7 @@
  import { useTranslations } from "next-intl";
  import { useState, useEffect } from "react";
  import { ShoppingCart, Menu, X, Heart, ChevronDown, HelpCircle, User, LogOut, Package } from "lucide-react";
+ import { CurrencySelector } from "@/components/ui/CurrencySelector";
  import type { User as UserType } from "@/types";
  import { Link, usePathname } from "@/i18n";
  import { useCartStore } from "@/store/cart";
@@ -69,6 +70,9 @@ const navLinks = [
 
         {/* Actions */}
         <div className="flex items-center gap-3">
+          {/* Currency Switcher */}
+          <CurrencySelector />
+
           {/* Language Switch */}
           <div className="relative hidden sm:block">
             <button
@@ -220,4 +224,4 @@ const navLinks = [
       )}
     </header>
   );
-}
+}

@@ -1,5 +1,6 @@
 {
   "common": {
+    "loginPrompt": "登入後即可新增商品到購物車、收藏商品",
     "siteName": "紫砂雅集",
     "siteSubtitle": "宜興紫砂 · 茶道美學",
     "home": "首頁",
@@ -37,6 +38,7 @@
     "footer": "? 2026 紫砂雅集 — 宜興紫砂跨境茶具商城"
   },
   "product": {
+    "startingFrom": "起",
     "details": "商品詳情",
     "specifications": "規格參數",
     "reviews": "用戶評價",

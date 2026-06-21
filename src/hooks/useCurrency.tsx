@@ -12,6 +12,13 @@ var cache: CurrencyInfo | null = null;
 var cachePromise: Promise<CurrencyInfo> | null = null;
 
 function loadCurrency(): Promise<CurrencyInfo> {
+  // Check for local override first (set by CurrencySelector)
+  if (typeof window !== "undefined" && (window as any).__CURRENCY_OVERRIDE__) {
+    const override = (window as any).__CURRENCY_OVERRIDE__ as CurrencyInfo;
+    cache = override;
+    return Promise.resolve(override);
+  }
+
   if (cache) return Promise.resolve(cache);
   if (cachePromise) return cachePromise;
   cachePromise = fetch("/api/currency").then(function(r) { return r.json(); }).then(function(d) {
@@ -37,6 +44,22 @@ export function useCurrency() {
       setCurrency(c);
       setLoaded(true);
     });
+  }, []);
+
+  // Listen for currency-change events from CurrencySelector
+  useEffect(function() {
+    function handleCurrencyChange(e: CustomEvent) {
+      var detail = e.detail;
+      cache = { symbol: detail.symbol, rate: 1, code: detail.code };
+      setCurrency(cache);
+      setLoaded(true);
+    }
+    if (typeof window !== "undefined") {
+      window.addEventListener("currency-change", handleCurrencyChange as EventListener);
+      return function() {
+        window.removeEventListener("currency-change", handleCurrencyChange as EventListener);
+      };
+    }
   }, []);
 
   var convert = function(usd: number) { return usd * currency.rate; };

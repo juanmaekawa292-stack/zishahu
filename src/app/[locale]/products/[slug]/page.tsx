@@ -1,8 +1,59 @@
-import { notFound } from "next/navigation";
+﻿import { notFound } from "next/navigation";
 import { products, getProductBySlug } from "@/data/products";
 import type { Product } from "@/types";
+import type { Metadata } from "next";
 import { ProductDetailContent } from "@/components/product/ProductDetailContent";
 import { ProductCard } from "@/components/product/ProductCard";
+import { ProductMeta } from "@/components/seo/ProductMeta";
+import { generateProductMeta } from "@/lib/seo";
+import { getLocale } from "next-intl/server";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string; locale: string }>;
+}): Promise<Metadata> {
+  const _params = await params;
+  const slug = _params?.slug || "";
+  const locale = _params?.locale || "zh-CN";
+
+  let product = getProductBySlug(slug);
+  if (!product) {
+    try {
+      const decoded = decodeURIComponent(slug);
+      product = getProductBySlug(decoded);
+    } catch (e) {}
+  }
+
+  if (!product) {
+    return { title: "商品未找到" };
+  }
+
+  const p: Product = product;
+  const meta = generateProductMeta(p, locale);
+
+  return {
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      images: [{
+        url: meta.image,
+        width: 800,
+        height: 800,
+        alt: (locale === "zh-TW" ? p.title_zhTW : p.title_zhCN),
+      }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: [meta.image],
+    },
+  };
+}
 
 export function generateStaticParams() {
   return products.map(function(p: { slug: string }) { return { slug: p.slug }; });
@@ -15,6 +66,7 @@ export default async function ProductDetailPage({
 }) {
   var _params = await params;
   var slug = _params?.slug || "";
+  var locale = await getLocale() || "zh-CN";
   
   // Try both raw and decoded
   var product = getProductBySlug(slug);
@@ -37,6 +89,7 @@ export default async function ProductDetailPage({
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <ProductMeta product={p} locale={locale} />
       <ProductDetailContent product={p} />
       {relatedProducts.length > 0 && (
         <section className="mt-20">

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Heart, Star } from "lucide-react";
@@ -23,6 +23,8 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
   var _c = useCurrency();
   var _format = _c.format;
   const t = useTranslations("common");
+  const tu = useTranslations("user");
+  const tp = useTranslations("product");
   const addItem = useCartStore((s) => s.addItem);
   const [showLoginPrompt, setShowLoginPrompt] = useState(false);
   const [isClient, setIsClient] = useState(false);
@@ -30,6 +32,15 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
   useEffect(() => {
     setIsClient(true);
   }, []);
+
+  const shapeType = product.specs?.shapeType;
+
+  const lowestVariantPrice = useMemo(() => {
+    if (!product.variants || product.variants.length === 0) return null;
+    return Math.min(...product.variants.map((v) => v.price));
+  }, [product.variants]);
+
+  const hasVariants = product.variants && product.variants.length > 0;
 
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -45,7 +56,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
   return (
     <div className="group animate-fadeIn">
       <Link href={`/products/${product.slug}`} className="block">
-        <div className="relative overflow-hidden rounded-lg bg-muted aspect-square">
+        <div className="relative overflow-hidden rounded-lg bg-muted aspect-square transition-shadow duration-300 group-hover:shadow-xl">
           {product.images.length > 0 ? (
             <Image
               src={product.images[0]}
@@ -66,11 +77,18 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             </div>
           )}
 
-          {product.shape && (
-            <Badge variant="secondary" className="absolute right-2 top-2">
-              {product.shape}
-            </Badge>
-          )}
+          <div className="absolute right-2 top-2 flex flex-col gap-1.5 items-end">
+            {shapeType && !product.shape && (
+              <Badge variant="secondary">
+                {shapeType}
+              </Badge>
+            )}
+            {product.shape && (
+              <Badge variant="secondary">
+                {product.shape}
+              </Badge>
+            )}
+          </div>
           {!product.inStock && (
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
               <span className="text-white text-sm font-medium">{t("outOfStock")}</span>
@@ -94,9 +112,22 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
 
         <div className="flex items-center justify-between">
           <div className="flex items-baseline gap-1.5">
-            <span className="text-base font-bold text-primary">{_format(product.price)}</span>
-            {product.originalPrice && (
-              <span className="text-xs text-muted-foreground line-through">{_format(product.originalPrice)}</span>
+            {hasVariants ? (
+              <>
+                <span className="text-base font-bold text-primary">
+                  {_format(lowestVariantPrice!)}
+                </span>
+                <span className="text-[10px] text-muted-foreground/70">
+                  {tp("startingFrom")}
+                </span>
+              </>
+            ) : (
+              <>
+                <span className="text-base font-bold text-primary">{_format(product.price)}</span>
+                {product.originalPrice && (
+                  <span className="text-xs text-muted-foreground line-through">{_format(product.originalPrice)}</span>
+                )}
+              </>
             )}
           </div>
           <Button
@@ -130,17 +161,17 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
       <Dialog open={showLoginPrompt} onOpenChange={setShowLoginPrompt}>
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
-            <DialogTitle className="text-center">请先登录</DialogTitle>
+            <DialogTitle className="text-center">{tu("loginTitle")}</DialogTitle>
           </DialogHeader>
           <div className="text-center space-y-4 py-4">
             <span className="text-5xl block">🫖</span>
-            <p className="text-sm text-muted-foreground">登录后即可添加商品到购物车、收藏商品</p>
+            <p className="text-sm text-muted-foreground">{t("loginPrompt")}</p>
             <div className="flex gap-3 justify-center">
               <Button onClick={() => window.location.href = "/login"}>
-                去登录
+                {t("login")}
               </Button>
               <Button variant="outline" onClick={() => window.location.href = "/register"}>
-                注册账户
+                {t("register")}
               </Button>
             </div>
           </div>
