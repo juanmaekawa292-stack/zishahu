@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
@@ -55,7 +55,7 @@ export default function PaymentSettingsPage() {
   }
 
   return (
-    <div className="mx-auto">
+    <div className="w-full">
       <div className="mb-8 flex items-center gap-3">
         <div className="rounded-lg bg-primary/10 p-2.5"><CreditCard className="h-6 w-6 text-primary" /></div>
         <div><h1 className="text-2xl font-bold text-foreground">支付设置</h1><p className="text-sm text-muted-foreground">配置连连支付商户信息</p></div>
