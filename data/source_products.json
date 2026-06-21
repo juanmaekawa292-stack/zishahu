@@ -2606,36 +2606,55 @@
     {
       "id": "tk-331",
       "source_sku": "45582000340",
-      "source_url": "https://detail.tmall.com/item.htm?id=45582000340&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingzishahuchunshougongzhengmingjiapaochahufuchajushipiaohutaozhuangni",
-      "category": "teapot",
-      "title_zhCN": "古悦堂宜兴紫砂壶纯全手工正品名家泡茶壶功夫茶具石瓢壶套装朱泥",
-      "title_zhTW": "古悦堂宜興紫砂壺純全手工正品名家泡茶壺功夫茶具石瓢壺套裝朱泥",
+      "source_url": "https://detail.tmall.com/item.htm?id=737341647956&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "紫砂三才盖碗单个茶碗带盖紫砂杯不烫手敬茶杯茶具套装三泡台盖碗",
+      "category": "cup",
+      "title_zhCN": "紫砂三才盖碗单个茶碗带盖紫砂杯不烫手敬茶杯茶具套装三泡台盖碗",
+      "title_zhTW": "紫砂三才盖碗單个茶碗带盖紫砂杯不烫手敬茶杯茶具套裝三泡台盖碗",
       "variants": [
         {
-          "name": "皓月石瓢:刻绘款约210mL",
-          "price": 254.0,
-          "original_price": 299.0,
-          "sku_id": "5093889111823"
+          "name": "盖碗单个135ml",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "5260007826357"
         },
         {
-          "name": "皓月石瓢-光素款约210mL",
-          "price": 269.0,
-          "original_price": null,
-          "sku_id": "5093889111822"
+          "name": "盖碗2个135ml",
+          "price": 127.8,
+          "original_price": 189.0,
+          "sku_id": "5260007826358"
+        },
+        {
+          "name": "盖碗3个135ml",
+          "price": 188.7,
+          "original_price": 278.0,
+          "sku_id": "5260007826359"
+        },
+        {
+          "name": "盖碗4个135ml",
+          "price": 250.2,
+          "original_price": 369.0,
+          "sku_id": "5260007826360"
         }
       ],
       "images": [
-        "/images/products/tk-331/main_1.webp",
-        "/images/products/tk-331/main_2.webp",
-        "/images/products/tk-331/main_3.webp",
-        "/images/products/tk-331/main_4.webp",
-        "/images/products/tk-331/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-331/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-331/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-331/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-331/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-331/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:39:08.260953",
-      "item_id": "45582000340"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-331.mp4"
+      ],
+      "specs": {
+        "material": "紫砂",
+        "origin": "宜兴市",
+        "color": "盖碗单个 盖碗2个 盖碗3个 盖碗4个",
+        "capacity": "135ml"
+      },
+      "date_uploaded": "2026-06-21T20:45:07.042234",
+      "item_id": "737341647956"
     },
     {
       "id": "tk-332",
