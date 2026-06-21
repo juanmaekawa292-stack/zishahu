@@ -8706,6 +8706,50 @@
         "color": "景舟石瓢"
       },
       "date_uploaded": "2026-06-21T20:29:14.514049"
+    },
+    {
+      "id": "tk-235",
+      "item_id": "635680016081",
+      "source_url": "https://detail.tmall.com/item.htm?id=635680016081&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "紫砂茶漏泡茶神器茶具配件茶叶过滤器茶隔创意手工茶滤一体茶漏架",
+      "category": "teapot",
+      "title_zhCN": "紫砂茶漏泡茶神器茶具配件茶叶过滤器茶隔创意手工茶滤一体茶漏架",
+      "title_zhTW": "紫砂茶漏泡茶神器茶具配件茶叶过滤器茶隔创意手工茶滤一体茶漏架",
+      "variants": [
+        {
+          "name": "紫泥款",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "4732153131294"
+        },
+        {
+          "name": "段泥款",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "4732153131295"
+        },
+        {
+          "name": "红泥款",
+          "price": 67.2,
+          "original_price": 99.0,
+          "sku_id": "4732153131296"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-235/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-235/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-235/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-235/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-235/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "scenario": "日常使用",
+        "mainImageSource": "自主实拍图",
+        "handmade": "手工",
+        "color": "紫泥款 段泥款 红泥款"
+      },
+      "date_uploaded": "2026-06-21T20:29:24.264664"
     }
   ]
 }
