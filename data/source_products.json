@@ -2090,30 +2090,37 @@
     {
       "id": "tk-319",
       "source_sku": "1036236178069",
-      "source_url": "https://detail.tmall.com/item.htm?id=1036236178069&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingzishahuchunshougongjiayongpaochahuzhengchaju2026xinkuanlaoli",
-      "category": "teapot",
-      "title_zhCN": "宜兴紫砂壶纯手工家用泡茶壶正品茶具2026新款送长辈老师退休礼物",
-      "title_zhTW": "宜興紫砂壺純手工家用泡茶壺正品茶具2026新款送长辈老师退休禮物",
+      "source_url": "https://detail.tmall.com/item.htm?id=671237722047&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "宜兴紫砂杯纯手工内胆过滤茶水分离泡茶杯带盖紫泥狮球隔舱盖杯",
+      "category": "cup",
+      "title_zhCN": "宜兴紫砂杯纯手工内胆过滤茶水分离泡茶杯带盖紫泥狮球隔舱盖杯",
+      "title_zhTW": "宜興紫砂杯純手工内胆过滤茶水分离泡茶杯带盖紫泥狮球隔舱盖杯",
       "variants": [
         {
-          "name": "约200ml",
-          "price": 754.8,
-          "original_price": 888.0,
-          "sku_id": "6053841997069"
+          "name": "狮球盖杯200mL(含)-400mL(含)",
+          "price": 277.0,
+          "original_price": 380.0,
+          "sku_id": "4826481812961"
         }
       ],
       "images": [
-        "/images/products/tk-319/main_1.webp",
-        "/images/products/tk-319/main_2.webp",
-        "/images/products/tk-319/main_3.webp",
-        "/images/products/tk-319/main_4.webp",
-        "/images/products/tk-319/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-319/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-319/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-319/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-319/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-319/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:38:15.881681",
-      "item_id": "1036236178069"
+      "specs": {
+        "material": "紫砂",
+        "capacity": "200mL(含)-400mL(含)",
+        "origin": "宜兴市",
+        "color": "狮球盖杯",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:43:03.129518",
+      "item_id": "671237722047"
     },
     {
       "id": "tk-320",
