@@ -9179,6 +9179,38 @@
         "color": "美人肩 美人肩（大号）"
       },
       "date_uploaded": "2026-06-21T20:31:15.359906"
+    },
+    {
+      "id": "tk-247",
+      "item_id": "635501601194",
+      "source_url": "https://detail.tmall.com/item.htm?id=635501601194&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "藏壶天下紫砂茶宠全手工摆件精品可养茶台茶玩创意手把件财源滚滚",
+      "category": "teapot",
+      "title_zhCN": "藏壶天下紫砂茶宠全手工摆件精品可养茶台茶玩创意手把件财源滚滚",
+      "title_zhTW": "藏壺天下紫砂茶宠全手工摆件精品可养茶台茶玩创意手把件财源滚滚",
+      "variants": [
+        {
+          "name": "财源滚滚",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4548357308043"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-247/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-247/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-247/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-247/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-247/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "color": "财源滚滚",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:31:24.038855"
     }
   ]
 }
