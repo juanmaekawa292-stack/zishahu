@@ -30855,6 +30855,72 @@ export const products: Product[] = [
     ],
     "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
   },
+  {
+    "id": "tk-378",
+    "slug": "藏壶天下宜兴紫砂壶高工沈建康纯全手工刻绘大红袍西施仿古小容量",
+    "title_zhCN": "藏壶天下宜兴紫砂壶高工沈建康纯全手工刻绘大红袍西施仿古小容量",
+    "title_zhTW": "藏壺天下宜興紫砂壺高工沈建康純全手工刻繪大红袍西施仿古小容量",
+    "description_zhCN": "藏壶天下宜兴紫砂壶高工沈建康纯全手工刻绘大红袍西施仿古小容量，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "description_zhTW": "藏壶天下宜兴紫砂壶高工沈建康纯全手工刻绘大红袍西施仿古小容量，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "price": 1877.0,
+    "originalPrice": 2980.0,
+    "images": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/main_1.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/main_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/main_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/main_4.webp"
+    ],
+    "category": "teapot",
+    "inStock": true,
+    "stock": 100,
+    "featured": true,
+    "specs": {
+      "capacity": "201mL(含)-300mL(含)",
+      "mainImageSource": "自主实拍图",
+      "origin": "宜兴市",
+      "material": "大红袍",
+      "shapeType": "西施壶",
+      "packaging": "礼盒装",
+      "color": "西施壶",
+      "craft": "手工 传统工艺",
+      "scenario": "不限"
+    },
+    "createdAt": "2026-06-21",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "detailImages": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/detail_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/detail_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/detail_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/detail_5.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/detail_6.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/detail_7.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/detail_8.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/detail_9.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/detail_10.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/detail_11.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/detail_12.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-378/detail_13.webp"
+    ],
+    "variants": [
+      {
+        "id": "tk-378-01",
+        "name_zhCN": "西施壶201mL(含)-300mL(含)",
+        "name_zhTW": "西施壺201mL(含)-300mL(含)",
+        "price": 1877.0,
+        "originalPrice": 2980.0,
+        "stock": 50,
+        "image": "",
+        "sku": "4428238927049",
+      },
+    ],
+    "sourceUrl": "https://detail.tmall.com/item.htm?id=606559660551&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+    "sourceSku": "606559660551",
+    "videos": [
+
+    ],
+    "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
+  },
 ];
 export const categories = [
   { key: "all", label_zhCN: "全部" },
