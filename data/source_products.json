@@ -3558,30 +3558,38 @@
     {
       "id": "tk-353",
       "source_sku": "674688466959",
-      "source_url": "https://detail.tmall.com/item.htm?id=674688466959&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guyixingyuankuangzishahuchunshougongpaochahujiayongfuchajuhushipiao",
-      "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴原矿紫砂壶纯手工泡茶壶家用功夫茶具单壶 幽兰石瓢",
-      "title_zhTW": "古悦堂 宜興原礦紫砂壺純手工泡茶壺家用功夫茶具單壺 幽兰石瓢",
+      "source_url": "https://detail.tmall.com/item.htm?id=726209039348&rn=81cabcbd4efb08959f91402e6c1999cf&abbucket=14",
+      "slug": "大容量宜兴紫砂杯纯手工男士泡茶杯带盖个人专用茶具笃实办公盖杯",
+      "category": "cup",
+      "title_zhCN": "大容量宜兴紫砂杯纯手工男士泡茶杯带盖个人专用茶具笃实办公盖杯",
+      "title_zhTW": "大容量宜興紫砂杯純手工男士泡茶杯带盖个人专用茶具笃實办公盖杯",
       "variants": [
         {
-          "name": "约200ml",
-          "price": 424.0,
-          "original_price": 499.0,
-          "sku_id": "4916366796333"
+          "name": "笃实盖杯400mL(不含)-600mL(含)",
+          "price": 250.0,
+          "original_price": 398.0,
+          "sku_id": "5208863194374"
         }
       ],
       "images": [
-        "/images/products/tk-353/main_1.webp",
-        "/images/products/tk-353/main_2.webp",
-        "/images/products/tk-353/main_3.webp",
-        "/images/products/tk-353/main_4.webp",
-        "/images/products/tk-353/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-353/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-353/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-353/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-353/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-353/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:40:26.945658",
-      "item_id": "674688466959"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-353.mp4"
+      ],
+      "specs": {
+        "material": "紫砂",
+        "capacity": "400mL(不含)-600mL(含)",
+        "origin": "宜兴市",
+        "color": "笃实盖杯",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:48:42.178810",
+      "item_id": "726209039348"
     },
     {
       "id": "tk-354",
