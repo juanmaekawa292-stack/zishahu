@@ -722,44 +722,41 @@
     {
       "id": "tk-286",
       "source_sku": "550684089916",
-      "source_url": "https://detail.tmall.com/item.htm?id=550684089916&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guyixingzishachachachacha",
+      "source_url": "https://detail.tmall.com/item.htm?id=664061892050&rn=35405089c0de2d671839f25860c275cd&abbucket=14",
+      "slug": "宜兴名家紫砂壶纯手工茶壶单壶原矿老紫泥中式紫砂茶具大亨德钟壶",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂红茶普洱储茶罐密封醒茶罐 拉环梅兰竹菊茶叶罐",
-      "title_zhTW": "古悦堂 宜興紫砂红茶普洱储茶罐密封醒茶罐 拉环梅兰竹菊茶叶罐",
+      "title_zhCN": "宜兴名家紫砂壶纯手工茶壶单壶原矿老紫泥中式紫砂茶具大亨德钟壶",
+      "title_zhTW": "宜興名家紫砂壺純手工茶壺單壺原礦老紫泥中式紫砂茶具大亨德鍾壺",
       "variants": [
         {
-          "name": "菊花款200g",
-          "price": 57.8,
-          "original_price": 68.0,
-          "sku_id": "6223295515056"
-        },
-        {
-          "name": "梅花款200g",
-          "price": 57.8,
-          "original_price": 68.0,
-          "sku_id": "6223295515054"
-        },
-        {
-          "name": "兰花款200g",
-          "price": 57.8,
-          "original_price": 68.0,
-          "sku_id": "6223295515057"
+          "name": "大亨德钟201mL(含)-300mL(含)",
+          "price": 715.0,
+          "original_price": 980.0,
+          "sku_id": "4785822332499"
         }
       ],
       "images": [
-        "/images/products/tk-286/main_1.webp",
-        "/images/products/tk-286/main_2.webp",
-        "/images/products/tk-286/main_3.webp",
-        "/images/products/tk-286/main_4.webp",
-        "/images/products/tk-286/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-286/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-286/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-286/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-286/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-286/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-286/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:35:59.550637",
-      "item_id": "550684089916"
+      "videos": [],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "老紫泥",
+        "shapeType": "德钟壶",
+        "packaging": "礼盒装",
+        "year": "70年代",
+        "color": "大亨德钟"
+      },
+      "date_uploaded": "2026-06-21T20:37:53.162478",
+      "item_id": "664061892050"
     },
     {
       "id": "tk-287",
