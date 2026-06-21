@@ -220,30 +220,53 @@
     {
       "id": "tk-274",
       "source_sku": "1035554571041",
-      "source_url": "https://detail.tmall.com/item.htm?id=1035554571041&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "yixingzishahuchunshougongpaochahuyongzhengchaju2026xinkuan",
+      "source_url": "https://detail.tmall.com/item.htm?id=44571525777&rn=af2538143be9363990755a697899f54e&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂茶漏原矿茶滤紫砂功夫茶具滤茶器过滤网茶道配件",
       "category": "teapot",
-      "title_zhCN": "宜兴紫砂壶纯手工泡茶壶个人专用正品茶具2026新款送父亲长辈生日",
-      "title_zhTW": "宜興紫砂壺純手工泡茶壺个人专用正品茶具2026新款送父亲长辈生日",
+      "title_zhCN": "藏壶天下宜兴紫砂茶漏原矿茶滤紫砂功夫茶具滤茶器过滤网茶道配件",
+      "title_zhTW": "藏壺天下宜興紫砂茶漏原礦茶滤紫砂功夫茶具滤茶器过滤网茶道配件",
       "variants": [
         {
-          "name": "约160ml",
-          "price": 1088.0,
-          "original_price": 1280.0,
-          "sku_id": "6218171394926"
+          "name": "镂空茶漏 紫泥",
+          "price": 29.7,
+          "original_price": 35.0,
+          "sku_id": "98367696844"
+        },
+        {
+          "name": "镂空茶漏 红泥",
+          "price": 29.7,
+          "original_price": 35.0,
+          "sku_id": "98367696845"
+        },
+        {
+          "name": "镂空茶漏 段泥",
+          "price": 35.0,
+          "original_price": null,
+          "sku_id": "98367696846"
+        },
+        {
+          "name": "镂空茶漏 黑紫泥",
+          "price": 35.0,
+          "original_price": null,
+          "sku_id": "98367696847"
         }
       ],
       "images": [
-        "/images/products/tk-274/main_1.webp",
-        "/images/products/tk-274/main_2.webp",
-        "/images/products/tk-274/main_3.webp",
-        "/images/products/tk-274/main_4.webp",
-        "/images/products/tk-274/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-274/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-274/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-274/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-274/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-274/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:35:32.795187",
-      "item_id": "1035554571041"
+      "specs": {
+        "material": "紫砂",
+        "color": "镂空茶漏 紫泥 镂空茶漏 红泥 镂空茶漏 段泥 镂空茶漏 黑紫泥",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T20:35:54.506504",
+      "item_id": "44571525777"
     },
     {
       "id": "tk-275",
