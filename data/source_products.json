@@ -12544,6 +12544,40 @@
         "handmade": "是"
       },
       "date_uploaded": "2026-06-21T21:11:13.569819"
+    },
+    {
+      "id": "tk-491",
+      "item_id": "695404558515",
+      "source_url": "https://detail.tmall.com/item.htm?id=695404558515&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "紫泥紫砂功夫茶杯小号茶碗个人专用主人杯单杯茶盏单个男士品茗杯",
+      "category": "cup",
+      "title_zhCN": "紫泥紫砂功夫茶杯小号茶碗个人专用主人杯单杯茶盏单个男士品茗杯",
+      "title_zhTW": "紫泥紫砂功夫茶杯小号茶碗个人专用主人杯單杯茶盏單个男士品茗杯",
+      "variants": [
+        {
+          "name": "品茗杯200mL以下",
+          "price": 17.0,
+          "original_price": 20.0,
+          "sku_id": "4932014008408"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "capacity": "200mL以下",
+        "origin": "宜兴市",
+        "color": "品茗杯",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T21:11:22.090778"
     }
   ]
 }

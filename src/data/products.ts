@@ -39464,6 +39464,72 @@ export const products: Product[] = [
     ],
     "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
   },
+  {
+    "id": "tk-491",
+    "slug": "紫泥紫砂功夫茶杯小号茶碗个人专用主人杯单杯茶盏单个男士品茗杯",
+    "title_zhCN": "紫泥紫砂功夫茶杯小号茶碗个人专用主人杯单杯茶盏单个男士品茗杯",
+    "title_zhTW": "紫泥紫砂功夫茶杯小号茶碗个人专用主人杯單杯茶盏單个男士品茗杯",
+    "description_zhCN": "紫泥紫砂功夫茶杯小号茶碗个人专用主人杯单杯茶盏单个男士品茗杯，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "description_zhTW": "紫泥紫砂功夫茶杯小号茶碗个人专用主人杯单杯茶盏单个男士品茗杯，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "price": 17.0,
+    "originalPrice": 20.0,
+    "images": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/main_1.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/main_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/main_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/main_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/main_5.webp"
+    ],
+    "category": "cup",
+    "inStock": true,
+    "stock": 100,
+    "featured": true,
+    "specs": {
+      "capacity": "200mL以下",
+      "mainImageSource": "自主实拍图",
+      "origin": "宜兴市",
+      "handmade": "是",
+      "material": "紫砂",
+      "color": "品茗杯"
+    },
+    "createdAt": "2026-06-21",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "detailImages": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/detail_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/detail_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/detail_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/detail_5.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/detail_6.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/detail_7.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/detail_8.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/detail_9.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/detail_10.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/detail_11.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/detail_12.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/detail_13.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/detail_14.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-491/detail_15.webp"
+    ],
+    "variants": [
+      {
+        "id": "tk-491-01",
+        "name_zhCN": "品茗杯200mL以下",
+        "name_zhTW": "品茗杯200mL以下",
+        "price": 17.0,
+        "originalPrice": 20.0,
+        "stock": 50,
+        "image": "",
+        "sku": "4932014008408",
+      },
+    ],
+    "sourceUrl": "https://detail.tmall.com/item.htm?id=695404558515&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+    "sourceSku": "695404558515",
+    "videos": [
+
+    ],
+    "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
+  },
 ];
 export const categories = [
   { key: "all", label_zhCN: "全部" },
