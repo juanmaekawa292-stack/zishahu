@@ -5560,42 +5560,42 @@
     {
       "id": "tk-404",
       "source_sku": "579271243378",
-      "source_url": "https://detail.tmall.com/item.htm?id=579271243378&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingzishahuchunshougongchajudicaoruyixishimiaojinkuan",
+      "source_url": "https://detail.tmall.com/item.htm?id=713542785721&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "小容量宜兴紫砂壶纯手工功夫茶具单壶原矿紫茄泥一人用泡茶壶梨形",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶纯全手工茶具掌柜亲制底槽清如意西施描金款",
-      "title_zhTW": "古悦堂 宜興紫砂壺純全手工茶具掌柜亲製底槽清如意西施描金款",
+      "title_zhCN": "小容量宜兴紫砂壶纯手工功夫茶具单壶原矿紫茄泥一人用泡茶壶梨形",
+      "title_zhTW": "小容量宜興紫砂壺純手工功夫茶具單壺原礦紫茄泥一人用泡茶壺梨形",
       "variants": [
         {
-          "name": "描金款单壶约220ml",
-          "price": 398.0,
-          "original_price": 469.0,
-          "sku_id": "5093892275597"
-        },
-        {
-          "name": "描金款一壶四杯约220ml",
-          "price": 449.0,
-          "original_price": 529.0,
-          "sku_id": "5093892275596"
-        },
-        {
-          "name": "描金款大套装约220ml",
-          "price": 483.0,
-          "original_price": 569.0,
-          "sku_id": "5093892275598"
+          "name": "梨形壶101mL(含)-200mL(含)",
+          "price": 250.0,
+          "original_price": 398.0,
+          "sku_id": "5165448598725"
         }
       ],
       "images": [
-        "/images/products/tk-404/main_1.webp",
-        "/images/products/tk-404/main_2.webp",
-        "/images/products/tk-404/main_3.webp",
-        "/images/products/tk-404/main_4.webp",
-        "/images/products/tk-404/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-404/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-404/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-404/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-404/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-404/main_5.webp"
       ],
-      "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:43:48.218170",
-      "item_id": "579271243378"
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-404.mp4"
+      ],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫茄泥",
+        "shapeType": "梨形",
+        "packaging": "礼盒装",
+        "color": "梨形壶"
+      },
+      "date_uploaded": "2026-06-21T20:56:53.262492",
+      "item_id": "713542785721"
     },
     {
       "id": "tk-405",
