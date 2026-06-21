@@ -6334,36 +6334,40 @@
     {
       "id": "tk-424",
       "source_sku": "36230450450",
-      "source_url": "https://detail.tmall.com/item.htm?id=36230450450&rn=bae55c4467075301dfdec7bd2288edc8&abbucket=14",
-      "slug": "guyixingzishahumingjiashougongzhengchahuchajutaozhuang4hunihu",
+      "source_url": "https://detail.tmall.com/item.htm?id=638212361788&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂壶纯手工泡茶壶原矿段泥单人家用茶具大口仿古壶",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶名家全手工正品茶壶茶具套装四方壶 绿泥真龙壶",
-      "title_zhTW": "古悦堂 宜興紫砂壺名家全手工正品茶壺茶具套裝四方壺 绿泥真龍壺",
+      "title_zhCN": "藏壶天下宜兴紫砂壶纯手工泡茶壶原矿段泥单人家用茶具大口仿古壶",
+      "title_zhTW": "藏壺天下宜興紫砂壺純手工泡茶壺原礦段泥單人家用茶具大口仿古壺",
       "variants": [
         {
-          "name": "绿泥真龙壶约300ml",
-          "price": 289.0,
-          "original_price": 495.0,
-          "sku_id": "4922145249267"
-        },
-        {
-          "name": "紫泥真龙壶约300ml",
-          "price": 495.0,
-          "original_price": null,
-          "sku_id": "4922145249268"
+          "name": "大口扁腹仿古原矿段泥201mL(含)-300mL(含)",
+          "price": 490.0,
+          "original_price": 980.0,
+          "sku_id": "5075750358647"
         }
       ],
       "images": [
-        "/images/products/tk-424/main_1.webp",
-        "/images/products/tk-424/main_2.webp",
-        "/images/products/tk-424/main_3.webp",
-        "/images/products/tk-424/main_4.webp",
-        "/images/products/tk-424/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-424/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-424/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-424/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-424/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-424/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:45:02.027508",
-      "item_id": "36230450450"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "段泥",
+        "shapeType": "仿古壶",
+        "packaging": "礼盒装",
+        "color": "大口扁腹仿古原矿段泥"
+      },
+      "date_uploaded": "2026-06-21T21:00:10.515535",
+      "item_id": "638212361788"
     },
     {
       "id": "tk-425",
