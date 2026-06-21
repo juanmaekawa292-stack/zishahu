@@ -5398,32 +5398,40 @@
     {
       "id": "tk-400",
       "source_sku": "1056677002443",
-      "source_url": "https://detail.tmall.com/item.htm?id=1056677002443&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "gushipiaochunshougongchahuyixingzishahupaochachajutaozhuang",
+      "source_url": "https://detail.tmall.com/item.htm?id=713862376781&rn=c2e803742af8eb501622d3f1ba0b9e38&abbucket=14",
+      "slug": "藏壶天下电木壶承干泡台家用圆形养壶托盘单壶小号茶盘茶台茶座",
       "category": "teapot",
-      "title_zhCN": "古悦堂马到成功景舟石瓢纯手工茶壶宜兴紫砂壶泡茶茶具套装送客户",
-      "title_zhTW": "古悦堂马到成功景舟石瓢純手工茶壺宜興紫砂壺泡茶茶具套裝送客戶",
+      "title_zhCN": "藏壶天下电木壶承干泡台家用圆形养壶托盘单壶小号茶盘茶台茶座",
+      "title_zhTW": "藏壺天下電木壺承干泡台家用圆形养壺托盘單壺小号茶盘茶台茶座",
       "variants": [
         {
-          "name": "马到成功 | 单壶【精美礼盒】约200ml",
-          "price": 599.0,
-          "original_price": 999.0,
-          "sku_id": "6099093960265"
+          "name": "黄色款",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4995430156360"
+        },
+        {
+          "name": "红色款",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4995430156361"
         }
       ],
       "images": [
-        "/images/products/tk-400/main_1.webp",
-        "/images/products/tk-400/main_2.webp",
-        "/images/products/tk-400/main_3.webp",
-        "/images/products/tk-400/main_4.webp",
-        "/images/products/tk-400/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-400/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-400/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-400/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-400/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-400/main_5.webp"
       ],
-      "videos": [
-        "/videos/products/tk-400/product.mp4"
-      ],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:43:30.340442",
-      "item_id": "1056677002443"
+      "videos": [],
+      "specs": {
+        "origin": "中国大陆",
+        "color": "黄色款 红色款",
+        "mainImageSource": "自主实拍图"
+      },
+      "date_uploaded": "2026-06-21T20:56:10.203026",
+      "item_id": "713862376781"
     },
     {
       "id": "tk-401",
