@@ -6881,30 +6881,39 @@
     {
       "id": "tk-438",
       "source_sku": "706871107435",
-      "source_url": "https://detail.tmall.com/item.htm?id=706871107435&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc",
-      "slug": "guyixingyuankuangzishahumingchunshougongpaochahufuchajuhuruyi",
+      "source_url": "https://detail.tmall.com/item.htm?id=659248942564&rn=1a9d503a5eb80610a62081f1d55c5c59&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂壶茶具纯手工紫砂茶壶原矿大红袍全手工西施壶",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴原矿紫砂壶名师纯全手工泡茶壶高端功夫茶具单壶 如意",
-      "title_zhTW": "古悦堂 宜興原礦紫砂壺名师純全手工泡茶壺高端功夫茶具單壺 如意",
+      "title_zhCN": "藏壶天下宜兴紫砂壶茶具纯手工紫砂茶壶原矿大红袍全手工西施壶",
+      "title_zhTW": "藏壺天下宜興紫砂壺茶具純手工紫砂茶壺原礦大红袍全手工西施壺",
       "variants": [
         {
-          "name": "约375mL",
-          "price": 3144.1,
-          "original_price": 3699.0,
-          "sku_id": "4964510544737"
+          "name": "西施壶201mL(含)-300mL(含)",
+          "price": 2280.0,
+          "original_price": 3800.0,
+          "sku_id": "4756346557398"
         }
       ],
       "images": [
-        "/images/products/tk-438/main_1.webp",
-        "/images/products/tk-438/main_2.webp",
-        "/images/products/tk-438/main_3.webp",
-        "/images/products/tk-438/main_4.webp",
-        "/images/products/tk-438/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-438/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-438/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-438/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-438/main_4.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:45:45.431597",
-      "item_id": "706871107435"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "大红袍",
+        "shapeType": "西施壶",
+        "packaging": "礼盒装",
+        "color": "西施壶"
+      },
+      "date_uploaded": "2026-06-21T21:02:37.257475",
+      "item_id": "659248942564"
     },
     {
       "id": "tk-439",
