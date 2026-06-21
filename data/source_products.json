@@ -7072,30 +7072,40 @@
     {
       "id": "tk-443",
       "source_sku": "730997460667",
-      "source_url": "https://detail.tmall.com/item.htm?id=730997460667&rn=3d3ba5f5f724f51118a6a9e32ec5dcbc&abbucket=14",
-      "slug": "guyixingzishahuchunshougongjiayongpaochahufuchaju",
+      "source_url": "https://detail.tmall.com/item.htm?id=633299532576&rn=1a9d503a5eb80610a62081f1d55c5c59&abbucket=14",
+      "slug": "藏壶天下宜兴紫砂壶纯手工小容量泡茶壶家用功夫茶具清水泥文旦壶",
       "category": "teapot",
-      "title_zhCN": "古悦堂 宜兴紫砂壶 纯全手工家用泡茶壶高端中式功夫茶具周良荣制",
-      "title_zhTW": "古悦堂 宜興紫砂壺 純全手工家用泡茶壺高端中式功夫茶具周良荣製",
+      "title_zhCN": "藏壶天下宜兴紫砂壶纯手工小容量泡茶壶家用功夫茶具清水泥文旦壶",
+      "title_zhTW": "藏壺天下宜興紫砂壺純手工小容量泡茶壺家用功夫茶具清水泥文旦壺",
       "variants": [
         {
-          "name": "约240ml",
-          "price": 2454.8,
-          "original_price": 2888.0,
-          "sku_id": "5242865155476"
+          "name": "文旦101mL(含)-200mL(含)",
+          "price": 617.0,
+          "original_price": 980.0,
+          "sku_id": "4701448127946"
         }
       ],
       "images": [
-        "/images/products/tk-443/main_1.webp",
-        "/images/products/tk-443/main_2.webp",
-        "/images/products/tk-443/main_3.webp",
-        "/images/products/tk-443/main_4.webp",
-        "/images/products/tk-443/main_5.webp"
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-443/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-443/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-443/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-443/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-443/main_5.webp"
       ],
       "videos": [],
-      "specs": {},
-      "date_uploaded": "2026-06-16T23:46:02.681892",
-      "item_id": "730997460667"
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "清水泥",
+        "shapeType": "文旦壶",
+        "packaging": "礼盒装",
+        "color": "文旦"
+      },
+      "date_uploaded": "2026-06-21T21:03:31.288843",
+      "item_id": "633299532576"
     },
     {
       "id": "tk-444",
