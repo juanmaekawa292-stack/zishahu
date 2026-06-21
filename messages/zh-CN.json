@@ -51,7 +51,20 @@
     "soldBy": "来自",
     "freeShipping": "满$200免运费",
     "guarantee": "30天无理由退货",
-    "shapeType": "壶型"
+    "shapeType": "壶型",
+    "spec_firingType": "烧制窑型",
+    "spec_capacity": "容量",
+    "spec_mainImageSource": "主图来源",
+    "spec_origin": "产地",
+    "spec_handmade": "是否手工",
+    "spec_material": "材质",
+    "spec_shapeType": "壶型",
+    "spec_packaging": "包装形式",
+    "spec_kiln": "窑系",
+    "spec_year": "年代",
+    "spec_color": "颜色分类",
+    "spec_clay": "泥料",
+    "spec_craft": "工艺"
   },
   "cart": {
     "title": "购物车",

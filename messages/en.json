@@ -51,7 +51,20 @@
     "soldBy": "Sold by",
     "freeShipping": "Free shipping on orders over $200",
     "guarantee": "30-Day Hassle-Free Returns",
-    "shapeType": "Pot Shape"
+    "shapeType": "Pot Shape",
+    "spec_firingType": "Firing Type",
+    "spec_capacity": "Capacity",
+    "spec_mainImageSource": "Image Source",
+    "spec_origin": "Origin",
+    "spec_handmade": "Handmade",
+    "spec_material": "Material",
+    "spec_shapeType": "Shape",
+    "spec_packaging": "Packaging",
+    "spec_kiln": "Kiln Type",
+    "spec_year": "Year",
+    "spec_color": "Color",
+    "spec_clay": "Clay",
+    "spec_craft": "Craft"
   },
   "cart": {
     "title": "Shopping Cart",

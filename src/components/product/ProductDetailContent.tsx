@@ -366,7 +366,12 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
               
               <h3 className="text-sm font-medium text-foreground">{tProduct("specifications")}</h3>
               <div className="grid grid-cols-2 gap-2 text-xs">
-                {[/* specs rendered inline */].concat([])}
+                {orderedSpecsResult.map(function(item, idx) {
+                  return <div key={idx} className="flex justify-between border-b border-border/50 pb-1.5">
+                    <span className="text-muted-foreground">{tProduct("spec_" + item[0]) || item[0]}</span>
+                    <span className="font-medium text-foreground">{item[1]}</span>
+                  </div>;
+                })}
                 <div className="flex justify-between border-b border-border/50 pb-1.5">
                   <span className="text-muted-foreground">库存</span>
                   <span className={cn("font-medium", product.inStock ? "text-emerald-600" : "text-red-500")}>
