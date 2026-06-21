@@ -11861,6 +11861,38 @@
         "color": "大红袍款 朱泥款"
       },
       "date_uploaded": "2026-06-21T21:08:17.691805"
+    },
+    {
+      "id": "tk-473",
+      "item_id": "586606773849",
+      "source_url": "https://detail.tmall.com/item.htm?id=586606773849&rn=8095ab0527478da966241b1e8dc4692a&abbucket=14",
+      "slug": "紫砂茶宠变色螃蟹精品可养招财茶桌摆件茶具配件摆设茶玩茶台装饰",
+      "category": "teaPet",
+      "title_zhCN": "紫砂茶宠变色螃蟹精品可养招财茶桌摆件茶具配件摆设茶玩茶台装饰",
+      "title_zhTW": "紫砂茶宠变色螃蟹精品可养招财茶桌摆件茶具配件摆设茶玩茶台裝饰",
+      "variants": [
+        {
+          "name": "鸿运当头",
+          "price": 59.8,
+          "original_price": 88.0,
+          "sku_id": "4153444262772"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-473/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-473/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-473/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-473/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-473/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "color": "鸿运当头",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-21T21:08:25.458357"
     }
   ]
 }
