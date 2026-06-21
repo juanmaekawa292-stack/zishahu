@@ -11414,6 +11414,63 @@
         "color": "福韵"
       },
       "date_uploaded": "2026-06-21T21:06:29.998181"
+    },
+    {
+      "id": "tk-462",
+      "item_id": "737599418655",
+      "source_url": "https://detail.tmall.com/item.htm?id=737599418655&rn=af2538143be9363990755a697899f54e&abbucket=14",
+      "slug": "宜兴紫砂壶纯手工紫砂茶具原矿紫泥大红袍家用泡茶壶套装倩冰西施",
+      "category": "teapot",
+      "title_zhCN": "宜兴紫砂壶纯手工紫砂茶具原矿紫泥大红袍家用泡茶壶套装倩冰西施",
+      "title_zhTW": "宜興紫砂壺純手工紫砂茶具原礦紫泥大红袍家用泡茶壺套裝倩冰西施",
+      "variants": [
+        {
+          "name": "大红袍西施201mL(含)-300mL(含)",
+          "price": 349.0,
+          "original_price": 600.0,
+          "sku_id": "5090140712555"
+        },
+        {
+          "name": "大红袍西施-套组201mL(含)-300mL(含)",
+          "price": 391.0,
+          "original_price": 650.0,
+          "sku_id": "5090140712556"
+        },
+        {
+          "name": "紫泥西施201mL(含)-300mL(含)",
+          "price": 349.0,
+          "original_price": 600.0,
+          "sku_id": "5212434937886"
+        },
+        {
+          "name": "紫泥西施-套组201mL(含)-300mL(含)",
+          "price": 391.0,
+          "original_price": 650.0,
+          "sku_id": "5212434937885"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-462/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-462/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-462/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-462/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-462/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-462.mp4"
+      ],
+      "specs": {
+        "craft": "手工 传统工艺",
+        "capacity": "201mL(含)-300mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "大红袍",
+        "shapeType": "西施壶",
+        "packaging": "礼盒装",
+        "color": "大红袍西施 大红袍西施-套组 紫泥西施 紫泥西施-套组"
+      },
+      "date_uploaded": "2026-06-21T21:06:44.117689"
     }
   ]
 }
