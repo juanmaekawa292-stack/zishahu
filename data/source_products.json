@@ -14242,6 +14242,39 @@
         "handmade": "是"
       },
       "date_uploaded": "2026-06-22T14:06:03.275663"
+    },
+    {
+      "id": "tk-529",
+      "item_id": "739981929363",
+      "source_url": "https://detail.tmall.com/item.htm?id=739981929363&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
+      "slug": "古悦堂 宜兴原矿天青泥紫砂壶纯全手工功夫茶具茶器单壶 鸣远虚扁",
+      "category": "teapot",
+      "title_zhCN": "古悦堂 宜兴原矿天青泥紫砂壶纯全手工功夫茶具茶器单壶 鸣远虚扁",
+      "title_zhTW": "古悦堂 宜興原礦天青泥紫砂壺純全手工功夫茶具茶器單壺 鸣远虚扁",
+      "variants": [
+        {
+          "name": "约180ml",
+          "price": 489.3,
+          "original_price": 699.0,
+          "sku_id": "5278018695850"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-529/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-529/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-529/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-529/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-529/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫砂",
+        "capacity": "约180ml"
+      },
+      "date_uploaded": "2026-06-22T14:06:13.955010"
     }
   ]
 }
