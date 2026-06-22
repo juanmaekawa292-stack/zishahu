@@ -13378,6 +13378,48 @@
         "color": "西施 思亭 掇只 仿古 高潘 汉棠石瓢 汉瓦 龙蛋 美人肩 水平 君德 石瓢"
       },
       "date_uploaded": "2026-06-22T14:02:29.325585"
+    },
+    {
+      "id": "tk-509",
+      "item_id": "764773178798",
+      "source_url": "https://detail.tmall.com/item.htm?id=764773178798&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
+      "slug": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶方壶正品功夫茶具茶器 雅和",
+      "category": "teapot",
+      "title_zhCN": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶方壶正品功夫茶具茶器 雅和",
+      "title_zhTW": "古悦堂 宜興原礦紫砂壺純全手工泡茶壺方壺正品功夫茶具茶器 雅和",
+      "variants": [
+        {
+          "name": "原矿紫砂 | 雅和【精美礼盒】约390ml",
+          "price": 640.0,
+          "original_price": 1280.0,
+          "sku_id": "6070021793052"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-509/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-509/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-509/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-509/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-509/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "craft": "原矿 刻绘 手工",
+        "firingType": "电窑",
+        "capacity": "约390ml",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "cleaning": "手洗",
+        "origin": "宜兴市",
+        "handmade": "全手工",
+        "material": "紫砂",
+        "shapeType": "四方壶",
+        "packaging": "礼盒装",
+        "kiln": "宜兴窑",
+        "year": "现代",
+        "color": "原矿紫砂 | 雅和【精美礼盒】"
+      },
+      "date_uploaded": "2026-06-22T14:02:40.767014"
     }
   ]
 }
