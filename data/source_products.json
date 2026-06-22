@@ -13817,6 +13817,78 @@
         "color": "玉兰杯 荷韵杯 莲花杯 桃花杯 望春杯 玉堂春"
       },
       "date_uploaded": "2026-06-22T14:04:08.452742"
+    },
+    {
+      "id": "tk-518",
+      "item_id": "",
+      "source_url": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶功夫茶具黄金朱泥 雅逸西施",
+      "slug": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶功夫茶具黄金朱泥 雅逸西施",
+      "category": "teapot",
+      "title_zhCN": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶功夫茶具黄金朱泥 雅逸西施",
+      "title_zhTW": "古悦堂 宜興原礦紫砂壺純全手工泡茶壺功夫茶具黄金朱泥 雅逸西施",
+      "variants": [
+        {
+          "name": "西施约120ml",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5505817389176"
+        },
+        {
+          "name": "德钟约120ml",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5505817389175"
+        },
+        {
+          "name": "仿古约120ml",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5505817389174"
+        },
+        {
+          "name": "明炉 【已售罄 拍下不发】约120ml",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5505817389177"
+        },
+        {
+          "name": "思婷约120ml",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5505817389178"
+        },
+        {
+          "name": "容天约120ml",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5505817389173"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-518/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-518/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-518/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-518/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-518/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "craft": "原矿 光素 手工",
+        "firingType": "电窑",
+        "capacity": "约120ml",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "cleaning": "手洗",
+        "origin": "中国大陆",
+        "handmade": "全手工",
+        "material": "紫砂",
+        "shapeType": "西施壶",
+        "packaging": "礼盒装",
+        "kiln": "宜兴窑",
+        "year": "现代",
+        "color": "西施 德钟 仿古 明炉 思婷 容天"
+      },
+      "date_uploaded": "2026-06-22T14:04:18.894416"
     }
   ]
 }
