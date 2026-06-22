@@ -13497,6 +13497,104 @@
         "color": "原矿紫砂 | 柴烧泥绘盖杯"
       },
       "date_uploaded": "2026-06-22T14:03:03.840400"
+    },
+    {
+      "id": "tk-512",
+      "item_id": "908845132651",
+      "source_url": "https://detail.tmall.com/item.htm?id=908845132651&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
+      "slug": "古悦堂 纯手工泡茶壶2026新款宜兴紫砂家用小品一人小壶 双线汉瓦",
+      "category": "teapot",
+      "title_zhCN": "古悦堂 纯手工泡茶壶2026新款宜兴紫砂家用小品一人小壶 双线汉瓦",
+      "title_zhTW": "古悦堂 純手工泡茶壺2026新款宜興紫砂家用小品一人小壺 双线漢瓦",
+      "variants": [
+        {
+          "name": "双线汉瓦约130~170ml",
+          "price": 679.15,
+          "original_price": 799.0,
+          "sku_id": "6112339467607"
+        },
+        {
+          "name": "竹节周盘约130~170ml",
+          "price": 799.0,
+          "original_price": null,
+          "sku_id": "6112339467608"
+        },
+        {
+          "name": "大彬如意约130~170ml",
+          "price": 799.0,
+          "original_price": null,
+          "sku_id": "6112339467612"
+        },
+        {
+          "name": "七十二变约130~170ml",
+          "price": 679.15,
+          "original_price": 799.0,
+          "sku_id": "6112339467613"
+        },
+        {
+          "name": "富甲天下约130~170ml",
+          "price": 679.15,
+          "original_price": 799.0,
+          "sku_id": "6112339467604"
+        },
+        {
+          "name": "竹节乳鼎约130~170ml",
+          "price": 679.15,
+          "original_price": 799.0,
+          "sku_id": "6112339467611"
+        },
+        {
+          "name": "竹节合欢约130~170ml",
+          "price": 679.15,
+          "original_price": 799.0,
+          "sku_id": "6112339467606"
+        },
+        {
+          "name": "容天约130~170ml",
+          "price": 679.15,
+          "original_price": 799.0,
+          "sku_id": "6112339467609"
+        },
+        {
+          "name": "仿古约130~170ml",
+          "price": 679.15,
+          "original_price": 799.0,
+          "sku_id": "6112339467610"
+        },
+        {
+          "name": "秦权约130~170ml",
+          "price": 679.15,
+          "original_price": 799.0,
+          "sku_id": "6112339467605"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-512/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-512/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-512/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-512/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-512/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-512.mp4"
+      ],
+      "specs": {
+        "craft": "光素",
+        "firingType": "柴窑",
+        "capacity": "约130~170ml",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "cleaning": "手洗",
+        "origin": "宜兴市",
+        "handmade": "全手工",
+        "material": "紫砂",
+        "shapeType": "汉瓦",
+        "packaging": "礼盒装",
+        "kiln": "宜兴窑",
+        "year": "现代",
+        "color": "双线汉瓦 竹节周盘 大彬如意 七十二变 富甲天下 竹节乳鼎 竹节合欢 容天 仿古 秦权"
+      },
+      "date_uploaded": "2026-06-22T14:03:14.815240"
     }
   ]
 }
