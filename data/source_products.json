@@ -14105,6 +14105,40 @@
         "capacity": "约170ml"
       },
       "date_uploaded": "2026-06-22T14:05:22.289560"
+    },
+    {
+      "id": "tk-525",
+      "item_id": "",
+      "source_url": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶家用茶具套装朱泥 扁西施",
+      "slug": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶家用茶具套装朱泥 扁西施",
+      "category": "teapot",
+      "title_zhCN": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶家用茶具套装朱泥 扁西施",
+      "title_zhTW": "古悦堂 宜興原礦紫砂壺純全手工泡茶壺家用茶具套裝朱泥 扁西施",
+      "variants": [
+        {
+          "name": "约90ml",
+          "price": 369.0,
+          "original_price": null,
+          "sku_id": "5502664948238"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-525/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-525/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-525/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-525/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-525/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫砂",
+        "shapeType": "西施壶",
+        "capacity": "约90ml"
+      },
+      "date_uploaded": "2026-06-22T14:05:32.817324"
     }
   ]
 }
