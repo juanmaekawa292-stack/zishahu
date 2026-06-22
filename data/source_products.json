@@ -14500,6 +14500,41 @@
         "color": "原矿紫砂 | 柴烧牡丹杯"
       },
       "date_uploaded": "2026-06-22T14:07:20.288102"
+    },
+    {
+      "id": "tk-536",
+      "item_id": "766016232000",
+      "source_url": "https://detail.tmall.com/item.htm?id=766016232000&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
+      "slug": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶正品中式家用茶具套装 缘聚",
+      "category": "teapot",
+      "title_zhCN": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶正品中式家用茶具套装 缘聚",
+      "title_zhTW": "古悦堂 宜興原礦紫砂壺純全手工泡茶壺正品中式家用茶具套裝 缘聚",
+      "variants": [
+        {
+          "name": "约160ml",
+          "price": 390.0,
+          "original_price": 780.0,
+          "sku_id": "5438115107455"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-536/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-536/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-536/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-536/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-536/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "craft": "光素",
+        "material": "紫砂",
+        "shapeType": "缘聚壶",
+        "capacity": "约160ml"
+      },
+      "date_uploaded": "2026-06-22T14:07:31.998946"
     }
   ]
 }
