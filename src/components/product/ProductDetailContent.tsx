@@ -180,7 +180,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
           </div>
           <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2">
             {displayCarousel.map((_, i) => (
-              <div key={i} className={"w-2 h-2 rounded-full " + (i === lightboxIndex ? "bg-white" : "bg-white/30")} />
+              <div key={i} className={"w-1.5 h-1.5 rounded-full " + (i === lightboxIndex ? "bg-white scale-125" : "bg-white/30")} />
             ))}
           </div>
         </div>
@@ -241,10 +241,10 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
             )}
 
             {displayCarousel.length > 1 && (
-              <div className="absolute bottom-2 left-1/2 -translate-x-1/2 z-10 flex gap-1">
+              <div className="absolute bottom-2 left-1/2 -translate-x-1/2 z-10 flex gap-1.5">
                 {displayCarousel.map((_, idx) => (
                   <button key={idx} onClick={() => goToSlide(idx)}
-                    className={cn("h-1.5 rounded-full transition-all", idx === selectedImage ? "w-4 bg-white/90" : "w-1.5 bg-white/40 hover:bg-white/60")} />
+                    className={cn("w-1.5 h-1.5 rounded-full transition-all duration-300", idx === selectedImage ? "bg-white/90 scale-125" : "bg-white/40 hover:bg-white/60")} />
                 ))}
               </div>
             )}
