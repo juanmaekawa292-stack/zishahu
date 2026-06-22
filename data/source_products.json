@@ -13643,6 +13643,50 @@
         "color": "蝶恋花杯 玉兰花杯 石榴花杯"
       },
       "date_uploaded": "2026-06-22T14:03:26.367700"
+    },
+    {
+      "id": "tk-514",
+      "item_id": "",
+      "source_url": "古悦堂纯手工家用泡茶茶壶原矿紫砂壶新款个人专用茶具竹韧西施壶",
+      "slug": "古悦堂纯手工家用泡茶茶壶原矿紫砂壶新款个人专用茶具竹韧西施壶",
+      "category": "teapot",
+      "title_zhCN": "古悦堂纯手工家用泡茶茶壶原矿紫砂壶新款个人专用茶具竹韧西施壶",
+      "title_zhTW": "古悦堂純手工家用泡茶茶壺原礦紫砂壺新款个人专用茶具竹韧西施壺",
+      "variants": [
+        {
+          "name": "原矿紫砂 | 竹韧西施【精美礼盒】约230ml",
+          "price": 599.0,
+          "original_price": null,
+          "sku_id": "6234198963684"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-514/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-514/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-514/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-514/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-514/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-514.mp4"
+      ],
+      "specs": {
+        "craft": "原矿 刻绘 手工",
+        "firingType": "电窑",
+        "capacity": "约230ml",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "cleaning": "手洗",
+        "origin": "宜兴市",
+        "handmade": "全手工",
+        "material": "紫砂",
+        "shapeType": "西施壶",
+        "packaging": "礼盒装",
+        "kiln": "宜兴窑",
+        "year": "现代",
+        "color": "原矿紫砂 | 竹韧西施【精美礼盒】"
+      },
+      "date_uploaded": "2026-06-22T14:03:38.253966"
     }
   ]
 }
