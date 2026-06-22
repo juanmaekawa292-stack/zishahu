@@ -14423,6 +14423,47 @@
         "color": "盖碗 杯子"
       },
       "date_uploaded": "2026-06-22T14:06:58.567820"
+    },
+    {
+      "id": "tk-534",
+      "item_id": "912583593096",
+      "source_url": "https://detail.tmall.com/item.htm?id=912583593096&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
+      "slug": "古悦堂宜兴紫砂纯手工泡茶壶家用功夫茶壶正品紫砂壶单壶笑樱洒金",
+      "category": "teapot",
+      "title_zhCN": "古悦堂宜兴紫砂纯手工泡茶壶家用功夫茶壶正品紫砂壶单壶笑樱洒金",
+      "title_zhTW": "古悦堂宜興紫砂純手工泡茶壺家用功夫茶壺正品紫砂壺單壺笑樱洒金",
+      "variants": [
+        {
+          "name": "约250ml",
+          "price": 340.0,
+          "original_price": 680.0,
+          "sku_id": "5777228693474"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-534/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-534/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-534/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-534/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-534/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "craft": "原矿 手工 洒金",
+        "firingType": "电窑",
+        "capacity": "约250ml",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "cleaning": "手洗",
+        "origin": "宜兴市",
+        "handmade": "全手工",
+        "material": "紫砂",
+        "shapeType": "笑樱",
+        "packaging": "礼盒装",
+        "kiln": "宜兴窑",
+        "year": "现代"
+      },
+      "date_uploaded": "2026-06-22T14:07:09.277408"
     }
   ]
 }
