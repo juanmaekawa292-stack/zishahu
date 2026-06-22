@@ -13270,6 +13270,114 @@
         "color": "手绘龙纹闻香杯"
       },
       "date_uploaded": "2026-06-22T14:02:17.336912"
+    },
+    {
+      "id": "tk-508",
+      "item_id": "",
+      "source_url": "古悦堂宜兴紫砂壶纯手工茶具泡茶专用小茶壶一人用单壶大红袍西施",
+      "slug": "古悦堂宜兴紫砂壶纯手工茶具泡茶专用小茶壶一人用单壶大红袍西施",
+      "category": "teapot",
+      "title_zhCN": "古悦堂宜兴紫砂壶纯手工茶具泡茶专用小茶壶一人用单壶大红袍西施",
+      "title_zhTW": "古悦堂宜興紫砂壺純手工茶具泡茶专用小茶壺一人用單壺大红袍西施",
+      "variants": [
+        {
+          "name": "西施101mL(含)-200mL(含)",
+          "price": 450.0,
+          "original_price": null,
+          "sku_id": "5810882181856"
+        },
+        {
+          "name": "思亭101mL(含)-200mL(含)",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5810882181857"
+        },
+        {
+          "name": "掇只101mL(含)-200mL(含)",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5810882181858"
+        },
+        {
+          "name": "仿古101mL(含)-200mL(含)",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5810882181859"
+        },
+        {
+          "name": "高潘101mL(含)-200mL(含)",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5810882181860"
+        },
+        {
+          "name": "汉棠石瓢101mL(含)-200mL(含)",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5810882181861"
+        },
+        {
+          "name": "汉瓦101mL(含)-200mL(含)",
+          "price": 499.0,
+          "original_price": null,
+          "sku_id": "5810882181862"
+        },
+        {
+          "name": "龙蛋101mL(含)-200mL(含)",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5810882181863"
+        },
+        {
+          "name": "美人肩101mL(含)-200mL(含)",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5810882181864"
+        },
+        {
+          "name": "水平101mL(含)-200mL(含)",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5810882181866"
+        },
+        {
+          "name": "君德101mL(含)-200mL(含)",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5810882181867"
+        },
+        {
+          "name": "石瓢101mL(含)-200mL(含)",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5977320907852"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-508/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-508/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-508/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-508/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-508/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "craft": "原矿 光素 手工",
+        "firingType": "电窑",
+        "capacity": "101mL(含)-200mL(含)",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "cleaning": "手洗",
+        "origin": "宜兴市",
+        "handmade": "全手工",
+        "material": "紫砂",
+        "shapeType": "西施壶",
+        "packaging": "礼盒装",
+        "kiln": "宜兴窑",
+        "year": "现代",
+        "color": "西施 思亭 掇只 仿古 高潘 汉棠石瓢 汉瓦 龙蛋 美人肩 水平 君德 石瓢"
+      },
+      "date_uploaded": "2026-06-22T14:02:29.325585"
     }
   ]
 }
