@@ -13994,6 +13994,41 @@
         "capacity": "约110ml"
       },
       "date_uploaded": "2026-06-22T14:04:49.634932"
+    },
+    {
+      "id": "tk-522",
+      "item_id": "",
+      "source_url": "古悦堂手工紫砂茶杯女士个人专用茶具主人杯高档办公室喝茶咖啡杯",
+      "slug": "古悦堂手工紫砂茶杯女士个人专用茶具主人杯高档办公室喝茶咖啡杯",
+      "category": "cup",
+      "title_zhCN": "古悦堂手工紫砂茶杯女士个人专用茶具主人杯高档办公室喝茶咖啡杯",
+      "title_zhTW": "古悦堂手工紫砂茶杯女士个人专用茶具主人杯高档办公室喝茶咖啡杯",
+      "variants": [
+        {
+          "name": "约80ml",
+          "price": 268.0,
+          "original_price": null,
+          "sku_id": "5922618936949"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-522/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-522/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-522/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-522/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-522/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-522.mp4"
+      ],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "约80ml"
+      },
+      "date_uploaded": "2026-06-22T14:05:00.398483"
     }
   ]
 }
