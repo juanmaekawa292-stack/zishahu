@@ -14349,6 +14349,39 @@
         "capacity": "约200ml"
       },
       "date_uploaded": "2026-06-22T14:06:36.637263"
+    },
+    {
+      "id": "tk-532",
+      "item_id": "862630253382",
+      "source_url": "https://detail.tmall.com/item.htm?id=862630253382&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
+      "slug": "古悦堂 宜兴紫砂壶纯全手工家用泡茶专用功夫茶具单壶 龙血砂云炉",
+      "category": "teapot",
+      "title_zhCN": "古悦堂 宜兴紫砂壶纯全手工家用泡茶专用功夫茶具单壶 龙血砂云炉",
+      "title_zhTW": "古悦堂 宜興紫砂壺純全手工家用泡茶专用功夫茶具單壺 龍血砂云炉",
+      "variants": [
+        {
+          "name": "约170ml",
+          "price": 349.5,
+          "original_price": 699.0,
+          "sku_id": "5855924891357"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-532/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-532/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-532/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-532/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-532/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫砂",
+        "capacity": "约170ml"
+      },
+      "date_uploaded": "2026-06-22T14:06:47.289975"
     }
   ]
 }
