@@ -14791,6 +14791,41 @@
         "color": "张爱娣手制 | 线韵玉斗【精美礼盒】"
       },
       "date_uploaded": "2026-06-22T14:08:52.493350"
+    },
+    {
+      "id": "tk-543",
+      "item_id": "",
+      "source_url": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶中式家用功夫茶具单壶 和韵",
+      "slug": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶中式家用功夫茶具单壶 和韵",
+      "category": "teapot",
+      "title_zhCN": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶中式家用功夫茶具单壶 和韵",
+      "title_zhTW": "古悦堂 宜興原礦紫砂壺純全手工泡茶壺中式家用功夫茶具單壺 和韵",
+      "variants": [
+        {
+          "name": "约140ml",
+          "price": 450.0,
+          "original_price": null,
+          "sku_id": "5080380537719"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-543/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-543/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-543/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-543/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-543/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-543.mp4"
+      ],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫砂",
+        "capacity": "约140ml"
+      },
+      "date_uploaded": "2026-06-22T14:09:05.670973"
     }
   ]
 }
