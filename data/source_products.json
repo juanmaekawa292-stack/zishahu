@@ -14751,6 +14751,46 @@
         "color": "家藏老紫泥 | 小品明炉壶（高端礼盒装）"
       },
       "date_uploaded": "2026-06-22T14:08:36.133338"
+    },
+    {
+      "id": "tk-542",
+      "item_id": "654416272553",
+      "source_url": "https://detail.tmall.com/item.htm?id=654416272553&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
+      "slug": "古悦堂宜兴原矿紫砂壶纯全手工底槽青功夫泡茶壶家用茶具线韵玉斗",
+      "category": "teapot",
+      "title_zhCN": "古悦堂宜兴原矿紫砂壶纯全手工底槽青功夫泡茶壶家用茶具线韵玉斗",
+      "title_zhTW": "古悦堂宜興原礦紫砂壺純全手工底槽青功夫泡茶壺家用茶具线韵玉斗",
+      "variants": [
+        {
+          "name": "张爱娣手制 | 线韵玉斗【精美礼盒】约240ml",
+          "price": 640.0,
+          "original_price": 1280.0,
+          "sku_id": "6005627625060"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-542/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-542/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-542/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-542/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-542/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-542.mp4"
+      ],
+      "specs": {
+        "craft": "手工",
+        "capacity": "约240ml",
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫砂",
+        "shapeType": "线韵玉斗",
+        "packaging": "礼盒装",
+        "year": "三十年",
+        "color": "张爱娣手制 | 线韵玉斗【精美礼盒】"
+      },
+      "date_uploaded": "2026-06-22T14:08:52.493350"
     }
   ]
 }
