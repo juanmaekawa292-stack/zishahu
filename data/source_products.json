@@ -13687,6 +13687,39 @@
         "color": "原矿紫砂 | 竹韧西施【精美礼盒】"
       },
       "date_uploaded": "2026-06-22T14:03:38.253966"
+    },
+    {
+      "id": "tk-515",
+      "item_id": "",
+      "source_url": "古悦堂 宜兴原矿紫砂壶纯手工泡茶壶中式功夫茶具单壶 降坡泥曼殊",
+      "slug": "古悦堂 宜兴原矿紫砂壶纯手工泡茶壶中式功夫茶具单壶 降坡泥曼殊",
+      "category": "teapot",
+      "title_zhCN": "古悦堂 宜兴原矿紫砂壶纯手工泡茶壶中式功夫茶具单壶 降坡泥曼殊",
+      "title_zhTW": "古悦堂 宜興原礦紫砂壺純手工泡茶壺中式功夫茶具單壺 降坡泥曼殊",
+      "variants": [
+        {
+          "name": "约150ml",
+          "price": 599.0,
+          "original_price": null,
+          "sku_id": "5083474284039"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-515/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-515/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-515/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-515/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-515/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫砂",
+        "capacity": "约150ml"
+      },
+      "date_uploaded": "2026-06-22T14:03:48.913377"
     }
   ]
 }
