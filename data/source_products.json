@@ -15028,6 +15028,39 @@
         "color": "微笑狮 大笑狮"
       },
       "date_uploaded": "2026-06-22T14:09:45.876192"
+    },
+    {
+      "id": "tk-548",
+      "item_id": "",
+      "source_url": "便携式旅行一壶二杯整套茶具户外快客杯家用办公室喝茶手抓壶套组",
+      "slug": "便携式旅行一壶二杯整套茶具户外快客杯家用办公室喝茶手抓壶套组",
+      "category": "teapot",
+      "title_zhCN": "便携式旅行一壶二杯整套茶具户外快客杯家用办公室喝茶手抓壶套组",
+      "title_zhTW": "便携式旅行一壺二杯整套茶具户外快客杯家用办公室喝茶手抓壺套組",
+      "variants": [
+        {
+          "name": "手抓壶套组（一壶两杯一茶漏一茶盘）",
+          "price": 399.0,
+          "original_price": null,
+          "sku_id": "5790375905346"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-548.mp4"
+      ],
+      "specs": {
+        "material": "紫砂",
+        "scenario": "其他",
+        "color": "手抓壶套组（一壶两杯一茶漏一茶盘）"
+      },
+      "date_uploaded": "2026-06-22T14:09:57.956191"
     }
   ]
 }

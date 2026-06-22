@@ -44250,6 +44250,73 @@ export const products: Product[] = [
     ],
     "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
   },
+  {
+    "id": "tk-548",
+    "slug": "便携式旅行一壶二杯整套茶具户外快客杯家用办公室喝茶手抓壶套组",
+    "title_zhCN": "便携式旅行一壶二杯整套茶具户外快客杯家用办公室喝茶手抓壶套组",
+    "title_zhTW": "便携式旅行一壺二杯整套茶具户外快客杯家用办公室喝茶手抓壺套組",
+    "description_zhCN": "便携式旅行一壶二杯整套茶具户外快客杯家用办公室喝茶手抓壶套组，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "description_zhTW": "便携式旅行一壶二杯整套茶具户外快客杯家用办公室喝茶手抓壶套组，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "price": 399.0,
+    "originalPrice": 399.0,
+    "images": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/main_1.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/main_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/main_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/main_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/main_5.webp"
+    ],
+    "category": "teapot",
+    "inStock": true,
+    "stock": 100,
+    "featured": true,
+    "specs": {
+      "material": "紫砂",
+      "color": "手抓壶套组（一壶两杯一茶漏一茶盘）",
+      "scenario": "其他"
+    },
+    "createdAt": "2026-06-22",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "detailImages": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_5.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_6.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_7.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_8.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_9.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_10.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_11.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_12.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_13.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_14.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_15.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_16.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_17.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_18.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_19.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_20.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_21.webp"
+    ],
+    "variants": [
+      {
+        "id": "tk-548-01",
+        "name_zhCN": "手抓壶套组（一壶两杯一茶漏一茶盘）",
+        "name_zhTW": "手抓壺套組（一壺两杯一茶漏一茶盘）",
+        "price": 399.0,
+        "stock": 50,
+        "image": "",
+        "sku": "5790375905346",
+      },
+    ],
+    "sourceUrl": "便携式旅行一壶二杯整套茶具户外快客杯家用办公室喝茶手抓壶套组",
+    "videos": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-548.mp4"
+    ],
+    "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
+  },
 ];
 export const categories = [
   { key: "all", label_zhCN: "全部" },
