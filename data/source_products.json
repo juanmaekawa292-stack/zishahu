@@ -14954,6 +14954,40 @@
         "color": "荷韵杯 望春杯 莲花杯 桃花杯 玉兰杯 玉堂春"
       },
       "date_uploaded": "2026-06-22T14:09:24.578624"
+    },
+    {
+      "id": "tk-546",
+      "item_id": "813589086717",
+      "source_url": "https://detail.tmall.com/item.htm?id=813589086717&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
+      "slug": "古悦堂宜兴紫砂杯全手工紫砂杯家用盖杯办公茶杯降坡泥 海纳百川",
+      "category": "cup",
+      "title_zhCN": "古悦堂宜兴紫砂杯全手工紫砂杯家用盖杯办公茶杯降坡泥 海纳百川",
+      "title_zhTW": "古悦堂宜興紫砂杯全手工紫砂杯家用盖杯办公茶杯降坡泥 海纳百川",
+      "variants": [
+        {
+          "name": "原矿紫砂 | 海纳百川【精美礼盒】约600ml",
+          "price": 199.5,
+          "original_price": 399.0,
+          "sku_id": "6069365777652"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-546/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-546/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-546/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-546/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-546/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "约600ml",
+        "color": "原矿紫砂 | 海纳百川【精美礼盒】"
+      },
+      "date_uploaded": "2026-06-22T14:09:34.564706"
     }
   ]
 }
