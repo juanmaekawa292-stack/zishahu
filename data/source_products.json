@@ -14988,6 +14988,46 @@
         "color": "原矿紫砂 | 海纳百川【精美礼盒】"
       },
       "date_uploaded": "2026-06-22T14:09:34.564706"
+    },
+    {
+      "id": "tk-547",
+      "item_id": "",
+      "source_url": "古悦堂 宜兴紫砂手工茶宠高档茶具摆件可养精品茶玩 紫泥对狮茶宠",
+      "slug": "古悦堂 宜兴紫砂手工茶宠高档茶具摆件可养精品茶玩 紫泥对狮茶宠",
+      "category": "teaPet",
+      "title_zhCN": "古悦堂 宜兴紫砂手工茶宠高档茶具摆件可养精品茶玩 紫泥对狮茶宠",
+      "title_zhTW": "古悦堂 宜興紫砂手工茶宠高档茶具摆件可养精品茶玩 紫泥对狮茶宠",
+      "variants": [
+        {
+          "name": "微笑狮",
+          "price": 99.0,
+          "original_price": null,
+          "sku_id": "5782022776814"
+        },
+        {
+          "name": "大笑狮",
+          "price": 99.0,
+          "original_price": null,
+          "sku_id": "5782022776815"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-547/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-547/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-547/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-547/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-547/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-547.mp4"
+      ],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "中国大陆",
+        "handmade": "是",
+        "color": "微笑狮 大笑狮"
+      },
+      "date_uploaded": "2026-06-22T14:09:45.876192"
     }
   ]
 }
