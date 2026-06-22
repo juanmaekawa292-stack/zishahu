@@ -40521,8 +40521,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-504/detail_8.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-504/detail_9.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-504/detail_10.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-504/detail_11.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-504/detail_12.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-504/detail_11.webp"
     ],
     "variants": [
       {
@@ -40574,7 +40573,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-505/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-505/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-505/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-505/detail_6.webp",
@@ -40590,8 +40588,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-505/detail_16.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-505/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-505/detail_18.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-505/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-505/detail_20.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-505/detail_19.webp"
     ],
     "variants": [
       {
@@ -40659,7 +40656,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-506/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-506/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-506/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-506/detail_6.webp",
@@ -40679,8 +40675,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-506/detail_20.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-506/detail_21.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-506/detail_22.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-506/detail_23.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-506/detail_24.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-506/detail_23.webp"
     ],
     "variants": [
       {
@@ -40821,7 +40816,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-507/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-507/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-507/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-507/detail_6.webp",
@@ -40836,8 +40830,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-507/detail_15.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-507/detail_16.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-507/detail_17.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-507/detail_18.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-507/detail_19.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-507/detail_18.webp"
     ],
     "variants": [
       {
@@ -40896,7 +40889,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-508/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-508/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-508/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-508/detail_6.webp",
@@ -40917,8 +40909,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-508/detail_21.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-508/detail_22.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-508/detail_23.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-508/detail_24.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-508/detail_25.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-508/detail_24.webp"
     ],
     "variants": [
       {
@@ -41076,7 +41067,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-509/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-509/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-509/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-509/detail_6.webp",
@@ -41093,8 +41083,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-509/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-509/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-509/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-509/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-509/detail_21.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-509/detail_20.webp"
     ],
     "variants": [
       {
@@ -41146,7 +41135,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-510/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-510/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-510/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-510/detail_6.webp",
@@ -41161,8 +41149,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-510/detail_15.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-510/detail_16.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-510/detail_17.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-510/detail_18.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-510/detail_19.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-510/detail_18.webp"
     ],
     "variants": [
       {
@@ -41222,7 +41209,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-511/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-511/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-511/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-511/detail_6.webp",
@@ -41240,8 +41226,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-511/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-511/detail_19.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-511/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-511/detail_21.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-511/detail_22.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-511/detail_21.webp"
     ],
     "variants": [
       {
@@ -41300,7 +41285,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-512/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-512/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-512/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-512/detail_6.webp",
@@ -41318,8 +41302,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-512/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-512/detail_19.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-512/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-512/detail_21.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-512/detail_22.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-512/detail_21.webp"
     ],
     "variants": [
       {
@@ -41460,7 +41443,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-513/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-513/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-513/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-513/detail_6.webp",
@@ -41476,8 +41458,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-513/detail_16.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-513/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-513/detail_18.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-513/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-513/detail_20.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-513/detail_19.webp"
     ],
     "variants": [
       {
@@ -41554,7 +41535,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-514/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-514/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-514/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-514/detail_6.webp",
@@ -41575,8 +41555,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-514/detail_21.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-514/detail_22.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-514/detail_23.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-514/detail_24.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-514/detail_25.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-514/detail_24.webp"
     ],
     "variants": [
       {
@@ -41626,7 +41605,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-515/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-515/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-515/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-515/detail_6.webp",
@@ -41644,8 +41622,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-515/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-515/detail_19.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-515/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-515/detail_21.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-515/detail_22.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-515/detail_21.webp"
     ],
     "variants": [
       {
@@ -41695,7 +41672,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-516/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-516/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-516/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-516/detail_6.webp",
@@ -41712,8 +41688,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-516/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-516/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-516/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-516/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-516/detail_21.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-516/detail_20.webp"
     ],
     "variants": [
       {
@@ -41764,7 +41739,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-517/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-517/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-517/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-517/detail_6.webp",
@@ -41776,8 +41750,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-517/detail_12.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-517/detail_13.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-517/detail_14.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-517/detail_15.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-517/detail_16.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-517/detail_15.webp"
     ],
     "variants": [
       {
@@ -41881,7 +41854,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-518/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-518/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-518/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-518/detail_6.webp",
@@ -41899,8 +41871,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-518/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-518/detail_19.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-518/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-518/detail_21.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-518/detail_22.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-518/detail_21.webp"
     ],
     "variants": [
       {
@@ -41995,7 +41966,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-519/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-519/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-519/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-519/detail_6.webp",
@@ -42007,8 +41977,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-519/detail_12.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-519/detail_13.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-519/detail_14.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-519/detail_15.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-519/detail_16.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-519/detail_15.webp"
     ],
     "variants": [
       {
@@ -42058,7 +42027,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-520/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-520/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-520/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-520/detail_6.webp",
@@ -42073,8 +42041,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-520/detail_15.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-520/detail_16.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-520/detail_17.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-520/detail_18.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-520/detail_19.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-520/detail_18.webp"
     ],
     "variants": [
       {
@@ -42124,7 +42091,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-521/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-521/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-521/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-521/detail_6.webp",
@@ -42141,8 +42107,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-521/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-521/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-521/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-521/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-521/detail_21.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-521/detail_20.webp"
     ],
     "variants": [
       {
@@ -42192,7 +42157,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-522/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-522/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-522/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-522/detail_6.webp",
@@ -42209,8 +42173,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-522/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-522/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-522/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-522/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-522/detail_21.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-522/detail_20.webp"
     ],
     "variants": [
       {
@@ -42262,7 +42225,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-523/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-523/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-523/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-523/detail_6.webp",
@@ -42278,8 +42240,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-523/detail_16.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-523/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-523/detail_18.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-523/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-523/detail_20.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-523/detail_19.webp"
     ],
     "variants": [
       {
@@ -42338,7 +42299,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-524/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-524/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-524/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-524/detail_6.webp",
@@ -42348,8 +42308,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-524/detail_10.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-524/detail_11.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-524/detail_12.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-524/detail_13.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-524/detail_14.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-524/detail_13.webp"
     ],
     "variants": [
       {
@@ -42400,7 +42359,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-525/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-525/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-525/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-525/detail_6.webp",
@@ -42417,8 +42375,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-525/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-525/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-525/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-525/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-525/detail_21.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-525/detail_20.webp"
     ],
     "variants": [
       {
@@ -42469,7 +42426,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-526/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-526/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-526/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-526/detail_6.webp",
@@ -42487,8 +42443,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-526/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-526/detail_19.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-526/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-526/detail_21.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-526/detail_22.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-526/detail_21.webp"
     ],
     "variants": [
       {
@@ -42539,7 +42494,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_6.webp",
@@ -42551,8 +42505,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_12.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_13.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_14.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_15.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_16.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_15.webp"
     ],
     "variants": [
       {
@@ -42602,7 +42555,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-528/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-528/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-528/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-528/detail_6.webp",
@@ -42616,8 +42568,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-528/detail_14.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-528/detail_15.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-528/detail_16.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-528/detail_17.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-528/detail_18.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-528/detail_17.webp"
     ],
     "variants": [
       {
@@ -42667,7 +42618,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-529/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-529/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-529/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-529/detail_6.webp",
@@ -42684,8 +42634,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-529/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-529/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-529/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-529/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-529/detail_21.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-529/detail_20.webp"
     ],
     "variants": [
       {
@@ -42736,7 +42685,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-530/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-530/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-530/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-530/detail_6.webp",
@@ -42754,8 +42702,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-530/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-530/detail_19.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-530/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-530/detail_21.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-530/detail_22.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-530/detail_21.webp"
     ],
     "variants": [
       {
@@ -42815,7 +42762,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-531/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-531/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-531/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-531/detail_6.webp",
@@ -42834,8 +42780,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-531/detail_19.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-531/detail_20.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-531/detail_21.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-531/detail_22.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-531/detail_23.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-531/detail_22.webp"
     ],
     "variants": [
       {
@@ -42887,7 +42832,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-532/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-532/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-532/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-532/detail_6.webp",
@@ -42904,8 +42848,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-532/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-532/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-532/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-532/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-532/detail_21.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-532/detail_20.webp"
     ],
     "variants": [
       {
@@ -42957,7 +42900,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-533/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-533/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-533/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-533/detail_6.webp",
@@ -42976,8 +42918,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-533/detail_19.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-533/detail_20.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-533/detail_21.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-533/detail_22.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-533/detail_23.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-533/detail_22.webp"
     ],
     "variants": [
       {
@@ -43044,7 +42985,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-534/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-534/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-534/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-534/detail_6.webp",
@@ -43060,8 +43000,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-534/detail_16.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-534/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-534/detail_18.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-534/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-534/detail_20.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-534/detail_19.webp"
     ],
     "variants": [
       {
@@ -43114,7 +43053,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-535/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-535/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-535/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-535/detail_6.webp",
@@ -43131,8 +43069,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-535/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-535/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-535/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-535/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-535/detail_21.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-535/detail_20.webp"
     ],
     "variants": [
       {
@@ -43184,7 +43121,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-536/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-536/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-536/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-536/detail_6.webp",
@@ -43204,8 +43140,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-536/detail_20.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-536/detail_21.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-536/detail_22.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-536/detail_23.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-536/detail_24.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-536/detail_23.webp"
     ],
     "variants": [
       {
@@ -43259,7 +43194,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-537/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-537/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-537/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-537/detail_6.webp",
@@ -43277,8 +43211,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-537/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-537/detail_19.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-537/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-537/detail_21.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-537/detail_22.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-537/detail_21.webp"
     ],
     "variants": [
       {
@@ -43331,7 +43264,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-538/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-538/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-538/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-538/detail_6.webp",
@@ -43351,8 +43283,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-538/detail_20.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-538/detail_21.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-538/detail_22.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-538/detail_23.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-538/detail_24.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-538/detail_23.webp"
     ],
     "variants": [
       {
@@ -43413,7 +43344,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-539/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-539/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-539/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-539/detail_6.webp",
@@ -43430,8 +43360,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-539/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-539/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-539/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-539/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-539/detail_21.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-539/detail_20.webp"
     ],
     "variants": [
       {
@@ -43514,7 +43443,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-540/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-540/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-540/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-540/detail_6.webp",
@@ -43530,8 +43458,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-540/detail_16.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-540/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-540/detail_18.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-540/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-540/detail_20.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-540/detail_19.webp"
     ],
     "variants": [
       {
@@ -43599,7 +43526,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-541/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-541/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-541/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-541/detail_6.webp",
@@ -43626,8 +43552,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-541/detail_27.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-541/detail_28.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-541/detail_29.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-541/detail_30.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-541/detail_31.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-541/detail_30.webp"
     ],
     "variants": [
       {
@@ -43682,7 +43607,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-542/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-542/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-542/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-542/detail_6.webp",
@@ -43704,8 +43628,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-542/detail_22.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-542/detail_23.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-542/detail_24.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-542/detail_25.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-542/detail_26.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-542/detail_25.webp"
     ],
     "variants": [
       {
@@ -43757,7 +43680,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-543/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-543/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-543/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-543/detail_6.webp",
@@ -43775,8 +43697,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-543/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-543/detail_19.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-543/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-543/detail_21.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-543/detail_22.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-543/detail_21.webp"
     ],
     "variants": [
       {
@@ -43827,7 +43748,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-544/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-544/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-544/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-544/detail_6.webp",
@@ -43839,8 +43759,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-544/detail_12.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-544/detail_13.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-544/detail_14.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-544/detail_15.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-544/detail_16.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-544/detail_15.webp"
     ],
     "variants": [
       {
@@ -43936,7 +43855,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-545/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-545/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-545/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-545/detail_6.webp",
@@ -43948,8 +43866,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-545/detail_12.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-545/detail_13.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-545/detail_14.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-545/detail_15.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-545/detail_16.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-545/detail_15.webp"
     ],
     "variants": [
       {
@@ -44045,7 +43962,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-546/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-546/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-546/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-546/detail_6.webp",
@@ -44061,8 +43977,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-546/detail_16.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-546/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-546/detail_18.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-546/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-546/detail_20.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-546/detail_19.webp"
     ],
     "variants": [
       {
@@ -44113,7 +44028,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-547/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-547/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-547/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-547/detail_6.webp",
@@ -44131,8 +44045,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-547/detail_18.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-547/detail_19.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-547/detail_20.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-547/detail_21.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-547/detail_22.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-547/detail_21.webp"
     ],
     "variants": [
       {
@@ -44189,7 +44102,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_6.webp",
@@ -44205,8 +44117,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_16.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_18.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_20.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-548/detail_19.webp"
     ],
     "variants": [
       {
@@ -44264,7 +44175,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-549/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-549/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-549/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-549/detail_6.webp",
@@ -44280,8 +44190,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-549/detail_16.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-549/detail_17.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-549/detail_18.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-549/detail_19.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-549/detail_20.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-549/detail_19.webp"
     ],
     "variants": [
       {
@@ -44340,7 +44249,6 @@ export const products: Product[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "detailImages": [
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-550/detail_3.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-550/detail_4.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-550/detail_5.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-550/detail_6.webp",
@@ -44369,8 +44277,7 @@ export const products: Product[] = [
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-550/detail_29.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-550/detail_30.webp",
       "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-550/detail_31.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-550/detail_32.webp",
-      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-550/detail_33.webp"
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-550/detail_32.webp"
     ],
     "variants": [
       {
