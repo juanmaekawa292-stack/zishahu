@@ -40,9 +40,9 @@ export default function AdminCustomersPage() {
 
   filtered.sort(function(a, b) { return b.spent - a.spent; });
 
-  var totalCustomers = mockCustomers.length;
-  var activeCustomers = mockCustomers.filter(function(c) { return c.status === "active"; }).length;
-  var totalRevenue = mockCustomers.reduce(function(s, c) { return s + c.spent; }, 0);
+  var totalCustomers = filtered.length;
+  var activeCustomers = 0;
+  var totalRevenue = 0;
 
   if (!authorized) return null;
 
