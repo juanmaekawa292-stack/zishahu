@@ -14072,6 +14072,39 @@
         "color": "矮南瓜 高南瓜"
       },
       "date_uploaded": "2026-06-22T14:05:13.081663"
+    },
+    {
+      "id": "tk-524",
+      "item_id": "",
+      "source_url": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶中式家用功夫茶具单壶 悠韵",
+      "slug": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶中式家用功夫茶具单壶 悠韵",
+      "category": "teapot",
+      "title_zhCN": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶中式家用功夫茶具单壶 悠韵",
+      "title_zhTW": "古悦堂 宜興原礦紫砂壺純全手工泡茶壺中式家用功夫茶具單壺 悠韵",
+      "variants": [
+        {
+          "name": "约170ml",
+          "price": 450.0,
+          "original_price": null,
+          "sku_id": "5420184195789"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-524/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-524/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-524/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-524/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-524/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "降坡泥",
+        "capacity": "约170ml"
+      },
+      "date_uploaded": "2026-06-22T14:05:22.289560"
     }
   ]
 }
