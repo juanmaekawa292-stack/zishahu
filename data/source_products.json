@@ -14665,6 +14665,48 @@
         "color": "潘壶 周盘 铁马 憨珠"
       },
       "date_uploaded": "2026-06-22T14:08:07.438927"
+    },
+    {
+      "id": "tk-540",
+      "item_id": "",
+      "source_url": "宜兴紫砂主人杯个人专用喝茶茶杯高档功夫单杯 两仪松泥绘主人杯",
+      "slug": "宜兴紫砂主人杯个人专用喝茶茶杯高档功夫单杯 两仪松泥绘主人杯",
+      "category": "cup",
+      "title_zhCN": "宜兴紫砂主人杯个人专用喝茶茶杯高档功夫单杯 两仪松泥绘主人杯",
+      "title_zhTW": "宜興紫砂主人杯个人专用喝茶茶杯高档功夫單杯 两仪松泥繪主人杯",
+      "variants": [
+        {
+          "name": "紫泥 30ml约25-30ml",
+          "price": 99.0,
+          "original_price": null,
+          "sku_id": "5780036844988"
+        },
+        {
+          "name": "朱泥 25ml约25-30ml",
+          "price": 99.0,
+          "original_price": null,
+          "sku_id": "5780036844987"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-540/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-540/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-540/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-540/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-540/main_5.webp"
+      ],
+      "videos": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/videos/tk-540.mp4"
+      ],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "约25-30ml",
+        "color": "紫泥 朱泥"
+      },
+      "date_uploaded": "2026-06-22T14:08:18.056669"
     }
   ]
 }
