@@ -14570,6 +14570,46 @@
         "capacity": "约150ml"
       },
       "date_uploaded": "2026-06-22T14:07:43.733495"
+    },
+    {
+      "id": "tk-538",
+      "item_id": "",
+      "source_url": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶家用茶具套装朱泥 冬心秦权",
+      "slug": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶家用茶具套装朱泥 冬心秦权",
+      "category": "teapot",
+      "title_zhCN": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶家用茶具套装朱泥 冬心秦权",
+      "title_zhTW": "古悦堂 宜興原礦紫砂壺純全手工泡茶壺家用茶具套裝朱泥 冬心秦權",
+      "variants": [
+        {
+          "name": "冬心秦权101mL(含)-200mL(含)",
+          "price": 499.0,
+          "original_price": null,
+          "sku_id": "5572821757049"
+        },
+        {
+          "name": "颂金壶101mL(含)-200mL(含)",
+          "price": 499.0,
+          "original_price": null,
+          "sku_id": "5572821757050"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-538/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-538/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-538/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-538/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-538/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "material": "紫砂",
+        "capacity": "101mL(含)-200mL(含)",
+        "color": "冬心秦权 颂金壶"
+      },
+      "date_uploaded": "2026-06-22T14:07:55.708890"
     }
   ]
 }
