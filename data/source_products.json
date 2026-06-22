@@ -14826,6 +14826,70 @@
         "capacity": "约140ml"
       },
       "date_uploaded": "2026-06-22T14:09:05.670973"
+    },
+    {
+      "id": "tk-544",
+      "item_id": "",
+      "source_url": "古悦堂 宜兴原矿紫砂杯全手工功夫茶具中式品茗杯子降坡泥 玉堂春",
+      "slug": "古悦堂 宜兴原矿紫砂杯全手工功夫茶具中式品茗杯子降坡泥 玉堂春",
+      "category": "cup",
+      "title_zhCN": "古悦堂 宜兴原矿紫砂杯全手工功夫茶具中式品茗杯子降坡泥 玉堂春",
+      "title_zhTW": "古悦堂 宜興原礦紫砂杯全手工功夫茶具中式品茗杯子降坡泥 玉堂春",
+      "variants": [
+        {
+          "name": "玉堂春约40ml",
+          "price": 99.0,
+          "original_price": null,
+          "sku_id": "5362993461546"
+        },
+        {
+          "name": "望春杯约40ml",
+          "price": 99.0,
+          "original_price": null,
+          "sku_id": "5362993461547"
+        },
+        {
+          "name": "玉兰杯约40ml",
+          "price": 99.0,
+          "original_price": null,
+          "sku_id": "5362993461548"
+        },
+        {
+          "name": "桃花杯约40ml",
+          "price": 99.0,
+          "original_price": null,
+          "sku_id": "5362993461549"
+        },
+        {
+          "name": "莲花杯约40ml",
+          "price": 99.0,
+          "original_price": null,
+          "sku_id": "5362993461550"
+        },
+        {
+          "name": "荷韵杯约40ml",
+          "price": 99.0,
+          "original_price": null,
+          "sku_id": "5362993461551"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-544/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-544/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-544/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-544/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-544/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "origin": "宜兴市",
+        "handmade": "是",
+        "material": "紫砂",
+        "capacity": "约40ml",
+        "color": "玉堂春 望春杯 玉兰杯 桃花杯 莲花杯 荷韵杯"
+      },
+      "date_uploaded": "2026-06-22T14:09:15.247160"
     }
   ]
 }
