@@ -42555,6 +42555,72 @@ export const products: Product[] = [
     ],
     "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
   },
+  {
+    "id": "tk-527",
+    "slug": "古悦堂 宜兴紫砂杯全手工家用茶杯办公室泡茶杯 紫泥无欲亦乐盖杯",
+    "title_zhCN": "古悦堂 宜兴紫砂杯全手工家用茶杯办公室泡茶杯 紫泥无欲亦乐盖杯",
+    "title_zhTW": "古悦堂 宜興紫砂杯全手工家用茶杯办公室泡茶杯 紫泥无欲亦乐盖杯",
+    "description_zhCN": "古悦堂 宜兴紫砂杯全手工家用茶杯办公室泡茶杯 紫泥无欲亦乐盖杯，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "description_zhTW": "古悦堂 宜兴紫砂杯全手工家用茶杯办公室泡茶杯 紫泥无欲亦乐盖杯，精选优质原矿紫砂，全手工精制而成。壶型经典，出水顺畅，断水利落。紫砂材质透气性好，能保留茶叶的原始香气，越用越润。",
+    "price": 328.0,
+    "originalPrice": 328.0,
+    "images": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/main_1.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/main_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/main_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/main_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/main_5.webp"
+    ],
+    "category": "cup",
+    "inStock": true,
+    "stock": 100,
+    "featured": true,
+    "specs": {
+      "capacity": "约370ml",
+      "mainImageSource": "自主实拍图",
+      "origin": "宜兴市",
+      "handmade": "是",
+      "material": "紫砂",
+      "color": "无欲亦乐"
+    },
+    "createdAt": "2026-06-22",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "detailImages": [
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_2.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_3.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_4.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_5.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_6.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_7.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_8.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_9.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_10.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_11.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_12.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_13.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_14.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_15.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_16.webp",
+      "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/detail_17.webp"
+    ],
+    "variants": [
+      {
+        "id": "tk-527-01",
+        "name_zhCN": "无欲亦乐约370ml",
+        "name_zhTW": "无欲亦乐約370ml",
+        "price": 328.0,
+        "stock": 50,
+        "image": "",
+        "sku": "5093184135232",
+      },
+    ],
+    "sourceUrl": "古悦堂 宜兴紫砂杯全手工家用茶杯办公室泡茶杯 紫泥无欲亦乐盖杯",
+    "videos": [
+
+    ],
+    "shipping": { "weight": 1.5, "dimensions": { "length": 25, "width": 20, "height": 15 } },
+  },
 ];
 export const categories = [
   { key: "all", label_zhCN: "全部" },

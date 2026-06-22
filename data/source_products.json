@@ -14175,6 +14175,40 @@
         "color": "一碗两杯套装"
       },
       "date_uploaded": "2026-06-22T14:05:44.747633"
+    },
+    {
+      "id": "tk-527",
+      "item_id": "",
+      "source_url": "古悦堂 宜兴紫砂杯全手工家用茶杯办公室泡茶杯 紫泥无欲亦乐盖杯",
+      "slug": "古悦堂 宜兴紫砂杯全手工家用茶杯办公室泡茶杯 紫泥无欲亦乐盖杯",
+      "category": "cup",
+      "title_zhCN": "古悦堂 宜兴紫砂杯全手工家用茶杯办公室泡茶杯 紫泥无欲亦乐盖杯",
+      "title_zhTW": "古悦堂 宜興紫砂杯全手工家用茶杯办公室泡茶杯 紫泥无欲亦乐盖杯",
+      "variants": [
+        {
+          "name": "无欲亦乐约370ml",
+          "price": 328.0,
+          "original_price": null,
+          "sku_id": "5093184135232"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-527/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "material": "紫砂",
+        "capacity": "约370ml",
+        "origin": "宜兴市",
+        "color": "无欲亦乐",
+        "mainImageSource": "自主实拍图",
+        "handmade": "是"
+      },
+      "date_uploaded": "2026-06-22T14:05:54.191376"
     }
   ]
 }
