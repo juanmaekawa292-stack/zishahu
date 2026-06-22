@@ -14535,6 +14535,41 @@
         "capacity": "约160ml"
       },
       "date_uploaded": "2026-06-22T14:07:31.998946"
+    },
+    {
+      "id": "tk-537",
+      "item_id": "766020850852",
+      "source_url": "https://detail.tmall.com/item.htm?id=766020850852&rn=f05d185ef53df91ecc81a81d3ec71886&abbucket=14",
+      "slug": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶迷你正品茶具套装 段泥容天",
+      "category": "teapot",
+      "title_zhCN": "古悦堂 宜兴原矿紫砂壶纯全手工泡茶壶迷你正品茶具套装 段泥容天",
+      "title_zhTW": "古悦堂 宜興原礦紫砂壺純全手工泡茶壺迷你正品茶具套裝 段泥容天",
+      "variants": [
+        {
+          "name": "约150ml",
+          "price": 649.5,
+          "original_price": 1299.0,
+          "sku_id": "5268222053723"
+        }
+      ],
+      "images": [
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-537/main_1.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-537/main_2.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-537/main_3.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-537/main_4.webp",
+        "https://zishahu-images-1301674224.cos.ap-hongkong.myqcloud.com/products/tk-537/main_5.webp"
+      ],
+      "videos": [],
+      "specs": {
+        "mainImageSource": "自主实拍图",
+        "scenario": "不限",
+        "origin": "宜兴市",
+        "craft": "光素",
+        "material": "段泥",
+        "shapeType": "容天",
+        "capacity": "约150ml"
+      },
+      "date_uploaded": "2026-06-22T14:07:43.733495"
     }
   ]
 }
