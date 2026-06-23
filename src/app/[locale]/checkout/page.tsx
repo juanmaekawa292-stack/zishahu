@@ -10,6 +10,7 @@ import { useCartStore } from "@/store/cart";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import { countries } from "@/data/products";
+import PayPalButton from "@/components/PayPalButton";
 
 const SHIPPING_METHODS = [
   { id: "standard", label: "标准配送 (10-15天)", price: 15, days: "10-15" },
@@ -48,6 +49,8 @@ export default function CheckoutPage() {
   const [shippingMethod, setShippingMethod] = useState("standard");
   const [paymentMethod, setPaymentMethod] = useState("lianlian");
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [paypalSuccess, setPaypalSuccess] = useState(false);
+  const [paypalError, setPaypalError] = useState<string | null>(null);
 
   const CHAT_TOOLS = [
   { id: "email", label: "Email" },
@@ -73,7 +76,6 @@ export default function CheckoutPage() {
   });
 
   useEffect(() => {
-    // Auto-detect country via IP geolocation
     fetch("https://ipapi.co/json/")
       .then((res) => res.json())
       .then((data) => {
@@ -81,9 +83,7 @@ export default function CheckoutPage() {
           setAddress(prev => ({ ...prev, country: data.country_code }));
         }
       })
-      .catch(() => {
-        // Silently fail, keep default US
-      });
+      .catch(() => {});
   }, []);
 
   const subtotal = items.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
@@ -131,12 +131,43 @@ export default function CheckoutPage() {
       if (!res.ok) throw new Error("Checkout failed");
       const order = await res.json();
       clearCart();
-      router.push(`/orders/${order.id}`);
+      router.push("/orders/" + order.id);
     } catch (err) {
       console.error("Checkout error:", err);
       alert("提交订单失败，请重试");
     } finally {
       setIsSubmitting(false);
+    }
+  };
+
+  const handlePaypalSuccess = async (details: any, paypalOrderId: string) => {
+    setPaypalSuccess(true);
+    try {
+      const res = await fetch("/api/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          contactMethod,
+          contactId,
+          items,
+          address,
+          shippingMethod,
+          paymentMethod: "paypal",
+          subtotal,
+          shipping,
+          tax,
+          total,
+          paypalOrderId,
+        }),
+      });
+      if (!res.ok) throw new Error("Checkout failed");
+      const order = await res.json();
+      clearCart();
+      router.push("/orders/" + order.id);
+    } catch (err) {
+      console.error("Checkout error:", err);
+      alert("提交订单失败，请重试");
+      setPaypalSuccess(false);
     }
   };
 
@@ -222,7 +253,7 @@ export default function CheckoutPage() {
                   onChange={(e) => setAddress({ ...address, country: e.target.value })}
                   className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-ring"
                 >
-                  {countries.map((c) => (
+                  {countries.map((c: any) => (
                     <option key={c.code} value={c.code}>{c.name_zhCN}</option>
                   ))}
                 </select>
@@ -267,7 +298,7 @@ export default function CheckoutPage() {
             </div>
           </div>
 
-                    {/* Contact Method */}
+          {/* Contact Method */}
           <div className="rounded-lg border border-border bg-card p-6">
             <div className="mb-4 flex items-center gap-2">
               <MessageSquare className="h-5 w-5 text-primary" />
@@ -290,6 +321,7 @@ export default function CheckoutPage() {
               </div>
             </div>
           </div>
+
           {/* Payment Method */}
           <div className="rounded-lg border border-border bg-card p-6">
             <div className="mb-4 flex items-center gap-2">
@@ -297,28 +329,60 @@ export default function CheckoutPage() {
               <h2 className="text-lg font-medium text-foreground">{tCheckout("payment")}</h2>
             </div>
             <div className="space-y-3">
-              {[
-                { id: "lianlian", label: "连连支付", Icon: CreditCard },
-              ].map((method) => (
-                <label
-                  key={method.id}
-                  className={cn(
-                    "flex cursor-pointer items-center gap-3 rounded-md border p-4 transition-colors",
-                    paymentMethod === method.id ? "border-primary bg-primary/5" : "border-border hover:border-muted-foreground/30"
-                  )}
-                >
-                  <input
-                    type="radio"
-                    name="payment"
-                    value={method.id}
-                    checked={paymentMethod === method.id}
-                    onChange={() => setPaymentMethod(method.id)}
-                    className="accent-primary"
+              <label
+                className={cn(
+                  "flex cursor-pointer items-center gap-3 rounded-md border p-4 transition-colors",
+                  paymentMethod === "lianlian" ? "border-primary bg-primary/5" : "border-border hover:border-muted-foreground/30"
+                )}
+              >
+                <input
+                  type="radio"
+                  name="payment"
+                  value="lianlian"
+                  checked={paymentMethod === "lianlian"}
+                  onChange={() => setPaymentMethod("lianlian")}
+                  className="accent-primary"
+                />
+                <CreditCard className="h-5 w-5 text-muted-foreground" />
+                <span className="text-sm font-medium text-foreground">连连支付</span>
+              </label>
+
+              <label
+                className={cn(
+                  "flex cursor-pointer items-center gap-3 rounded-md border p-4 transition-colors",
+                  paymentMethod === "paypal" ? "border-primary bg-primary/5" : "border-border hover:border-muted-foreground/30"
+                )}
+              >
+                <input
+                  type="radio"
+                  name="payment"
+                  value="paypal"
+                  checked={paymentMethod === "paypal"}
+                  onChange={() => { setPaymentMethod("paypal"); setPaypalError(null); }}
+                  className="accent-primary"
+                />
+                <svg className="h-5 w-5 text-[#0070ba]" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944.901C5.026.382 5.474 0 5.998 0h7.46c2.57 0 4.578.543 5.69 1.81 1.01 1.15 1.304 2.42 1.012 4.287-.023.143-.047.288-.077.437-.983 5.05-4.349 6.797-8.647 6.797h-2.19c-.524 0-.968.382-1.05.9l-1.12 7.106z"/>
+                </svg>
+                <span className="text-sm font-medium text-foreground">PayPal</span>
+              </label>
+
+              {paymentMethod === "paypal" && (
+                <div className="mt-4 rounded-md bg-muted/30 p-4">
+                  <p className="mb-3 text-xs text-muted-foreground">
+                    You will be redirected to PayPal to complete your payment securely.
+                  </p>
+                  <PayPalButton
+                    amount={total}
+                    currency="USD"
+                    onSuccess={(details: any) => handlePaypalSuccess(details, details.id)}
+                    onError={() => setPaypalError("PayPal payment failed. Please try again.")}
                   />
-                  <method.Icon className="h-5 w-5 text-muted-foreground" />
-                  <span className="text-sm font-medium text-foreground">{method.label}</span>
-                </label>
-              ))}
+                  {paypalError && (
+                    <p className="mt-2 text-xs text-red-500">{paypalError}</p>
+                  )}
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -329,7 +393,7 @@ export default function CheckoutPage() {
             <h2 className="text-sm font-medium text-foreground">{tCheckout("orderSummary")}</h2>
 
             <div className="space-y-2">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <div key={item.productId} className="flex items-center justify-between text-xs">
                   <span className="text-muted-foreground truncate max-w-[160px]">
                     {item.product.title_zhCN} x {item.quantity}
@@ -360,14 +424,28 @@ export default function CheckoutPage() {
               </div>
             </div>
 
-            <Button
-              className="w-full"
-              size="lg"
-              onClick={handleSubmit}
-              disabled={isSubmitting || !address.name || !address.phone || !address.street || !address.city || !address.zip}
-            >
-              {isSubmitting ? "提交中..." : tCheckout("placeOrder")}
-            </Button>
+            {paymentMethod === "lianlian" && (
+              <Button
+                className="w-full"
+                size="lg"
+                onClick={handleSubmit}
+                disabled={isSubmitting || !address.name || !address.phone || !address.street || !address.city || !address.zip}
+              >
+                {isSubmitting ? "提交中..." : tCheckout("placeOrder")}
+              </Button>
+            )}
+
+            {paymentMethod === "paypal" && !paypalSuccess && (
+              <p className="text-xs text-center text-muted-foreground">
+                Please use the PayPal button above to complete your payment.
+              </p>
+            )}
+
+            {paypalSuccess && (
+              <p className="text-xs text-center text-emerald-600 font-medium">
+                Payment successful! Redirecting...
+              </p>
+            )}
 
             <p className="text-[10px] text-center text-muted-foreground">
               {tCheckout("freeShippingNote")}

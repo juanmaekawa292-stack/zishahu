@@ -7,6 +7,7 @@ interface CheckoutItem {
     id: string;
     title_zhCN: string;
     price: number;
+    slug?: string;
     sourceUrl?: string;
     sourceSku?: string;
   };
@@ -31,6 +32,7 @@ interface CheckoutBody {
   total: number;
   contactMethod?: string;
   contactId?: string;
+  paypalOrderId?: string;
 }
 
 const orders = new Map<string, any>();
@@ -72,15 +74,16 @@ const order = {
       address: body.address,
       shippingMethod: body.shippingMethod,
       paymentMethod: body.paymentMethod,
-      subtotal: body.subtotal,
-      shipping: body.shipping,
-      tax: body.tax,
-      total: body.total,
-      contactMethod: body.contactMethod,
-      contactId: body.contactId,
-      status: "pending" as const,
-      sourceMap,
-      createdAt: new Date().toISOString(),
+    subtotal: body.subtotal,
+    shipping: body.shipping,
+    tax: body.tax,
+    total: body.total,
+    contactMethod: body.contactMethod,
+    contactId: body.contactId,
+    paypalOrderId: body.paypalOrderId,
+    status: "pending" as const,
+    sourceMap,
+    createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
     };
 
