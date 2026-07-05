@@ -47,7 +47,7 @@ export default function CheckoutPage() {
 
   const [step, setStep] = useState("shipping");
   const [shippingMethod, setShippingMethod] = useState("standard");
-  const [paymentMethod, setPaymentMethod] = useState("lianlian");
+  const [paymentMethod, setPaymentMethod] = useState("paypal");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [paypalSuccess, setPaypalSuccess] = useState(false);
   const [paypalError, setPaypalError] = useState<string | null>(null);
