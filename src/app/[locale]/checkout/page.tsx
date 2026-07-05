@@ -50,7 +50,8 @@ export default function CheckoutPage() {
   const [paymentMethod, setPaymentMethod] = useState("paypal");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [paypalSuccess, setPaypalSuccess] = useState(false);
-  const [paypalError, setPaypalError] = useState<string | null>(null);
+ const [paypalError, setPaypalError] = useState<string | null>(null);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   const CHAT_TOOLS = [
   { id: "email", label: "Email" },
@@ -88,8 +89,8 @@ export default function CheckoutPage() {
 
   const subtotal = items.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
   const shipping = SHIPPING_METHODS.find((s) => s.id === shippingMethod)?.price || 15;
-  const tax = subtotal * 0.08;
-  const total = subtotal + shipping + tax;
+  const tax = 0;
+  const total = subtotal + shipping;
 
   if (items.length === 0) {
     return (
@@ -140,36 +141,45 @@ export default function CheckoutPage() {
     }
   };
 
-  const handlePaypalSuccess = async (details: any, paypalOrderId: string) => {
-    setPaypalSuccess(true);
-    try {
-      const res = await fetch("/api/checkout", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          contactMethod,
-          contactId,
-          items,
-          address,
-          shippingMethod,
-          paymentMethod: "paypal",
-          subtotal,
-          shipping,
-          tax,
-          total,
-          paypalOrderId,
-        }),
-      });
-      if (!res.ok) throw new Error("Checkout failed");
-      const order = await res.json();
-      clearCart();
-      router.push("/orders/" + order.id);
-    } catch (err) {
-      console.error("Checkout error:", err);
-      alert("提交订单失败，请重试");
+ const handlePaypalSuccess = async (details: any, paypalOrderId: string) => {
+    if (!address.name || !address.phone || !address.street || !address.city || !address.zip) {
+      setSubmitError("Please fill in your complete shipping address first.");
       setPaypalSuccess(false);
+      return;
     }
-  };
+   setPaypalSuccess(true);
+    setSubmitError(null);
+   try {
+     const res = await fetch("/api/checkout", {
+       method: "POST",
+       headers: { "Content-Type": "application/json" },
+       body: JSON.stringify({
+         contactMethod,
+         contactId,
+         items,
+         address,
+         shippingMethod,
+         paymentMethod: "paypal",
+         subtotal,
+         shipping,
+         tax,
+         total,
+         paypalOrderId,
+       }),
+     });
+      if (!res.ok) {
+        const errData = await res.json().catch(() => ({ error: "Checkout failed" }));
+        throw new Error(errData.error || "Checkout failed");
+      }
+     const order = await res.json();
+     clearCart();
+     router.push("/orders/" + order.id);
+   } catch (err) {
+     console.error("Checkout error:", err);
+      setSubmitError(err instanceof Error ? err.message : "Order submission failed. Please try again.");
+     setPaypalSuccess(false);
+   }
+ };
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
@@ -377,9 +387,17 @@ export default function CheckoutPage() {
                     currency="USD"
                     onSuccess={(details: any) => handlePaypalSuccess(details, details.id)}
                     onError={() => setPaypalError("PayPal payment failed. Please try again.")}
+                    onValidate={() => {
+                      if (!address.name || !address.phone || !address.street || !address.city || !address.zip) {
+                        setSubmitError("Please fill in your complete shipping address first.");
+                        return false;
+                      }
+                      setSubmitError(null);
+                      return true;
+                    }}
                   />
-                  {paypalError && (
-                    <p className="mt-2 text-xs text-red-500">{paypalError}</p>
+                  {submitError && (
+                    <p className="mt-2 text-xs text-red-500">{submitError}</p>
                   )}
                 </div>
               )}
@@ -411,10 +429,6 @@ export default function CheckoutPage() {
               <div className="flex justify-between">
                 <span className="text-muted-foreground">{t("shipping")}</span>
                 <span className="font-medium">{shipping === 0 ? "免费" : _format(shipping)}</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-muted-foreground">{t("tax")}</span>
-                <span className="font-medium">{_format(tax)}</span>
               </div>
               <div className="border-t border-border pt-2">
                 <div className="flex justify-between text-base">

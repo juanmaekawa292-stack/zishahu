@@ -1,15 +1,16 @@
- "use client";
- 
- import { useEffect, useState, useRef } from "react";
+"use client";
+
+ import { useEffect, useState, useRef, useCallback } from "react";
  import { Loader2 } from "lucide-react";
  
- interface PayPalButtonProps {
-   amount: number;
-   currency?: string;
-   onSuccess: (details: any) => void;
-   onError?: (error: any) => void;
-   disabled?: boolean;
- }
+interface PayPalButtonProps {
+  amount: number;
+  currency?: string;
+  onSuccess: (details: any) => void;
+  onError?: (error: any) => void;
+  onValidate?: () => boolean;
+  disabled?: boolean;
+}
  
  declare global {
    interface Window {
@@ -17,19 +18,28 @@
    }
  }
  
- export default function PayPalButton({
-   amount,
-   currency = "USD",
-   onSuccess,
-   onError,
-   disabled = false,
- }: PayPalButtonProps) {
+export default function PayPalButton({
+  amount,
+  currency = "USD",
+  onSuccess,
+  onError,
+  onValidate,
+  disabled = false,
+}: PayPalButtonProps) {
    const [loaded, setLoaded] = useState(false);
    const [error, setError] = useState<string | null>(null);
    const [clientId, setClientId] = useState<string | null>(null);
    const [isSandbox, setIsSandbox] = useState(true);
-   const buttonContainerRef = useRef<HTMLDivElement>(null);
-   const buttonsRenderedRef = useRef(false);
+  const buttonContainerRef = useRef<HTMLDivElement>(null);
+  const buttonsRenderedRef = useRef(false);
+ const onSuccessRef = useRef(onSuccess);
+ const onErrorRef = useRef(onError);
+ const onValidateRef = useRef(onValidate);
+
+  // Keep refs in sync so PayPal SDK closures always use the latest callbacks
+  useEffect(() => { onSuccessRef.current = onSuccess; }, [onSuccess]);
+  useEffect(() => { onErrorRef.current = onError; }, [onError]);
+ useEffect(() => { onValidateRef.current = onValidate; }, [onValidate]);
  
    // Fetch PayPal settings
    useEffect(() => {
@@ -78,8 +88,8 @@
      };
    }, [clientId, disabled, currency, isSandbox]);
  
-   function renderButtons() {
-     if (!window.paypal || !buttonContainerRef.current || buttonsRenderedRef.current) return;
+  function renderButtons() {
+    if (!window.paypal || !buttonContainerRef.current || buttonsRenderedRef.current) return;
  
      buttonsRenderedRef.current = true;
  
@@ -90,6 +100,11 @@
            color: "blue",
            shape: "rect",
            label: "paypal",
+         },
+         onClick: async (data: any) => {
+           if (onValidateRef.current && !onValidateRef.current()) {
+             return false;
+           }
          },
          createOrder: async () => {
            const res = await fetch("/api/payment/paypal/create-order", {
@@ -109,11 +124,11 @@
            });
            const captureData = await res.json();
            if (!res.ok) throw new Error(captureData.error || "Failed to capture order");
-           onSuccess(captureData);
+           onSuccessRef.current(captureData);
          },
          onError: (err: any) => {
            console.error("PayPal button error:", err);
-           if (onError) onError(err);
+           if (onErrorRef.current) onErrorRef.current(err);
          },
        })
        .render(buttonContainerRef.current)
