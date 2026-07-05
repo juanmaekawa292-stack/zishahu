@@ -33,16 +33,19 @@
  }
  
  export async function POST(request: NextRequest) {
-   try {
-     // Load settings from shared module
-     const settingsRes = await fetch(new URL("/api/payment/settings", request.url));
-     const settingsData = await settingsRes.json();
-     if (settingsData.paypal_client_id) {
-       settings.paypal_client_id = settingsData.paypal_client_id;
-     }
-     if (settingsData.paypal_mode) {
-       settings.paypal_mode = settingsData.paypal_mode;
-     }
+  try {
+    // Load settings from shared module
+    const settingsRes = await fetch(new URL("/api/payment/settings", request.url));
+    const settingsData = await settingsRes.json();
+    if (settingsData.paypal_client_id) {
+      settings.paypal_client_id = settingsData.paypal_client_id;
+    }
+    if (settingsData.paypal_secret) {
+      settings.paypal_secret = settingsData.paypal_secret;
+    }
+    if (settingsData.paypal_mode) {
+      settings.paypal_mode = settingsData.paypal_mode;
+    }
  
      const body = await request.json();
      const { amount, currency = "USD", items } = body;

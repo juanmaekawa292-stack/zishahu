@@ -26,3 +26,12 @@ export async function POST(request: Request) {
     return NextResponse.json({ success: false, error: String(e) }, { status: 400 });
   }
 }
+// Use env vars as fallback for persistence across Vercel cold starts
+var settings: any = {
+  oid_partner: process.env.LIANLIAN_OID_PARTNER || "",
+  private_key: process.env.LIANLIAN_PRIVATE_KEY || "",
+  paypal_client_id: process.env.PAYPAL_CLIENT_ID || "",
+  paypal_secret: process.env.PAYPAL_SECRET || "",
+  paypal_mode: process.env.PAYPAL_MODE || "sandbox",
+};
+// POST updates in-memory; env vars override at cold start
