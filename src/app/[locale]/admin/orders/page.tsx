@@ -20,15 +20,15 @@ const STATUSES = [
   { key: "delivered", label: "已完成" },
 ];
 
-var mockOrders = [
-  { id: "ORD-001", customer: "Michael Wang", email: "mwang@gmail.com", country: "US", items: 2, total: 139.90, cost: 35.00, profit: 104.90, status: "pending", createdAt: "2026-06-20 09:30" },
-  { id: "ORD-002", customer: "Sarah Li", email: "sli@outlook.com", country: "CA", items: 1, total: 88.50, cost: 22.00, profit: 66.50, status: "paid", createdAt: "2026-06-19 14:20" },
-  { id: "ORD-003", customer: "James Chen", email: "jchen@gmail.com", country: "US", items: 2, total: 215.00, cost: 55.00, profit: 160.00, status: "paid", createdAt: "2026-06-18 10:15" },
-  { id: "ORD-004", customer: "Emily Zhao", email: "ezhao@yahoo.com", country: "AU", items: 1, total: 120.00, cost: 28.00, profit: 92.00, status: "shipped", createdAt: "2026-06-16 16:45", carrier: "usps", trackingNumber: "USPS1234567890" },
-  { id: "ORD-005", customer: "David Liu", email: "dliu@gmail.com", country: "US", items: 2, total: 198.00, cost: 50.00, profit: 148.00, status: "shipped", createdAt: "2026-06-14 11:30", carrier: "fedex", trackingNumber: "FX12345678901" },
-  { id: "ORD-006", customer: "Ming Zhang", email: "mzhang@sgmail.com", country: "SG", items: 1, total: 95.00, cost: 20.00, profit: 75.00, status: "delivered", createdAt: "2026-06-10 09:00", carrier: "dhl", trackingNumber: "DHL1234567890" },
-  { id: "ORD-007", customer: "Grace Huang", email: "ghuang@icloud.com", country: "GB", items: 1, total: 110.00, cost: 25.00, profit: 85.00, status: "delivered", createdAt: "2026-06-08 14:10", carrier: "royal_mail", trackingNumber: "RM123456789GB" },
-];
+var mockOrders: any[] = [];
+
+async function fetchOrders(setOrders: any) {
+  try {
+    var res = await fetch("/api/checkout");
+    var data = await res.json();
+    if (Array.isArray(data)) setOrders(data);
+  } catch(e) {}
+}
 
 const CARRIER_NAMES: Record<string, string> = { usps: "USPS", fedex: "FedEx", ups: "UPS", dhl: "DHL Express", dhl_ecommerce: "DHL eCommerce", canada_post: "Canada Post", australia_post: "Australia Post", royal_mail: "Royal Mail", yanwen: "燕文物流", "4px": "递四方", cn_line: "CNE Express", speedpak: "SpeedPak", eub: "易邮宝 (EUB)", sf_international: "顺丰国际", other: "Other Carrier" };
 
@@ -45,10 +45,10 @@ export default function AdminOrdersPage() {
   var [carriers, setCarriers] = useState([]);
   var [orders, setOrders] = useState(mockOrders);
 
-  useEffect(() => {
+ useEffect(() => {
     var user = getCurrentUser();
     if (!user || user.role !== "admin") { router.push("/login"); }
-    else { setAuthorized(true); fetchCarriers(); }
+    else { setAuthorized(true); fetchCarriers(); fetchOrders(setOrders); }
   }, [router]);
 
   async function fetchCarriers() {
@@ -97,17 +97,40 @@ export default function AdminOrdersPage() {
         <div><h1 className="text-2xl font-bold text-foreground">订单管理</h1><p className="text-sm text-muted-foreground">管理订单发货和物流</p></div>
       </div>
 
-      <div className="flex gap-2 mb-6 overflow-x-auto">
-        {STATUSES.map(function(f: any) {
-          return (
-            <button key={f.key} onClick={function() { setStatusFilter(f.key); }}
+      <div className="flex items-center justify-between mb-6">
+        <div className="flex gap-2 overflow-x-auto">
+          {STATUSES.map(function(f: any) {
+            return (
+              <button key={f.key} onClick={function() { setStatusFilter(f.key); }}
               className={"px-4 py-2 rounded-lg text-sm font-medium transition-colors whitespace-nowrap " + (statusFilter === f.key ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground hover:text-foreground")}>
               {f.label}
             </button>
-          );
-        })}
+            );
+          })}
+        </div>
+        <div className="flex gap-2 shrink-0">
+          <button onClick={function() { fetchOrders(setOrders); }}
+            className="px-4 py-2 rounded-lg text-sm font-medium bg-muted text-muted-foreground hover:text-foreground transition-colors">
+            &#x21bb; 刷新
+          </button>
+          <button onClick={async function() {
+            if (confirm("确定要清空全部订单吗？此操作不可恢复。")) {
+              var res = await fetch("/api/checkout", { method: "DELETE" });
+              var data = await res.json();
+              if (data.success) {
+                setOrders([]);
+                alert("全部订单已清空");
+              } else {
+                alert("清空失败");
+              }
+            }
+          }}
+            className="px-4 py-2 rounded-lg text-sm font-medium bg-red-100 text-red-600 hover:bg-red-200 transition-colors">
+            &#x2716; 清空全部订单
+          </button>
+        </div>
       </div>
-
+  
       <div className="rounded-lg border border-border bg-card overflow-hidden">
         <table className="w-full text-sm">
           <thead className="bg-muted/50">

@@ -113,5 +113,15 @@ export async function GET(request: NextRequest) {
     return NextResponse.json(order);
   }
 
-  return NextResponse.json(Array.from(orders.values()));
+ return NextResponse.json(Array.from(orders.values()));
+}
+
+export async function DELETE() {
+  try {
+    orders.clear();
+    return NextResponse.json({ success: true, message: "All orders cleared" });
+  } catch (error) {
+    console.error("Clear orders error:", error);
+    return NextResponse.json({ error: "Failed to clear orders" }, { status: 500 });
+  }
 }
