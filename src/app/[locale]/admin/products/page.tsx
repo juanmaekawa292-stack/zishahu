@@ -99,7 +99,7 @@ export default function AdminProductsPage() {
 
   useEffect(() => {
     const pid = window.localStorage.getItem("zisha-edit-product-id");
-    if (pid) {
+    if (pid && allProducts.length > 0) {
       window.localStorage.removeItem("zisha-edit-product-id");
       const prod = allProducts.find((p: any) => p && p.id === pid);
       if (prod) setEditProduct(prod);
