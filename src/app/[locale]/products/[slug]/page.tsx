@@ -1,5 +1,5 @@
 ﻿import { notFound } from "next/navigation";
-import { products, getProductBySlug } from "@/data/products";
+import { getProducts, getProductBySlug } from "@/lib/runtime-products";
 import type { Product } from "@/types";
 import type { Metadata } from "next";
 import { ProductDetailContent } from "@/components/product/ProductDetailContent";
@@ -7,6 +7,8 @@ import { ProductCard } from "@/components/product/ProductCard";
 import { ProductMeta } from "@/components/seo/ProductMeta";
 import { generateProductMeta } from "@/lib/seo";
 import { getLocale } from "next-intl/server";
+
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
@@ -17,11 +19,11 @@ export async function generateMetadata({
   const slug = _params?.slug || "";
   const locale = _params?.locale || "zh-CN";
 
-  let product = getProductBySlug(slug);
+  let product = await getProductBySlug(slug);
   if (!product) {
     try {
       const decoded = decodeURIComponent(slug);
-      product = getProductBySlug(decoded);
+      product = await getProductBySlug(decoded);
     } catch (e) {}
   }
 
@@ -55,10 +57,6 @@ export async function generateMetadata({
   };
 }
 
-export function generateStaticParams() {
-  return products.map(function(p: { slug: string }) { return { slug: p.slug }; });
-}
-
 export default async function ProductDetailPage({
   params,
 }: {
@@ -69,11 +67,11 @@ export default async function ProductDetailPage({
   var locale = await getLocale() || "zh-CN";
   
   // Try both raw and decoded
-  var product = getProductBySlug(slug);
+  var product = await getProductBySlug(slug);
   if (!product) {
     try {
       var decoded = decodeURIComponent(slug);
-      product = getProductBySlug(decoded);
+      product = await getProductBySlug(decoded);
     } catch(e) {}
   }
   
@@ -83,7 +81,8 @@ export default async function ProductDetailPage({
   }
 
   var p: Product = product;
-  var relatedProducts = products
+  var allProducts = await getProducts();
+  var relatedProducts = allProducts
     .filter(function(x: { category: string; id: string }) { return x.category === p.category && x.id !== p.id; })
     .slice(0, 4);
 
@@ -106,3 +105,4 @@ export default async function ProductDetailPage({
     </div>
   );
 }
+

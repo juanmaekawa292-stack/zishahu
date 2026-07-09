@@ -1,6 +1,7 @@
-import { NextRequest, NextResponse } from "next/server";
+﻿import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
+import { updateProduct } from "@/lib/runtime-products";
 
 export async function PUT(req: NextRequest) {
   try {
@@ -28,8 +29,12 @@ export async function PUT(req: NextRequest) {
     content = content.slice(0, entryStart) + entry + content.slice(entryEnd + 4);
     fs.writeFileSync(tsPath, content, "utf-8");
 
+    // 鍚屾椂鍐欏叆杩愯鏃惰鐩栨枃浠讹紝绔嬪嵆鍙
+    await updateProduct(id, updates);
+
     return NextResponse.json({ success: true });
   } catch (e) {
     return NextResponse.json({ success: false, error: String(e) }, { status: 500 });
   }
 }
+

@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { Search, SlidersHorizontal, ChevronDown, Grid3X3, LayoutList, ChevronLeft, ChevronRight, X, Filter } from "lucide-react";
 import { ProductCard } from "@/components/product/ProductCard";
-import { products, categories, shapes } from "@/data/products";
+import { categories, shapes } from "@/data/products";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 
@@ -35,6 +35,19 @@ function ProductsContent() {
   const router = useRouter();
   const pathname = usePathname();
 
+  const [allProducts, setAllProducts] = useState<any[]>([]);
+
+  useEffect(() => {
+    fetch("/api/products")
+      .then((r) => r.json())
+      .then((data) => {
+        if (data.success && Array.isArray(data.products)) {
+          setAllProducts(data.products);
+        }
+      })
+      .catch((e) => console.error("Failed to fetch products:", e));
+  }, []);
+
   const [searchQuery, setSearchQuery] = useState(searchParams.get("search") || "");
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
@@ -54,6 +67,7 @@ function ProductsContent() {
   const currentPage = parseInt(searchParams.get("page") || "1", 10);
   const currentShape = searchParams.get("shape") || "all";
 
+  const products = allProducts;
   const filteredProducts = useMemo(() => {
     let result = [...products];
 
