@@ -1,6 +1,4 @@
-﻿import { NextRequest, NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
+import { NextRequest, NextResponse } from "next/server";
 import { updateProduct } from "@/lib/runtime-products";
 
 export async function PUT(req: NextRequest) {
@@ -8,28 +6,6 @@ export async function PUT(req: NextRequest) {
     const { id, updates } = await req.json();
     if (!id || !updates) return NextResponse.json({ success: false, error: "Missing id or updates" }, { status: 400 });
 
-    const tsPath = path.join(process.cwd(), "src/data/products.ts");
-    let content = fs.readFileSync(tsPath, "utf-8");
-
-    const idIdx = content.indexOf('"id": "' + id + '"');
-    if (idIdx < 0) return NextResponse.json({ success: false, error: "Product not found" }, { status: 404 });
-
-    const entryStart = content.lastIndexOf("  {", idIdx);
-    const entryEnd = content.indexOf("  },", idIdx);
-    if (entryStart < 0 || entryEnd < 0) return NextResponse.json({ success: false, error: "Cannot parse entry" }, { status: 500 });
-
-    let entry = content.slice(entryStart, entryEnd + 4);
-
-    for (const [key, value] of Object.entries(updates)) {
-      const valStr = typeof value === "string" ? '"' + value + '"' : String(value);
-      const fieldRegex = new RegExp("(" + key + ':)[^,]+');
-      entry = entry.replace(fieldRegex, "$1 " + valStr);
-    }
-
-    content = content.slice(0, entryStart) + entry + content.slice(entryEnd + 4);
-    fs.writeFileSync(tsPath, content, "utf-8");
-
-    // 鍚屾椂鍐欏叆杩愯鏃惰鐩栨枃浠讹紝绔嬪嵆鍙
     await updateProduct(id, updates);
 
     return NextResponse.json({ success: true });
@@ -37,4 +13,3 @@ export async function PUT(req: NextRequest) {
     return NextResponse.json({ success: false, error: String(e) }, { status: 500 });
   }
 }
-
