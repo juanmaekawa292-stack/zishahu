@@ -3,6 +3,7 @@ import { getProducts, getProductBySlug } from "@/lib/runtime-products";
 import type { Product } from "@/types";
 import type { Metadata } from "next";
 import { ProductDetailContent } from "@/components/product/ProductDetailContent";
+import { EditProductButton } from "@/components/product/EditProductButton";
 import { ProductCard } from "@/components/product/ProductCard";
 import { ProductMeta } from "@/components/seo/ProductMeta";
 import { generateProductMeta } from "@/lib/seo";
@@ -89,6 +90,9 @@ export default async function ProductDetailPage({
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       <ProductMeta product={p} locale={locale} />
+      <div className="flex justify-end mb-4">
+        <EditProductButton productId={p.id} />
+      </div>
       <ProductDetailContent product={p} />
       {relatedProducts.length > 0 && (
         <section className="mt-20">

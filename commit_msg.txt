@@ -1,1 +1,0 @@
-fix: replace 25 demo products with 2 real products (guishou + shipiao) 
