@@ -117,30 +117,35 @@ useEffect(() => { currencyRef.current = currency; }, [currency]);
              return false;
            }
          },
-        createOrder: async () => {
-          // Step 1: Create pending order in our system (if callback provided)
-          if (onBeforeCreateOrderRef.current) {
-            try {
-              const localId = await onBeforeCreateOrderRef.current();
-              localOrderIdRef.current = localId;
-            } catch (err) {
-              console.error("Failed to create pending order:", err);
-               throw err;
-             }
-           }
-           // Step 2: Create PayPal order
-           const res = await fetch("/api/payment/paypal/create-order", {
-             method: "POST",
-             headers: { "Content-Type": "application/json" },
-             body: JSON.stringify({
-               amount: amountRef.current, currency: currencyRef.current,
-               invoice_id: localOrderIdRef.current || undefined,
-             }),
-           });
-           const data = await res.json();
-           if (!res.ok) throw new Error(data.error || "Failed to create order");
-           return data.id;
-         },
+ createOrder: async () => {
+    // Step 1: Create pending order in our system (if callback provided)
+    if (onBeforeCreateOrderRef.current) {
+      try {
+        const localId = await onBeforeCreateOrderRef.current();
+        localOrderIdRef.current = localId;
+      } catch (err) {
+        console.error("Failed to create pending order:", err);
+        const errMsg = err instanceof Error ? err.message : String(err);
+        alert("[createOrder] handleBeforeCreateOrder failed: " + errMsg);
+        throw err;
+      }
+    }
+    // Step 2: Create PayPal order
+    const res = await fetch("/api/payment/paypal/create-order", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        amount: amountRef.current, currency: currencyRef.current,
+        invoice_id: localOrderIdRef.current || undefined,
+      }),
+    });
+    const data = await res.json();
+    if (!res.ok) {
+      alert("[createOrder] Paypal create-order API failed: " + (data.error || "Failed to create order"));
+      throw new Error(data.error || "Failed to create order");
+    }
+    return data.id;
+  },
          onApprove: async (data: any) => {
            const res = await fetch("/api/payment/paypal/capture-order", {
              method: "POST",

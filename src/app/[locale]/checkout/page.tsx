@@ -168,6 +168,7 @@ const handlePaypalSuccess = async (details: any) => {
 const handlePaypalError = (err: any) => {
   console.error("PayPal error:", err);
   const msg = typeof err === 'string' ? err : (err?.message || err?.toString?.() || "Unknown error");
+  alert("[handlePaypalError] PayPal error callback: " + msg);
   setPaypalError("PayPal error: " + msg);
  };
 
