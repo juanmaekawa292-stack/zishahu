@@ -32,19 +32,21 @@ export default function PayPalButton({
 }: PayPalButtonProps) {
    const [loaded, setLoaded] = useState(false);
    const [error, setError] = useState<string | null>(null);
-   const [clientId, setClientId] = useState<string | null>(null);
-   const [isSandbox, setIsSandbox] = useState(true);
-  const buttonContainerRef = useRef<HTMLDivElement>(null);
-  const buttonsRenderedRef = useRef(false);
- const onSuccessRef = useRef(onSuccess);
- const localOrderIdRef = useRef<string | null>(null);
- const onErrorRef = useRef(onError);
- const onValidateRef = useRef(onValidate);
+  const [clientId, setClientId] = useState<string | null>(null);
+  const [isSandbox, setIsSandbox] = useState(true);
+ const buttonContainerRef = useRef<HTMLDivElement>(null);
+ const buttonsRenderedRef = useRef(false);
+const onSuccessRef = useRef(onSuccess);
+const localOrderIdRef = useRef<string | null>(null);
+const onErrorRef = useRef(onError);
+const onValidateRef = useRef(onValidate);
+const onBeforeCreateOrderRef = useRef(onBeforeCreateOrder);
 
-  // Keep refs in sync so PayPal SDK closures always use the latest callbacks
-  useEffect(() => { onSuccessRef.current = onSuccess; }, [onSuccess]);
-  useEffect(() => { onErrorRef.current = onError; }, [onError]);
- useEffect(() => { onValidateRef.current = onValidate; }, [onValidate]);
+ // Keep refs in sync so PayPal SDK closures always use the latest callbacks
+ useEffect(() => { onSuccessRef.current = onSuccess; }, [onSuccess]);
+ useEffect(() => { onErrorRef.current = onError; }, [onError]);
+useEffect(() => { onValidateRef.current = onValidate; }, [onValidate]);
+useEffect(() => { onBeforeCreateOrderRef.current = onBeforeCreateOrder; }, [onBeforeCreateOrder]);
  
    // Fetch PayPal settings
    useEffect(() => {
@@ -111,14 +113,14 @@ export default function PayPalButton({
              return false;
            }
          },
-         createOrder: async () => {
-           // Step 1: Create pending order in our system (if callback provided)
-           if (onBeforeCreateOrder) {
-             try {
-               const localId = await onBeforeCreateOrder();
-               localOrderIdRef.current = localId;
-             } catch (err) {
-               console.error("Failed to create pending order:", err);
+        createOrder: async () => {
+          // Step 1: Create pending order in our system (if callback provided)
+          if (onBeforeCreateOrderRef.current) {
+            try {
+              const localId = await onBeforeCreateOrderRef.current();
+              localOrderIdRef.current = localId;
+            } catch (err) {
+              console.error("Failed to create pending order:", err);
                throw err;
              }
            }
@@ -158,10 +160,13 @@ export default function PayPalButton({
            }
            onSuccessRef.current({ ...captureData, localOrderId });
          },
-         onError: (err: any) => {
-           console.error("PayPal button error:", err);
-           if (onErrorRef.current) onErrorRef.current(err);
-         },
+        onError: (err: any) => {
+          console.error("PayPal button error:", err);
+          if (onErrorRef.current) {
+            // Also log the full error for debugging
+            onErrorRef.current(err);
+          }
+        },
        })
        .render(buttonContainerRef.current)
        .catch((err: any) => {

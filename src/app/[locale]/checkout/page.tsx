@@ -143,9 +143,6 @@ export default function CheckoutPage() {
 
 
 const handleBeforeCreateOrder = async (): Promise<string> => {
-   if (!address.name || !address.phone || !address.street || !address.city || !address.zip) {
-     throw new Error("Please fill in your complete shipping address first.");
-   }
    const res = await fetch("/api/checkout", {
      method: "POST",
      headers: { "Content-Type": "application/json" },
@@ -162,15 +159,20 @@ const handleBeforeCreateOrder = async (): Promise<string> => {
    return order.id;
  };
 
- const handlePaypalSuccess = async (details: any) => {
-   const localOrderId = details?.localOrderId;
+const handlePaypalSuccess = async (details: any) => {
+  const localOrderId = details?.localOrderId;
    if (localOrderId) { clearCart(); router.push("/orders/" + localOrderId); }
    else { router.push("/orders"); }
  };
 
- const handlePaypalError = (err: any) => {
-   console.error("PayPal error:", err);
-   setPaypalError("PayPal payment failed. Please try again.");
+const handlePaypalError = (err: any) => {
+  console.error("PayPal error:", err);
+  // Show the actual error message if available, otherwise generic message
+  if (err?.message) {
+    setPaypalError(err.message.includes("Please fill") ? "Please fill in your complete shipping address first." : err.message);
+  } else {
+    setPaypalError("PayPal payment failed. Please try again.");
+  }
  };
 
   return (
