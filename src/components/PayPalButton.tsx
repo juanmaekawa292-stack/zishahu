@@ -1,8 +1,8 @@
 ﻿"use client";
 
- import { useEffect, useState, useRef, useCallback } from "react";
- import { Loader2 } from "lucide-react";
- 
+import { useEffect, useState, useRef } from "react";
+import { Loader2 } from "lucide-react";
+
 interface PayPalButtonProps {
   amount: number;
   currency?: string;
@@ -14,13 +14,13 @@ interface PayPalButtonProps {
    *  Should return the local order ID. */
   onBeforeCreateOrder?: () => Promise<string>;
 }
- 
+
  declare global {
    interface Window {
      paypal?: any;
    }
  }
- 
+
 export default function PayPalButton({
   amount,
   currency = "USD",
@@ -41,13 +41,17 @@ const localOrderIdRef = useRef<string | null>(null);
 const onErrorRef = useRef(onError);
 const onValidateRef = useRef(onValidate);
 const onBeforeCreateOrderRef = useRef(onBeforeCreateOrder);
+const amountRef = useRef(amount);
+const currencyRef = useRef(currency);
 
  // Keep refs in sync so PayPal SDK closures always use the latest callbacks
  useEffect(() => { onSuccessRef.current = onSuccess; }, [onSuccess]);
  useEffect(() => { onErrorRef.current = onError; }, [onError]);
 useEffect(() => { onValidateRef.current = onValidate; }, [onValidate]);
 useEffect(() => { onBeforeCreateOrderRef.current = onBeforeCreateOrder; }, [onBeforeCreateOrder]);
- 
+useEffect(() => { amountRef.current = amount; }, [amount]);
+useEffect(() => { currencyRef.current = currency; }, [currency]);
+
    // Fetch PayPal settings
    useEffect(() => {
      fetch("/api/payment/settings")
@@ -62,11 +66,11 @@ useEffect(() => { onBeforeCreateOrderRef.current = onBeforeCreateOrder; }, [onBe
        })
        .catch(() => setError("Failed to load payment settings"));
    }, []);
- 
+
    // Load PayPal SDK and render buttons
    useEffect(() => {
      if (!clientId || disabled || buttonsRenderedRef.current) return;
- 
+
      const scriptId = "paypal-sdk";
      if (document.getElementById(scriptId)) {
        // SDK already loaded, try rendering
@@ -75,7 +79,7 @@ useEffect(() => { onBeforeCreateOrderRef.current = onBeforeCreateOrder; }, [onBe
        }
        return;
      }
- 
+
      const script = document.createElement("script");
      script.id = scriptId;
      const sdkUrl = isSandbox
@@ -89,17 +93,17 @@ useEffect(() => { onBeforeCreateOrderRef.current = onBeforeCreateOrder; }, [onBe
      };
      script.onerror = () => setError("Failed to load PayPal SDK");
      document.body.appendChild(script);
- 
+
      return () => {
        // Cleanup not needed, SDK stays loaded
      };
    }, [clientId, disabled, currency, isSandbox]);
- 
+
   function renderButtons() {
     if (!window.paypal || !buttonContainerRef.current || buttonsRenderedRef.current) return;
- 
+
      buttonsRenderedRef.current = true;
- 
+
      window.paypal
        .Buttons({
          style: {
@@ -108,7 +112,7 @@ useEffect(() => { onBeforeCreateOrderRef.current = onBeforeCreateOrder; }, [onBe
            shape: "rect",
            label: "paypal",
          },
-         onClick: async (data: any) => {
+         onClick: (data: any) => {
            if (onValidateRef.current && !onValidateRef.current()) {
              return false;
            }
@@ -129,7 +133,7 @@ useEffect(() => { onBeforeCreateOrderRef.current = onBeforeCreateOrder; }, [onBe
              method: "POST",
              headers: { "Content-Type": "application/json" },
              body: JSON.stringify({
-               amount, currency,
+               amount: amountRef.current, currency: currencyRef.current,
                invoice_id: localOrderIdRef.current || undefined,
              }),
            });
@@ -163,7 +167,6 @@ useEffect(() => { onBeforeCreateOrderRef.current = onBeforeCreateOrder; }, [onBe
         onError: (err: any) => {
           console.error("PayPal button error:", err);
           if (onErrorRef.current) {
-            // Also log the full error for debugging
             onErrorRef.current(err);
           }
         },
@@ -175,7 +178,7 @@ useEffect(() => { onBeforeCreateOrderRef.current = onBeforeCreateOrder; }, [onBe
          buttonsRenderedRef.current = false;
        });
    }
- 
+
    if (error) {
      return (
        <div className="rounded-md border border-amber-200 bg-amber-50 p-3 text-sm text-amber-700">
@@ -185,7 +188,7 @@ useEffect(() => { onBeforeCreateOrderRef.current = onBeforeCreateOrder; }, [onBe
        </div>
      );
    }
- 
+
    return (
      <div className="min-h-[80px]">
        {!loaded && !error && (
