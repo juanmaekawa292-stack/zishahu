@@ -167,12 +167,8 @@ const handlePaypalSuccess = async (details: any) => {
 
 const handlePaypalError = (err: any) => {
   console.error("PayPal error:", err);
-  // Show the actual error message if available, otherwise generic message
-  if (err?.message) {
-    setPaypalError(err.message.includes("Please fill") ? "Please fill in your complete shipping address first." : err.message);
-  } else {
-    setPaypalError("PayPal payment failed. Please try again.");
-  }
+  const msg = typeof err === 'string' ? err : (err?.message || err?.toString?.() || "Unknown error");
+  setPaypalError("PayPal error: " + msg);
  };
 
   return (
