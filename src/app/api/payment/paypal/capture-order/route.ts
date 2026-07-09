@@ -12,6 +12,27 @@ function getCosEnv() {
   return { cos: new COS({ SecretId: sid, SecretKey: skey }), bucket: bkt, region: reg };
 }
 
+/**
+ * Timeout wrapper for COS getObject — prevents indefinite hanging on Vercel cold starts.
+ */
+function getObjectWithTimeout(cos: any, params: any, timeoutMs = 5000): Promise<any> {
+  return new Promise<any>((resolve, reject) => {
+    const timer = setTimeout(() => {
+      reject(new Error(`COS getObject timed out after ${timeoutMs}ms`));
+    }, timeoutMs);
+    try {
+      cos.getObject(params, (err: any, data: any) => {
+        clearTimeout(timer);
+        if (err) reject(err);
+        else resolve(data);
+      });
+    } catch (e) {
+      clearTimeout(timer);
+      reject(e);
+    }
+  });
+}
+
 function getDefaultPpSettings() {
   return {
     paypal_client_id: process.env.PAYPAL_CLIENT_ID || "",
@@ -26,11 +47,13 @@ async function loadLatestSettings() {
   const c = getCosEnv();
   if (!c) return;
   try {
-    const result: any = await new Promise<any>((resolve, reject) => {
-      c.cos.getObject({ Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY }, (err: any, data: any) => {
-        if (err) { if (err.code === "NoSuchKey") resolve(null); else reject(err); }
-        else resolve(data);
-      });
+    const result: any = await getObjectWithTimeout(
+      c.cos,
+      { Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY },
+      5000
+    ).catch((err: any) => {
+      if (err.code === "NoSuchKey") return null;
+      throw err;
     });
     if (result?.Body) {
       const body = result.Body instanceof Buffer ? result.Body : Buffer.from(result.Body);

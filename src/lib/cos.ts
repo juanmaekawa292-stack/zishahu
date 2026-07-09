@@ -28,26 +28,12 @@ export function isCosConfigured(): boolean {
 export async function readOverridesFromCos(): Promise<Record<string, Record<string, any>>> {
   if (!isCosConfigured()) return {};
   try {
-    const result = await new Promise<any>((resolve, reject) => {
-      getCos().getObject(
-        {
-          Bucket: BUCKET,
-          Region: REGION,
-          Key: OVERRIDES_KEY,
-        },
-        (err: any, data: any) => {
-          if (err) {
-            // File might not exist yet - not an error
-            if (err.code === "NoSuchResource" || err.code === "NoSuchKey") {
-              resolve(null);
-            } else {
-              reject(err);
-            }
-          } else {
-            resolve(data);
-          }
-        }
-      );
+    const result = await getObjectWithTimeout(
+      { Bucket: BUCKET, Region: REGION, Key: OVERRIDES_KEY },
+      5000
+    ).catch((err: any) => {
+      if (err.code === "NoSuchResource" || err.code === "NoSuchKey") return null;
+      throw err;
     });
 
     if (!result || !result.Body) return {};
@@ -63,22 +49,17 @@ export async function readOverridesFromCos(): Promise<Record<string, Record<stri
 export async function writeOverridesToCos(overrides: Record<string, Record<string, any>>): Promise<boolean> {
   if (!isCosConfigured()) return false;
   try {
-    await new Promise<void>((resolve, reject) => {
-      getCos().putObject(
-        {
-          Bucket: BUCKET,
-          Region: REGION,
-          Key: OVERRIDES_KEY,
-          Body: JSON.stringify(overrides, null, 2),
-          ContentType: "application/json",
-          CacheControl: "no-cache, no-store, must-revalidate",
-        },
-        (err: any) => {
-          if (err) reject(err);
-          else resolve();
-        }
-      );
-    });
+    await putObjectWithTimeout(
+      {
+        Bucket: BUCKET,
+        Region: REGION,
+        Key: OVERRIDES_KEY,
+        Body: JSON.stringify(overrides, null, 2),
+        ContentType: "application/json",
+        CacheControl: "no-cache, no-store, must-revalidate",
+      },
+      8000
+    );
     return true;
   } catch (e) {
     console.error("Failed to write overrides to COS:", e);
@@ -90,6 +71,48 @@ export async function writeOverridesToCos(overrides: Record<string, Record<strin
 export function getOverridesCosUrl(): string {
   return `https://${BUCKET}.cos.${REGION}.myqcloud.com/${OVERRIDES_KEY}`;
 }
+
+/**
+ * Timeout wrapper for COS getObject — adds a configurable timeout to prevent indefinite hanging on Vercel cold starts.
+ */ 
+async function getObjectWithTimeout(params: any, timeoutMs = 5000): Promise<any> {
+  return new Promise<any>((resolve, reject) => {
+    const timer = setTimeout(() => {
+      reject(new Error(`COS getObject timed out after ${timeoutMs}ms`));
+    }, timeoutMs);
+    try {
+      getCos().getObject(params, (err: any, data: any) => {
+        clearTimeout(timer);
+        if (err) reject(err);
+        else resolve(data);
+      });
+    } catch (e) {
+      clearTimeout(timer);
+      reject(e);
+    }
+  });
+}
+
+/**
+ * Timeout wrapper for COS putObject — same timeout pattern.
+ */
+async function putObjectWithTimeout(params: any, timeoutMs = 8000): Promise<void> {
+  return new Promise<void>((resolve, reject) => {
+    const timer = setTimeout(() => {
+      reject(new Error(`COS putObject timed out after ${timeoutMs}ms`));
+    }, timeoutMs);
+    try {
+      getCos().putObject(params, (err: any) => {
+        clearTimeout(timer);
+        if (err) reject(err);
+        else resolve();
+      });
+    } catch (e) {
+      clearTimeout(timer);
+      reject(e);
+    }
+  });
+}
  
  /**
   * Generic: read any JSON object from COS by key path
@@ -97,24 +120,20 @@ export function getOverridesCosUrl(): string {
  export async function readJsonFromCos<T = any>(cosKey: string): Promise<T | null> {
    if (!isCosConfigured()) return null;
    try {
-     const result = await new Promise<any>((resolve, reject) => {
-       getCos().getObject(
-         { Bucket: BUCKET, Region: REGION, Key: cosKey },
-         (err: any, data: any) => {
-           if (err) {
-             if (err.code === "NoSuchResource" || err.code === "NoSuchKey") resolve(null);
-             else reject(err);
-           } else resolve(data);
-         }
-       );
-     });
-     if (!result || !result.Body) return null;
-     const body = result.Body instanceof Buffer ? result.Body : Buffer.from(result.Body);
-     return JSON.parse(body.toString("utf-8"));
-   } catch (e) {
-     console.error(`Failed to read ${cosKey} from COS:`, e);
-     return null;
-   }
+    const result = await getObjectWithTimeout(
+      { Bucket: BUCKET, Region: REGION, Key: cosKey },
+      5000
+    ).catch((err: any) => {
+      if (err.code === "NoSuchResource" || err.code === "NoSuchKey") return null;
+      throw err;
+    });
+    if (!result || !result.Body) return null;
+    const body = result.Body instanceof Buffer ? result.Body : Buffer.from(result.Body);
+    return JSON.parse(body.toString("utf-8"));
+  } catch (e) {
+    console.error(`Failed to read ${cosKey} from COS:`, e);
+    return null;
+  }
  }
  
  /**
@@ -123,27 +142,22 @@ export function getOverridesCosUrl(): string {
  export async function writeJsonToCos(cosKey: string, data: any): Promise<boolean> {
    if (!isCosConfigured()) return false;
    try {
-     await new Promise<void>((resolve, reject) => {
-       getCos().putObject(
-         {
-           Bucket: BUCKET,
-           Region: REGION,
-           Key: cosKey,
-           Body: JSON.stringify(data, null, 2),
-           ContentType: "application/json",
-           CacheControl: "no-cache, no-store, must-revalidate",
-         },
-         (err: any) => {
-           if (err) reject(err);
-           else resolve();
-         }
-       );
-     });
-     return true;
-   } catch (e) {
-     console.error(`Failed to write ${cosKey} to COS:`, e);
-     return false;
-   }
+    await putObjectWithTimeout(
+      {
+        Bucket: BUCKET,
+        Region: REGION,
+        Key: cosKey,
+        Body: JSON.stringify(data, null, 2),
+        ContentType: "application/json",
+        CacheControl: "no-cache, no-store, must-revalidate",
+      },
+      8000
+    );
+    return true;
+  } catch (e) {
+    console.error(`Failed to write ${cosKey} to COS:`, e);
+    return false;
+  }
  }
  
  /** COS key for orders storage */

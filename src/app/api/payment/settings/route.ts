@@ -12,6 +12,48 @@ function getCosEnv() {
   return { cos: new COS({ SecretId: sid, SecretKey: skey }), bucket: bkt, region: reg };
 }
 
+/**
+ * Timeout wrapper for COS getObject — prevents indefinite hanging on Vercel cold starts.
+ */
+function getObjectWithTimeout(cos: any, params: any, timeoutMs = 5000): Promise<any> {
+  return new Promise<any>((resolve, reject) => {
+    const timer = setTimeout(() => {
+      reject(new Error(`COS getObject timed out after ${timeoutMs}ms`));
+    }, timeoutMs);
+    try {
+      cos.getObject(params, (err: any, data: any) => {
+        clearTimeout(timer);
+        if (err) reject(err);
+        else resolve(data);
+      });
+    } catch (e) {
+      clearTimeout(timer);
+      reject(e);
+    }
+  });
+}
+
+/**
+ * Timeout wrapper for COS putObject — prevents indefinite hanging on Vercel cold starts.
+ */
+function putObjectWithTimeout(cos: any, params: any, timeoutMs = 8000): Promise<void> {
+  return new Promise<void>((resolve, reject) => {
+    const timer = setTimeout(() => {
+      reject(new Error(`COS putObject timed out after ${timeoutMs}ms`));
+    }, timeoutMs);
+    try {
+      cos.putObject(params, (err: any) => {
+        clearTimeout(timer);
+        if (err) reject(err);
+        else resolve();
+      });
+    } catch (e) {
+      clearTimeout(timer);
+      reject(e);
+    }
+  });
+}
+
 function getDefaultSettings() {
   return {
     oid_partner: process.env.LIANLIAN_OID_PARTNER || "",
@@ -28,11 +70,13 @@ async function loadFromCos(): Promise<void> {
   const c = getCosEnv();
   if (!c) return;
   try {
-    const result: any = await new Promise<any>((resolve, reject) => {
-      c.cos.getObject({ Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY }, (err, data) => {
-        if (err) { if (err.code === "NoSuchKey") resolve(null); else reject(err); }
-        else resolve(data);
-      });
+    const result: any = await getObjectWithTimeout(
+      c.cos,
+      { Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY },
+      5000
+    ).catch((err: any) => {
+      if (err.code === "NoSuchKey") return null;
+      throw err;
     });
     if (result?.Body) {
       const body = result.Body instanceof Buffer ? result.Body : Buffer.from(result.Body);
@@ -48,11 +92,11 @@ async function saveToCos(data: any) {
   const c = getCosEnv();
   if (!c) throw new Error("COS not configured");
   const body = JSON.stringify(data, null, 2);
-  await new Promise<void>((resolve, reject) => {
-    c.cos.putObject({ Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY, Body: body, ContentType: "application/json" }, (err) => {
-      if (err) reject(err); else resolve();
-    });
-  });
+  await putObjectWithTimeout(
+    c.cos,
+    { Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY, Body: body, ContentType: "application/json" },
+    8000
+  );
 }
 
 loadFromCos();
@@ -62,11 +106,13 @@ export async function GET() {
   let merged = { ...getDefaultSettings() };
   if (c) {
     try {
-      const result: any = await new Promise((resolve, reject) => {
-        c.cos.getObject({ Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY }, (err, data) => {
-          if (err) { if (err.code === "NoSuchKey") resolve(null); else reject(err); }
-          else resolve(data);
-        });
+      const result: any = await getObjectWithTimeout(
+        c.cos,
+        { Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY },
+        5000
+      ).catch((err: any) => {
+        if (err.code === "NoSuchKey") return null;
+        throw err;
       });
       if (result?.Body) {
         const body = result.Body instanceof Buffer ? result.Body : Buffer.from(result.Body);
