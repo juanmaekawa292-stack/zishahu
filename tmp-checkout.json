@@ -1,1 +1,0 @@
-{"items":[{"productId":"tk-test","quantity":1,"product":{"id":"tk-test","title_zhCN":"Test Product","price":10}}],"address":{"name":"Test","phone":"1234567890","street":"123 Test St","city":"Test City","state":"TS","zip":"12345","country":"US"},"shippingMethod":"standard","paymentMethod":"paypal","subtotal":10,"shipping":15,"tax":0,"total":25}
