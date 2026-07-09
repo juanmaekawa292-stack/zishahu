@@ -141,44 +141,36 @@ export default function CheckoutPage() {
     }
   };
 
- const handlePaypalSuccess = async (details: any, paypalOrderId: string) => {
-    if (!address.name || !address.phone || !address.street || !address.city || !address.zip) {
-      setSubmitError("Please fill in your complete shipping address first.");
-      setPaypalSuccess(false);
-      return;
-    }
-   setPaypalSuccess(true);
-    setSubmitError(null);
-   try {
-     const res = await fetch("/api/checkout", {
-       method: "POST",
-       headers: { "Content-Type": "application/json" },
-       body: JSON.stringify({
-         contactMethod,
-         contactId,
-         items,
-         address,
-         shippingMethod,
-         paymentMethod: "paypal",
-         subtotal,
-         shipping,
-         tax,
-         total,
-         paypalOrderId,
-       }),
-     });
-      if (!res.ok) {
-        const errData = await res.json().catch(() => ({ error: "Checkout failed" }));
-        throw new Error(errData.error || "Checkout failed");
-      }
-     const order = await res.json();
-     clearCart();
-     router.push("/orders/" + order.id);
-   } catch (err) {
-     console.error("Checkout error:", err);
-      setSubmitError(err instanceof Error ? err.message : "Order submission failed. Please try again.");
-     setPaypalSuccess(false);
+
+const handleBeforeCreateOrder = async (): Promise<string> => {
+   if (!address.name || !address.phone || !address.street || !address.city || !address.zip) {
+     throw new Error("Please fill in your complete shipping address first.");
    }
+   const res = await fetch("/api/checkout", {
+     method: "POST",
+     headers: { "Content-Type": "application/json" },
+     body: JSON.stringify({
+       contactMethod, contactId, items, address, shippingMethod,
+       paymentMethod: "paypal", subtotal, shipping, tax, total,
+     }),
+   });
+   if (!res.ok) {
+     const errData = await res.json().catch(() => ({ error: "Checkout failed" }));
+     throw new Error(errData.error || "Checkout failed");
+   }
+   const order = await res.json();
+   return order.id;
+ };
+
+ const handlePaypalSuccess = async (details: any) => {
+   const localOrderId = details?.localOrderId;
+   if (localOrderId) { clearCart(); router.push("/orders/" + localOrderId); }
+   else { router.push("/orders"); }
+ };
+
+ const handlePaypalError = (err: any) => {
+   console.error("PayPal error:", err);
+   setPaypalError("PayPal payment failed. Please try again.");
  };
 
   return (
@@ -385,8 +377,9 @@ export default function CheckoutPage() {
                   <PayPalButton
                     amount={total}
                     currency="USD"
-                    onSuccess={(details: any) => handlePaypalSuccess(details, details.id)}
-                    onError={() => setPaypalError("PayPal payment failed. Please try again.")}
+                    onSuccess={handlePaypalSuccess}
+                    onError={handlePaypalError}
+                    onBeforeCreateOrder={handleBeforeCreateOrder}
                     onValidate={() => {
                       if (!address.name || !address.phone || !address.street || !address.city || !address.zip) {
                         setSubmitError("Please fill in your complete shipping address first.");

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
  import { useEffect, useState, useRef, useCallback } from "react";
  import { Loader2 } from "lucide-react";
@@ -10,6 +10,9 @@ interface PayPalButtonProps {
   onError?: (error: any) => void;
   onValidate?: () => boolean;
   disabled?: boolean;
+  /** Optional: called before PayPal order creation to create a pending order in our system.
+   *  Should return the local order ID. */
+  onBeforeCreateOrder?: () => Promise<string>;
 }
  
  declare global {
@@ -24,6 +27,7 @@ export default function PayPalButton({
   onSuccess,
   onError,
   onValidate,
+  onBeforeCreateOrder,
   disabled = false,
 }: PayPalButtonProps) {
    const [loaded, setLoaded] = useState(false);
@@ -33,6 +37,7 @@ export default function PayPalButton({
   const buttonContainerRef = useRef<HTMLDivElement>(null);
   const buttonsRenderedRef = useRef(false);
  const onSuccessRef = useRef(onSuccess);
+ const localOrderIdRef = useRef<string | null>(null);
  const onErrorRef = useRef(onError);
  const onValidateRef = useRef(onValidate);
 
@@ -107,10 +112,24 @@ export default function PayPalButton({
            }
          },
          createOrder: async () => {
+           // Step 1: Create pending order in our system (if callback provided)
+           if (onBeforeCreateOrder) {
+             try {
+               const localId = await onBeforeCreateOrder();
+               localOrderIdRef.current = localId;
+             } catch (err) {
+               console.error("Failed to create pending order:", err);
+               throw err;
+             }
+           }
+           // Step 2: Create PayPal order
            const res = await fetch("/api/payment/paypal/create-order", {
              method: "POST",
              headers: { "Content-Type": "application/json" },
-             body: JSON.stringify({ amount, currency }),
+             body: JSON.stringify({
+               amount, currency,
+               invoice_id: localOrderIdRef.current || undefined,
+             }),
            });
            const data = await res.json();
            if (!res.ok) throw new Error(data.error || "Failed to create order");
@@ -124,7 +143,20 @@ export default function PayPalButton({
            });
            const captureData = await res.json();
            if (!res.ok) throw new Error(captureData.error || "Failed to capture order");
-           onSuccessRef.current(captureData);
+
+           // Step 3: Update local order from "pending" to "paid"
+           const localOrderId = localOrderIdRef.current;
+           if (localOrderId) {
+             await fetch("/api/checkout?id=" + localOrderId, {
+               method: "PATCH",
+               headers: { "Content-Type": "application/json" },
+               body: JSON.stringify({
+                 status: "paid",
+                 paypalOrderId: data.orderID,
+               }),
+             }).catch(e => console.error("Failed to update order status:", e));
+           }
+           onSuccessRef.current({ ...captureData, localOrderId });
          },
          onError: (err: any) => {
            console.error("PayPal button error:", err);

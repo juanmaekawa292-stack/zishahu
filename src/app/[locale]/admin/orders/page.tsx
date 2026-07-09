@@ -141,14 +141,19 @@ export default function AdminOrdersPage() {
             </tr>
           </thead>
           <tbody className="divide-y divide-border">
-            {filtered.map(function(o: any) {
+          {filtered.map(function(o: any) {
+            const customerName = o.customer || o.address?.name || "-";
+            const contactInfo = (o.contactMethod && o.contactMethod !== "email")
+              ? o.contactMethod.toUpperCase() + ": " + (o.contactId || "-")
+              : "Email: " + (o.contactId || (o.email) || "-");
+            const profitVal = o.profit != null ? o.profit : 0;
               return (
                 <tr key={o.id} className="hover:bg-muted/30">
                   <td className="px-4 py-3 text-sm font-medium">{o.id}</td>
-                  <td className="px-4 py-3 text-sm">{o.customer}</td>
-                  <td className="px-4 py-3 text-xs text-muted-foreground">{(o.contactMethod && o.contactMethod !== "email") ? o.contactMethod.toUpperCase() + ": " + (o.contactId || "-") : "Email: " + (o.email || "-")}</td>
+                  <td className="px-4 py-3 text-sm">{customerName}</td>
+                  <td className="px-4 py-3 text-xs text-muted-foreground">{contactInfo}</td>
                   <td className="px-4 py-3 text-sm font-medium">¥{Number(o.total).toFixed(2)}</td>
-                  <td className="px-4 py-3 text-sm font-medium text-green-600">¥{Number(o.profit).toFixed(2)}</td>
+                  <td className="px-4 py-3 text-sm font-medium text-green-600">¥{Number(profitVal).toFixed(2)}</td>
                   <td className="px-4 py-3 text-xs text-muted-foreground">{o.createdAt}</td>
                   <td className="px-4 py-3">
                     <span className={"text-xs font-medium px-2 py-0.5 rounded-full " + (STATUS_COLOR[o.status] || "")}>{STATUS_LABEL[o.status] || o.status}</span>
