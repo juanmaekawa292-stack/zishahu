@@ -22,18 +22,30 @@ async function loadOverrides(): Promise<Record<string, Record<string, any>>> {
   if (cosOverrides && Object.keys(cosOverrides).length > 0) {
     return cosOverrides;
   }
-  return loadOverridesSync();
+  // Fallback to local filesystem (fallback for local dev, noop on Vercel)
+  try {
+    return loadOverridesSync();
+  } catch {
+    return {};
+  }
 }
 
 /** Save overrides to both COS (for Vercel persistence) and local filesystem */
 async function saveOverrides(overrides: Record<string, Record<string, any>>) {
-  // Always write to local filesystem
-  fs.writeFileSync(OVERRIDES_PATH, JSON.stringify(overrides, null, 2), "utf-8");
-  // Also try COS (non-blocking)
+  // Primary: write to COS (works on Vercel)
+  let cosOk = false;
   try {
-    await writeOverridesToCos(overrides);
+    cosOk = await writeOverridesToCos(overrides);
   } catch {
-    // Ignore COS write failures (local dev without COS creds)
+    // Ignore COS write failures
+  }
+  // Fallback: write to local filesystem (local dev only)
+  if (!cosOk) {
+    try {
+      fs.writeFileSync(OVERRIDES_PATH, JSON.stringify(overrides, null, 2), "utf-8");
+    } catch {
+      // Ignore local fs write failures (read-only fs on Vercel)
+    }
   }
 }
 
