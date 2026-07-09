@@ -1,4 +1,4 @@
-﻿import { NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import COS from "cos-nodejs-sdk-v5";
 
 const SETTINGS_COS_KEY = "payment/settings.json";
@@ -22,15 +22,14 @@ function getDefaultSettings() {
   };
 }
 
-// In-memory cache; initializes from COS, falls back to env vars
-let settings: any = { ...getDefaultSettings() };
+let settings = { ...getDefaultSettings() };
 
-async function loadFromCos() {
+async function loadFromCos(): Promise<void> {
   const c = getCosEnv();
   if (!c) return;
   try {
-    const result = await new Promise<any>((resolve, reject) => {
-      c.cos.getObject({ Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY }, (err: any, data: any) => {
+    const result: any = await new Promise<any>((resolve, reject) => {
+      c.cos.getObject({ Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY }, (err, data) => {
         if (err) { if (err.code === "NoSuchKey") resolve(null); else reject(err); }
         else resolve(data);
       });
@@ -40,36 +39,56 @@ async function loadFromCos() {
       const saved = JSON.parse(body.toString("utf-8"));
       settings = { ...getDefaultSettings(), ...saved };
     }
-  } catch {}
+  } catch (e: any) {
+    console.error("loadFromCos error:", e);
+  }
 }
 
 async function saveToCos(data: any) {
   const c = getCosEnv();
-  if (!c) return;
-  try {
-    await new Promise<void>((resolve, reject) => {
-      c.cos.putObject({ Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY, Body: JSON.stringify(data, null, 2), ContentType: "application/json" }, (err: any) => {
-        if (err) reject(err); else resolve();
-      });
+  if (!c) throw new Error("COS not configured");
+  const body = JSON.stringify(data, null, 2);
+  await new Promise<void>((resolve, reject) => {
+    c.cos.putObject({ Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY, Body: body, ContentType: "application/json" }, (err) => {
+      if (err) reject(err); else resolve();
     });
-  } catch {}
-}
-
-// Load saved settings on module init (fire-and-forget)
-loadFromCos();
-
-export async function GET() {
-  return NextResponse.json({
-    success: true,
-    oid_partner: settings.oid_partner,
-    private_key: settings.private_key,
-    paypal_client_id: settings.paypal_client_id,
-    paypal_secret: settings.paypal_secret,
-    paypal_mode: settings.paypal_mode,
   });
 }
 
-export async function POST(request: Request) {
+loadFromCos();
+
+export async function GET() {
+  const c = getCosEnv();
+  let merged = { ...getDefaultSettings() };
+  if (c) {
+    try {
+      const result: any = await new Promise((resolve, reject) => {
+        c.cos.getObject({ Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY }, (err, data) => {
+          if (err) { if (err.code === "NoSuchKey") resolve(null); else reject(err); }
+          else resolve(data);
+        });
+      });
+      if (result?.Body) {
+        const body = result.Body instanceof Buffer ? result.Body : Buffer.from(result.Body);
+        const saved = JSON.parse(body.toString("utf-8"));
+        merged = { ...merged, ...saved };
+      }
+    } catch (e: any) {
+      console.error("GET: COS read error, using defaults", e);
+    }
+  }
+  merged = { ...merged, ...settings };
+  return NextResponse.json({
+    success: true,
+    oid_partner: merged.oid_partner,
+    private_key: merged.private_key,
+    paypal_client_id: merged.paypal_client_id,
+    paypal_secret: merged.paypal_secret,
+    paypal_mode: merged.paypal_mode,
+  });
+}
+
+export async function POST(request: any) {
   try {
     const body = await request.json();
     settings.oid_partner = body.oid_partner || "";
@@ -77,10 +96,10 @@ export async function POST(request: Request) {
     settings.paypal_client_id = body.paypal_client_id || "";
     settings.paypal_secret = body.paypal_secret || "";
     settings.paypal_mode = body.paypal_mode || "sandbox";
-    // Persist to COS (fire-and-forget)
-    saveToCos(settings);
+    await saveToCos(settings);
     return NextResponse.json({ success: true });
-  } catch (e) {
-    return NextResponse.json({ success: false, error: String(e) }, { status: 400 });
+  } catch (e: any) {
+    console.error("POST settings error:", e);
+    return NextResponse.json({ success: false, error: e.message || String(e) }, { status: 400 });
   }
 }

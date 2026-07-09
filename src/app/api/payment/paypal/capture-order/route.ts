@@ -1,4 +1,4 @@
-﻿import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import COS from "cos-nodejs-sdk-v5";
 
 const SETTINGS_COS_KEY = "payment/settings.json";
@@ -22,11 +22,11 @@ function getDefaultPpSettings() {
 
 let settings: any = { ...getDefaultPpSettings() };
 
-async function loadPpSettings() {
+async function loadLatestSettings() {
   const c = getCosEnv();
   if (!c) return;
   try {
-    const result = await new Promise<any>((resolve, reject) => {
+    const result: any = await new Promise<any>((resolve, reject) => {
       c.cos.getObject({ Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY }, (err: any, data: any) => {
         if (err) { if (err.code === "NoSuchKey") resolve(null); else reject(err); }
         else resolve(data);
@@ -35,14 +35,19 @@ async function loadPpSettings() {
     if (result?.Body) {
       const body = result.Body instanceof Buffer ? result.Body : Buffer.from(result.Body);
       const saved = JSON.parse(body.toString("utf-8"));
-      settings.paypal_client_id = saved.paypal_client_id || settings.paypal_client_id;
-      settings.paypal_secret = saved.paypal_secret || settings.paypal_secret;
-      settings.paypal_mode = saved.paypal_mode || settings.paypal_mode;
+      settings = {
+        paypal_client_id: saved.paypal_client_id || settings.paypal_client_id || process.env.PAYPAL_CLIENT_ID || "",
+        paypal_secret: saved.paypal_secret || settings.paypal_secret || process.env.PAYPAL_SECRET || "",
+        paypal_mode: saved.paypal_mode || settings.paypal_mode || process.env.PAYPAL_MODE || "sandbox",
+      };
     }
-  } catch {}
+  } catch (e) {
+    console.error("loadLatestSettings error:", e);
+  }
 }
 
-loadPpSettings();
+// Initial load
+loadLatestSettings();
 
 function getBaseUrl() {
   return settings.paypal_mode === "live"
@@ -67,8 +72,11 @@ async function getAccessToken(): Promise<string> {
   return data.access_token;
 }
 
-export async function POST(request: NextRequest) {
+export async function POST(request: any) {
   try {
+    // Always reload settings from COS to handle cold starts
+    await loadLatestSettings();
+
     const { orderId } = await request.json();
     if (!orderId) return NextResponse.json({ error: "Missing order ID" }, { status: 400 });
 

@@ -1,4 +1,4 @@
-﻿import { NextRequest, NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import COS from "cos-nodejs-sdk-v5";
 
 const SETTINGS_COS_KEY = "payment/settings.json";
@@ -20,14 +20,14 @@ function getDefaultPpSettings() {
   };
 }
 
-let settings: any = { ...getDefaultPpSettings() };
+let settings = { ...getDefaultPpSettings() };
 
 async function loadPpSettings() {
   const c = getCosEnv();
   if (!c) return;
   try {
-    const result = await new Promise<any>((resolve, reject) => {
-      c.cos.getObject({ Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY }, (err: any, data: any) => {
+    const result: any = await new Promise((resolve, reject) => {
+      c.cos.getObject({ Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY }, (err, data) => {
         if (err) { if (err.code === "NoSuchKey") resolve(null); else reject(err); }
         else resolve(data);
       });
@@ -39,7 +39,33 @@ async function loadPpSettings() {
       settings.paypal_secret = saved.paypal_secret || settings.paypal_secret;
       settings.paypal_mode = saved.paypal_mode || settings.paypal_mode;
     }
-  } catch {}
+  } catch (e) {
+    console.error("loadPpSettings error:", e);
+  }
+}
+
+async function loadLatestSettings() {
+  const c = getCosEnv();
+  if (!c) return;
+  try {
+    const result: any = await new Promise((resolve, reject) => {
+      c.cos.getObject({ Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY }, (err, data) => {
+        if (err) { if (err.code === "NoSuchKey") resolve(null); else reject(err); }
+        else resolve(data);
+      });
+    });
+    if (result?.Body) {
+      const body = result.Body instanceof Buffer ? result.Body : Buffer.from(result.Body);
+      const saved = JSON.parse(body.toString("utf-8"));
+      settings = {
+        paypal_client_id: saved.paypal_client_id || settings.paypal_client_id || process.env.PAYPAL_CLIENT_ID || "",
+        paypal_secret: saved.paypal_secret || settings.paypal_secret || process.env.PAYPAL_SECRET || "",
+        paypal_mode: saved.paypal_mode || settings.paypal_mode || process.env.PAYPAL_MODE || "sandbox",
+      };
+    }
+  } catch (e) {
+    console.error("loadLatestSettings error:", e);
+  }
 }
 
 loadPpSettings();
@@ -50,7 +76,7 @@ function getBaseUrl() {
     : "https://api-m.sandbox.paypal.com";
 }
 
-async function getAccessToken(): Promise<string> {
+async function getAccessToken() {
   const clientId = settings.paypal_client_id;
   const secret = settings.paypal_secret;
   if (!clientId || !secret) {
@@ -67,14 +93,17 @@ async function getAccessToken(): Promise<string> {
   return data.access_token;
 }
 
-export async function POST(request: NextRequest) {
+export async function POST(request: any) {
   try {
+    // Always reload settings from COS to handle cold starts
+    await loadLatestSettings();
+
     const body = await request.json();
     const { amount, currency = "USD", items } = body;
 
     const accessToken = await getAccessToken();
 
-    const orderPayload: any = {
+    const orderPayload = {
       intent: "CAPTURE",
       purchase_units: [
         {
