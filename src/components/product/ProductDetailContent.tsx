@@ -368,7 +368,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
               <div className="grid grid-cols-2 gap-2 text-xs">
                 {orderedSpecsResult.map(function(item, idx) {
                   return <div key={idx} className="flex justify-between border-b border-border/50 pb-1.5">
-                    <span className="text-muted-foreground">{tProduct("spec_" + item[0]) || item[0]}</span>
+                    <span className="text-muted-foreground">{specLabelMap[item[0]] || tProduct("spec_" + item[0]) || item[0]}</span>
                     <span className="font-medium text-foreground">{item[1]}</span>
                   </div>;
                 })}
