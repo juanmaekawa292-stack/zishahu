@@ -1,37 +1,10 @@
-import { NextRequest, NextResponse } from "next/server";
-import COS from "cos-nodejs-sdk-v5";
+﻿import { NextRequest, NextResponse } from "next/server";
 
 const SETTINGS_COS_KEY = "payment/settings.json";
-
-function getCosEnv() {
-  const sid = process.env.COS_SECRET_ID;
-  const skey = process.env.COS_SECRET_KEY;
-  const bkt = process.env.COS_BUCKET || "zishahu-images-1301674224";
-  const reg = process.env.COS_REGION || "ap-hongkong";
-  if (!sid || !skey) return null;
-  return { cos: new COS({ SecretId: sid, SecretKey: skey }), bucket: bkt, region: reg };
-}
-
-/**
- * Timeout wrapper for COS getObject — prevents indefinite hanging on Vercel cold starts.
- */
-function getObjectWithTimeout(cos: any, params: any, timeoutMs = 5000): Promise<any> {
-  return new Promise<any>((resolve, reject) => {
-    const timer = setTimeout(() => {
-      reject(new Error(`COS getObject timed out after ${timeoutMs}ms`));
-    }, timeoutMs);
-    try {
-      cos.getObject(params, (err: any, data: any) => {
-        clearTimeout(timer);
-        if (err) reject(err);
-        else resolve(data);
-      });
-    } catch (e) {
-      clearTimeout(timer);
-      reject(e);
-    }
-  });
-}
+const COS_BUCKET = process.env.COS_BUCKET || "zishahu-images-1301674224";
+const COS_REGION = process.env.COS_REGION || "ap-hongkong";
+/** Public COS CDN URL — fast HTTP fetch, no SDK dependency */
+const SETTINGS_COS_URL = `https://${COS_BUCKET}.cos.${COS_REGION}.myqcloud.com/${SETTINGS_COS_KEY}`;
 
 function getDefaultPpSettings() {
   return {
@@ -41,69 +14,56 @@ function getDefaultPpSettings() {
   };
 }
 
-let settings = { ...getDefaultPpSettings() };
+let cachedSettings: any = null;
+let lastFetch = 0;
+const CACHE_TTL = 30_000; // 30 seconds
 
+/**
+ * Load PayPal settings from COS CDN URL (fast HTTP fetch, public bucket).
+ * Falls back to Vercel env vars which are always available on any cold start.
+ */
 async function loadPpSettings() {
-  const c = getCosEnv();
-  if (!c) return;
-  try {
-    const result: any = await getObjectWithTimeout(
-      c.cos,
-      { Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY },
-      5000
-    ).catch((err: any) => {
-      if (err.code === "NoSuchKey") return null;
-      throw err;
-    });
-    if (result?.Body) {
-      const body = result.Body instanceof Buffer ? result.Body : Buffer.from(result.Body);
-      const saved = JSON.parse(body.toString("utf-8"));
-      settings.paypal_client_id = saved.paypal_client_id || settings.paypal_client_id;
-      settings.paypal_secret = saved.paypal_secret || settings.paypal_secret;
-      settings.paypal_mode = saved.paypal_mode || settings.paypal_mode;
-    }
-  } catch (e) {
-    console.error("loadPpSettings error:", e);
+  // Return cached settings if fresh (within TTL)
+  if (cachedSettings && Date.now() - lastFetch < CACHE_TTL) {
+    return;
   }
-}
-
-async function loadLatestSettings() {
-  const c = getCosEnv();
-  if (!c) return;
+  const defaults = getDefaultPpSettings();
   try {
-    const result: any = await getObjectWithTimeout(
-      c.cos,
-      { Bucket: c.bucket, Region: c.region, Key: SETTINGS_COS_KEY },
-      5000
-    ).catch((err: any) => {
-      if (err.code === "NoSuchKey") return null;
-      throw err;
-    });
-    if (result?.Body) {
-      const body = result.Body instanceof Buffer ? result.Body : Buffer.from(result.Body);
-      const saved = JSON.parse(body.toString("utf-8"));
-      settings = {
-        paypal_client_id: saved.paypal_client_id || settings.paypal_client_id || process.env.PAYPAL_CLIENT_ID || "",
-        paypal_secret: saved.paypal_secret || settings.paypal_secret || process.env.PAYPAL_SECRET || "",
-        paypal_mode: saved.paypal_mode || settings.paypal_mode || process.env.PAYPAL_MODE || "sandbox",
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 4000); // 4s HTTP timeout
+    const res = await fetch(SETTINGS_COS_URL, { signal: controller.signal });
+    clearTimeout(timer);
+    if (res.ok) {
+      const saved = await res.json();
+      cachedSettings = {
+        paypal_client_id: saved.paypal_client_id || defaults.paypal_client_id,
+        paypal_secret: saved.paypal_secret || defaults.paypal_secret,
+        paypal_mode: saved.paypal_mode || defaults.paypal_mode,
       };
+    } else {
+      cachedSettings = defaults;
     }
-  } catch (e) {
-    console.error("loadLatestSettings error:", e);
+  } catch {
+    // CDN fetch failed — fall back to env vars (always work on Vercel)
+    cachedSettings = defaults;
   }
+  lastFetch = Date.now();
 }
 
+// Initial load
 loadPpSettings();
 
 function getBaseUrl() {
-  return settings.paypal_mode === "live"
+  const s = cachedSettings || getDefaultPpSettings();
+  return s.paypal_mode === "live"
     ? "https://api-m.paypal.com"
     : "https://api-m.sandbox.paypal.com";
 }
 
 async function getAccessToken() {
-  const clientId = settings.paypal_client_id;
-  const secret = settings.paypal_secret;
+  const s = cachedSettings || getDefaultPpSettings();
+  const clientId = s.paypal_client_id;
+  const secret = s.paypal_secret;
   if (!clientId || !secret) {
     throw new Error("PayPal Client ID or Secret not configured");
   }
@@ -120,11 +80,11 @@ async function getAccessToken() {
 
 export async function POST(request: any) {
   try {
-    // Always reload settings from COS to handle cold starts
-    await loadLatestSettings();
+    // Always reload settings at request time (cached within 30s TTL)
+    await loadPpSettings();
 
     const body = await request.json();
-    const { amount, currency = "USD", items } = body;
+    const { amount, currency = "USD", items, invoice_id } = body;
 
     const accessToken = await getAccessToken();
 
@@ -147,6 +107,7 @@ export async function POST(request: any) {
             unit_amount: { currency_code: currency, value: item.price?.toFixed(2) || "0.00" },
             quantity: item.quantity?.toString() || "1",
           })) || [],
+          invoice_id,
         },
       ],
     };
