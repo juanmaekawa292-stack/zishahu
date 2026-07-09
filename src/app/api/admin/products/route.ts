@@ -11,7 +11,7 @@ export async function PUT(req: NextRequest) {
     const tsPath = path.join(process.cwd(), "src/data/products.ts");
     let content = fs.readFileSync(tsPath, "utf-8");
 
-    const idIdx = content.indexOf('id: "' + id + '"');
+    const idIdx = content.indexOf('"id": "' + id + '"');
     if (idIdx < 0) return NextResponse.json({ success: false, error: "Product not found" }, { status: 404 });
 
     const entryStart = content.lastIndexOf("  {", idIdx);
