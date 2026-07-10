@@ -669,6 +669,57 @@
   <li>保留購買憑證和聊天記�?/li>
   <li>考慮關稅和海關清關問�?/li>
 </ul>`,
+    title_en: "How to Buy a Real Yixing Teapot Overseas: A Guide for International Tea Lovers",
+    excerpt_en: "Buying an authentic Yixing zisha teapot from outside China comes with unique challenges. Learn how to identify real zisha clay, avoid counterfeits, and find trustworthy sellers who ship internationally.",
+    content_en: <h2>The Challenge of Buying Yixing Teapots Abroad</h2>
+<p>For tea lovers outside China, buying an authentic Yixing zisha teapot presents several hurdles: limited information, inability to inspect the teapot in person, complicated returns, and a market flooded with fakes. But with the right knowledge, you can confidently purchase a genuine piece from halfway around the world.</p>
+
+<h2>How to Identify an Authentic Zisha Teapot</h2>
+
+<h3>1. Examine the Clay</h3>
+<p>Authentic Yixing zisha clay has a distinct granular texture that you can both see and feel. The surface should have a subtle sandy quality — not glassy or plastic-smooth. Genuine zisha colors are warm and natural, never garish or neon.</p>
+<ul>
+  <li><strong>Real zisha:</strong> Sandy surface texture, warm earthy color, natural variation in tone.</li>
+  <li><strong>Fake / chemically colored clay:</strong> Overly smooth or shiny surface, unnaturally bright colors, suspiciously low price.</li>
+</ul>
+
+<h3>2. Inspect the Craftsmanship</h3>
+<ul>
+  <li>The lid should fit snugly and spin smoothly without wobbling.</li>
+  <li>Water should flow from the spout in a clean, steady stream and stop without dripping.</li>
+  <li>Fully handmade teapots show visible tool marks and irregular creases inside. Half-handmade teapots have neat mold seams.</li>
+  <li>The artist’s seal on the bottom should be crisp and well-formed — not blurry or misaligned.</li>
+</ul>
+
+<h3>3. Understand the Price Ranges</h3>
+<ul>
+  <li><strong>Under  (500 RMB):</strong> Almost certainly a slip-cast or machine-made pot with no collectible value.</li>
+  <li><strong>– (500–2000 RMB):</strong> Entry-level half-handmade teapots. Choose carefully and buy from reputable sellers.</li>
+  <li><strong> and above:</strong> Full-handmade teapots or works by recognized artisans. This is where genuine collectible quality begins.</li>
+</ul>
+
+<h2>Recommended Buying Channels</h2>
+<h3>1. Reputable Yixing-Based Sellers (with International Shipping)</h3>
+<p>Many established teapot shops in Yixing ship worldwide. Contact them directly through their websites or messaging platforms, and always ask for detailed photos, clay source information, and kiln firing temperature certificates.</p>
+
+<h3>2. Overseas Chinese Tea Shops</h3>
+<p>Tea shops run by the Chinese diaspora in major cities often source directly from Yixing. They curate their inventory and can vouch for authenticity. Building a relationship with a local shop owner can be invaluable.</p>
+
+<h3>3. Specialized Zisha E-Commerce Platforms</h3>
+<p>Dedicated online retailers like our own Zisha Art Collection (zishapro.com) offer curated selections of handmade teapots with detailed clay and craftsmanship descriptions, transparent pricing, and international shipping support.</p>
+
+<h2>Tips for a Safe Purchase</h2>
+<ul>
+  <li>Request high-resolution photos from multiple angles — including the interior.</li>
+  <li>Ask about the clay source and firing temperature.</li>
+  <li>Understand the return policy and international shipping terms before ordering.</li>
+  <li>Keep records of all communications and receipts.</li>
+  <li>Check your country’s customs regulations and import duties for Chinese ceramics.</li>
+</ul>
+
+<h2>The Proof Is in the Brewing</h2>
+<p>A genuine Yixing teapot develops a beautiful patina over time as it absorbs tea oils. After months of regular use, the surface becomes richer and glossier. A fake or chemically treated pot will not change — it will look the same years later. The best way to verify authenticity is to brew with it and watch it transform.</p>,
+
     category: "knowledge",
     image: "/images/blog/buy-overseas.jpg",
     createdAt: "2026-06-12",
