@@ -71,8 +71,36 @@
  <h2>養壺的誤區</h2>
  <p><strong>誤區一�?/strong>用茶湯澆淋壺身就能養壺。其實茶湯中的茶垢容易堵塞壺身氣孔，影響透氣性�?/p>
  <p><strong>誤區二：</strong>養壺就要天天泡茶。紫砂壺也需要休息，偶爾讓它「歇一歇」有助於保持最佳狀態�?/p>
- <p><strong>誤區三：</strong>用刷子用力刷壺身。這會損傷壺表面的包漿，用柔軟的茶巾輕輕擦拭即可�?/p>`,
-     category: "care",
+ <p><strong>誤區三：</strong>用刷子用力刷壺身。這會損傷壺表面的包漿，用柔軟的茶巾輕輕擦拭即可�?/p>
+    title_en: "How to Season and Care for Your Yixing Zisha Teapot: A Complete Guide",
+    excerpt_en: "A great Yixing teapot needs proper care. This guide covers everything from seasoning (kaihu) your new pot to daily maintenance and long-term patina development. Learn how to keep your zisha teapot in perfect condition.",
+    content_en: `<h2>Why Care for Your Zisha Teapot?</h2>
+<p>What makes Yixing zisha teapots special is their ability to absorb tea oils over time, gradually developing a rich, jade-like patina (baojiang). A well-cared-for teapot does not just look more beautiful - it also brews better tea, as the seasoned clay enhances the flavor and aroma with each use.</p>
+
+<p>Unlike glazed ceramics, unglazed zisha clay is porous. Each tiny pore breathes and interacts with the tea, which is why proper care - not neglect - is the secret to a truly great teapot.</p>
+
+<h2>Step 1: Seasoning Your New Teapot (Kaihu)</h2>
+<p>A brand-new Yixing teapot needs to be 'seasoned' before its first use. This process, known in Chinese as kaihu (opening the pot), removes kiln dust and prepares the clay for brewing.</p>
+<ol>
+  <li><strong>Rinse thoroughly:</strong> Wash the inside and outside of the pot with warm water to remove any dust or residue from the firing process. No soap - ever.</li>
+  <li><strong>Gentle simmer:</strong> Place the teapot in a pot of clean water, fully submerged. Simmer (do not boil aggressively) for 30 minutes. This opens up the clay pores and removes any remaining kiln grit.</li>
+  <li><strong>Tea bath:</strong> After simmering, add the type of tea you plan to brew most often to the water and simmer for another 10 minutes. This allows the clay to absorb the tea essence, setting the foundation for future brews.</li>
+  <li><strong>Air dry naturally:</strong> Remove the teapot, rinse it gently with warm water, and place it upside down on a tea towel to dry. Never expose it to direct sunlight or artificial heat.</li>
+</ol>
+
+<h2>Daily Use Tips</h2>
+<ul>
+  <li><strong>One teapot, one tea:</strong> Zisha clay is highly porous and will absorb the flavor of whatever tea you brew. Dedicate each teapot to a single type of tea (oolong, puer, black tea, etc.) to avoid flavor crossover.</li>
+  <li><strong>Pre-warm your pot:</strong> Before brewing, rinse the inside and outside of the pot with hot water. This prepares the clay for the brewing temperature and helps release the tea aroma.</li>
+  <li><strong>Clean immediately after use:</strong> Empty the leaves promptly, rinse the pot with hot water, and let it dry. Never use dish soap or detergent - the porous clay will absorb the chemicals.</li>
+  <li><strong>Keep it ventilated:</strong> Store your teapot with the lid off in a well-ventilated area. A dry, airy environment prevents musty odors and mold.</li>
+</ul>
+
+<h2>Common Care Misconceptions</h2>
+<p><strong>Myth 1: Pouring tea broth over your pot will build patina faster.</strong> Actually, the sugars and tannins in the tea broth can clog the clay pores, reducing breathability. The patina should develop naturally from the inside out through regular brewing.</p>
+<p><strong>Myth 2: You need to brew tea every single day to keep your pot healthy.</strong> Zisha teapots benefit from rest. Letting your pot 'breathe' for a day or two between uses maintains optimal performance.</p>
+<p><strong>Myth 3: Scrub the exterior with a brush to keep it clean.</strong> Scrubbing damages the delicate patina layer. Simply wipe the exterior with a soft tea cloth after each use - gentle care is all it needs.</p>`,
+    category:category: "care",
      image: "/images/blog/zisha-care.jpg",
      createdAt: "2026-06-01",
      tags: ["紫砂壶养�?, "开�?, "养壶", "Yixing teapot care", "zisha maintenance"],
