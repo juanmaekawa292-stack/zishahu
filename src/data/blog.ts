@@ -565,6 +565,47 @@
 
 <h2>選擇建議</h2>
 <p>新手建議從石瓢或仿古壺入手，實用性強，容錯率高。進階後可收藏西施、供春等更具審美意趣的壺型�?/p>`,
+    title_en: "Classic Yixing Teapot Shapes: A Complete Guide to ShiPiao, XiShi, FangGu, and More",
+    excerpt_en: "From the stable, triangular ShiPiao to the graceful XiShi and the drum-shaped FangGu — discover the stories behind Yixing’s most beloved classic teapot shapes and find the perfect form for your collection.",
+    content_en: <h2>ShiPiao (Stone Spout)</h2>
+<p>The ShiPiao teapot originated in the Qing dynasty and is one of the most iconic shapes in Yixing zisha. Its triangular silhouette — narrow at the top, broad at the base — gives it exceptional stability. The pot has a straight spout that pours with clean force, and the flat handle sits low for a comfortable grip.</p>
+<ul>
+  <li><strong>Characteristics:</strong> Stable, balanced, generous pour, easy to use.</li>
+  <li><strong>Best teas:</strong> Works beautifully with nearly all teas, especially oolong and puer.</li>
+  <li><strong>Ideal size:</strong> 180–250 ml is the most common and versatile range.</li>
+</ul>
+
+<h2>XiShi (Beauty Xi Shi)</h2>
+<p>The XiShi pot is named after Xi Shi, one of the legendary Four Beauties of ancient China. Its original name reflects the shape: a full, rounded body with an inverted handle and a cap-style lid that sits flush with the rim. The silhouette is soft, elegant, and incredibly satisfying to hold.</p>
+<ul>
+  <li><strong>Characteristics:</strong> Round, elegant, graceful curves.</li>
+  <li><strong>Best teas:</strong> Oolong, black tea, and ripe puer.</li>
+  <li><strong>Note:</strong> The handle is on the smaller side — if you have large hands, try holding one before buying.</li>
+</ul>
+
+<h2>FangGu (Archaism)</h2>
+<p>FangGu was created by the legendary Qing-dynasty artist Shao Daheng. Inspired by the shape of an ancient Chinese drum, the pot is solid and substantial, with clean, flowing lines. The body is barrel-shaped, and the rim seal is precise — a testament to Daheng’s exacting standards.</p>
+<ul>
+  <li><strong>Characteristics:</strong> Flowing lines, moderate volume, highly practical.</li>
+  <li><strong>Best teas:</strong> Suitable for any tea — this is the ultimate everyday gongfu teapot.</li>
+  <li><strong>Ideal size:</strong> 200–300 ml.</li>
+</ul>
+
+<h2>GongChun (Spring Offering)</h2>
+<p>The GongChun pot is named after the legendary Spring Awakening (Gongchun), the patriarch of Yixing teapot making. Inspired by the gnarly bark of a ginkgo tree, the pot’s surface is deliberately uneven and textured — the first flower-and-fruit (huaqi) style in zisha history. Each GongChun pot is a celebration of nature’s irregular beauty.</p>
+
+<h2>Other Classic Shapes</h2>
+<ul>
+  <li><strong>RongTian (Belly of Tolerance):</strong> A wide-bellied pot that holds plenty of tea. Excellent for puer and dark teas.</li>
+  <li><strong>QinQuan (Qin Dynasty Weight):</strong> Modeled after the bronze counterweight of a Qin-dynasty steelyard scale. Imposing and dignified.</li>
+  <li><strong>HanDuo (Han Dynasty Bell):</strong> Inspired by the duo bell of the Han dynasty. Bold, angled lines give it a strong architectural presence.</li>
+  <li><strong>JingLan (Well Railing):</strong> Based on the wooden railing of an ancient well. One of the Mansheng Eighteen shapes — plain, graceful, timeless.</li>
+  <li><strong>DuoQiu (Stacked Spheres):</strong> Three spheres stacked in perfect proportion. Achieving harmony between the three sections requires exceptional skill.</li>
+</ul>
+
+<h2>How to Choose</h2>
+<p>If you are new to zisha, start with a ShiPiao or FangGu. Both are forgiving, practical, and widely available at every price point. As your collection grows, consider adding a XiShi for its aesthetic grace and a GongChun for its historical significance. The right shape for you is the one that feels right in your hand and matches the tea you love most.</p>,
+
     category: "knowledge",
     image: "/images/blog/classic-shapes.jpg",
     createdAt: "2026-06-12",
