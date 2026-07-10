@@ -4,7 +4,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 
 export async function generateStaticParams() {
-  return [{ locale: "zh-CN" }, { locale: "zh-TW" }];
+  return [{ locale: "zh-CN" }, { locale: "zh-TW" }, { locale: "en" }];
 }
 
 export default async function LocaleLayout({
