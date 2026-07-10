@@ -206,8 +206,11 @@
  </ul>
  
  <h2>步驟五：品茗</h2>
- <p>將茶湯通過公道杯均勻分入品茗杯中，先聞香，再觀色，最後品茗。功夫茶講究「三口品」：一品茶湯滋味，二品茶香餘韻，三品茶之精神�?/p>`,
-     category: "tutorial",
+ <p>將茶湯通過公道杯均勻分入品茗杯中，先聞香，再觀色，最後品茗。功夫茶講究「三口品」：一品茶湯滋味，二品茶香餘韻，三品茶之精神�?/p>`
+    title_en: "Gongfu Tea Brewing Guide: How to Brew Tea with a Yixing Teapot",
+    excerpt_en: "Gongfu tea is all about harmony, respect, purity, and stillness. This step-by-step guide teaches you how to brew gongfu tea with a Yixing teapot, from warming the pot to savoring each infusion.",
+    content_en: `<h2>Preparation</h2><p>To brew gongfu tea, you will need: a Yixing teapot (100-200ml capacity recommended), a fairness pitcher (gongdao bei), tea cups (at least three), a tea tray, a tea towel, tea tweezers, and a tea needle.</p><h2>Step 1: Warm the Pot and Cups</h2><p>Pour boiling water into the teapot, cover it, and pour hot water over the exterior to heat it evenly. Use this warm water to also rinse the fairness pitcher and cups. This step not only cleans the utensils but also helps release the tea fragrance during brewing.</p><h2>Step 2: Add the Tea Leaves</h2><p>Use tea tweezers to place tea leaves into the pot. The amount is typically 1/3 to 1/2 of the pot volume, depending on the tea type and your personal taste. For oolong tea, use about 1/3 of the pot. For Puer, you can use slightly more.</p><h2>Step 3: Rinse the Tea (Wake Up)</h2><p>Pour boiling water into the pot and immediately pour it out. This is called washing the tea or waking the tea. It awakens the leaves, removes any surface dust, and prepares them for proper brewing.</p><h2>Step 4: Brew</h2><p>Pour boiling water into the pot again, pouring slowly along the inner wall to avoid hitting the leaves directly. Cover and steep according to the tea type:</p><ul><li>Tieguanyin: 15-20 seconds</li><li>Da Hong Pao: 20-30 seconds</li><li>Puer: 10-15 seconds (quick infusions)</li></ul><p>Adjust steeping time based on your personal preference and the specific tea.</p><h2>Step 5: Savor</h2><p>Pour the tea through the fairness pitcher into individual cups. First smell the aroma, then observe the color, and finally taste. Gongfu tea emphasizes three tastes: first, the flavor of the tea; second, the lingering fragrance; third, the spirit of the tea itself.</p>`,
+    category: "tutorial",
      image: "/images/blog/gongfu-brewing.jpg",
      createdAt: "2026-06-08",
      tags: ["功夫�?, "冲泡教程", "紫砂壶泡�?, "gongfu tea", "tea brewing guide"],
