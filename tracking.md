@@ -36,3 +36,27 @@ Deployed at: 2026-06-17T11:20:08.789Z
   - PowerShell encoding issues when writing temp Python scripts (UTF-16 default vs UTF-8)
   - Previous agent's temp scripts (*.cjs, *.mjs, *.bak) left in workspace — cleaned up
 - **Next**: Phase 3 - New English blog posts (6+ articles targeting high-volume keywords)
+
+## Phase 3: New English Blog Articles (2026-07-10)
+- **yixing-vs-ceramic-teapot** ✅ (commit e197ea2)
+  - Keyword targets: "Yixing vs ceramic teapot", "is Yixing teapot worth it"
+  - 111 static pages, build clean
+- **Next**: how-to-season-yixing-teapot
+
+## Phase 3: New English Blog Articles (2026-07-10)
+- **yixing-vs-ceramic-teapot** ✅ (commit e197ea2)
+- **how-to-season-yixing-teapot** ✅ (commit 2b4cd39)
+- **Next**: best-yixing-teapot-for-oolong
+
+## Phase 3: New English Blog Articles (2026-07-10) — Completed ✅
+- **yixing-vs-ceramic-teapot** ✅ (commit e197ea2)
+- **how-to-season-yixing-teapot** ✅ (commit 2b4cd39)
+- **best-yixing-teapot-for-oolong** ✅ (commit 6b0360b)
+- **handmade-vs-half-handmade-teapot** ✅ (commit b5d86ff)
+- **zhuni-teapot-best-tea** ✅ (commit f0fd2f2)
+- **how-to-tell-authentic-yixing-teapot** ✅ (commit f0fd2f2)
+- **Build**: 126 static pages, all locales clean
+- **Issues encountered**:
+  - zhuni entry from previous agent only had Chinese fields (missing English), had to rewrite complete entry
+  - Both articles committed together in one commit since they share blog.ts file
+- **Next**: Phase 4 - Submit sitemap to Google Search Console & install Google Analytics
