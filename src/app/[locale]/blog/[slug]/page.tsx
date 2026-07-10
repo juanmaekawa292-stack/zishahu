@@ -21,8 +21,8 @@
      return { title: "文章未找到" };
    }
  
-   const title = locale === "zh-TW" ? post.title_zhTW : post.title_zhCN;
-   const excerpt = locale === "zh-TW" ? post.excerpt_zhTW : post.excerpt_zhCN;
+   const title = locale === "en" ? post.title_en : (locale === "zh-TW" ? post.title_zhTW : post.title_zhCN);
+   const excerpt = locale === "en" ? post.excerpt_en : (locale === "zh-TW" ? post.excerpt_zhTW : post.excerpt_zhCN);
  
    return {
      title,
@@ -52,24 +52,25 @@
  
    if (!post) notFound();
  
-   const isTW = locale === "zh-TW";
-   const title = isTW ? post.title_zhTW : post.title_zhCN;
-   const content = isTW ? post.content_zhTW : post.content_zhCN;
-   const excerpt = isTW ? post.excerpt_zhTW : post.excerpt_zhCN;
+   const isEN = locale === "en";
+  const isTW = locale === "zh-TW";
+   const title = isEN ? post.title_en : (isTW ? post.title_zhTW : post.title_zhCN);
+   const content = isEN ? post.content_en : (isTW ? post.content_zhTW : post.content_zhCN);
+   const excerpt = isEN ? post.excerpt_en : (isTW ? post.excerpt_zhTW : post.excerpt_zhCN);
  
    return (
      <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
        {/* Breadcrumb */}
        <nav className="mb-6 text-xs text-muted-foreground">
          <Link href="/" className="hover:text-primary transition-colors">
-           {isTW ? "首頁" : "首页"}
+           {isEN ? "Home" : isTW ? "首頁" : "首页"}
          </Link>
          <span className="mx-2">/</span>
          <Link
            href="/blog"
            className="hover:text-primary transition-colors"
          >
-           {isTW ? "部落格" : "博客"}
+           {isEN ? "Blog" : isTW ? "部落格" : "博客"}
          </Link>
          <span className="mx-2">/</span>
          <span className="text-foreground">{title}</span>
@@ -88,11 +89,11 @@
               datePublished: post.createdAt,
               author: {
                 "@type": "Organization",
-                name: "紫砂雅集",
+                name: isEN ? "Zisha Artisan" : "紫砂雅集",
               },
               publisher: {
                 "@type": "Organization",
-                name: "紫砂雅集",
+                name: isEN ? "Zisha Artisan" : "紫砂雅集",
               },
             }).replace(/</g, "\\u003c"),
           }}
@@ -138,7 +139,7 @@
          {/* Related posts */}
          <div className="mt-10 pt-6 border-t border-border/50">
            <h2 className="text-sm font-semibold text-foreground mb-3">
-             {isTW ? "相關文章" : "相关文章"}
+             {isEN ? "Related Articles" : isTW ? "相關文章" : "相关文章"}
            </h2>
            <div className="space-y-2">
              {blogPosts
@@ -153,7 +154,7 @@
                    href={`/blog/${related.slug}`}
                    className="block text-sm text-muted-foreground hover:text-primary transition-colors"
                  >
-                   → {isTW ? related.title_zhTW : related.title_zhCN}
+                   → {isEN ? related.title_en : (isTW ? related.title_zhTW : related.title_zhCN)}
                  </Link>
                ))}
            </div>
@@ -165,7 +166,7 @@
              href="/blog"
              className="inline-flex items-center gap-1 text-sm text-primary hover:text-primary/80 transition-colors"
            >
-             ← {isTW ? "返回部落格" : "返回博客"}
+             ← {isEN ? "Back to Blog" : isTW ? "返回部落格" : "返回博客"}
            </Link>
          </div>
        </article>

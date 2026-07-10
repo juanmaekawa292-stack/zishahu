@@ -9,6 +9,6 @@
          disallow: ["/admin/", "/api/"],
        },
      ],
-     sitemap: "https://zisha.hu/sitemap.xml",
+     sitemap: "https://zishapro.com/sitemap.xml",
    };
  }

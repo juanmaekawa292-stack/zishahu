@@ -16,22 +16,49 @@
    tutorial: "沖泡教程",
    culture: "茶文化",
  };
+const CATEGORY_LABELS_EN: Record<string, string> = {
+  care: "Care Guide",
+  knowledge: "Zisha Knowledge",
+  tutorial: "Brewing Tutorial",
+  culture: "Tea Culture",
+};
  
-export const metadata: Metadata = {
-  title: "博客",
-  description:
-    "紫砂壶知识、茶道文化、功夫茶教程。从开壶养护到泥料鉴别，为海外华人提供专业紫砂内容。",
-  openGraph: {
-    title: "博客 - 紫砂壶知识 | 茶文化 | 冲泡教程 | 紫砂雅集",
-    description:
-      "紫砂壶知识、茶道文化、功夫茶教程。从开壶养护到泥料鉴别，为海外华人提供专业紫砂内容。",
-  },
- };
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
+  const isEN = locale === "en";
+
+  if (isEN) {
+    return {
+      title: "Blog",
+      description:
+        "Yixing Zisha teapot knowledge, tea ceremony culture, Gongfu tea tutorials. From seasoning and care to clay identification — professional zisha content for international tea lovers.",
+      openGraph: {
+        title: "Blog - Zisha Teapot Knowledge | Tea Culture | Brewing Guides | Zisha Artisan",
+        description:
+          "Yixing Zisha teapot knowledge, tea ceremony culture, Gongfu tea tutorials. Professional zisha content for tea lovers worldwide.",
+      },
+    };
+  }
+
+  const isTW = locale === "zh-TW";
+  return {
+    title: isTW ? "部落格" : "博客",
+    description: isTW
+      ? "紫砂壶知识、茶道文化、功夫茶教程。从开壶养护到泥料鉴别，为海外华人提供专业紫砂内容。"
+      : "紫砂壶知识、茶道文化、功夫茶教程。从开壶养护到泥料鉴别，为海外华人提供专业紫砂内容。",
+    openGraph: {
+      title: isTW ? "部落格 - 紫砂壶知识 | 茶文化 | 冲泡教程 | 紫砂雅集" : "博客 - 紫砂壶知识 | 茶文化 | 冲泡教程 | 紫砂雅集",
+      description:
+        "紫砂壶知识、茶道文化、功夫茶教程。从开壶养护到泥料鉴别，为海外华人提供专业紫砂内容。",
+    },
+  };
+}
  
  export default async function BlogPage() {
    const locale = await getLocale();
+   const isEN = locale === "en";
    const isTW = locale === "zh-TW";
-   const labels = isTW ? CATEGORY_LABELS_TW : CATEGORY_LABELS_CN;
+   const labels = isEN ? CATEGORY_LABELS_EN : (isTW ? CATEGORY_LABELS_TW : CATEGORY_LABELS_CN);
  
    const sortedPosts = [...blogPosts].sort(
      (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
@@ -42,20 +69,20 @@ export const metadata: Metadata = {
        {/* Breadcrumb */}
        <nav className="mb-6 text-xs text-muted-foreground">
          <Link href="/" className="hover:text-primary transition-colors">
-           {isTW ? "首頁" : "首页"}
+           {isEN ? "Home" : isTW ? "首页" : "首页"}
          </Link>
          <span className="mx-2">/</span>
          <span className="text-foreground">
-           {isTW ? "部落格" : "博客"}
+           {isEN ? "Blog" : isTW ? "部落格" : "博客"}
          </span>
        </nav>
  
        <div className="mb-10">
          <h1 className="text-3xl font-bold tracking-tight text-foreground">
-           {isTW ? "紫砂雅集部落格" : "紫砂雅集博客"}
+           {isEN ? "Zisha Artisan Blog" : isTW ? "紫砂雅集部落格" : "紫砂雅集博客"}
          </h1>
          <p className="mt-2 text-muted-foreground">
-           {isTW
+           {isEN ? "Zisha knowledge, tea culture, brewing guides — explore the world of Yixing clay teapots" : isTW
              ? "紫砂知識、茶道文化、沖泡教程 — 探索紫砂壺的精彩世界"
              : "紫砂知识、茶道文化、冲泡教程 — 探索紫砂壶的精彩世界"}
          </p>
@@ -77,11 +104,11 @@ export const metadata: Metadata = {
              </div>
              <Link href={`/blog/${post.slug}`}>
                <h2 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
-                 {isTW ? post.title_zhTW : post.title_zhCN}
+                 {isEN ? post.title_en : (isTW ? post.title_zhTW : post.title_zhCN)}
                </h2>
              </Link>
              <p className="mt-2 text-sm text-muted-foreground leading-relaxed line-clamp-2">
-               {isTW ? post.excerpt_zhTW : post.excerpt_zhCN}
+               {isEN ? post.excerpt_en : (isTW ? post.excerpt_zhTW : post.excerpt_zhCN)}
              </p>
              <div className="mt-3 flex flex-wrap gap-1.5">
                {post.tags.slice(0, 3).map((tag) => (

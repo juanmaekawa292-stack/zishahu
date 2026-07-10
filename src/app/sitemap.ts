@@ -1,8 +1,8 @@
-﻿import type { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
 import { products } from "@/data/products";
 import { blogPosts } from "@/data/blog";
 
-const BASE_URL = "https://zisha.hu";
+const BASE_URL = "https://zishapro.com";
 
 const staticPages = [
   "",
@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     alternates: {
       languages: {
         "zh-TW": BASE_URL + "/zh-TW/" + product.slug,
+        en: BASE_URL + "/en/" + product.slug,
       },
     },
   }));
@@ -38,11 +39,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ? {
           languages: {
             "zh-TW": BASE_URL + "/zh-TW",
+            en: BASE_URL + "/en",
           },
         }
       : {
           languages: {
             "zh-TW": BASE_URL + "/zh-TW" + page,
+            en: BASE_URL + "/en" + page,
           },
         },
   }));
@@ -55,6 +58,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     alternates: {
       languages: {
         "zh-TW": BASE_URL + "/zh-TW/blog/" + post.slug,
+        en: BASE_URL + "/en/blog/" + post.slug,
       },
     },
   }));
@@ -67,6 +71,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     alternates: {
       languages: {
         "zh-TW": BASE_URL + "/zh-TW/blog",
+        en: BASE_URL + "/en/blog",
       },
     },
   };
