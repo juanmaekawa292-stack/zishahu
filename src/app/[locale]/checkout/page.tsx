@@ -47,6 +47,7 @@ export default function CheckoutPage() {
 
   const [step, setStep] = useState("shipping");
   const [shippingMethod, setShippingMethod] = useState("standard");
+  const [needShipping, setNeedShipping] = useState(false);
   const [paymentMethod, setPaymentMethod] = useState("paypal");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [paypalSuccess, setPaypalSuccess] = useState(false);
@@ -88,7 +89,7 @@ export default function CheckoutPage() {
   }, []);
 
   const subtotal = items.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
-  const shipping = SHIPPING_METHODS.find((s) => s.id === shippingMethod)?.price || 15;
+  const shipping = needShipping ? (SHIPPING_METHODS.find((s) => s.id === shippingMethod)?.price || 15) : 0;
   const tax = 0;
   const total = subtotal + shipping;
 
@@ -268,14 +269,26 @@ const handlePaypalError = (err: any) => {
               <ShippingSvg className="h-5 w-5 text-primary" />
               <h2 className="text-lg font-medium text-foreground">{tCheckout("shippingMethod")}</h2>
             </div>
+            {/* Shipping toggle */}
+            <label className="flex cursor-pointer items-center justify-between rounded-md border border-border bg-muted/20 p-4 mb-4 transition-colors hover:border-muted-foreground/30" onClick={() => setNeedShipping(!needShipping)}>
+              <div className="flex items-center gap-3">
+                <div className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${needShipping ? 'bg-primary' : 'bg-gray-300'}`}>
+                  <div className={`inline-block h-5 w-5 transform rounded-full bg-white shadow-sm ring-0 transition-transform ${needShipping ? 'translate-x-[22px]' : 'translate-x-[2px]'}`} />
+                </div>
+                <span className="text-sm font-medium text-foreground">需要快递配送</span>
+              </div>
+              <span className={`text-sm font-medium ${needShipping ? 'text-primary' : 'text-green-600'}`}>
+                {needShipping ? '需付运费' : '包邮'}
+              </span>
+            </label>
+            {needShipping ? (
             <div className="space-y-3">
               {SHIPPING_METHODS.map((method) => (
                 <label
                   key={method.id}
-                  className={cn(
-                    "flex cursor-pointer items-center justify-between rounded-md border p-4 transition-colors",
+                  className={`flex cursor-pointer items-center justify-between rounded-md border p-4 transition-colors ${
                     shippingMethod === method.id ? "border-primary bg-primary/5" : "border-border hover:border-muted-foreground/30"
-                  )}
+                  }`}
                 >
                   <div className="flex items-center gap-3">
                     <input
@@ -297,6 +310,11 @@ const handlePaypalError = (err: any) => {
                 </label>
               ))}
             </div>
+            ) : (
+            <div className="rounded-md bg-green-50 dark:bg-green-950/20 p-4 text-center">
+              <p className="text-sm font-medium text-green-600 dark:text-green-400">&#10003; 本订单免运费（包邮）</p>
+            </div>
+            )}
           </div>
 
           {/* Contact Method */}
