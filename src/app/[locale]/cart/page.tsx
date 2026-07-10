@@ -1,17 +1,20 @@
 "use client";
 
-import Image from "next/image";
-import { useTranslations } from "next-intl";
-import { useCurrency } from "@/hooks/useCurrency";
-import { Minus, Plus, Trash2, ShoppingBag, ArrowLeft } from "lucide-react";
-import { Link } from "@/i18n";
-import { useCartStore } from "@/store/cart";
-import { Button } from "@/components/ui/Button";
-import { cn } from "@/lib/utils";
+ import { useLocale } from "next-intl";
+ import Image from "next/image";
+ import { useTranslations } from "next-intl";
+ import { useCurrency } from "@/hooks/useCurrency";
+ import { Minus, Plus, Trash2, ShoppingBag, ArrowLeft } from "lucide-react";
+ import { Link } from "@/i18n";
+ import { useCartStore } from "@/store/cart";
+ import { Button } from "@/components/ui/Button";
+ import { cn } from "@/lib/utils";
+ import { getProductTitle } from "@/lib/product-locale";
 
 export default function CartPage() {
   const t = useTranslations("common");
   const tCart = useTranslations("cart");
+  const locale = useLocale();
   const { format: _format } = useCurrency();
   const items = useCartStore((s) => s.items);
   const updateQuantity = useCartStore((s) => s.updateQuantity);
@@ -57,7 +60,7 @@ export default function CartPage() {
             <div key={item.productId} className="flex gap-4 rounded-lg border border-border bg-card p-4 animate-fadeIn">
               <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md bg-muted relative">
                 {item.product.images && item.product.images[0] ? (
-                  <Image src={item.product.images[0]} alt={item.product.title_zhCN} fill className="object-cover" sizes="96px" />
+                  <Image src={item.product.images[0]} alt={getProductTitle(item.product, locale)} fill className="object-cover" sizes="96px" />
                 ) : (
                   <div className="h-full w-full flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-100 dark:from-amber-950/30 dark:to-orange-900/20">
                     <span className="text-2xl">🎁</span>
@@ -68,7 +71,7 @@ export default function CartPage() {
               <div className="flex flex-1 flex-col justify-between">
                 <div>
                   <Link href={`/products/${item.product.slug}`} className="text-sm font-medium text-foreground hover:text-primary transition-colors line-clamp-1">
-                    {item.product.title_zhCN}
+                    {getProductTitle(item.product, locale)}
                   </Link>
                   <p className="mt-0.5 text-xs text-muted-foreground">{_format(item.product.price)} / 件</p>
                 </div>

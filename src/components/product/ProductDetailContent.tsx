@@ -1,6 +1,7 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useRef, useEffect, useCallback, useMemo } from "react";
+import { useLocale } from "next-intl";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Heart, Minus, Plus, ShoppingCart, Star, Truck, Shield, RefreshCw, ChevronLeft, ChevronRight, Share2, Check, X, ZoomIn, Pencil, Expand } from "lucide-react";
@@ -12,7 +13,8 @@ import { getCurrentUser } from "@/services/auth";
 import { cn } from "@/lib/utils";
 import { useCartStore } from "@/store/cart";
 import { Link } from "@/i18n";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/Dialog";
+ import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/Dialog";
+ import { getProductTitle, getVariantName, getCategoryLabel, getSpecLabel } from "@/lib/product-locale";
 
 interface ProductDetailContentProps {
   product: Product;
@@ -22,27 +24,10 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
   const t = useTranslations("common");
   const tProduct = useTranslations("product");
   const addItem = useCartStore((s) => s.addItem);
+  const locale = useLocale();
+  const productTitle = getProductTitle(product, locale);
   const { format: _format } = useCurrency();
 
-  const specLabelMap: Record<string, string> = {
-    firingType: "烧制窑型",
-    capacity: tProduct("capacity"),
-    material: "材质",
-    origin: "产地",
-    handmade: "是否手工",
-    shapeType: "壶型",
-    packaging: "包装形式",
-    kiln: "窑系",
-    year: "年代/年份",
-    color: "颜色分类",
-    clay: tProduct("clay"),
-    craft: tProduct("craft"),
-    dimensions: tProduct("dimensions"),
-    scenario: "适用场景",
-    cleaning: "清洗方式",
-    suitableTea: "适合茶类",
-    mainImageSource: "主图来源",
-  };
   const [isClient, setIsClient] = useState(false);
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
@@ -70,7 +55,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
     : product.images;
 
   
-  // 规格参数渲染
+  // ��������Ⱦ
   const hasVariants = product.variants && product.variants.length > 0;
 
   const displayCarousel = useMemo(() => [
@@ -93,8 +78,9 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
         id: product.id + "-" + selectedVariant.id,
         price: selectedVariant.price,
         images: selectedVariant.image ? [selectedVariant.image, ...product.images] : product.images,
-        title_zhCN: product.title_zhCN + " (" + selectedVariant.name_zhCN + ")",
-        title_zhTW: product.title_zhTW + " (" + selectedVariant.name_zhTW + ")",
+        title_zhCN: product.title_zhCN + " (" + getVariantName(selectedVariant, locale) + ")",
+        title_en: product.title_en ? product.title_en + " (" + getVariantName(selectedVariant, locale) + ")" : undefined,
+        title_zhTW: product.title_zhTW + " (" + getVariantName(selectedVariant, locale) + ")",
       };
     } else {
       cartProduct = product;
@@ -141,21 +127,19 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
   const discountPercent = currentOriginalPrice && currentOriginalPrice > currentPrice
     ? Math.round((1 - currentPrice / currentOriginalPrice) * 100) : 0;
 
-  const categoryLabel = product.category === "teapot" ? "紫砂壶" :
-    product.category === "cup" ? "茶杯" :
-    product.category === "teaPet" ? "茶宠" :
-    product.category === "teaTool" ? "茶具配件" : "礼品套装";
+  const categoryLabel = getCategoryLabel(product.category, locale);
 
   // Compute ordered specs outside JSX for JSX parser compatibility
-  var SPEC_ORDER_LIST = ["firingType","capacity","mainImageSource","origin","handmade","material","shapeType","packaging","kiln","year","color","clay","craft"];
-  var orderedSpecsResult = [];
-  for (var si = 0; si < SPEC_ORDER_LIST.length; si++) {
-    var sk = SPEC_ORDER_LIST[si];
-    if (product.specs[sk] as any && (product.specs[sk] as string).length > 0) {
-      orderedSpecsResult.push([sk, product.specs[sk] as string]);
-    }
+ var SPEC_ORDER_LIST = ["firingType","capacity","mainImageSource","origin","handmade","material","shapeType","packaging","kiln","year","color","clay","craft"];
+ var orderedSpecsResult = [];
+ var specsSource = locale === "en" && product.specs_en ? product.specs_en : product.specs;
+ for (var si = 0; si < SPEC_ORDER_LIST.length; si++) {
+   var sk = SPEC_ORDER_LIST[si];
+   if (specsSource[sk] as any && (specsSource[sk] as string).length > 0) {
+     orderedSpecsResult.push([sk, specsSource[sk] as string]);
+   }
 
-  }
+ }
 
   return (
     <div className="animate-fadeIn">
@@ -190,7 +174,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
         <span className="mx-2">/</span>
         <a href="/products" className="hover:text-primary transition-colors">{t("products")}</a>
         <span className="mx-2">/</span>
-        <span className="text-foreground">{product.title_zhCN}</span>
+        <span className="text-foreground">{productTitle}</span>
       </nav>
 
       <div className="grid gap-6 lg:grid-cols-2 lg:gap-10">
@@ -217,7 +201,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
                       poster={product.images[0] || undefined}
                     />
                   ) : (
-                    <Image src={item.src} alt={`${product.title_zhCN} - ${idx + 1}`} fill className="object-contain p-4" sizes="(max-width: 768px) 100vw, 50vw" priority={idx === 0} />
+                    <Image src={item.src} alt={`${productTitle} - ${idx + 1}`} fill className="object-contain p-4" sizes="(max-width: 768px) 100vw, 50vw" priority={idx === 0} />
                   )}
                 </div>
               ))}
@@ -274,10 +258,10 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
         <div className="space-y-5">
           <div className="flex items-center gap-2">
             <Badge variant="secondary" className="text-[10px]">{categoryLabel}</Badge>
-            {product.featured && <Badge variant="warning" className="text-[10px]">精选</Badge>}
+            {product.featured && <Badge variant="warning" className="text-[10px]">locale === "en" ? "Featured" : (locale === "zh-TW" ? "���x" : "��ѡ")</Badge>}
           </div>
 
-          <h1 className="text-xl font-bold tracking-tight text-foreground sm:text-2xl">{product.title_zhCN}</h1>
+          <h1 className="text-xl font-bold tracking-tight text-foreground sm:text-2xl">{productTitle}</h1>
 
           {product.rating > 0 && (
             <div className="flex items-center gap-3 text-sm">
@@ -285,7 +269,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
                 <Star className="h-4 w-4 fill-amber-400 text-amber-400" />
                 <span className="font-medium text-foreground">{product.rating}</span>
               </div>
-              {product.reviewCount > 0 && <span className="text-muted-foreground">({product.reviewCount} 条评价)</span>}
+              {product.reviewCount > 0 && <span className="text-muted-foreground">({product.reviewCount} ������)</span>}
             </div>
           )}
 
@@ -294,15 +278,15 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
             {currentOriginalPrice && currentOriginalPrice > currentPrice && (
               <span className="text-lg text-muted-foreground line-through">{_format(currentOriginalPrice)}</span>
             )}
-            {selectedVariant && <span className="text-xs text-muted-foreground ml-2">(选: {selectedVariant.name_zhCN})</span>}
+            {selectedVariant && <span className="text-xs text-muted-foreground ml-2">(ѡ: {getVariantName(selectedVariant, locale)})</span>}
           </div>
 
       {hasVariants && (
             <div className="rounded-lg border border-border bg-card p-4 space-y-3">
               <div className="flex items-center justify-between">
-                <h3 className="text-sm font-medium text-foreground">规格选择</h3>
+                <h3 className="text-sm font-medium text-foreground">���ѡ��</h3>
                 {selectedVariant && (
-                  <button onClick={() => setSelectedVariant(null)} className="text-xs text-muted-foreground hover:text-foreground transition-colors">清除</button>
+                  <button onClick={() => setSelectedVariant(null)} className="text-xs text-muted-foreground hover:text-foreground transition-colors">���</button>
                 )}
               </div>
               <div className="flex flex-wrap gap-1.5">
@@ -321,7 +305,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
                           "border-border hover:border-primary/40 text-foreground hover:bg-muted/50"
                         )}
                       >
-                        <span>{v.name_zhCN}</span>
+                        <span>{getVariantName(v, locale)}</span>
                         <span className={cn("font-medium", isSelected ? "text-primary" : "text-muted-foreground")}>{_format(v.price)}</span>
                         {isSelected && <Check className="h-3 w-3 shrink-0" />}
                         {v.image && (
@@ -345,10 +329,10 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
               {selectedVariant?.image && (
                 <div className="mt-2 flex items-center gap-3 rounded-md bg-muted/30 p-2">
                   <div className="h-12 w-12 flex-shrink-0 overflow-hidden rounded-md bg-white">
-                    <Image src={selectedVariant.image} alt={selectedVariant.name_zhCN} width={48} height={48} className="object-contain w-full h-full" />
+                    <Image src={selectedVariant.image} alt={getVariantName(selectedVariant, locale)} width={48} height={48} className="object-contain w-full h-full" />
                   </div>
                   <div className="text-xs">
-                    <p className="font-medium text-foreground">{selectedVariant.name_zhCN}</p>
+                    <p className="font-medium text-foreground">{getVariantName(selectedVariant, locale)}</p>
                     <p className="text-primary font-medium">{_format(selectedVariant.price)}</p>
                   </div>
                 </div>
@@ -359,7 +343,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
           <div className="rounded-lg border border-border bg-card p-4 space-y-3">
                       {(product as any).sourceSku && (
             <p className="text-sm text-muted-foreground mb-3">
-              <span className="text-muted-foreground">货号: </span>
+              <span className="text-muted-foreground">����: </span>
               <span className="font-medium text-foreground">{(product as any).sourceSku}</span>
             </p>
           )}
@@ -368,14 +352,14 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
               <div className="grid grid-cols-2 gap-2 text-xs">
                 {orderedSpecsResult.map(function(item, idx) {
                   return <div key={idx} className="flex justify-between border-b border-border/50 pb-1.5">
-                    <span className="text-muted-foreground">{specLabelMap[item[0]] || tProduct("spec_" + item[0]) || item[0]}</span>
+                    <span className="text-muted-foreground">{getSpecLabel(item[0], locale) || tProduct("spec_" + item[0]) || item[0]}</span>
                     <span className="font-medium text-foreground">{item[1]}</span>
                   </div>;
                 })}
                 <div className="flex justify-between border-b border-border/50 pb-1.5">
-                  <span className="text-muted-foreground">库存</span>
+                  <span className="text-muted-foreground">���</span>
                   <span className={cn("font-medium", product.inStock ? "text-emerald-600" : "text-red-500")}>
-                    {product.inStock ? `有货 (${selectedVariant ? selectedVariant.stock : product.stock})` : "暂时缺货"}
+                    {product.inStock ? `�л� (${selectedVariant ? selectedVariant.stock : product.stock})` : "��ʱȱ��"}
                   </span>
                 </div>
               </div>
@@ -393,18 +377,18 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
                   <Plus className="h-4 w-4" />
                 </button>
               </div>
-              <span className="text-xs text-muted-foreground">最大 {selectedVariant ? selectedVariant.stock : product.stock} 件</span>
+              <span className="text-xs text-muted-foreground">��� {selectedVariant ? selectedVariant.stock : product.stock} ��</span>
             </div>
 
             <div className="flex gap-3">
               <Button size="lg" className="flex-1" disabled={!product.inStock || addedToCart} onClick={handleAddToCart}>
-                {addedToCart ? <><Check className="h-4 w-4 mr-2" /> 已添加</> : <><ShoppingCart className="h-4 w-4 mr-2" /> {t("addToCart")}</>}
+                {addedToCart ? <><Check className="h-4 w-4 mr-2" /> ������</> : <><ShoppingCart className="h-4 w-4 mr-2" /> {t("addToCart")}</>}
               </Button>
               <Button variant="outline" size="lg" className="px-3"><Heart className="h-5 w-5" /></Button>
             {isClient && getCurrentUser()?.role === "admin" && (
               <Button size="lg" variant="outline" className="flex-1" onClick={function() { window.localStorage.setItem("zisha-edit-product-id", product.id); window.open("/admin/products", "_blank"); }}>
                 <Pencil className="h-4 w-4 mr-2" />
-                编辑商品
+                �༭��Ʒ
               </Button>
             )}
               <Button variant="outline" size="lg" className="px-3"><Share2 className="h-5 w-5" /></Button>
@@ -413,9 +397,9 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
 
           <div className="grid grid-cols-3 gap-3 rounded-lg border border-border/50 bg-muted/30 p-4">
             {[
-              { icon: Truck, text: "全球配送" },
-              { icon: Shield, text: "品质保证" },
-              { icon: RefreshCw, text: "30天退换" },
+              { icon: Truck, text: "ȫ������" },
+              { icon: Shield, text: "Ʒ�ʱ�֤" },
+              { icon: RefreshCw, text: "30���˻�" },
             ].map((item) => (
               <div key={item.text} className="flex flex-col items-center gap-1.5 text-center">
                 <item.icon className="h-4 w-4 text-primary" />
@@ -429,14 +413,14 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
       {/* Detail Images Section */}
       {product.detailImages && product.detailImages.length > 0 && (
         <div className="mt-8">
-          <h2 className="mb-6 text-lg font-bold text-foreground text-center">商品详情</h2>
+          <h2 className="mb-6 text-lg font-bold text-foreground text-center">��Ʒ����</h2>
           <div className="mx-auto max-w-3xl" style={{ lineHeight: 0 }}>
             {product.detailImages.map((img: string, idx: number) => (
               // eslint-disable-next-line @next/next/no-img-element
               <img
                 key={idx}
                 src={img}
-                alt={`${product.title_zhCN} 详情图 ${idx + 1}`}
+                alt={`${productTitle} ����ͼ ${idx + 1}`}
                 style={{ display: 'block', width: '100%', height: 'auto' }}
                 loading="lazy"
               />
@@ -449,24 +433,24 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
       <Dialog open={showSkuPreview} onOpenChange={setShowSkuPreview}>
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
-            <DialogTitle>SKU 预览</DialogTitle>
+            <DialogTitle>{locale == "en" ? "SKU Preview" : "SKU 预览"}</DialogTitle>
           </DialogHeader>
           {previewVariant && (
             <div className="space-y-4">
               <div className="relative aspect-square overflow-hidden rounded-lg bg-white">
                 {previewVariant.image ? (
-                  <Image src={previewVariant.image} alt={previewVariant.name_zhCN} fill className="object-contain" sizes="(max-width: 640px) 100vw, 400px" />
+                  <Image src={previewVariant.image} alt={getVariantName(previewVariant, locale)} fill className="object-contain" sizes="(max-width: 640px) 100vw, 400px" />
                 ) : (
                   <div className="h-full w-full flex items-center justify-center bg-muted text-4xl">{String.fromCodePoint(0x1FAE6)}</div>
                 )}
               </div>
               <div className="space-y-2">
-                <h4 className="font-medium text-foreground">{previewVariant.name_zhCN}</h4>
+                <h4 className="font-medium text-foreground">{getVariantName(previewVariant, locale)}</h4>
                 <p className="text-lg font-bold text-primary">{_format(previewVariant.price)}</p>
                 {previewVariant.stock > 0 ? (
-                  <p className="text-xs text-emerald-600">有货 ({previewVariant.stock} 件)</p>
+                  <p className="text-xs text-emerald-600">�л� ({previewVariant.stock} ��)</p>
                 ) : (
-                  <p className="text-xs text-red-500">暂时缺货</p>
+                  <p className="text-xs text-red-500">��ʱȱ��</p>
                 )}
               </div>
               <Button
@@ -477,7 +461,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
                 }}
                 disabled={previewVariant.stock <= 0}
               >
-                选择此规格
+                ѡ��˹��
               </Button>
             </div>
           )}
@@ -488,23 +472,23 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
       <Dialog open={showLoginPrompt} onOpenChange={setShowLoginPrompt}>
         <DialogContent className="sm:max-w-sm">
           <DialogHeader>
-            <DialogTitle>登录 / 注册</DialogTitle>
+            <DialogTitle>��¼ / ע��</DialogTitle>
           </DialogHeader>
           <div className="space-y-4 text-center">
             <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
               <ShoppingCart className="h-8 w-8 text-primary" />
             </div>
-            <p className="text-sm text-muted-foreground">请先登录或注册账户，即可加入购物车</p>
+            <p className="text-sm text-muted-foreground">���ȵ�¼��ע���˻������ɼ��빺�ﳵ</p>
             <div className="flex gap-3">
               <Link href="/login" className="flex-1" onClick={() => setShowLoginPrompt(false)}>
-                <Button variant="outline" className="w-full">登录</Button>
+                <Button variant="outline" className="w-full">��¼</Button>
               </Link>
               <Link href="/register" className="flex-1" onClick={() => setShowLoginPrompt(false)}>
-                <Button className="w-full">注册</Button>
+                <Button className="w-full">ע��</Button>
               </Link>
             </div>
             <button onClick={() => setShowLoginPrompt(false)} className="text-xs text-muted-foreground hover:text-foreground transition-colors">
-              继续浏览
+              �������
             </button>
           </div>
         </DialogContent>
@@ -512,3 +496,4 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
     </div>
   );
 }
+

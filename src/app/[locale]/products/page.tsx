@@ -101,8 +101,10 @@ function ProductsContent() {
         (p) =>
           p.title_zhCN.toLowerCase().includes(q) ||
           p.title_zhTW.toLowerCase().includes(q) ||
+          (p.title_en || "").toLowerCase().includes(q) ||
           p.description_zhCN.toLowerCase().includes(q) ||
-          p.description_zhTW.toLowerCase().includes(q)
+          p.description_zhTW.toLowerCase().includes(q) ||
+          (p.description_en || "").toLowerCase().includes(q)
       );
     }
     switch (currentSort) {

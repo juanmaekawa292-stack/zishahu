@@ -1,14 +1,15 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { useRouter } from "next/navigation";
 import { CreditCard, ChevronRight, MapPin, ShoppingBag, MessageSquare } from "lucide-react";
 import { Link } from "@/i18n";
 import { useCurrency } from "@/hooks/useCurrency";
 import { useCartStore } from "@/store/cart";
 import { Button } from "@/components/ui/Button";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils"
+import { getProductTitle } from "@/lib/product-locale";
 import { countries } from "@/data/products";
 import PayPalButton from "@/components/PayPalButton";
 
@@ -41,6 +42,7 @@ export default function CheckoutPage() {
   const t = useTranslations("common");
   const tCheckout = useTranslations("checkout");
   const { format: _format } = useCurrency();
+  const locale = useLocale();
   const router = useRouter();
   const items = useCartStore((s) => s.items);
   const clearCart = useCartStore((s) => s.clearCart);
@@ -256,7 +258,7 @@ const handlePaypalError = (err: any) => {
                   className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-ring"
                 >
                   {countries.map((c: any) => (
-                    <option key={c.code} value={c.code}>{c.name_zhCN}</option>
+                    <option key={c.code} value={c.code}>{locale === "en" ? (c.name_en || c.code) : (locale === "zh-TW" ? c.name_zhTW : c.name_zhCN)}</option>
                   ))}
                 </select>
               </div>
@@ -424,7 +426,7 @@ const handlePaypalError = (err: any) => {
               {items.map((item: any) => (
                 <div key={item.productId} className="flex items-center justify-between text-xs">
                   <span className="text-muted-foreground truncate max-w-[160px]">
-                    {item.product.title_zhCN} x {item.quantity}
+                    {getProductTitle(item.product, locale)} x {item.quantity}
                   </span>
                   <span className="font-medium">{_format(item.product.price * item.quantity)}</span>
                 </div>

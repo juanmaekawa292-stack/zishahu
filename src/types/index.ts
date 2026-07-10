@@ -4,6 +4,7 @@ export interface ProductVariant {
   id: string;
   name_zhCN: string;
   name_zhTW: string;
+  name_en?: string;
   price: number;
   originalPrice?: number;
   stock: number;
@@ -52,7 +53,7 @@ export interface Product {
   originalPrice?: number;
   images: string[];
   category: ProductCategory;
-  /** 壶型，如 "石瓢壶"、"归兽壶"、"西施壶" 等 */
+  /** 壶型，如 "石瓢�?�?归兽�?�?西施�? �?*/
   shape?: string;
   inStock: boolean;
   stock: number;
@@ -70,6 +71,15 @@ export interface Product {
   metaTitle?: string;
   metaDescription?: string;
   seoKeywords?: string[];
+
+  /** English title for EN locale */
+  title_en?: string;
+  /** English description for EN locale */
+  description_en?: string;
+  /** English specs for EN locale */
+  specs_en?: ProductSpecs;
+  /** English variant names for EN locale */
+  variants_en?: ProductVariant[];
 }
 
 export interface CartItem {
@@ -116,3 +126,4 @@ export interface User {
   orders: string[];
   createdAt: string;
 }
+

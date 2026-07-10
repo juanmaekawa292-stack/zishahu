@@ -1,11 +1,13 @@
 "use client";
 
+import { useLocale } from "next-intl"
 import { useCurrency } from "@/hooks/useCurrency";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { CheckCircle, Package, MapPin, CreditCard } from "lucide-react";
 import { Button } from "@/components/ui/Button";
-import { Badge } from "@/components/ui/Badge";
+import { Badge } from "@/components/ui/Badge"
+import { getProductTitle } from "@/lib/product-locale";
 
 
 interface Props {
@@ -14,7 +16,7 @@ interface Props {
 
 interface OrderData {
   id: string;
-  items: Array<{ productId: string; quantity: number; product: { title_zhCN: string; price: number } }>;
+  items: Array<{ productId: string; quantity: number; product: { title_zhCN: string; title_en?: string; title_zhTW?: string; price: number } }>;
   address: { name: string; phone: string; street: string; city: string; state: string; zip: string; country: string };
   shippingMethod: string;
   paymentMethod: string;
@@ -54,6 +56,7 @@ const STATUS_MAP: Record<string, { label: string; variant: "default" | "secondar
 
 export default async function OrderConfirmationPage({ params }: Props) {
   const { id } = await params;
+  const locale = useLocale();
   const { format: _format } = useCurrency();
   const order = STORE[id];
   if (!order) notFound();
@@ -95,7 +98,7 @@ export default async function OrderConfirmationPage({ params }: Props) {
               <div className="flex items-center gap-3">
                 <div className="h-12 w-12 rounded-md bg-gradient-to-br from-amber-50 to-orange-100 flex items-center justify-center text-xl">🫖</div>
                 <div>
-                  <p className="text-sm font-medium text-foreground">{item.product.title_zhCN}</p>
+                  <p className="text-sm font-medium text-foreground">{getProductTitle(item.product, locale)}</p>
                   <p className="text-xs text-muted-foreground">x{item.quantity}</p>
                 </div>
               </div>

@@ -7,6 +7,7 @@ import { EditProductButton } from "@/components/product/EditProductButton";
 import { ProductCard } from "@/components/product/ProductCard";
 import { ProductMeta } from "@/components/seo/ProductMeta";
 import { generateProductMeta } from "@/lib/seo";
+import { getProductTitle } from "@/lib/product-locale"
 import { getLocale } from "next-intl/server";
 
 export const dynamic = "force-dynamic";
@@ -46,7 +47,7 @@ export async function generateMetadata({
         url: meta.image,
         width: 800,
         height: 800,
-        alt: (locale === "zh-TW" ? p.title_zhTW : p.title_zhCN),
+        alt: getProductTitle(p, locale),
       }],
     },
     twitter: {

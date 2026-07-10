@@ -1,14 +1,16 @@
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
-import Image from "next/image";
-import { useTranslations } from "next-intl";
-import { Heart, Star, ShoppingCart } from "lucide-react";
-import { useCurrency } from "@/hooks/useCurrency";
-import { Link } from "@/i18n";
-import { Product } from "@/types";
-import { cn } from "@/lib/utils";
-import { useCartStore } from "@/store/cart";
+ import { useLocale } from "next-intl";
+ import Image from "next/image";
+ import { useTranslations } from "next-intl";
+ import { Heart, Star, ShoppingCart } from "lucide-react";
+ import { useCurrency } from "@/hooks/useCurrency";
+ import { Link } from "@/i18n";
+ import { Product } from "@/types";
+ import { cn } from "@/lib/utils";
+ import { useCartStore } from "@/store/cart";
+ import { getProductTitle } from "@/lib/product-locale";
 
 interface ProductCardProps {
   product: Product;
@@ -16,6 +18,7 @@ interface ProductCardProps {
 }
 
 export function ProductCard({ product, priority = false }: ProductCardProps) {
+  const locale = useLocale();
   var _c = useCurrency();
   var _format = _c.format;
   const t = useTranslations("common");
@@ -54,7 +57,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             <>
               <Image
                 src={product.images[0]}
-                alt={product.title_zhCN}
+                alt={getProductTitle(product, locale)}
                 fill
                 className="object-cover bg-muted/20 transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
@@ -113,7 +116,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
       <div className="mt-2.5 space-y-1.5 px-0.5">
         <Link href={"/products/" + slug}>
           <h3 className="text-sm font-medium leading-snug text-foreground group-hover:text-primary transition-colors line-clamp-2">
-            {product.title_zhCN}
+            {getProductTitle(product, locale)}
           </h3>
         </Link>
 
