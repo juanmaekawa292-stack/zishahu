@@ -46,7 +46,7 @@ export function ProductDetailContent({ product }: ProductDetailContentProps) {
 
 
 
-, setIsClient] = useState(false);
+const [isClient, setIsClient] = useState(false);
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [addedToCart, setAddedToCart] = useState(false);
