@@ -60,3 +60,68 @@ Deployed at: 2026-06-17T11:20:08.789Z
   - zhuni entry from previous agent only had Chinese fields (missing English), had to rewrite complete entry
   - Both articles committed together in one commit since they share blog.ts file
 - **Next**: Phase 4 - Submit sitemap to Google Search Console & install Google Analytics
+ 
+ ## Phase 4: GA4 + Facebook Pixel + Sitemap (2026-07-11)
+ 
+ ### 1. Google Analytics 4 (GA4) — 代码已就绪，等待 Measurement ID
+ - **Status**: ⏳ Code ready, awaiting Measurement ID from boss
+ - **Changes**:
+   - Created `src/components/analytics/GoogleAnalytics.tsx` — 使用 next/script Strategy.AfterInteractive 加载 GA4
+   - GA4 只在 `NEXT_PUBLIC_GA_MEASUREMENT_ID` 环境变量有值时才激活（空值时不渲染）
+   - 在 `src/app/[locale]/layout.tsx` 中添加了 `<GoogleAnalytics />` 组件
+   - 在 `.env.local` 中添加了 `NEXT_PUBLIC_GA_MEASUREMENT_ID=` 占位变量
+ - **How to activate**:
+   1. 老板登录 https://analytics.google.com 用谷歌账户注册 GA4 账号
+   2. 创建属性（Property），网站名 zishapro.com，URL: https://zishapro.com
+   3. 获取 Measurement ID（格式: G-xxxxxxxxxx）
+   4. 将 ID 填入 `.env.local`: `NEXT_PUBLIC_GA_MEASUREMENT_ID=G-xxxxxxxxxx`
+   5. 重新部署到 Vercel（或在 Vercel 环境变量里添加 `NEXT_PUBLIC_GA_MEASUREMENT_ID`）
+   6. 打开网站首页，在 GA4 实时报告确认数据
+ - **Implementation details**:
+   - 使用 `next/script` 的 `strategy="afterInteractive"`，不阻塞页面渲染
+   - 两个 Script 标签：一个加载 gtag.js，一个执行 gtag('config')
+   - gtag 数据层在 window.dataLayer 上初始化
+ 
+ ### 2. Facebook Pixel — 代码已就绪，等待 Pixel ID
+ - **Status**: ⏳ Code ready, awaiting Pixel ID from boss
+ - **Changes**:
+   - Created `src/components/analytics/FacebookPixel.tsx` — 使用 next/script Strategy.AfterInteractive 加载 Facebook Pixel
+   - Facebook Pixel 只在 `NEXT_PUBLIC_FB_PIXEL_ID` 环境变量有值时才激活
+   - 在 `src/app/[locale]/layout.tsx` 中添加了 `<FacebookPixel />` 组件
+   - 在 `.env.local` 中添加了 `NEXT_PUBLIC_FB_PIXEL_ID=` 占位变量
+ - **How to activate**:
+   1. 老板登录 https://business.facebook.com 创建 Business Suite 账号
+   2. 在 Meta Events Manager 中创建 Data Source → Web → Pixel
+   3. 获取 Pixel ID（一串数字）
+   4. 将 ID 填入 `.env.local`: `NEXT_PUBLIC_FB_PIXEL_ID=1234567890`
+   5. 重新部署到 Vercel
+   6. 用 Facebook Pixel Helper 浏览器插件验证
+ - **Implementation details**:
+   - fbq 基础代码（noscript 图片标签没有加，因为 next/script 已确保 JS 执行）
+   - Pixel 在每次页面加载时发送 PageView 事件
+   - 后续可在关键转化事件（AddToCart, Purchase）添加 fbq('track') 调用
+ 
+ ### 3. Sitemap 提交到 Google Search Console
+ - **Status**: ⏳ Sitemap confirmed ready, domain verification needed from boss
+ - **Sitemap status**:
+   - `src/app/sitemap.ts` 已存在且完整包含：
+     - ✅ 8 个静态页面（首页、/products、/cart、/checkout、/login、/register、/faq、/help）
+     - ✅ 所有产品页面（~192件，按 featured 分配 0.9/0.8 优先级）
+     - ✅ 所有博客文章（带 0.7 优先级）
+     - ✅ 三语言 hreflang 交替链接（zh-CN root + zh-TW + en）
+   - `src/app/robots.ts` 已指向 `https://zishapro.com/sitemap.xml`
+ - **How to submit**:
+   1. 老板登录 https://search.google.com/search-console 用谷歌账户
+   2. 添加属性 → 域名 → 输入 `zishapro.com`
+   3. DNS 验证：在腾讯云 DNS 添加 TXT 记录（Search Console 提供验证字符串）
+   4. 验证通过后，进入 Sitemaps 页面
+   5. 提交 Sitemap URL: `https://zishapro.com/sitemap.xml`
+   6. 等待 Google 抓取（可能需要几小时到几天）
+   7. 检查索引状态，确保页面被收录
+ - **Notes**: 域名 DNS 解析在腾讯云，需要在 dnspod/腾讯云 DNSPod 控制台添加 TXT 记录
+ 
+ ## TODO / Blockers
+ - [ ] 老板注册 GA4 账号获取 Measurement ID
+ - [ ] 老板创建 Facebook Pixel 获取 Pixel ID
+ - [ ] 老板操作腾讯云 DNS 添加 TXT 记录完成 Search Console 验证
+ - [ ] 所有配置完成后重新部署到 Vercel
