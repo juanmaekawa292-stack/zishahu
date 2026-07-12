@@ -4,11 +4,12 @@
 用法: python scripts/daily-report.py
 """
 
+import os
 import urllib.request
 import json
 import datetime
 
-WEBHOOK_URL = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=e15090c0-e828-4839-8c5f-1aa94a9af6f6"
+WEBHOOK_URL = os.environ.get("WECHAT_WEBHOOK_URL", "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=e15090c0-e828-4839-8c5f-1aa94a9af6f6")
 
 def send_wechat(msg):
     data = json.dumps({"msgtype": "text", "text": {"content": msg}}, ensure_ascii=False).encode("utf-8")
