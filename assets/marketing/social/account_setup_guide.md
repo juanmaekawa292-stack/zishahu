@@ -1,10 +1,10 @@
-# 社媒账号注册指南 (Account Setup Guide)
+﻿# 社媒账号注册指南 (Account Setup Guide)
 
 ## 品牌统一信息
 - **品牌名（中文）：** 紫砂雅集
 - **品牌名（英文）：** Zisha Yaji / ZishaHu Collection
 - **用户名/Handle：** @zishayaji
-- **网站：** https://zisha.hu（待上线后填写）
+- **网站：** https://zishapro.com（待上线后填写）
 - **品牌定位：** 专注海外华人的宜兴紫砂茶具品牌
 
 ---
@@ -38,7 +38,7 @@
 6. 验证邮箱（Pinterest 会发送验证邮件）
 7. 选择企业类型：电商 / 零售
 8. 填写企业名称：Zisha Yaji
-9. 填写网站：https://zisha.hu
+9. 填写网站：https://zishapro.com
 10. 创建第一个 Board：开始按上述规划创建
 11. 【可选】关联 Google Analytics
 
@@ -65,7 +65,7 @@
 > 宜兴紫砂茶具 🏺
 > 手工制作 · 全球发货 🚚
 > 分享茶道 ☕ 紫砂知识 📖 泡茶日常
-> 🔗 zisha.hu
+> 🔗 zishapro.com
 
 ### 初期内容规划
 - **Feed：** 产品摄影大片、茶空间、生活美学
@@ -98,7 +98,7 @@
 ### Bio：
 > 紫砂雅集 · 来自宜兴的茶道美学
 > 泡茶教程 ☕ 紫砂知识 📖 茶文化 🍵
-> 🔗 zisha.hu
+> 🔗 zishapro.com
 
 ### 初期内容方向
 - 60秒功夫茶教程

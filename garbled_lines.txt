@@ -1,0 +1,48 @@
+=== Line 58 ===
+  // ��������Ⱦ
+=== Line 261 ===
+            {product.featured && <Badge variant="warning" className="text-[10px]">locale === "en" ? "Featured" : (locale === "zh-TW" ? "���x" : "��ѡ")</Badge>}
+=== Line 272 ===
+              {product.reviewCount > 0 && <span className="text-muted-foreground">({product.reviewCount} ������)</span>}
+=== Line 287 ===
+                <h3 className="text-sm font-medium text-foreground">���ѡ��</h3>
+=== Line 289 ===
+                  <button onClick={() => setSelectedVariant(null)} className="text-xs text-muted-foreground hover:text-foreground transition-colors">���</button>
+=== Line 346 ===
+              <span className="text-muted-foreground">����: </span>
+=== Line 360 ===
+                  <span className="text-muted-foreground">���</span>
+=== Line 362 ===
+                    {product.inStock ? `�л� (${selectedVariant ? selectedVariant.stock : product.stock})` : "��ʱȱ��"}
+=== Line 380 ===
+              <span className="text-xs text-muted-foreground">��� {selectedVariant ? selectedVariant.stock : product.stock} ��</span>
+=== Line 385 ===
+                {addedToCart ? <><Check className="h-4 w-4 mr-2" /> ������</> : <><ShoppingCart className="h-4 w-4 mr-2" /> {t("addToCart")}</>}
+=== Line 391 ===
+                �༭��Ʒ
+=== Line 400 ===
+              { icon: Truck, text: "ȫ������" },
+=== Line 401 ===
+              { icon: Shield, text: "Ʒ�ʱ�֤" },
+=== Line 402 ===
+              { icon: RefreshCw, text: "30���˻�" },
+=== Line 416 ===
+          <h2 className="mb-6 text-lg font-bold text-foreground text-center">��Ʒ����</h2>
+=== Line 423 ===
+                alt={`${productTitle} ����ͼ ${idx + 1}`}
+=== Line 451 ===
+                  <p className="text-xs text-emerald-600">�л� ({previewVariant.stock} ��)</p>
+=== Line 453 ===
+                  <p className="text-xs text-red-500">��ʱȱ��</p>
+=== Line 464 ===
+                ѡ��˹��
+=== Line 475 ===
+            <DialogTitle>��¼ / ע��</DialogTitle>
+=== Line 481 ===
+            <p className="text-sm text-muted-foreground">���ȵ�¼��ע���˻������ɼ��빺�ﳵ</p>
+=== Line 484 ===
+                <Button variant="outline" className="w-full">��¼</Button>
+=== Line 487 ===
+                <Button className="w-full">ע��</Button>
+=== Line 491 ===
+              �������

@@ -1,4 +1,4 @@
- # 紫砂壶关键词研究 (Keyword Research)
+﻿ # 紫砂壶关键词研究 (Keyword Research)
  
  ## 搜索意图分类
  
@@ -60,7 +60,7 @@
  
  ### 品牌词 (Brand Keywords)
  - 紫砂雅集 (store brand)
- - zisha.hu (domain brand)
+ - zishapro.com (domain brand)
  
  ## SEO 策略建议
  1. **产品页**：针对购买意图关键词优化title和meta description
