@@ -1,4 +1,4 @@
- import type { Metadata } from "next";
+﻿ import type { Metadata } from "next";
  import "./globals.css";
  
  export const metadata: Metadata = {
@@ -8,7 +8,7 @@
    },
    description:
      "专注宜兴紫砂壶、茶具跨境销售，手工制作，全球送达。为海外华人提供正宗的宜兴紫砂壶和茶具。",
-   metadataBase: new URL("https://zisha.hu"),
+   metadataBase: new URL("https://zishapro.com"),
    openGraph: {
      title: "紫砂雅集 - 宜兴紫砂跨境茶具商城",
      description: "专注宜兴紫砂壶、茶具跨境销售，手工制作，全球送达。",
