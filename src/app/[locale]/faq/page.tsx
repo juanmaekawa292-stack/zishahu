@@ -16,9 +16,9 @@
    Mail,
    Clock,
  } from "lucide-react";
- import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 
- const faqCategories = [
+const faqCategories = [
   { key: "shipping", icon: Package, labelKey: "shippingInfo" },
   { key: "tariffs", icon: DollarSign, labelKey: "tariffInfo" },
   { key: "returns", icon: RefreshCw, labelKey: "returnsExchanges" },
@@ -52,12 +52,18 @@
    payment: [
      { q: "支持哪些支付方式？", a: "我们支持 Stripe 信用卡/借记卡 和 PayPal。" },
      { q: "下单后多久可以取消订单？", a: "订单在未发货状态下可以取消。已发货的订单如需取消请走退货流程。" },
-     { q: "如何查看订单状态？", a: "登录后在「我的订单」页面查看，或使用订单号查询。" },
-   ],
- };
+  { q: "如何查看订单状态？", a: "登录后在「我的订单」页面查看，或使用订单号查询。" },
+  ],
+};
 
- export default function FAQPage() {
-   const t = useTranslations("service");
+const faqSchemaItems = Object.values(faqData).flat().map((item, i) => ({
+  "@type": "Question",
+  name: item.q,
+  acceptedAnswer: { "@type": "Answer", text: item.a },
+}));
+
+export default function FAQPage() {
+  const t = useTranslations("service");
    const [search, setSearch] = useState("");
    const [activeCategory, setActiveCategory] = useState<string>("shipping");
    const [openItems, setOpenItems] = useState<Set<string>>(new Set());
@@ -82,10 +88,21 @@
      ? Object.values(filteredFaqs).flat()
      : faqData[activeCategory] || [];
 
-   return (
-     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
-       {/* Header */}
-       <div className="mb-8 text-center">
+  return (
+    <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+      {/* FAQPage Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqSchemaItems,
+          }).replace(/</g, "\\u003c"),
+        }}
+      />
+      {/* Header */}
+      <div className="mb-8 text-center">
          <h1 className="text-3xl font-bold text-foreground">{t("faq")}</h1>
          <p className="mt-2 text-sm text-muted-foreground">{t("faqSubtitle")}</p>
        </div>

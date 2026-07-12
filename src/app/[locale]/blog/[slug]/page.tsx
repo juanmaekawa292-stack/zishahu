@@ -50,15 +50,17 @@
    const post = getBlogPostBySlug(slug);
    const locale = await getLocale();
  
-   if (!post) notFound();
- 
-   const isEN = locale === "en";
-  const isTW = locale === "zh-TW";
-   const title = isEN ? post.title_en : (isTW ? post.title_zhTW : post.title_zhCN);
-   const content = isEN ? post.content_en : (isTW ? post.content_zhTW : post.content_zhCN);
-   const excerpt = isEN ? post.excerpt_en : (isTW ? post.excerpt_zhTW : post.excerpt_zhCN);
- 
-   return (
+  if (!post) notFound();
+
+  const isEN = locale === "en";
+ const isTW = locale === "zh-TW";
+  const title = isEN ? post.title_en : (isTW ? post.title_zhTW : post.title_zhCN);
+  const content = isEN ? post.content_en : (isTW ? post.content_zhTW : post.content_zhCN);
+  const excerpt = isEN ? post.excerpt_en : (isTW ? post.excerpt_zhTW : post.excerpt_zhCN);
+  const localePrefix = locale === "zh-CN" ? "" : "/" + locale;
+  const canonicalUrl = "https://zishapro.com" + localePrefix + "/blog/" + post.slug;
+
+  return (
      <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
        {/* Breadcrumb */}
        <nav className="mb-6 text-xs text-muted-foreground">
@@ -84,16 +86,29 @@
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Article",
+              mainEntityOfPage: {
+                "@type": "WebPage",
+                "@id": canonicalUrl,
+              },
               headline: title,
+              url: canonicalUrl,
+              image: "https://zishapro.com/og-default.jpg",
               description: excerpt.slice(0, 160),
               datePublished: post.createdAt,
+              dateModified: post.createdAt,
               author: {
                 "@type": "Organization",
                 name: isEN ? "Zisha Artisan" : "紫砂雅集",
+                url: "https://zishapro.com",
               },
               publisher: {
                 "@type": "Organization",
                 name: isEN ? "Zisha Artisan" : "紫砂雅集",
+                url: "https://zishapro.com",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://zishapro.com/logo.png",
+                },
               },
             }).replace(/</g, "\\u003c"),
           }}

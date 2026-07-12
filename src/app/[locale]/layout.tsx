@@ -21,6 +21,28 @@ export default async function LocaleLayout({
     <NextIntlClientProvider messages={messages}>
       <GoogleAnalytics />
       <FacebookPixel />
+      {/* Organization Schema for brand SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "紫砂雅集",
+            alternateName: "Zisha Artisan | Zishapro",
+            url: "https://zishapro.com",
+            logo: "https://zishapro.com/logo.png",
+            description:
+              "专注宜兴紫砂壶、茶具跨境销售，手工制作，全球送达。",
+            sameAs: [],
+            contactPoint: {
+              "@type": "ContactPoint",
+              contactType: "customer service",
+              availableLanguage: ["Chinese", "English"],
+            },
+          }).replace(/</g, "\\u003c"),
+        }}
+      />
       <Header />
       <main className="flex-1">{children}</main>
       <Footer />
