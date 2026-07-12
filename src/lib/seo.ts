@@ -1,7 +1,7 @@
 import type { Product } from "@/types";
 import { products } from "@/data/products";
 
-const BASE_URL = "https://zisha.hu";
+ const BASE_URL = "https://zishapro.com";
 const SITE_NAME = "紫砂雅集";
 const SITE_NAME_EN = "ZishaHu";
 
